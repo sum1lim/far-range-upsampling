@@ -1,3 +1,5 @@
+#!/usr/bin/env python3
+import argparse
 import torch
 import sys
 import numpy as np
@@ -7,12 +9,13 @@ import sklearn.metrics as metrics
 from torch import nn
 import torch.nn.functional as F
 from models import model1
-from utils import LidarData, MSIE_Loss
+from utils import LidarData, MSIE_Loss, BCE_Loss, combined_Loss
 from torch.optim.lr_scheduler import CosineAnnealingLR
 from torch.utils.data import DataLoader
 
 
 model_dict = {"model1": model1}
+loss_dict = {"msie": MSIE_Loss, "bce": BCE_Loss, "combined": combined_Loss}
 
 
 def main(args):
@@ -46,10 +49,9 @@ def main(args):
     )
 
     epochs = 10000
-    loss_func = MSIE_Loss().to(device)
+    loss_func = loss_dict[args.loss]().to(device)
     learning_rate = 0.5
     optim_net = optim.Adam(model.parameters())
-    # scheduler = CosineAnnealingLR(optim_net, epochs, eta_min=0.1)
     best_test_loss = np.inf
 
     patience = 0
@@ -167,8 +169,6 @@ def main(args):
                 print("early stopping", file=log_file)
                 break
 
-        # scheduler.step()
-
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
@@ -187,7 +187,14 @@ if __name__ == "__main__":
     parser.add_argument(
         "--model",
         type=str,
-        help="Model to use for prediction",
+        choices=model_dict.keys(),
+        help="Model to use for training",
+    )
+    parser.add_argument(
+        "--loss",
+        type=str,
+        choices=loss_dict.keys(),
+        help="Loss function",
     )
 
     args = parser.parse_args()

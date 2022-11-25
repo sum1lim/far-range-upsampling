@@ -57,10 +57,23 @@ class MSIE_Loss(nn.Module):
         return self.mse((pred / 1000 + 1) ** -1, (true / 1000 + 1) ** -1)
 
 
-class MAIE_Loss(nn.Module):
+class BCE_Loss(nn.Module):
     def __init__(self):
         super().__init__()
-        self.mae = nn.L1Loss()
+        self.bce = nn.BCELoss()
 
     def forward(self, pred, true):
-        return self.mae((pred / 1000 + 1) ** -1, (true / 1000 + 1) ** -1)
+        true_class = torch.absolute(true)
+        true_class[true_class < 1000] = 1
+        true_class[true_class >= 1000] = 0
+        return self.bce((pred / 1000 + 1) ** -1, true_class)
+
+
+class combined_Loss(nn.Module):
+    def __init__(self):
+        super().__init__()
+        self.msie = MSIE_Loss()
+        self.bce = BCE_Loss()
+
+    def forward(self, pred, true):
+        return self.msie(pred, true) + self.bce(pred, true)

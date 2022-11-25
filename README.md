@@ -10,12 +10,9 @@ pip install -r requirements.txt
 ```
 ### Install Point Transformer package
 ```
-git clone https://github.com/lucidrains/point-transformer-pytorch.git
-cd point-transformer-pytorch
-pip install -e .
-cd ..
+pip install point-transformer-pytorch
 ```
-The above package is the implementation of Point Transformer in Pytorch by the following paper
+The above package is the implementation of Point Transformer in Pytorch by the following paper. Separate installation is not necessary if `pip install -r requirements.txt` is run in the previous step.
 ```
 @misc{zhao2020point,
     title={Point Transformer}, 
@@ -24,18 +21,5 @@ The above package is the implementation of Point Transformer in Pytorch by the f
     eprint={2012.09164},
     archivePrefix={arXiv},
     primaryClass={cs.CV}
-}
-```
-### Download Normalized Loss Functions package
-```
-git clone https://github.com/HanxunH/Active-Passive-Losses.git
-```
-The above package is the implementation of Normalized Loss Functions in Pytorch by the the following paper
-```
-@inproceedings{ma2020normalized,
-  title={Normalized Loss Functions for Deep Learning with Noisy Labels},
-  author={Ma, Xingjun and Huang, Hanxun and Wang, Yisen and Romano, Simone and Erfani, Sarah and Bailey, James},
-  booktitle={ICML},
-  year={2020}
 }
 ```

@@ -1,3 +1,5 @@
+point-transformer-pytorch
 numpy
 scikit-learn
 h5py
+mlconfig
