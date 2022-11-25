@@ -66,6 +66,7 @@ class BCE_Loss(nn.Module):
         true_class = torch.absolute(true)
         true_class[true_class < 1000] = 1
         true_class[true_class >= 1000] = 0
+        pred[pred < 0] = 0
         return self.bce((pred / 1000 + 1) ** -1, true_class)
 
 
