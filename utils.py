@@ -76,4 +76,6 @@ class combined_Loss(nn.Module):
         self.bce = BCE_Loss()
 
     def forward(self, pred, true):
-        return self.msie(pred, true) + self.bce(pred, true)
+        return torch.log(self.msie(pred, true) + 1) + torch.log(
+            self.bce(pred, true) + 1
+        )
