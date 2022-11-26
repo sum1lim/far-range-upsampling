@@ -165,7 +165,7 @@ def main(args):
                 learning_rate /= 10
                 print("learning rate change", file=sys.stdout)
                 print("learning rate change", file=log_file)
-                optim_net = optim.SGD(model.parameters(), lr=learning_rate)
+                optim_net = optim.Adam(model.parameters(), lr=learning_rate)
             else:
                 print("early stopping", file=sys.stdout)
                 print("early stopping", file=log_file)
