@@ -3,3 +3,4 @@ numpy
 scikit-learn
 h5py
 mlconfig
+focal_loss_torch

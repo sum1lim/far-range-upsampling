@@ -9,13 +9,13 @@ import sklearn.metrics as metrics
 from torch import nn
 import torch.nn.functional as F
 from models import model1
-from utils import LidarData, MSIE_Loss, BCE_Loss, combined_Loss
+from utils import LidarData, MSIE_Loss, Focal_Loss, combined_Loss
 from torch.optim.lr_scheduler import CosineAnnealingLR
 from torch.utils.data import DataLoader
 
 
 model_dict = {"model1": model1}
-loss_dict = {"msie": MSIE_Loss, "bce": BCE_Loss, "combined": combined_Loss}
+loss_dict = {"msie": MSIE_Loss, "focal": Focal_Loss, "combined": combined_Loss}
 
 
 def main(args):
@@ -104,6 +104,7 @@ def main(args):
             )
         except ValueError:
             train_mae = "NaN"
+            train_acc = "NaN"
         outstr = f"Epoch {epoch}, train MAE: {train_mae}, train accuracy: {train_acc} loss: {train_loss * 1.0 / count}"
         print(outstr, file=sys.stdout)
         print(outstr, file=log_file)
@@ -144,6 +145,7 @@ def main(args):
             test_acc = metrics.balanced_accuracy_score(test_true_class, test_pred_class)
         except ValueError:
             test_mae = "NaN"
+            test_acc = "NaN"
         outstr = f"Epoch {epoch}, test MAE: {test_mae}, test accuracy: {test_acc}, loss: {test_loss * 1.0 / count}"
         print(outstr, file=sys.stdout)
         print(outstr, file=log_file)

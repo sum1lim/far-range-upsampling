@@ -5,6 +5,7 @@ import torch
 import numpy as np
 from torch import nn
 from torch.utils.data import Dataset
+from focal_loss.focal_loss import FocalLoss
 
 
 class LidarData(Dataset):
@@ -57,24 +58,26 @@ class MSIE_Loss(nn.Module):
         return self.mse((pred / 1000 + 1) ** -1, (true / 1000 + 1) ** -1)
 
 
-class BCE_Loss(nn.Module):
+class Focal_Loss(nn.Module):
     def __init__(self):
         super().__init__()
-        self.bce = nn.BCELoss()
+        self.focal = FocalLoss(gamma=2)
 
     def forward(self, pred, true):
         true_class = torch.absolute(true)
         true_class[true_class < 1000] = 1
         true_class[true_class >= 1000] = 0
-        pred[pred < 0] = 0
-        return self.bce((pred / 1000 + 1) ** -1, true_class)
+        pred = torch.abs(pred).flatten()
+        true_class = true_class.flatten()
+
+        return self.focal((pred / 1000 + 1) ** -1, true_class.to(torch.int64))
 
 
 class combined_Loss(nn.Module):
     def __init__(self):
         super().__init__()
         self.msie = MSIE_Loss()
-        self.bce = BCE_Loss()
+        self.focal = Focal_Loss()
 
     def forward(self, pred, true):
-        return self.msie(pred, true) + self.bce(pred, true)
+        return self.msie(pred, true) + self.focal(pred, true)
