@@ -80,5 +80,4 @@ class combined_Loss(nn.Module):
         self.focal = Focal_Loss()
 
     def forward(self, pred, true):
-        print(self.msie(pred, true), self.focal(pred, true))
         return self.msie(pred, true) + self.focal(pred, true)
