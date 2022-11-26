@@ -51,7 +51,7 @@ def main(args):
     epochs = 10000
     loss_func = loss_dict[args.loss]().to(device)
     learning_rate = 0.5
-    optim_net = optim.Adam(model.parameters())
+    optim_net = optim.Adam(model.parameters(), lr = learning_rate)
     best_test_loss = np.inf
 
     patience = 0
@@ -160,12 +160,12 @@ def main(args):
         patience += 1
         if patience > 50:
             if patience_count < 3:
-                print("learning rate change", file=sys.stdout)
-                print("learning rate change", file=log_file)
-                optim_net = optim.SGD(model.parameters(), lr=learning_rate)
                 patience = 0
                 patience_count += 1
                 learning_rate /= 10
+                print("learning rate change", file=sys.stdout)
+                print("learning rate change", file=log_file)
+                optim_net = optim.SGD(model.parameters(), lr=learning_rate)
             else:
                 print("early stopping", file=sys.stdout)
                 print("early stopping", file=log_file)
