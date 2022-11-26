@@ -1,0 +1,1980 @@
+Number of GPUs: 1
+Batch size: 8
+train total time is 3.154405117034912
+Epoch 0, train MAE: 7453.18701171875, train accuracy: 0.49737804826638476 loss: 2.128208266852318
+test total time is 1.8201673030853271
+Epoch 0, test MAE: 6538.56201171875, test accuracy: 0.5, loss: 0.04735954580301384
+save checkpoint
+train total time is 2.701510429382324
+Epoch 1, train MAE: 6774.89404296875, train accuracy: 0.5 loss: 0.044206419959664345
+test total time is 1.8233661651611328
+Epoch 1, test MAE: 6832.669921875, test accuracy: 0.5, loss: 0.043778022610635126
+save checkpoint
+train total time is 2.697876214981079
+Epoch 2, train MAE: 6822.080078125, train accuracy: 0.5 loss: 0.043788642007506116
+test total time is 1.8258273601531982
+Epoch 2, test MAE: 6834.40380859375, test accuracy: 0.5, loss: 0.04377511586501913
+save checkpoint
+train total time is 2.6859121322631836
+Epoch 3, train MAE: 6824.65576171875, train accuracy: 0.5 loss: 0.04378623589170429
+test total time is 1.8336687088012695
+Epoch 3, test MAE: 6830.64990234375, test accuracy: 0.5, loss: 0.04377234829062561
+save checkpoint
+train total time is 2.7441306114196777
+Epoch 4, train MAE: 6822.48779296875, train accuracy: 0.5 loss: 0.04379269550993757
+test total time is 1.8213145732879639
+Epoch 4, test MAE: 6843.29541015625, test accuracy: 0.5, loss: 0.04377816831868774
+train total time is 2.7158045768737793
+Epoch 5, train MAE: 6821.51513671875, train accuracy: 0.5 loss: 0.04378092826677943
+test total time is 1.828061580657959
+Epoch 5, test MAE: 6820.8232421875, test accuracy: 0.5, loss: 0.043765295999792383
+save checkpoint
+train total time is 2.69447922706604
+Epoch 6, train MAE: 6822.7080078125, train accuracy: 0.5 loss: 0.04376923363163786
+test total time is 1.8281395435333252
+Epoch 6, test MAE: 6852.580078125, test accuracy: 0.5, loss: 0.04376578520772592
+train total time is 2.7070484161376953
+Epoch 7, train MAE: 6821.40576171875, train accuracy: 0.5 loss: 0.04373296227235839
+test total time is 1.824439287185669
+Epoch 7, test MAE: 6837.6826171875, test accuracy: 0.5, loss: 0.04370449971899672
+save checkpoint
+train total time is 2.7043509483337402
+Epoch 8, train MAE: 6822.787109375, train accuracy: 0.5 loss: 0.04370829086961611
+test total time is 1.82863187789917
+Epoch 8, test MAE: 6827.3740234375, test accuracy: 0.5, loss: 0.04366804645308908
+save checkpoint
+train total time is 2.6900110244750977
+Epoch 9, train MAE: 6818.8759765625, train accuracy: 0.5 loss: 0.043675456828666186
+test total time is 1.8304681777954102
+Epoch 9, test MAE: 6825.24462890625, test accuracy: 0.5, loss: 0.04363250493440988
+save checkpoint
+train total time is 2.7239792346954346
+Epoch 10, train MAE: 6819.4638671875, train accuracy: 0.5 loss: 0.04366353104980487
+test total time is 1.8226637840270996
+Epoch 10, test MAE: 6852.06005859375, test accuracy: 0.5, loss: 0.043640676358679555
+train total time is 2.707001209259033
+Epoch 11, train MAE: 6814.13916015625, train accuracy: 0.5 loss: 0.0436240304261446
+test total time is 1.8278026580810547
+Epoch 11, test MAE: 6848.82275390625, test accuracy: 0.5, loss: 0.043613953094156284
+save checkpoint
+train total time is 2.692718744277954
+Epoch 12, train MAE: 6819.494140625, train accuracy: 0.5 loss: 0.043595226762710874
+test total time is 1.833974838256836
+Epoch 12, test MAE: 6816.00390625, test accuracy: 0.5, loss: 0.043561206287089385
+save checkpoint
+train total time is 2.706228733062744
+Epoch 13, train MAE: 6815.224609375, train accuracy: 0.5 loss: 0.0435906014985071
+test total time is 1.8214643001556396
+Epoch 13, test MAE: 6849.14501953125, test accuracy: 0.5, loss: 0.04358375515296774
+train total time is 2.7079617977142334
+Epoch 14, train MAE: 6814.375, train accuracy: 0.5 loss: 0.04359138222797861
+test total time is 1.8238871097564697
+Epoch 14, test MAE: 6829.5849609375, test accuracy: 0.5, loss: 0.043536048769107404
+save checkpoint
+train total time is 2.709510087966919
+Epoch 15, train MAE: 6815.5458984375, train accuracy: 0.5 loss: 0.043570170917038645
+test total time is 1.8297452926635742
+Epoch 15, test MAE: 6834.779296875, test accuracy: 0.5, loss: 0.04353394060624095
+save checkpoint
+train total time is 2.6970746517181396
+Epoch 16, train MAE: 6818.91796875, train accuracy: 0.5 loss: 0.04358506227298727
+test total time is 1.8274595737457275
+Epoch 16, test MAE: 6797.98486328125, test accuracy: 0.5, loss: 0.043532134191888686
+save checkpoint
+train total time is 2.7059578895568848
+Epoch 17, train MAE: 6813.1728515625, train accuracy: 0.5 loss: 0.043575267817051906
+test total time is 1.8274457454681396
+Epoch 17, test MAE: 6815.1455078125, test accuracy: 0.5, loss: 0.043504343947993136
+save checkpoint
+train total time is 2.6990413665771484
+Epoch 18, train MAE: 6812.25927734375, train accuracy: 0.5 loss: 0.04354212239806382
+test total time is 1.8312833309173584
+Epoch 18, test MAE: 6822.25341796875, test accuracy: 0.5, loss: 0.04350310943599017
+save checkpoint
+train total time is 2.6995909214019775
+Epoch 19, train MAE: 6815.14208984375, train accuracy: 0.5 loss: 0.04355038449449359
+test total time is 1.8218791484832764
+Epoch 19, test MAE: 6809.30078125, test accuracy: 0.5, loss: 0.04350260834930078
+save checkpoint
+train total time is 2.7285561561584473
+Epoch 20, train MAE: 6813.8291015625, train accuracy: 0.5 loss: 0.04353797186236336
+test total time is 1.8266851902008057
+Epoch 20, test MAE: 6816.06494140625, test accuracy: 0.5, loss: 0.04348824777693119
+save checkpoint
+train total time is 2.7127392292022705
+Epoch 21, train MAE: 6812.67431640625, train accuracy: 0.5 loss: 0.043529400461406076
+test total time is 1.8280243873596191
+Epoch 21, test MAE: 6808.97900390625, test accuracy: 0.5, loss: 0.04348847674170755
+train total time is 2.7110166549682617
+Epoch 22, train MAE: 6813.220703125, train accuracy: 0.5 loss: 0.04354832750165238
+test total time is 1.8281691074371338
+Epoch 22, test MAE: 6775.10400390625, test accuracy: 0.5, loss: 0.04357827180680239
+train total time is 2.7105414867401123
+Epoch 23, train MAE: 6811.74658203125, train accuracy: 0.5 loss: 0.043524207512162766
+test total time is 1.8263511657714844
+Epoch 23, test MAE: 6805.91455078125, test accuracy: 0.5, loss: 0.043485141341697495
+save checkpoint
+train total time is 2.6908557415008545
+Epoch 24, train MAE: 6814.279296875, train accuracy: 0.5 loss: 0.04354211993796645
+test total time is 1.8296353816986084
+Epoch 24, test MAE: 6791.283203125, test accuracy: 0.5, loss: 0.04350312525090182
+train total time is 2.7346744537353516
+Epoch 25, train MAE: 6808.9482421875, train accuracy: 0.5 loss: 0.043538189088960864
+test total time is 1.8268554210662842
+Epoch 25, test MAE: 6831.6845703125, test accuracy: 0.5, loss: 0.04347275109645331
+save checkpoint
+train total time is 2.700258731842041
+Epoch 26, train MAE: 6814.2255859375, train accuracy: 0.5 loss: 0.0435405766485997
+test total time is 1.8269081115722656
+Epoch 26, test MAE: 6798.4365234375, test accuracy: 0.5, loss: 0.04348381770388136
+train total time is 2.7060136795043945
+Epoch 27, train MAE: 6807.86865234375, train accuracy: 0.5 loss: 0.0435949166147214
+test total time is 1.8325908184051514
+Epoch 27, test MAE: 6800.482421875, test accuracy: 0.5, loss: 0.043476746892029385
+train total time is 2.71205472946167
+Epoch 28, train MAE: 6813.01806640625, train accuracy: 0.5 loss: 0.04350808818104132
+test total time is 1.8259589672088623
+Epoch 28, test MAE: 6810.5166015625, test accuracy: 0.5, loss: 0.04345189034938812
+save checkpoint
+train total time is 2.727910280227661
+Epoch 29, train MAE: 6809.82421875, train accuracy: 0.5 loss: 0.04350652306709649
+test total time is 1.829784631729126
+Epoch 29, test MAE: 6819.6474609375, test accuracy: 0.5, loss: 0.04344957047757113
+save checkpoint
+train total time is 2.697444200515747
+Epoch 30, train MAE: 6810.90283203125, train accuracy: 0.5 loss: 0.043492189590942185
+test total time is 1.8296458721160889
+Epoch 30, test MAE: 6864.88818359375, test accuracy: 0.5, loss: 0.04355593331439315
+train total time is 2.705496311187744
+Epoch 31, train MAE: 6812.970703125, train accuracy: 0.5 loss: 0.043521559252491536
+test total time is 1.8250682353973389
+Epoch 31, test MAE: 6862.986328125, test accuracy: 0.5, loss: 0.04355297940519621
+train total time is 2.7374210357666016
+Epoch 32, train MAE: 6811.4716796875, train accuracy: 0.5 loss: 0.04351598280921297
+test total time is 1.831310510635376
+Epoch 32, test MAE: 6819.47265625, test accuracy: 0.5, loss: 0.04343742975648844
+save checkpoint
+train total time is 2.692004680633545
+Epoch 33, train MAE: 6811.8896484375, train accuracy: 0.5 loss: 0.0435344416577861
+test total time is 1.8290462493896484
+Epoch 33, test MAE: 6794.74658203125, test accuracy: 0.5, loss: 0.0434505442895417
+train total time is 2.7126452922821045
+Epoch 34, train MAE: 6811.2509765625, train accuracy: 0.5 loss: 0.04352372919894614
+test total time is 1.8206655979156494
+Epoch 34, test MAE: 6786.46044921875, test accuracy: 0.5, loss: 0.04346277775629511
+train total time is 2.733250379562378
+Epoch 35, train MAE: 6809.005859375, train accuracy: 0.5 loss: 0.04349374314242939
+test total time is 1.8326945304870605
+Epoch 35, test MAE: 6838.466796875, test accuracy: 0.5, loss: 0.04342317985335611
+save checkpoint
+train total time is 2.7148537635803223
+Epoch 36, train MAE: 6807.76025390625, train accuracy: 0.5 loss: 0.04345596725788881
+test total time is 1.8285737037658691
+Epoch 36, test MAE: 6837.98388671875, test accuracy: 0.5, loss: 0.04342493305931676
+train total time is 2.6972222328186035
+Epoch 37, train MAE: 6812.9482421875, train accuracy: 0.5 loss: 0.0434860285230965
+test total time is 1.8182594776153564
+Epoch 37, test MAE: 6762.08056640625, test accuracy: 0.5, loss: 0.04352903738617897
+train total time is 2.7031567096710205
+Epoch 38, train MAE: 6808.39794921875, train accuracy: 0.5 loss: 0.043448231727728305
+test total time is 1.8268084526062012
+Epoch 38, test MAE: 6828.15869140625, test accuracy: 0.5, loss: 0.043385013551363406
+save checkpoint
+train total time is 2.7086257934570312
+Epoch 39, train MAE: 6808.7724609375, train accuracy: 0.5 loss: 0.04345781011682636
+test total time is 1.827847957611084
+Epoch 39, test MAE: 6763.9306640625, test accuracy: 0.5, loss: 0.04349720239076974
+train total time is 2.702331304550171
+Epoch 40, train MAE: 6807.09423828125, train accuracy: 0.5 loss: 0.04347332106586897
+test total time is 1.819350242614746
+Epoch 40, test MAE: 6822.525390625, test accuracy: 0.5, loss: 0.043354012950692536
+save checkpoint
+train total time is 2.7482399940490723
+Epoch 41, train MAE: 6804.66943359375, train accuracy: 0.5 loss: 0.04344399073073324
+test total time is 1.8261971473693848
+Epoch 41, test MAE: 6828.13525390625, test accuracy: 0.5, loss: 0.043350839284512235
+save checkpoint
+train total time is 2.680997133255005
+Epoch 42, train MAE: 6807.986328125, train accuracy: 0.5 loss: 0.043417946171929254
+test total time is 1.8258013725280762
+Epoch 42, test MAE: 6821.3115234375, test accuracy: 0.5, loss: 0.04333371549563588
+save checkpoint
+train total time is 2.7131214141845703
+Epoch 43, train MAE: 6808.837890625, train accuracy: 0.5 loss: 0.04342666468670908
+test total time is 1.8193295001983643
+Epoch 43, test MAE: 6742.77197265625, test accuracy: 0.5, loss: 0.043554629620937806
+train total time is 2.701901912689209
+Epoch 44, train MAE: 6804.45166015625, train accuracy: 0.5 loss: 0.043397751865240766
+test total time is 1.828111171722412
+Epoch 44, test MAE: 6824.18359375, test accuracy: 0.5, loss: 0.043306687811635575
+save checkpoint
+train total time is 2.686276435852051
+Epoch 45, train MAE: 6805.69580078125, train accuracy: 0.5 loss: 0.043384777874035656
+test total time is 1.8257029056549072
+Epoch 45, test MAE: 6788.9013671875, test accuracy: 0.5, loss: 0.04331323339269971
+train total time is 2.706155776977539
+Epoch 46, train MAE: 6803.34912109375, train accuracy: 0.5 loss: 0.04335671659769877
+test total time is 1.8223843574523926
+Epoch 46, test MAE: 6836.1298828125, test accuracy: 0.5, loss: 0.04328950554273039
+save checkpoint
+train total time is 2.7172157764434814
+Epoch 47, train MAE: 6803.15625, train accuracy: 0.5 loss: 0.04335767740629754
+test total time is 1.824540376663208
+Epoch 47, test MAE: 6836.14111328125, test accuracy: 0.5, loss: 0.043274904618848045
+save checkpoint
+train total time is 2.716357469558716
+Epoch 48, train MAE: 6804.63037109375, train accuracy: 0.5 loss: 0.04336574269493796
+test total time is 1.8277802467346191
+Epoch 48, test MAE: 6800.423828125, test accuracy: 0.5, loss: 0.04320753316553134
+save checkpoint
+train total time is 2.7041730880737305
+Epoch 49, train MAE: 6801.76611328125, train accuracy: 0.5 loss: 0.043321746067618426
+test total time is 1.8220796585083008
+Epoch 49, test MAE: 6749.72216796875, test accuracy: 0.5, loss: 0.04334941067082702
+train total time is 2.7036783695220947
+Epoch 50, train MAE: 6801.8759765625, train accuracy: 0.5 loss: 0.04327579858308693
+test total time is 1.8270599842071533
+Epoch 50, test MAE: 6755.40673828125, test accuracy: 0.5, loss: 0.043274404059322376
+train total time is 2.7048757076263428
+Epoch 51, train MAE: 6797.76611328125, train accuracy: 0.5 loss: 0.043304633524901465
+test total time is 1.8392143249511719
+Epoch 51, test MAE: 6798.3896484375, test accuracy: 0.5, loss: 0.04310581270816191
+save checkpoint
+train total time is 2.7168421745300293
+Epoch 52, train MAE: 6795.43701171875, train accuracy: 0.5 loss: 0.043249096264535526
+test total time is 1.8183863162994385
+Epoch 52, test MAE: 6755.95947265625, test accuracy: 0.5, loss: 0.043199728225480835
+train total time is 2.708674907684326
+Epoch 53, train MAE: 6795.4482421875, train accuracy: 0.5 loss: 0.043199008225270036
+test total time is 1.8312010765075684
+Epoch 53, test MAE: 6814.55908203125, test accuracy: 0.5, loss: 0.04303972662057517
+save checkpoint
+train total time is 2.703327178955078
+Epoch 54, train MAE: 6798.287109375, train accuracy: 0.5 loss: 0.04332367088294254
+test total time is 1.8262362480163574
+Epoch 54, test MAE: 6806.4404296875, test accuracy: 0.5, loss: 0.04298681540871566
+save checkpoint
+train total time is 2.7043404579162598
+Epoch 55, train MAE: 6787.2236328125, train accuracy: 0.5 loss: 0.04317272925433123
+test total time is 1.825397253036499
+Epoch 55, test MAE: 6850.8056640625, test accuracy: 0.5, loss: 0.04307769154602627
+train total time is 2.7086236476898193
+Epoch 56, train MAE: 6789.1826171875, train accuracy: 0.5 loss: 0.043031369915829516
+test total time is 1.8282454013824463
+Epoch 56, test MAE: 6817.2705078125, test accuracy: 0.5, loss: 0.042897701825735705
+save checkpoint
+train total time is 2.703030586242676
+Epoch 57, train MAE: 6790.7802734375, train accuracy: 0.5 loss: 0.04300212557866888
+test total time is 1.8269295692443848
+Epoch 57, test MAE: 6770.34619140625, test accuracy: 0.5, loss: 0.04284736282139454
+save checkpoint
+train total time is 2.713491439819336
+Epoch 58, train MAE: 6784.876953125, train accuracy: 0.5 loss: 0.04298446334476741
+test total time is 1.8242270946502686
+Epoch 58, test MAE: 6888.49462890625, test accuracy: 0.5, loss: 0.04325460442254003
+train total time is 2.731740713119507
+Epoch 59, train MAE: 6781.9990234375, train accuracy: 0.5 loss: 0.04283403875833412
+test total time is 1.8283708095550537
+Epoch 59, test MAE: 6828.326171875, test accuracy: 0.5, loss: 0.042780313886842634
+save checkpoint
+train total time is 2.710469961166382
+Epoch 60, train MAE: 6777.89794921875, train accuracy: 0.5 loss: 0.04281355454674307
+test total time is 1.8274462223052979
+Epoch 60, test MAE: 6859.0732421875, test accuracy: 0.5, loss: 0.04293235032907072
+train total time is 2.7159037590026855
+Epoch 61, train MAE: 6778.84130859375, train accuracy: 0.5 loss: 0.042713888059809524
+test total time is 1.8299851417541504
+Epoch 61, test MAE: 6729.00830078125, test accuracy: 0.5, loss: 0.04273724464594193
+save checkpoint
+train total time is 2.715373992919922
+Epoch 62, train MAE: 6772.76318359375, train accuracy: 0.5 loss: 0.042719683873484716
+test total time is 1.8261945247650146
+Epoch 62, test MAE: 6753.82470703125, test accuracy: 0.5, loss: 0.04259233218881319
+save checkpoint
+train total time is 2.7090158462524414
+Epoch 63, train MAE: 6772.4384765625, train accuracy: 0.5 loss: 0.04266530482695913
+test total time is 1.8265395164489746
+Epoch 63, test MAE: 6778.9892578125, test accuracy: 0.5, loss: 0.04253502907055729
+save checkpoint
+train total time is 2.705672025680542
+Epoch 64, train MAE: 6769.03125, train accuracy: 0.5 loss: 0.042609701143964285
+test total time is 1.8307292461395264
+Epoch 64, test MAE: 6784.45751953125, test accuracy: 0.5, loss: 0.04250248212297008
+save checkpoint
+train total time is 2.7049648761749268
+Epoch 65, train MAE: 6767.005859375, train accuracy: 0.5 loss: 0.04263007760329066
+test total time is 1.8295917510986328
+Epoch 65, test MAE: 6739.982421875, test accuracy: 0.5, loss: 0.04252070673512963
+train total time is 2.7053120136260986
+Epoch 66, train MAE: 6767.7333984375, train accuracy: 0.5 loss: 0.04254019847315437
+test total time is 1.8282380104064941
+Epoch 66, test MAE: 6788.36279296875, test accuracy: 0.5, loss: 0.042461815764600376
+save checkpoint
+train total time is 2.7363815307617188
+Epoch 67, train MAE: 6763.7421875, train accuracy: 0.5 loss: 0.042544510320953605
+test total time is 1.8235819339752197
+Epoch 67, test MAE: 6744.43212890625, test accuracy: 0.5, loss: 0.04246214492562807
+train total time is 2.719651699066162
+Epoch 68, train MAE: 6759.7783203125, train accuracy: 0.5 loss: 0.04251572707632802
+test total time is 1.8230156898498535
+Epoch 68, test MAE: 6738.3818359375, test accuracy: 0.5, loss: 0.04244550809545337
+save checkpoint
+train total time is 2.7229702472686768
+Epoch 69, train MAE: 6762.9052734375, train accuracy: 0.5 loss: 0.0424526720395628
+test total time is 1.828859806060791
+Epoch 69, test MAE: 6772.6181640625, test accuracy: 0.5, loss: 0.04237027582273169
+save checkpoint
+train total time is 2.6938836574554443
+Epoch 70, train MAE: 6757.4990234375, train accuracy: 0.5 loss: 0.042642062705642775
+test total time is 1.8236775398254395
+Epoch 70, test MAE: 6632.7109375, test accuracy: 0.5, loss: 0.043178932846717116
+train total time is 2.7210233211517334
+Epoch 71, train MAE: 6759.95068359375, train accuracy: 0.5 loss: 0.04253175285346103
+test total time is 1.8275272846221924
+Epoch 71, test MAE: 6693.9287109375, test accuracy: 0.5, loss: 0.042556840996697265
+train total time is 2.709871292114258
+Epoch 72, train MAE: 6759.0791015625, train accuracy: 0.5 loss: 0.042476198583279015
+test total time is 1.8267796039581299
+Epoch 72, test MAE: 6788.39990234375, test accuracy: 0.5, loss: 0.04232767055619438
+save checkpoint
+train total time is 2.7058374881744385
+Epoch 73, train MAE: 6757.7451171875, train accuracy: 0.5 loss: 0.042422970581167146
+test total time is 1.8267223834991455
+Epoch 73, test MAE: 6771.17041015625, test accuracy: 0.5, loss: 0.04229011242541502
+save checkpoint
+train total time is 2.7285265922546387
+Epoch 74, train MAE: 6757.83349609375, train accuracy: 0.5 loss: 0.04234777686168563
+test total time is 1.8273015022277832
+Epoch 74, test MAE: 6839.04736328125, test accuracy: 0.5, loss: 0.04253396609762929
+train total time is 2.7045505046844482
+Epoch 75, train MAE: 6753.43115234375, train accuracy: 0.5 loss: 0.042367005158426625
+test total time is 1.8250086307525635
+Epoch 75, test MAE: 6744.98291015625, test accuracy: 0.5, loss: 0.042255060184957845
+save checkpoint
+train total time is 2.7119336128234863
+Epoch 76, train MAE: 6755.5595703125, train accuracy: 0.5 loss: 0.04231859726022999
+test total time is 1.8254735469818115
+Epoch 76, test MAE: 6695.2568359375, test accuracy: 0.5, loss: 0.04241310864827543
+train total time is 2.70821213722229
+Epoch 77, train MAE: 6749.9423828125, train accuracy: 0.5 loss: 0.042380274115306024
+test total time is 1.8270080089569092
+Epoch 77, test MAE: 6700.517578125, test accuracy: 0.5, loss: 0.042339634818007364
+train total time is 2.6986725330352783
+Epoch 78, train MAE: 6752.87109375, train accuracy: 0.5 loss: 0.04232419531722114
+test total time is 1.827449083328247
+Epoch 78, test MAE: 6746.08837890625, test accuracy: 0.5, loss: 0.04216990233311113
+save checkpoint
+train total time is 2.6939198970794678
+Epoch 79, train MAE: 6747.22412109375, train accuracy: 0.5 loss: 0.04233918570966091
+test total time is 1.8255529403686523
+Epoch 79, test MAE: 6769.9423828125, test accuracy: 0.5, loss: 0.04213036993905058
+save checkpoint
+train total time is 2.710869073867798
+Epoch 80, train MAE: 6749.9697265625, train accuracy: 0.5 loss: 0.042248389209216496
+test total time is 1.8222506046295166
+Epoch 80, test MAE: 6807.46875, test accuracy: 0.5, loss: 0.04220294372512484
+train total time is 2.695702075958252
+Epoch 81, train MAE: 6746.88134765625, train accuracy: 0.5 loss: 0.04218701072880682
+test total time is 1.8280682563781738
+Epoch 81, test MAE: 6817.35302734375, test accuracy: 0.5, loss: 0.04220654492108327
+train total time is 2.7178053855895996
+Epoch 82, train MAE: 6740.34912109375, train accuracy: 0.5 loss: 0.042146748318424763
+test total time is 1.8256702423095703
+Epoch 82, test MAE: 6771.26806640625, test accuracy: 0.5, loss: 0.04189553691671705
+save checkpoint
+train total time is 2.7210450172424316
+Epoch 83, train MAE: 6736.611328125, train accuracy: 0.5 loss: 0.041824323775352175
+test total time is 1.830348253250122
+Epoch 83, test MAE: 6678.443359375, test accuracy: 0.5, loss: 0.04169580133034373
+save checkpoint
+train total time is 2.692639112472534
+Epoch 84, train MAE: 6718.77880859375, train accuracy: 0.5 loss: 0.04130906604652135
+test total time is 1.8257157802581787
+Epoch 84, test MAE: 6715.48779296875, test accuracy: 0.5, loss: 0.040650528697472696
+save checkpoint
+train total time is 2.725832939147949
+Epoch 85, train MAE: 6648.5771484375, train accuracy: 0.49998983352395476 loss: 0.0396621971619579
+test total time is 1.8253405094146729
+Epoch 85, test MAE: 6585.53173828125, test accuracy: 0.4999936460655167, loss: 0.03743221452635414
+save checkpoint
+train total time is 2.7140700817108154
+Epoch 86, train MAE: 6410.8076171875, train accuracy: 0.5026505454155508 loss: 0.03639410416824075
+test total time is 1.827869176864624
+Epoch 86, test MAE: 6210.23046875, test accuracy: 0.5008869734574958, loss: 0.034142084208861834
+save checkpoint
+train total time is 2.7032101154327393
+Epoch 87, train MAE: 5979.63720703125, train accuracy: 0.506207688379411 loss: 0.032593571370080954
+test total time is 1.83070707321167
+Epoch 87, test MAE: 5492.90087890625, test accuracy: 0.5000194754122994, loss: 0.03143657935466969
+save checkpoint
+train total time is 2.7238619327545166
+Epoch 88, train MAE: 5330.1474609375, train accuracy: 0.5104850727874665 loss: 0.030102473824232253
+test total time is 1.8303236961364746
+Epoch 88, test MAE: 5095.275390625, test accuracy: 0.5152825787490778, loss: 0.02880356657617497
+save checkpoint
+train total time is 2.7287817001342773
+Epoch 89, train MAE: 4798.9990234375, train accuracy: 0.529883449986881 loss: 0.028455345856271824
+test total time is 1.8293910026550293
+Epoch 89, test MAE: 4891.75244140625, test accuracy: 0.5868304434523592, loss: 0.028155944731859665
+save checkpoint
+train total time is 2.7339634895324707
+Epoch 90, train MAE: 4568.63671875, train accuracy: 0.539583113447342 loss: 0.027683467955662393
+test total time is 1.8306670188903809
+Epoch 90, test MAE: 4330.68212890625, test accuracy: 0.5947903512218814, loss: 0.027096543162358256
+save checkpoint
+train total time is 2.723440647125244
+Epoch 91, train MAE: 4361.4794921875, train accuracy: 0.561464539275512 loss: 0.027127312654453627
+test total time is 1.8255577087402344
+Epoch 91, test MAE: 4506.74658203125, test accuracy: 0.5546856346128343, loss: 0.026607492464190384
+save checkpoint
+train total time is 2.7054738998413086
+Epoch 92, train MAE: 4329.3232421875, train accuracy: 0.57563274933324 loss: 0.026618228539965063
+test total time is 1.8353986740112305
+Epoch 92, test MAE: 4129.88720703125, test accuracy: 0.5695594244458884, loss: 0.026106181449063542
+save checkpoint
+train total time is 2.6945931911468506
+Epoch 93, train MAE: 4234.0146484375, train accuracy: 0.5960589478122914 loss: 0.02616096966249763
+test total time is 1.8340353965759277
+Epoch 93, test MAE: 4284.80908203125, test accuracy: 0.601858867350009, loss: 0.02567932403312539
+save checkpoint
+train total time is 2.716121196746826
+Epoch 94, train MAE: 4248.6396484375, train accuracy: 0.604252485640798 loss: 0.025890353153336723
+test total time is 1.8239002227783203
+Epoch 94, test MAE: 3719.90625, test accuracy: 0.5790201015800203, loss: 0.025708692570058804
+train total time is 2.724229335784912
+Epoch 95, train MAE: 4137.85888671875, train accuracy: 0.6153608397844718 loss: 0.02562112208315224
+test total time is 1.8523082733154297
+Epoch 95, test MAE: 4434.7431640625, test accuracy: 0.6545407373618196, loss: 0.025255014417025278
+save checkpoint
+train total time is 2.706195592880249
+Epoch 96, train MAE: 4147.044921875, train accuracy: 0.6278315068356453 loss: 0.02533567450800032
+test total time is 1.8368136882781982
+Epoch 96, test MAE: 4462.15283203125, test accuracy: 0.6649378138208499, loss: 0.025600904264961772
+train total time is 2.714878797531128
+Epoch 97, train MAE: 4094.63232421875, train accuracy: 0.6350016948391273 loss: 0.02508217628764094
+test total time is 1.8308494091033936
+Epoch 97, test MAE: 3857.207763671875, test accuracy: 0.7066483856224023, loss: 0.024929124914672016
+save checkpoint
+train total time is 2.7097644805908203
+Epoch 98, train MAE: 3988.4375, train accuracy: 0.6447049155427167 loss: 0.024855660538206686
+test total time is 1.8275799751281738
+Epoch 98, test MAE: 3971.2041015625, test accuracy: 0.6551054369653618, loss: 0.024461242897471168
+save checkpoint
+train total time is 2.691650629043579
+Epoch 99, train MAE: 3957.017578125, train accuracy: 0.651727953253981 loss: 0.024601178217398108
+test total time is 1.8328404426574707
+Epoch 99, test MAE: 3831.06494140625, test accuracy: 0.5889463452677023, loss: 0.024668555056570837
+train total time is 2.715045928955078
+Epoch 100, train MAE: 3931.862548828125, train accuracy: 0.6501560446481942 loss: 0.024671112661654095
+test total time is 1.8262138366699219
+Epoch 100, test MAE: 3880.9599609375, test accuracy: 0.6079259193585482, loss: 0.025268563122119544
+train total time is 2.699423313140869
+Epoch 101, train MAE: 3868.74755859375, train accuracy: 0.6549787736494183 loss: 0.024455267935991287
+test total time is 1.8290088176727295
+Epoch 101, test MAE: 3577.350341796875, test accuracy: 0.6213515930480767, loss: 0.02422687439423687
+save checkpoint
+train total time is 2.6976940631866455
+Epoch 102, train MAE: 3780.15966796875, train accuracy: 0.6685191327913056 loss: 0.02394397518123096
+test total time is 1.8405416011810303
+Epoch 102, test MAE: 3491.4345703125, test accuracy: 0.6313960082450961, loss: 0.024160816263899487
+save checkpoint
+train total time is 2.715725898742676
+Epoch 103, train MAE: 3690.42431640625, train accuracy: 0.6750639591378359 loss: 0.023786877053526213
+test total time is 1.8256311416625977
+Epoch 103, test MAE: 3654.840576171875, test accuracy: 0.691770228381998, loss: 0.023521408649548044
+save checkpoint
+train total time is 2.712364673614502
+Epoch 104, train MAE: 3680.530029296875, train accuracy: 0.6808759677503333 loss: 0.02361949004303172
+test total time is 1.8282549381256104
+Epoch 104, test MAE: 3627.640380859375, test accuracy: 0.6819350494537302, loss: 0.023584549693074428
+train total time is 2.696906566619873
+Epoch 105, train MAE: 3613.03271484375, train accuracy: 0.6826826110915951 loss: 0.023453569830448
+test total time is 1.8310649394989014
+Epoch 105, test MAE: 3620.525146484375, test accuracy: 0.7079757670863795, loss: 0.023289017133274168
+save checkpoint
+train total time is 2.700444459915161
+Epoch 106, train MAE: 3576.59716796875, train accuracy: 0.685588334032394 loss: 0.02339418673501262
+test total time is 1.8308584690093994
+Epoch 106, test MAE: 3524.96142578125, test accuracy: 0.6103231960003918, loss: 0.023855388472032436
+train total time is 2.714249610900879
+Epoch 107, train MAE: 3551.219970703125, train accuracy: 0.6875539739095688 loss: 0.023299204062600182
+test total time is 1.8372557163238525
+Epoch 107, test MAE: 3390.39599609375, test accuracy: 0.6847186244959588, loss: 0.02309055354024442
+save checkpoint
+train total time is 2.6975836753845215
+Epoch 108, train MAE: 3478.59765625, train accuracy: 0.6934602640683863 loss: 0.023001267073922
+test total time is 1.8287441730499268
+Epoch 108, test MAE: 3607.946044921875, test accuracy: 0.7335308701984407, loss: 0.023015940105015377
+save checkpoint
+train total time is 2.7141997814178467
+Epoch 109, train MAE: 3382.538818359375, train accuracy: 0.6894278163818748 loss: 0.023065010665582038
+test total time is 1.8250398635864258
+Epoch 109, test MAE: 3866.431396484375, test accuracy: 0.7333704123414824, loss: 0.023242357591131947
+train total time is 2.7112879753112793
+Epoch 110, train MAE: 3423.118408203125, train accuracy: 0.6967533642330449 loss: 0.02283890294965427
+test total time is 1.8293673992156982
+Epoch 110, test MAE: 3415.1318359375, test accuracy: 0.7468759600073849, loss: 0.0228179811658162
+save checkpoint
+train total time is 2.710955858230591
+Epoch 111, train MAE: 3354.41064453125, train accuracy: 0.700607146575086 loss: 0.022663920133743645
+test total time is 1.8353745937347412
+Epoch 111, test MAE: 3156.562255859375, test accuracy: 0.6482324772733876, loss: 0.022824118019274947
+train total time is 2.7131385803222656
+Epoch 112, train MAE: 3376.21630859375, train accuracy: 0.6954572432575218 loss: 0.022818334734524198
+test total time is 1.8282756805419922
+Epoch 112, test MAE: 3195.63720703125, test accuracy: 0.7256491095969284, loss: 0.022490243875544588
+save checkpoint
+train total time is 2.7126851081848145
+Epoch 113, train MAE: 3267.707763671875, train accuracy: 0.7030702272748222 loss: 0.022486447848660766
+test total time is 1.8301289081573486
+Epoch 113, test MAE: 3233.35986328125, test accuracy: 0.719123968482382, loss: 0.022444431204348803
+save checkpoint
+train total time is 2.6989989280700684
+Epoch 114, train MAE: 3308.21044921875, train accuracy: 0.7025986555355911 loss: 0.02256500408193975
+test total time is 1.8363313674926758
+Epoch 114, test MAE: 2955.388916015625, test accuracy: 0.7246175210961734, loss: 0.022267837806622375
+save checkpoint
+train total time is 2.7113327980041504
+Epoch 115, train MAE: 3228.56298828125, train accuracy: 0.7069409610661175 loss: 0.022279315557822865
+test total time is 1.8329689502716064
+Epoch 115, test MAE: 3425.630126953125, test accuracy: 0.708846801232888, loss: 0.022124971069817274
+save checkpoint
+train total time is 2.7039380073547363
+Epoch 116, train MAE: 3197.107421875, train accuracy: 0.7081132592137418 loss: 0.02210932831227217
+test total time is 1.8365888595581055
+Epoch 116, test MAE: 2997.60986328125, test accuracy: 0.6932845744656739, loss: 0.022201722356016345
+train total time is 2.697587728500366
+Epoch 117, train MAE: 3145.685546875, train accuracy: 0.7147441355835854 loss: 0.02196696730119721
+test total time is 1.8396964073181152
+Epoch 117, test MAE: 3585.928955078125, test accuracy: 0.7197538202337546, loss: 0.02243818870728027
+train total time is 2.709019899368286
+Epoch 118, train MAE: 3138.67041015625, train accuracy: 0.7130347023982627 loss: 0.021944844972271966
+test total time is 1.826364278793335
+Epoch 118, test MAE: 3371.64306640625, test accuracy: 0.7108350076435211, loss: 0.022240790740569245
+train total time is 2.705937385559082
+Epoch 119, train MAE: 3156.7060546875, train accuracy: 0.7109019223323143 loss: 0.022014372727288952
+test total time is 1.826617956161499
+Epoch 119, test MAE: 3017.26611328125, test accuracy: 0.6934243610243067, loss: 0.021915153169758478
+save checkpoint
+train total time is 2.704887866973877
+Epoch 120, train MAE: 3096.437255859375, train accuracy: 0.7160955080338245 loss: 0.021731219570732343
+test total time is 1.8318073749542236
+Epoch 120, test MAE: 3143.5791015625, test accuracy: 0.7405597730661859, loss: 0.02183931704856596
+save checkpoint
+train total time is 2.6990973949432373
+Epoch 121, train MAE: 3087.554931640625, train accuracy: 0.7172559819052903 loss: 0.021718648684052926
+test total time is 1.8266968727111816
+Epoch 121, test MAE: 2922.473876953125, test accuracy: 0.6901727794078318, loss: 0.021933056660137087
+train total time is 2.700623035430908
+Epoch 122, train MAE: 3093.238525390625, train accuracy: 0.7197728235948717 loss: 0.021610771762734314
+test total time is 1.8333308696746826
+Epoch 122, test MAE: 2950.412353515625, test accuracy: 0.7209599767607765, loss: 0.021570945105884434
+save checkpoint
+train total time is 2.687798023223877
+Epoch 123, train MAE: 3006.072509765625, train accuracy: 0.7211118969081984 loss: 0.02149534952949803
+test total time is 1.8288965225219727
+Epoch 123, test MAE: 3202.927001953125, test accuracy: 0.7403505126731124, loss: 0.021639433742131828
+train total time is 2.7175588607788086
+Epoch 124, train MAE: 3066.679931640625, train accuracy: 0.7216331400558326 loss: 0.021471049979258822
+test total time is 1.8269484043121338
+Epoch 124, test MAE: 2861.59765625, test accuracy: 0.7277990022387985, loss: 0.02136731889309748
+save checkpoint
+train total time is 2.7127325534820557
+Epoch 125, train MAE: 2953.38671875, train accuracy: 0.7275717327906054 loss: 0.021296170338074554
+test total time is 1.8276772499084473
+Epoch 125, test MAE: 3151.352783203125, test accuracy: 0.7268031696972134, loss: 0.021465608006659545
+train total time is 2.689727306365967
+Epoch 126, train MAE: 2996.03564453125, train accuracy: 0.7255334674888292 loss: 0.02120520051498458
+test total time is 1.8322906494140625
+Epoch 126, test MAE: 2931.24462890625, test accuracy: 0.7228032593805198, loss: 0.021269199833765906
+save checkpoint
+train total time is 2.705132246017456
+Epoch 127, train MAE: 2997.487548828125, train accuracy: 0.7292054362014155 loss: 0.021205973003129912
+test total time is 1.8303322792053223
+Epoch 127, test MAE: 2801.18505859375, test accuracy: 0.6494571321932687, loss: 0.022033614756644896
+train total time is 2.704439163208008
+Epoch 128, train MAE: 2950.786865234375, train accuracy: 0.7273810319196606 loss: 0.021081688383348146
+test total time is 1.8313853740692139
+Epoch 128, test MAE: 2886.056884765625, test accuracy: 0.7160645869628379, loss: 0.0211028243889505
+save checkpoint
+train total time is 2.698615789413452
+Epoch 129, train MAE: 2915.50390625, train accuracy: 0.7302165831847233 loss: 0.02102697293607975
+test total time is 1.8320984840393066
+Epoch 129, test MAE: 2834.23974609375, test accuracy: 0.7070436678516738, loss: 0.02099111162231497
+save checkpoint
+train total time is 2.706033229827881
+Epoch 130, train MAE: 2929.170654296875, train accuracy: 0.7329793552524289 loss: 0.020879009387122012
+test total time is 1.8307559490203857
+Epoch 130, test MAE: 3007.962646484375, test accuracy: 0.7228722114367705, loss: 0.020921844005022408
+save checkpoint
+train total time is 2.719849109649658
+Epoch 131, train MAE: 2913.30908203125, train accuracy: 0.7348540595760963 loss: 0.02074393131858054
+test total time is 1.83184814453125
+Epoch 131, test MAE: 2994.522216796875, test accuracy: 0.7471112586894617, loss: 0.021006845201383222
+train total time is 2.6923129558563232
+Epoch 132, train MAE: 2932.254638671875, train accuracy: 0.7343308155728141 loss: 0.020685138470791984
+test total time is 1.826202154159546
+Epoch 132, test MAE: 2920.51025390625, test accuracy: 0.7533278773754015, loss: 0.021080789226546603
+train total time is 2.7299511432647705
+Epoch 133, train MAE: 2912.8037109375, train accuracy: 0.7361003857630468 loss: 0.020686429134517344
+test total time is 1.8282082080841064
+Epoch 133, test MAE: 2928.660888671875, test accuracy: 0.7185347212107887, loss: 0.020687082571522245
+save checkpoint
+train total time is 2.7007932662963867
+Epoch 134, train MAE: 2904.772705078125, train accuracy: 0.7351618945969265 loss: 0.02057498039783172
+test total time is 1.8323900699615479
+Epoch 134, test MAE: 2816.692626953125, test accuracy: 0.7272725544474797, loss: 0.020620943662130607
+save checkpoint
+train total time is 2.6978988647460938
+Epoch 135, train MAE: 2917.59716796875, train accuracy: 0.738412328001756 loss: 0.02049377445518127
+test total time is 1.8326520919799805
+Epoch 135, test MAE: 2858.0068359375, test accuracy: 0.725093346353846, loss: 0.020505586182171444
+save checkpoint
+train total time is 2.7103404998779297
+Epoch 136, train MAE: 2877.056396484375, train accuracy: 0.7389492517891388 loss: 0.020428928898049974
+test total time is 1.8268797397613525
+Epoch 136, test MAE: 2899.2509765625, test accuracy: 0.7429020222229719, loss: 0.020822628875667194
+train total time is 2.7158186435699463
+Epoch 137, train MAE: 2905.830810546875, train accuracy: 0.7397759995889075 loss: 0.020396412446884053
+test total time is 1.8311662673950195
+Epoch 137, test MAE: 2884.760009765625, test accuracy: 0.7507946590238677, loss: 0.02053468386238476
+train total time is 2.692211627960205
+Epoch 138, train MAE: 2883.073974609375, train accuracy: 0.7414042547386239 loss: 0.020277037443417422
+test total time is 1.8378281593322754
+Epoch 138, test MAE: 2899.971435546875, test accuracy: 0.7297034773718453, loss: 0.020674919779851753
+train total time is 2.7065298557281494
+Epoch 139, train MAE: 2883.697998046875, train accuracy: 0.742488867030358 loss: 0.020211615239463326
+test total time is 1.8358068466186523
+Epoch 139, test MAE: 2852.030029296875, test accuracy: 0.7261355805153465, loss: 0.02048636563473715
+save checkpoint
+train total time is 2.7043418884277344
+Epoch 140, train MAE: 2874.486083984375, train accuracy: 0.7431286824526258 loss: 0.020112703071098845
+test total time is 1.8364148139953613
+Epoch 140, test MAE: 2919.2021484375, test accuracy: 0.7603288861602385, loss: 0.020474349710879462
+save checkpoint
+train total time is 2.706298351287842
+Epoch 141, train MAE: 2867.371826171875, train accuracy: 0.742656635852641 loss: 0.02013813330844607
+test total time is 1.8360068798065186
+Epoch 141, test MAE: 2885.119140625, test accuracy: 0.7350994939782504, loss: 0.02018662025484274
+save checkpoint
+train total time is 2.7387619018554688
+Epoch 142, train MAE: 2867.407958984375, train accuracy: 0.7427451615923562 loss: 0.02005882667518168
+test total time is 1.8290565013885498
+Epoch 142, test MAE: 2796.559814453125, test accuracy: 0.7474546258145207, loss: 0.0204407995180139
+train total time is 2.7198941707611084
+Epoch 143, train MAE: 2843.154541015625, train accuracy: 0.7454012515641962 loss: 0.01995584496982255
+test total time is 1.8335211277008057
+Epoch 143, test MAE: 2862.634521484375, test accuracy: 0.7495609912822213, loss: 0.02007129520423851
+save checkpoint
+train total time is 2.6943953037261963
+Epoch 144, train MAE: 2882.571044921875, train accuracy: 0.7449575058288704 loss: 0.02001553105260685
+test total time is 1.8266558647155762
+Epoch 144, test MAE: 2957.44873046875, test accuracy: 0.7916893015927444, loss: 0.020553331417998054
+train total time is 2.709503412246704
+Epoch 145, train MAE: 2856.7099609375, train accuracy: 0.7452864477830066 loss: 0.019949888125202566
+test total time is 1.8231947422027588
+Epoch 145, test MAE: 3014.71435546875, test accuracy: 0.7358834646322719, loss: 0.020030065571432405
+save checkpoint
+train total time is 2.718148946762085
+Epoch 146, train MAE: 2912.73486328125, train accuracy: 0.7459908987497708 loss: 0.019872198285499833
+test total time is 1.829150676727295
+Epoch 146, test MAE: 2891.518798828125, test accuracy: 0.7487119916298841, loss: 0.020025136933292983
+save checkpoint
+train total time is 2.705533742904663
+Epoch 147, train MAE: 2859.861328125, train accuracy: 0.7475438550506552 loss: 0.01976419506453962
+test total time is 1.835207223892212
+Epoch 147, test MAE: 2802.2744140625, test accuracy: 0.7729036211387235, loss: 0.020050826517619053
+train total time is 2.728642463684082
+Epoch 148, train MAE: 2865.00439453125, train accuracy: 0.7494052885483663 loss: 0.019661094720984967
+test total time is 1.8299334049224854
+Epoch 148, test MAE: 2807.851806640625, test accuracy: 0.7546696003275429, loss: 0.019814955246336054
+save checkpoint
+train total time is 2.746493101119995
+Epoch 149, train MAE: 2877.197265625, train accuracy: 0.7514148879624122 loss: 0.01957717625740564
+test total time is 1.8320014476776123
+Epoch 149, test MAE: 2819.57666015625, test accuracy: 0.7441899435364299, loss: 0.019764330238103867
+save checkpoint
+train total time is 2.725745916366577
+Epoch 150, train MAE: 2854.9677734375, train accuracy: 0.7518146082582573 loss: 0.01958223710820641
+test total time is 1.828991413116455
+Epoch 150, test MAE: 2800.433349609375, test accuracy: 0.7276287942234207, loss: 0.01990264445929876
+train total time is 2.7053000926971436
+Epoch 151, train MAE: 2871.590576171875, train accuracy: 0.7514882518582056 loss: 0.019586922091273766
+test total time is 1.8265025615692139
+Epoch 151, test MAE: 2878.857666015625, test accuracy: 0.752071536047905, loss: 0.01977870950721345
+train total time is 2.70845103263855
+Epoch 152, train MAE: 2851.014404296875, train accuracy: 0.7537700816593867 loss: 0.019496755481188028
+test total time is 1.834144115447998
+Epoch 152, test MAE: 2952.900146484375, test accuracy: 0.7476014553956467, loss: 0.019747834090354306
+save checkpoint
+train total time is 2.694152593612671
+Epoch 153, train MAE: 2857.075439453125, train accuracy: 0.7543907690364602 loss: 0.019413157998812648
+test total time is 1.8326349258422852
+Epoch 153, test MAE: 2879.073486328125, test accuracy: 0.7523084358609267, loss: 0.01957927523005121
+save checkpoint
+train total time is 2.7126243114471436
+Epoch 154, train MAE: 2853.39599609375, train accuracy: 0.7513608937547149 loss: 0.01946502872127688
+test total time is 1.8249921798706055
+Epoch 154, test MAE: 2873.336181640625, test accuracy: 0.7485968443680342, loss: 0.019638303034710435
+train total time is 2.7096874713897705
+Epoch 155, train MAE: 2832.288330078125, train accuracy: 0.7530578740303696 loss: 0.01943954499438405
+test total time is 1.8288450241088867
+Epoch 155, test MAE: 2841.588623046875, test accuracy: 0.7322672121169774, loss: 0.019880908093292196
+train total time is 2.711270570755005
+Epoch 156, train MAE: 2862.657470703125, train accuracy: 0.7510162711608301 loss: 0.01955567491855824
+test total time is 1.8299319744110107
+Epoch 156, test MAE: 2842.85400390625, test accuracy: 0.775696490317904, loss: 0.019580071721717995
+train total time is 2.713179588317871
+Epoch 157, train MAE: 2851.330078125, train accuracy: 0.7571641385058918 loss: 0.019233945572643348
+test total time is 1.8266222476959229
+Epoch 157, test MAE: 2790.6259765625, test accuracy: 0.7569845188120112, loss: 0.019482385613164812
+save checkpoint
+train total time is 2.716238498687744
+Epoch 158, train MAE: 2821.3916015625, train accuracy: 0.7589879006116504 loss: 0.019215709275021305
+test total time is 1.8319661617279053
+Epoch 158, test MAE: 2761.856689453125, test accuracy: 0.7499117492819004, loss: 0.01945917851309169
+save checkpoint
+train total time is 2.7012243270874023
+Epoch 159, train MAE: 2833.78857421875, train accuracy: 0.7576796258469211 loss: 0.019199397458853025
+test total time is 1.83009934425354
+Epoch 159, test MAE: 2783.398681640625, test accuracy: 0.7423648563979415, loss: 0.019591857143238467
+train total time is 2.733318328857422
+Epoch 160, train MAE: 2832.4208984375, train accuracy: 0.7560021386395319 loss: 0.01918638729543056
+test total time is 1.8253908157348633
+Epoch 160, test MAE: 2850.5009765625, test accuracy: 0.737992500659307, loss: 0.019679833124479594
+train total time is 2.7148401737213135
+Epoch 161, train MAE: 2818.40087890625, train accuracy: 0.7608858445294908 loss: 0.019051291891988717
+test total time is 1.828824520111084
+Epoch 161, test MAE: 2923.440673828125, test accuracy: 0.7249000186555161, loss: 0.019762600385496078
+train total time is 2.7073538303375244
+Epoch 162, train MAE: 2886.368896484375, train accuracy: 0.7586529916005939 loss: 0.019129207111754507
+test total time is 1.8279330730438232
+Epoch 162, test MAE: 3058.9306640625, test accuracy: 0.731076571367728, loss: 0.019555430112512043
+train total time is 2.720118761062622
+Epoch 163, train MAE: 2900.58203125, train accuracy: 0.7581196030888029 loss: 0.01914414571035864
+test total time is 1.8275272846221924
+Epoch 163, test MAE: 2803.994873046875, test accuracy: 0.7634911315733504, loss: 0.01930852894196814
+save checkpoint
+train total time is 2.7137951850891113
+Epoch 164, train MAE: 2849.093994140625, train accuracy: 0.7600870106037736 loss: 0.01898511913868616
+test total time is 1.8372550010681152
+Epoch 164, test MAE: 2807.7626953125, test accuracy: 0.7553831500880319, loss: 0.019214763534518908
+save checkpoint
+train total time is 2.702052593231201
+Epoch 165, train MAE: 2881.41015625, train accuracy: 0.7631194275045303 loss: 0.01886552084623924
+test total time is 1.8340165615081787
+Epoch 165, test MAE: 2858.42333984375, test accuracy: 0.7538403607108137, loss: 0.019377364829744934
+train total time is 2.7212748527526855
+Epoch 166, train MAE: 2896.842041015625, train accuracy: 0.7623549274030021 loss: 0.01884999522447305
+test total time is 1.8273894786834717
+Epoch 166, test MAE: 3118.007568359375, test accuracy: 0.7548585697626706, loss: 0.019335622275423892
+train total time is 2.712517261505127
+Epoch 167, train MAE: 2866.588134765625, train accuracy: 0.7627473439298114 loss: 0.018869990562000928
+test total time is 1.8342773914337158
+Epoch 167, test MAE: 2905.134521484375, test accuracy: 0.7462836910162087, loss: 0.019181922315356304
+save checkpoint
+train total time is 2.685487747192383
+Epoch 168, train MAE: 2903.591796875, train accuracy: 0.7649703514706614 loss: 0.018809192664569842
+test total time is 1.8356032371520996
+Epoch 168, test MAE: 2859.609375, test accuracy: 0.7709351805997244, loss: 0.01908999496965476
+save checkpoint
+train total time is 2.7070000171661377
+Epoch 169, train MAE: 2946.58251953125, train accuracy: 0.7625458699168486 loss: 0.018784873468695947
+test total time is 1.825209379196167
+Epoch 169, test MAE: 3225.4912109375, test accuracy: 0.7502079325098674, loss: 0.019342358918192814
+train total time is 2.7151734828948975
+Epoch 170, train MAE: 2943.510986328125, train accuracy: 0.762573739855827 loss: 0.018811886110958062
+test total time is 1.8347110748291016
+Epoch 170, test MAE: 2953.0458984375, test accuracy: 0.7359432573731378, loss: 0.019341907051022886
+train total time is 2.7163283824920654
+Epoch 171, train MAE: 2939.90087890625, train accuracy: 0.765168487915861 loss: 0.018679617473609605
+test total time is 1.8326828479766846
+Epoch 171, test MAE: 2886.995361328125, test accuracy: 0.7587518238610893, loss: 0.019001139231237037
+save checkpoint
+train total time is 2.700624465942383
+Epoch 172, train MAE: 2964.25048828125, train accuracy: 0.7653022659694895 loss: 0.018680416319941013
+test total time is 1.823641061782837
+Epoch 172, test MAE: 3007.076904296875, test accuracy: 0.7980743890334281, loss: 0.019664138915755275
+train total time is 2.7098212242126465
+Epoch 173, train MAE: 3006.111328125, train accuracy: 0.7664240747924222 loss: 0.018703213040629087
+test total time is 1.8303592205047607
+Epoch 173, test MAE: 2869.84130859375, test accuracy: 0.7709237135573062, loss: 0.019099735285875934
+train total time is 2.6957271099090576
+Epoch 174, train MAE: 2954.73583984375, train accuracy: 0.765914444670631 loss: 0.0186143765436872
+test total time is 1.8319613933563232
+Epoch 174, test MAE: 3040.930419921875, test accuracy: 0.7523427978836851, loss: 0.019062670940568426
+train total time is 2.715132713317871
+Epoch 175, train MAE: 2959.67919921875, train accuracy: 0.7672911454408371 loss: 0.018559487958280545
+test total time is 1.8304955959320068
+Epoch 175, test MAE: 2941.16015625, test accuracy: 0.7389030523491267, loss: 0.019058084062669636
+train total time is 2.7191100120544434
+Epoch 176, train MAE: 2980.384765625, train accuracy: 0.7667340424741196 loss: 0.01854417685700475
+test total time is 1.8267545700073242
+Epoch 176, test MAE: 2998.06201171875, test accuracy: 0.7728823381811631, loss: 0.01923352126734999
+train total time is 2.6963932514190674
+Epoch 177, train MAE: 3030.703369140625, train accuracy: 0.7678456628534706 loss: 0.018587469501104556
+test total time is 1.8349609375
+Epoch 177, test MAE: 3157.572509765625, test accuracy: 0.7580880353678601, loss: 0.019079435115926108
+train total time is 2.7211008071899414
+Epoch 178, train MAE: 3008.82666015625, train accuracy: 0.7673440445793209 loss: 0.0186121184466723
+test total time is 1.8249247074127197
+Epoch 178, test MAE: 2937.860595703125, test accuracy: 0.7874074438948118, loss: 0.019198290757694334
+train total time is 2.7083616256713867
+Epoch 179, train MAE: 2999.499755859375, train accuracy: 0.7662920863441263 loss: 0.01857828098472278
+test total time is 1.8319966793060303
+Epoch 179, test MAE: 2846.228515625, test accuracy: 0.7757358605873785, loss: 0.018916274297912167
+save checkpoint
+train total time is 2.701373815536499
+Epoch 180, train MAE: 3017.14306640625, train accuracy: 0.7671929720209036 loss: 0.01851008713842844
+test total time is 1.8300304412841797
+Epoch 180, test MAE: 2953.76953125, test accuracy: 0.7638849315456004, loss: 0.018880340165265325
+save checkpoint
+train total time is 2.7175114154815674
+Epoch 181, train MAE: 3019.298095703125, train accuracy: 0.7695336899850257 loss: 0.018407565998440643
+test total time is 1.8275656700134277
+Epoch 181, test MAE: 2984.951416015625, test accuracy: 0.7680768987737272, loss: 0.019199440027323534
+train total time is 2.715240716934204
+Epoch 182, train MAE: 2977.520751953125, train accuracy: 0.7690049537855765 loss: 0.018385803704765044
+test total time is 1.8301198482513428
+Epoch 182, test MAE: 2982.512939453125, test accuracy: 0.7929776273709039, loss: 0.0188606447311786
+save checkpoint
+train total time is 2.7280361652374268
+Epoch 183, train MAE: 3026.400390625, train accuracy: 0.772707078870764 loss: 0.01831399717034315
+test total time is 1.8358323574066162
+Epoch 183, test MAE: 3191.03515625, test accuracy: 0.7393939747199136, loss: 0.018861747645544557
+train total time is 2.7145397663116455
+Epoch 184, train MAE: 3058.689208984375, train accuracy: 0.7699330013227266 loss: 0.018315273354638298
+test total time is 1.8320579528808594
+Epoch 184, test MAE: 3260.089599609375, test accuracy: 0.7683658168044933, loss: 0.01892344993627015
+train total time is 2.7091729640960693
+Epoch 185, train MAE: 3135.611083984375, train accuracy: 0.7690771263169608 loss: 0.01846060071597403
+test total time is 1.8314754962921143
+Epoch 185, test MAE: 3140.717529296875, test accuracy: 0.7655758786836335, loss: 0.018969946233379952
+train total time is 2.71014142036438
+Epoch 186, train MAE: 3143.104248046875, train accuracy: 0.7705214216338684 loss: 0.018254014013229677
+test total time is 1.836742639541626
+Epoch 186, test MAE: 2991.9814453125, test accuracy: 0.7877212233970683, loss: 0.019090952764634253
+train total time is 2.7105226516723633
+Epoch 187, train MAE: 3085.21826171875, train accuracy: 0.7722947822850815 loss: 0.01819552260644312
+test total time is 1.8248915672302246
+Epoch 187, test MAE: 3225.072021484375, test accuracy: 0.7647554297139619, loss: 0.018995385537943187
+train total time is 2.739191770553589
+Epoch 188, train MAE: 3051.132080078125, train accuracy: 0.7731093407856204 loss: 0.018215320688092482
+test total time is 1.8330082893371582
+Epoch 188, test MAE: 3072.75341796875, test accuracy: 0.764806923625612, loss: 0.019055722808500507
+train total time is 2.7108848094940186
+Epoch 189, train MAE: 3105.04296875, train accuracy: 0.7722493542308762 loss: 0.018300176852927456
+test total time is 1.8307483196258545
+Epoch 189, test MAE: 2991.107666015625, test accuracy: 0.7550925593335718, loss: 0.018743144313119492
+save checkpoint
+train total time is 2.7035717964172363
+Epoch 190, train MAE: 3080.806396484375, train accuracy: 0.7724958912749731 loss: 0.018219400996799178
+test total time is 1.8264989852905273
+Epoch 190, test MAE: 3042.771484375, test accuracy: 0.7645170702078061, loss: 0.01868447582325283
+save checkpoint
+train total time is 2.7151215076446533
+Epoch 191, train MAE: 3110.46435546875, train accuracy: 0.7741883510435051 loss: 0.018148184086213697
+test total time is 1.8313090801239014
+Epoch 191, test MAE: 3308.575439453125, test accuracy: 0.7659397822854508, loss: 0.018761723513170233
+train total time is 2.6966946125030518
+Epoch 192, train MAE: 3213.994384765625, train accuracy: 0.7749111560742482 loss: 0.018013196224171035
+test total time is 1.8292064666748047
+Epoch 192, test MAE: 3023.000244140625, test accuracy: 0.7426237490727337, loss: 0.018775693878953188
+train total time is 2.7001683712005615
+Epoch 193, train MAE: 3152.215576171875, train accuracy: 0.7726931439012749 loss: 0.01820528819137868
+test total time is 1.8307254314422607
+Epoch 193, test MAE: 3213.71923828125, test accuracy: 0.7516508332121437, loss: 0.0187600736752293
+train total time is 2.711272716522217
+Epoch 194, train MAE: 3116.05712890625, train accuracy: 0.7763814658221921 loss: 0.018000054023808467
+test total time is 1.8312735557556152
+Epoch 194, test MAE: 3215.417724609375, test accuracy: 0.7545447960964401, loss: 0.018612841636223613
+save checkpoint
+train total time is 2.692836046218872
+Epoch 195, train MAE: 3091.66064453125, train accuracy: 0.7752585974400693 loss: 0.01807833286353721
+test total time is 1.831974744796753
+Epoch 195, test MAE: 3057.11328125, test accuracy: 0.7816320429249739, loss: 0.018508817104376712
+save checkpoint
+train total time is 2.7141284942626953
+Epoch 196, train MAE: 3230.88720703125, train accuracy: 0.7782088206811026 loss: 0.01801137845822663
+test total time is 1.8558528423309326
+Epoch 196, test MAE: 3204.867919921875, test accuracy: 0.773242977852707, loss: 0.01864237873375697
+train total time is 2.7378382682800293
+Epoch 197, train MAE: 3306.64599609375, train accuracy: 0.775861427581454 loss: 0.01804822736929329
+test total time is 1.8349196910858154
+Epoch 197, test MAE: 3139.5712890625, test accuracy: 0.758506861593516, loss: 0.01871340426633943
+train total time is 2.7001354694366455
+Epoch 198, train MAE: 3145.07470703125, train accuracy: 0.7760199137465897 loss: 0.01797307763283826
+test total time is 1.826117992401123
+Epoch 198, test MAE: 3271.21728515625, test accuracy: 0.8068436291102347, loss: 0.018806707693861342
+train total time is 2.7192718982696533
+Epoch 199, train MAE: 3217.670166015625, train accuracy: 0.7793845442666362 loss: 0.017869694193579116
+test total time is 1.8298966884613037
+Epoch 199, test MAE: 3224.572265625, test accuracy: 0.7622061438461173, loss: 0.018896311899330817
+train total time is 2.715151786804199
+Epoch 200, train MAE: 3164.140380859375, train accuracy: 0.7793942578494641 loss: 0.01792612029590978
+test total time is 1.8276698589324951
+Epoch 200, test MAE: 3256.30517578125, test accuracy: 0.744121746324912, loss: 0.018697169328213862
+train total time is 2.6937124729156494
+Epoch 201, train MAE: 3331.89599609375, train accuracy: 0.7813298292241839 loss: 0.017754875554017863
+test total time is 1.8290607929229736
+Epoch 201, test MAE: 3321.5029296875, test accuracy: 0.7702051522419795, loss: 0.01860961499887536
+train total time is 2.7042741775512695
+Epoch 202, train MAE: 3340.693359375, train accuracy: 0.7798287209276427 loss: 0.0177766630109751
+test total time is 1.8278543949127197
+Epoch 202, test MAE: 3376.353515625, test accuracy: 0.7654780489087909, loss: 0.01842161310168932
+save checkpoint
+train total time is 2.7139081954956055
+Epoch 203, train MAE: 3366.94775390625, train accuracy: 0.7787182175850417 loss: 0.01782349499715668
+test total time is 1.8383500576019287
+Epoch 203, test MAE: 3869.428955078125, test accuracy: 0.7612443887039821, loss: 0.01878441731392775
+train total time is 2.714418411254883
+Epoch 204, train MAE: 3397.525146484375, train accuracy: 0.7800170119847952 loss: 0.017795080846210697
+test total time is 1.830108642578125
+Epoch 204, test MAE: 3659.232421875, test accuracy: 0.7435763598796582, loss: 0.018907648001639348
+train total time is 2.6989543437957764
+Epoch 205, train MAE: 3567.59228515625, train accuracy: 0.7770058557901001 loss: 0.017870738048036145
+test total time is 1.8286089897155762
+Epoch 205, test MAE: 3335.466064453125, test accuracy: 0.8028164746941466, loss: 0.0185039430188964
+train total time is 2.7080013751983643
+Epoch 206, train MAE: 3364.115966796875, train accuracy: 0.7801724816701658 loss: 0.01766419994978691
+test total time is 1.8285841941833496
+Epoch 206, test MAE: 3319.182861328125, test accuracy: 0.7752645093459618, loss: 0.01840508296066579
+save checkpoint
+train total time is 2.7071032524108887
+Epoch 207, train MAE: 3441.23681640625, train accuracy: 0.7815199318542054 loss: 0.017711749686947408
+test total time is 1.831942081451416
+Epoch 207, test MAE: 3320.41748046875, test accuracy: 0.7745037365838848, loss: 0.018837604768363374
+train total time is 2.716616630554199
+Epoch 208, train MAE: 3478.972900390625, train accuracy: 0.7784304383633769 loss: 0.017819221359941195
+test total time is 1.8244044780731201
+Epoch 208, test MAE: 3134.663818359375, test accuracy: 0.7987230296369944, loss: 0.01844433894521504
+train total time is 2.7031211853027344
+Epoch 209, train MAE: 3552.43603515625, train accuracy: 0.7829787384139889 loss: 0.017638433004184714
+test total time is 1.832024335861206
+Epoch 209, test MAE: 3143.3583984375, test accuracy: 0.791280386219084, loss: 0.01869096023575315
+train total time is 2.6997642517089844
+Epoch 210, train MAE: 3426.535888671875, train accuracy: 0.7802587868788678 loss: 0.017730917263213755
+test total time is 1.8280410766601562
+Epoch 210, test MAE: 3634.71484375, test accuracy: 0.7620819213139012, loss: 0.018479797356533555
+train total time is 2.720632791519165
+Epoch 211, train MAE: 3453.06103515625, train accuracy: 0.7829123352316967 loss: 0.017626771949372202
+test total time is 1.8253850936889648
+Epoch 211, test MAE: 3452.764404296875, test accuracy: 0.7726361559032419, loss: 0.018446134789934697
+train total time is 2.7124383449554443
+Epoch 212, train MAE: 3368.245361328125, train accuracy: 0.7846019322932192 loss: 0.017579464101285306
+test total time is 1.8345601558685303
+Epoch 212, test MAE: 3281.927490234375, test accuracy: 0.7821176424653882, loss: 0.018424499314278364
+train total time is 2.6937930583953857
+Epoch 213, train MAE: 3450.851806640625, train accuracy: 0.7852728673520826 loss: 0.01756096732328242
+test total time is 1.8301560878753662
+Epoch 213, test MAE: 3300.55419921875, test accuracy: 0.7878649330136362, loss: 0.018439166608073237
+train total time is 2.713482141494751
+Epoch 214, train MAE: 3520.084228515625, train accuracy: 0.7835257188397344 loss: 0.017564613864106952
+test total time is 1.829444408416748
+Epoch 214, test MAE: 3450.57421875, test accuracy: 0.7988128718581562, loss: 0.01837810953059849
+save checkpoint
+train total time is 2.7168240547180176
+Epoch 215, train MAE: 3466.5693359375, train accuracy: 0.7851988173452198 loss: 0.017491886726106114
+test total time is 1.8361692428588867
+Epoch 215, test MAE: 3978.396728515625, test accuracy: 0.7727440978885876, loss: 0.018458015056994726
+train total time is 2.699023485183716
+Epoch 216, train MAE: 3628.12060546875, train accuracy: 0.7843598143436119 loss: 0.017554742872785283
+test total time is 1.8319029808044434
+Epoch 216, test MAE: 3475.669921875, test accuracy: 0.7449696100119196, loss: 0.018412730261191446
+train total time is 2.705057144165039
+Epoch 217, train MAE: 3750.318115234375, train accuracy: 0.7868233040014923 loss: 0.01741782179594321
+test total time is 1.828660249710083
+Epoch 217, test MAE: 3602.751220703125, test accuracy: 0.7929006037159539, loss: 0.01823782194230073
+save checkpoint
+train total time is 2.7206664085388184
+Epoch 218, train MAE: 3698.327880859375, train accuracy: 0.7866378756513491 loss: 0.017366848473068117
+test total time is 1.8284647464752197
+Epoch 218, test MAE: 4004.501708984375, test accuracy: 0.7914787637965306, loss: 0.01838099803634972
+train total time is 2.7280690670013428
+Epoch 219, train MAE: 3671.211669921875, train accuracy: 0.7880999978113594 loss: 0.017396155296701868
+test total time is 1.8278648853302002
+Epoch 219, test MAE: 3925.01806640625, test accuracy: 0.7635165290229876, loss: 0.018211138803722722
+save checkpoint
+train total time is 2.72528076171875
+Epoch 220, train MAE: 3895.43701171875, train accuracy: 0.786959667609205 loss: 0.017341850545116753
+test total time is 1.8258812427520752
+Epoch 220, test MAE: 3356.9462890625, test accuracy: 0.7887322571327693, loss: 0.01819548497573947
+save checkpoint
+train total time is 2.701558828353882
+Epoch 221, train MAE: 3849.339599609375, train accuracy: 0.7866454565733101 loss: 0.01731517992667713
+test total time is 1.8307507038116455
+Epoch 221, test MAE: 4233.16064453125, test accuracy: 0.7769168502034012, loss: 0.018417767073326517
+train total time is 2.6990673542022705
+Epoch 222, train MAE: 3850.167724609375, train accuracy: 0.7896613749180297 loss: 0.017275727371562202
+test total time is 1.832505226135254
+Epoch 222, test MAE: 3583.67431640625, test accuracy: 0.7306129946494326, loss: 0.01857359246087243
+train total time is 2.706346273422241
+Epoch 223, train MAE: 3767.178466796875, train accuracy: 0.7864113724388808 loss: 0.01734662050697601
+test total time is 1.83091402053833
+Epoch 223, test MAE: 3635.15625, test accuracy: 0.7754197550697925, loss: 0.01817116150105337
+save checkpoint
+train total time is 2.7147040367126465
+Epoch 224, train MAE: 3796.979736328125, train accuracy: 0.7883959865884944 loss: 0.017260958106731467
+test total time is 1.8309683799743652
+Epoch 224, test MAE: 3689.835693359375, test accuracy: 0.7810580666925583, loss: 0.018284863212479734
+train total time is 2.711632013320923
+Epoch 225, train MAE: 3877.042236328125, train accuracy: 0.7889379277112902 loss: 0.017235564805988996
+test total time is 1.8329753875732422
+Epoch 225, test MAE: 4154.93408203125, test accuracy: 0.7638673652316591, loss: 0.018451333801560808
+train total time is 2.7214958667755127
+Epoch 226, train MAE: 3658.92724609375, train accuracy: 0.7881784229776387 loss: 0.017363275497940915
+test total time is 1.8259427547454834
+Epoch 226, test MAE: 3739.809814453125, test accuracy: 0.7713169259946435, loss: 0.01822875934775989
+train total time is 2.705221176147461
+Epoch 227, train MAE: 3751.101806640625, train accuracy: 0.7886157267952902 loss: 0.017231154044703493
+test total time is 1.834108591079712
+Epoch 227, test MAE: 3943.774658203125, test accuracy: 0.7661809979490567, loss: 0.018373021943810977
+train total time is 2.7183072566986084
+Epoch 228, train MAE: 3753.447998046875, train accuracy: 0.7872124049280749 loss: 0.01728739916294251
+test total time is 1.8283884525299072
+Epoch 228, test MAE: 4204.0390625, test accuracy: 0.7390655840863585, loss: 0.018531894583676784
+train total time is 2.711341619491577
+Epoch 229, train MAE: 3718.49853515625, train accuracy: 0.7876582613567311 loss: 0.017188915912553948
+test total time is 1.8260879516601562
+Epoch 229, test MAE: 4077.94482421875, test accuracy: 0.7892238269591656, loss: 0.01823190709505722
+train total time is 2.7062652111053467
+Epoch 230, train MAE: 4176.5703125, train accuracy: 0.789920123228893 loss: 0.017122168401431926
+test total time is 1.8363661766052246
+Epoch 230, test MAE: 4477.80712890625, test accuracy: 0.7635106935585727, loss: 0.01819408179770382
+train total time is 2.6883556842803955
+Epoch 231, train MAE: 4031.845458984375, train accuracy: 0.7867174178543787 loss: 0.017272313380227337
+test total time is 1.829239845275879
+Epoch 231, test MAE: 4728.29931640625, test accuracy: 0.763519466697552, loss: 0.019744825303413958
+train total time is 2.716310977935791
+Epoch 232, train MAE: 3841.068603515625, train accuracy: 0.7870208118131825 loss: 0.01746386720113597
+test total time is 1.8272905349731445
+Epoch 232, test MAE: 3803.311279296875, test accuracy: 0.7934134382116147, loss: 0.018169964558251622
+save checkpoint
+train total time is 2.703157901763916
+Epoch 233, train MAE: 4004.69140625, train accuracy: 0.7889557190443695 loss: 0.017168893979616323
+test total time is 1.8321433067321777
+Epoch 233, test MAE: 3814.419921875, test accuracy: 0.7934630138807586, loss: 0.018120954718159617
+save checkpoint
+train total time is 2.6999220848083496
+Epoch 234, train MAE: 4094.67724609375, train accuracy: 0.7907308033983055 loss: 0.017071092184984458
+test total time is 1.8297970294952393
+Epoch 234, test MAE: 4267.95361328125, test accuracy: 0.7850408783888303, loss: 0.018351301436646365
+train total time is 2.706571340560913
+Epoch 235, train MAE: 4102.28515625, train accuracy: 0.7891321418902904 loss: 0.017201351458733936
+test total time is 1.8268561363220215
+Epoch 235, test MAE: 4956.076171875, test accuracy: 0.756949287158936, loss: 0.019084725546527584
+train total time is 2.751406192779541
+Epoch 236, train MAE: 4053.148193359375, train accuracy: 0.7889036597897107 loss: 0.017268910520833056
+test total time is 1.8327229022979736
+Epoch 236, test MAE: 4102.625, test accuracy: 0.7759676830888396, loss: 0.018049180911818764
+save checkpoint
+train total time is 2.729536294937134
+Epoch 237, train MAE: 4198.1533203125, train accuracy: 0.7908260921436931 loss: 0.017054785912821314
+test total time is 1.8358402252197266
+Epoch 237, test MAE: 3779.72021484375, test accuracy: 0.7701633211356086, loss: 0.018378712676184357
+train total time is 2.7152981758117676
+Epoch 238, train MAE: 4208.37744140625, train accuracy: 0.790138227603112 loss: 0.016983680646725983
+test total time is 1.8243281841278076
+Epoch 238, test MAE: 4107.81298828125, test accuracy: 0.8141496658547669, loss: 0.018449203146375576
+train total time is 2.7087767124176025
+Epoch 239, train MAE: 4439.5283203125, train accuracy: 0.7908311753817158 loss: 0.01701816060703318
+test total time is 1.8300158977508545
+Epoch 239, test MAE: 3885.072509765625, test accuracy: 0.796979836270483, loss: 0.018054142453760472
+train total time is 2.698744058609009
+Epoch 240, train MAE: 4361.90087890625, train accuracy: 0.7926435002019234 loss: 0.0169025945108173
+test total time is 1.8314926624298096
+Epoch 240, test MAE: 4627.333984375, test accuracy: 0.775088951847985, loss: 0.018277375589845317
+train total time is 2.702601194381714
+Epoch 241, train MAE: 4274.11474609375, train accuracy: 0.7929754586358246 loss: 0.016897467158313067
+test total time is 1.825761079788208
+Epoch 241, test MAE: 4025.133056640625, test accuracy: 0.7707298133042376, loss: 0.0180082149311619
+save checkpoint
+train total time is 2.7355637550354004
+Epoch 242, train MAE: 4276.17138671875, train accuracy: 0.793533964217267 loss: 0.01683806092917638
+test total time is 1.8332715034484863
+Epoch 242, test MAE: 4118.44775390625, test accuracy: 0.7655561003597298, loss: 0.018203890671566973
+train total time is 2.7180614471435547
+Epoch 243, train MAE: 4227.60546875, train accuracy: 0.7955735003285489 loss: 0.016818944663512258
+test total time is 1.8295660018920898
+Epoch 243, test MAE: 4004.90625, test accuracy: 0.7897802518578141, loss: 0.01809711094488794
+train total time is 2.6978378295898438
+Epoch 244, train MAE: 4394.07275390625, train accuracy: 0.7931084627082376 loss: 0.016872182769595453
+test total time is 1.8269562721252441
+Epoch 244, test MAE: 4035.990234375, test accuracy: 0.7746868555744234, loss: 0.018170435007942735
+train total time is 2.7017030715942383
+Epoch 245, train MAE: 4407.63134765625, train accuracy: 0.7923548810964337 loss: 0.016917695010186366
+test total time is 1.8317954540252686
+Epoch 245, test MAE: 4550.71826171875, test accuracy: 0.7639908712434214, loss: 0.018116148856450926
+train total time is 2.7127811908721924
+Epoch 246, train MAE: 4382.10693359375, train accuracy: 0.7919425405756781 loss: 0.016890896282176365
+test total time is 1.8333885669708252
+Epoch 246, test MAE: 4954.33447265625, test accuracy: 0.7663560727733396, loss: 0.018133379554129997
+train total time is 2.723033905029297
+Epoch 247, train MAE: 4469.9609375, train accuracy: 0.7939817555989619 loss: 0.016780007894168485
+test total time is 1.8270106315612793
+Epoch 247, test MAE: 4922.88720703125, test accuracy: 0.7547039290818314, loss: 0.018387835156523955
+train total time is 2.706616163253784
+Epoch 248, train MAE: 3782.38525390625, train accuracy: 0.7771026924979184 loss: 0.017930110696843773
+test total time is 1.8267440795898438
+Epoch 248, test MAE: 4406.28466796875, test accuracy: 0.7832061284450627, loss: 0.01809797437756129
+train total time is 2.7247674465179443
+Epoch 249, train MAE: 4262.919921875, train accuracy: 0.7921097686345979 loss: 0.016885739136135804
+test total time is 1.828507661819458
+Epoch 249, test MAE: 3962.9404296875, test accuracy: 0.7957338234921709, loss: 0.018033280661153905
+train total time is 2.7519330978393555
+Epoch 250, train MAE: 4367.623046875, train accuracy: 0.792370992661863 loss: 0.016881350629945408
+test total time is 1.8218927383422852
+Epoch 250, test MAE: 4016.32763671875, test accuracy: 0.7703214920817337, loss: 0.018060933956700675
+train total time is 2.7141382694244385
+Epoch 251, train MAE: 4479.14306640625, train accuracy: 0.7936576416974598 loss: 0.016758125600457755
+test total time is 1.8286094665527344
+Epoch 251, test MAE: 4721.7412109375, test accuracy: 0.7946585488713572, loss: 0.01837592303998909
+train total time is 2.7246413230895996
+Epoch 252, train MAE: 4667.67431640625, train accuracy: 0.795603977789148 loss: 0.0167070819803004
+test total time is 1.830244541168213
+Epoch 252, test MAE: 4597.0107421875, test accuracy: 0.7882965420091295, loss: 0.018316302703306923
+train total time is 2.7037346363067627
+Epoch 253, train MAE: 4491.28515625, train accuracy: 0.7970156190495162 loss: 0.016654511940015375
+test total time is 1.8330786228179932
+Epoch 253, test MAE: 3870.210205078125, test accuracy: 0.7936295918254402, loss: 0.018079692155193044
+train total time is 2.7222394943237305
+Epoch 254, train MAE: 4493.10498046875, train accuracy: 0.7950119207897814 loss: 0.01665509826907853
+test total time is 1.828615427017212
+Epoch 254, test MAE: 4332.203125, test accuracy: 0.8163738250193298, loss: 0.018361970755921782
+train total time is 2.6928601264953613
+Epoch 255, train MAE: 4634.81396484375, train accuracy: 0.7938579243460135 loss: 0.01693035332696899
+test total time is 1.8303420543670654
+Epoch 255, test MAE: 4676.64990234375, test accuracy: 0.7647890577081881, loss: 0.01907660030179991
+train total time is 2.7007346153259277
+Epoch 256, train MAE: 4426.63525390625, train accuracy: 0.7916068136483331 loss: 0.016872556721967347
+test total time is 1.8304314613342285
+Epoch 256, test MAE: 4282.76220703125, test accuracy: 0.771073129652748, loss: 0.0180580792860743
+train total time is 2.7088699340820312
+Epoch 257, train MAE: 4667.12255859375, train accuracy: 0.7963280316618604 loss: 0.01661577450884682
+test total time is 1.830737829208374
+Epoch 257, test MAE: 4531.9384765625, test accuracy: 0.7651756074634115, loss: 0.018110944959774333
+train total time is 2.697549819946289
+Epoch 258, train MAE: 4831.6962890625, train accuracy: 0.7964585160827986 loss: 0.016492168568426144
+test total time is 1.8373770713806152
+Epoch 258, test MAE: 4168.052734375, test accuracy: 0.795146126574974, loss: 0.018543008916993748
+train total time is 2.7236804962158203
+Epoch 259, train MAE: 4747.70361328125, train accuracy: 0.7959703139823113 loss: 0.01660779431321711
+test total time is 1.829859972000122
+Epoch 259, test MAE: 4158.83251953125, test accuracy: 0.7942620542154506, loss: 0.01796815150751258
+save checkpoint
+train total time is 2.7211077213287354
+Epoch 260, train MAE: 4817.5498046875, train accuracy: 0.7995464176761233 loss: 0.01641340621413206
+test total time is 1.8292491436004639
+Epoch 260, test MAE: 4877.59423828125, test accuracy: 0.7984694415042789, loss: 0.018019642144933623
+train total time is 2.697997808456421
+Epoch 261, train MAE: 5009.09375, train accuracy: 0.7992986317900571 loss: 0.016405081789378287
+test total time is 1.8343210220336914
+Epoch 261, test MAE: 4581.6103515625, test accuracy: 0.8064254470320662, loss: 0.018132931649474042
+train total time is 2.710756540298462
+Epoch 262, train MAE: 5167.39013671875, train accuracy: 0.798642471584508 loss: 0.016464560354163625
+test total time is 1.8280298709869385
+Epoch 262, test MAE: 4576.15234375, test accuracy: 0.7681176804876916, loss: 0.018114217548226973
+train total time is 2.720905303955078
+Epoch 263, train MAE: 5102.7470703125, train accuracy: 0.799680560752823 loss: 0.016337216216719377
+test total time is 1.8276910781860352
+Epoch 263, test MAE: 4916.5244140625, test accuracy: 0.7861632470256912, loss: 0.017990652577213523
+train total time is 2.712979316711426
+Epoch 264, train MAE: 5150.63671875, train accuracy: 0.8004357562296673 loss: 0.01632693355446154
+test total time is 1.8321139812469482
+Epoch 264, test MAE: 4779.0517578125, test accuracy: 0.7652672331055121, loss: 0.018355081226887567
+train total time is 2.7317192554473877
+Epoch 265, train MAE: 5095.72119140625, train accuracy: 0.7986840652426598 loss: 0.016351223185236723
+test total time is 1.8254897594451904
+Epoch 265, test MAE: 5195.99951171875, test accuracy: 0.7793651863318449, loss: 0.018111461105774034
+train total time is 2.7126317024230957
+Epoch 266, train MAE: 5295.69384765625, train accuracy: 0.7988887230506303 loss: 0.016534714230318676
+test total time is 1.8350489139556885
+Epoch 266, test MAE: 4897.876953125, test accuracy: 0.7592919440885451, loss: 0.018133878804532426
+train total time is 2.700627565383911
+Epoch 267, train MAE: 5155.8955078125, train accuracy: 0.8001975166111865 loss: 0.01632532779619379
+test total time is 1.827488660812378
+Epoch 267, test MAE: 4844.3486328125, test accuracy: 0.7941544359579097, loss: 0.018237930362306115
+train total time is 2.7038471698760986
+Epoch 268, train MAE: 4969.97705078125, train accuracy: 0.8009624037033223 loss: 0.016348180624673952
+test total time is 1.8324744701385498
+Epoch 268, test MAE: 4885.060546875, test accuracy: 0.787212437636762, loss: 0.017996471050142678
+train total time is 2.6978297233581543
+Epoch 269, train MAE: 5222.10498046875, train accuracy: 0.7995737907868115 loss: 0.01636117289967413
+test total time is 1.835430383682251
+Epoch 269, test MAE: 5238.48046875, test accuracy: 0.800823544660106, loss: 0.01815954580867909
+train total time is 2.6967132091522217
+Epoch 270, train MAE: 5288.84716796875, train accuracy: 0.8000682590646808 loss: 0.01636436215232847
+test total time is 1.8463716506958008
+Epoch 270, test MAE: 4603.0947265625, test accuracy: 0.7915517920205792, loss: 0.01808555791470802
+train total time is 2.722210645675659
+Epoch 271, train MAE: 5189.07666015625, train accuracy: 0.7985862129107244 loss: 0.01629090441812603
+test total time is 1.8225278854370117
+Epoch 271, test MAE: 4416.4990234375, test accuracy: 0.8247108269333296, loss: 0.018678155385028077
+train total time is 2.714470386505127
+Epoch 272, train MAE: 5304.42724609375, train accuracy: 0.7996020916514706 loss: 0.016434349848906387
+test total time is 1.8297951221466064
+Epoch 272, test MAE: 5250.2451171875, test accuracy: 0.7575263142910653, loss: 0.01831560976416716
+train total time is 2.696828842163086
+Epoch 273, train MAE: 5313.9345703125, train accuracy: 0.8024767608582835 loss: 0.016197859169036714
+test total time is 1.8335239887237549
+Epoch 273, test MAE: 4747.24755859375, test accuracy: 0.7889389218673792, loss: 0.01814757344611692
+train total time is 2.704892873764038
+Epoch 274, train MAE: 5302.5341796875, train accuracy: 0.7999659081931592 loss: 0.01628611144557033
+test total time is 1.8325135707855225
+Epoch 274, test MAE: 5438.0771484375, test accuracy: 0.7964779054066498, loss: 0.018334849843017337
+train total time is 2.7037911415100098
+Epoch 275, train MAE: 5422.7587890625, train accuracy: 0.8037824061338554 loss: 0.016112745924026898
+test total time is 1.8319566249847412
+Epoch 275, test MAE: 5921.4736328125, test accuracy: 0.7867048510706032, loss: 0.018150480305951722
+train total time is 2.693587303161621
+Epoch 276, train MAE: 5422.392578125, train accuracy: 0.8023904117145084 loss: 0.016195548751022457
+test total time is 1.8309168815612793
+Epoch 276, test MAE: 4469.0048828125, test accuracy: 0.8217385787513343, loss: 0.018617506727646543
+train total time is 2.7239606380462646
+Epoch 277, train MAE: 5603.22119140625, train accuracy: 0.8040667818851475 loss: 0.016111527683810807
+test total time is 1.8321666717529297
+Epoch 277, test MAE: 5636.876953125, test accuracy: 0.7603136958579577, loss: 0.018307507002972206
+train total time is 2.7190985679626465
+Epoch 278, train MAE: 5477.6328125, train accuracy: 0.8032896176236359 loss: 0.01609936401353411
+test total time is 1.832047939300537
+Epoch 278, test MAE: 5788.267578125, test accuracy: 0.7944726211917954, loss: 0.018055298339294375
+train total time is 2.7022082805633545
+Epoch 279, train MAE: 5530.95458984375, train accuracy: 0.8034144121405787 loss: 0.01609643620772744
+test total time is 1.8301193714141846
+Epoch 279, test MAE: 5837.04150390625, test accuracy: 0.7656197445657817, loss: 0.01822159709936043
+train total time is 2.7083418369293213
+Epoch 280, train MAE: 5645.99609375, train accuracy: 0.8035086058167529 loss: 0.016006598539017845
+test total time is 1.8303139209747314
+Epoch 280, test MAE: 6213.8857421875, test accuracy: 0.7977208939374745, loss: 0.018190174925861495
+train total time is 2.7123019695281982
+Epoch 281, train MAE: 5893.55078125, train accuracy: 0.805118097944346 loss: 0.015977865243154876
+test total time is 1.8314127922058105
+Epoch 281, test MAE: 6239.138671875, test accuracy: 0.7899774335492344, loss: 0.01814903810901462
+train total time is 2.6973679065704346
+Epoch 282, train MAE: 5835.3984375, train accuracy: 0.805964769738061 loss: 0.015979602194900782
+test total time is 1.8272812366485596
+Epoch 282, test MAE: 5787.93115234375, test accuracy: 0.7607345601675127, loss: 0.018153550472321374
+train total time is 2.7084739208221436
+Epoch 283, train MAE: 5749.73583984375, train accuracy: 0.8014735243099842 loss: 0.016086058664785803
+test total time is 1.8287642002105713
+Epoch 283, test MAE: 5061.0537109375, test accuracy: 0.8017828630896666, loss: 0.018209294960746226
+train total time is 2.7159500122070312
+Epoch 284, train MAE: 5827.70849609375, train accuracy: 0.8041926139937439 loss: 0.016059041234119883
+test total time is 1.8269619941711426
+Epoch 284, test MAE: 5558.35693359375, test accuracy: 0.788843897473438, loss: 0.017999603070388986
+train total time is 2.7165184020996094
+Epoch 285, train MAE: 5696.41552734375, train accuracy: 0.8080734263909384 loss: 0.015898259391762176
+test total time is 1.829315185546875
+Epoch 285, test MAE: 5570.94677734375, test accuracy: 0.7949118790329907, loss: 0.018271583141231874
+train total time is 2.712067127227783
+Epoch 286, train MAE: 5793.5830078125, train accuracy: 0.8050325886843959 loss: 0.015880340516988962
+test total time is 1.8272054195404053
+Epoch 286, test MAE: 5814.05419921875, test accuracy: 0.771243076388922, loss: 0.01818748689168748
+train total time is 2.7005579471588135
+Epoch 287, train MAE: 5727.36572265625, train accuracy: 0.8058334674008343 loss: 0.015971026664494344
+test total time is 1.832019567489624
+Epoch 287, test MAE: 4978.10009765625, test accuracy: 0.7882561165112224, loss: 0.018121618232777657
+train total time is 2.712789297103882
+Epoch 288, train MAE: 5859.31884765625, train accuracy: 0.8071865635537963 loss: 0.01584037020802498
+test total time is 1.827305555343628
+Epoch 288, test MAE: 5763.5068359375, test accuracy: 0.8096576580974607, loss: 0.018263931052302413
+train total time is 2.7085068225860596
+Epoch 289, train MAE: 6116.10986328125, train accuracy: 0.8056311754715829 loss: 0.0159201425201488
+test total time is 1.8279054164886475
+Epoch 289, test MAE: 5958.0556640625, test accuracy: 0.7950480030326748, loss: 0.018169374785052157
+train total time is 2.7050037384033203
+Epoch 290, train MAE: 5986.56298828125, train accuracy: 0.8075442372982721 loss: 0.015862683229640406
+test total time is 1.8316071033477783
+Epoch 290, test MAE: 6334.6806640625, test accuracy: 0.7905803141524685, loss: 0.018121355722816486
+train total time is 2.691887617111206
+Epoch 291, train MAE: 5899.1552734375, train accuracy: 0.8068740322855512 loss: 0.015939627018458438
+test total time is 1.8319969177246094
+Epoch 291, test MAE: 5755.1318359375, test accuracy: 0.7923475534448239, loss: 0.018087018193360768
+train total time is 2.7023580074310303
+Epoch 292, train MAE: 5950.18359375, train accuracy: 0.8056637855930493 loss: 0.015909819960383313
+test total time is 1.828824520111084
+Epoch 292, test MAE: 5420.27587890625, test accuracy: 0.7937641154743968, loss: 0.018271398405491742
+train total time is 2.7490458488464355
+Epoch 293, train MAE: 6140.51123046875, train accuracy: 0.8060611315851256 loss: 0.016019958554644068
+test total time is 1.8320808410644531
+Epoch 293, test MAE: 6507.4990234375, test accuracy: 0.7782423500014644, loss: 0.01817708958889235
+train total time is 2.7043585777282715
+Epoch 294, train MAE: 6145.2275390625, train accuracy: 0.8058314665451862 loss: 0.015864552104107615
+test total time is 1.8315010070800781
+Epoch 294, test MAE: 5437.64013671875, test accuracy: 0.7941684595542954, loss: 0.01812252698395893
+train total time is 2.768836498260498
+Epoch 295, train MAE: 6094.0654296875, train accuracy: 0.8078075939864043 loss: 0.01583503828963862
+test total time is 1.8341622352600098
+Epoch 295, test MAE: 6285.7607421875, test accuracy: 0.7800878895716925, loss: 0.01811392301306972
+train total time is 2.728436231613159
+Epoch 296, train MAE: 6081.3193359375, train accuracy: 0.8072865485465988 loss: 0.015739420850603085
+test total time is 1.829686164855957
+Epoch 296, test MAE: 6098.8662109375, test accuracy: 0.8186883689994449, loss: 0.018778917203956056
+train total time is 2.6967155933380127
+Epoch 297, train MAE: 6452.455078125, train accuracy: 0.8078523934071005 loss: 0.015845377042116422
+test total time is 1.8386788368225098
+Epoch 297, test MAE: 6521.11865234375, test accuracy: 0.7814266697934609, loss: 0.018243231494331134
+train total time is 2.724827289581299
+Epoch 298, train MAE: 6365.54052734375, train accuracy: 0.8075070627346099 loss: 0.01572531951099353
+test total time is 1.8361775875091553
+Epoch 298, test MAE: 6265.63818359375, test accuracy: 0.7758415606024134, loss: 0.01862282961396114
+train total time is 2.714320421218872
+Epoch 299, train MAE: 6539.09375, train accuracy: 0.8088827918157722 loss: 0.01576877420082829
+test total time is 1.8373517990112305
+Epoch 299, test MAE: 5365.62109375, test accuracy: 0.7911325222257256, loss: 0.01828658261845978
+train total time is 2.7019612789154053
+Epoch 300, train MAE: 6668.1669921875, train accuracy: 0.8075036372967006 loss: 0.015776614913330326
+test total time is 1.8391227722167969
+Epoch 300, test MAE: 5991.1318359375, test accuracy: 0.8011804110754561, loss: 0.018224484462923598
+train total time is 2.7177741527557373
+Epoch 301, train MAE: 6359.14453125, train accuracy: 0.8095060647469299 loss: 0.01574235341845537
+test total time is 1.8268263339996338
+Epoch 301, test MAE: 6998.0, test accuracy: 0.7906433350272334, loss: 0.018300832987253397
+train total time is 2.7076549530029297
+Epoch 302, train MAE: 6498.4736328125, train accuracy: 0.8105527065262499 loss: 0.01552859440727054
+test total time is 1.8319125175476074
+Epoch 302, test MAE: 6467.68798828125, test accuracy: 0.8042340794998826, loss: 0.01826193798684849
+train total time is 2.7140026092529297
+Epoch 303, train MAE: 6516.74462890625, train accuracy: 0.8125240937849801 loss: 0.015564201434828201
+test total time is 1.8330354690551758
+Epoch 303, test MAE: 6761.25634765625, test accuracy: 0.7700896662721508, loss: 0.018600805811935437
+train total time is 2.70643949508667
+Epoch 304, train MAE: 6690.8349609375, train accuracy: 0.8105564969872304 loss: 0.01558797044749811
+test total time is 1.831538438796997
+Epoch 304, test MAE: 6630.8369140625, test accuracy: 0.7899336933445054, loss: 0.01829618010845668
+train total time is 2.7187187671661377
+Epoch 305, train MAE: 6662.4697265625, train accuracy: 0.8096039170788654 loss: 0.015670789414489607
+test total time is 1.8307650089263916
+Epoch 305, test MAE: 6756.85205078125, test accuracy: 0.7796221490920789, loss: 0.018214380061078183
+train total time is 2.6972038745880127
+Epoch 306, train MAE: 6740.17333984375, train accuracy: 0.8120440133698172 loss: 0.015524913099998573
+test total time is 1.8293569087982178
+Epoch 306, test MAE: 6202.3447265625, test accuracy: 0.7981954700046683, loss: 0.018252559981467027
+train total time is 2.7174975872039795
+Epoch 307, train MAE: 6840.1181640625, train accuracy: 0.8110970135277651 loss: 0.01558341697420714
+test total time is 1.826740026473999
+Epoch 307, test MAE: 6785.86083984375, test accuracy: 0.7873137019598195, loss: 0.018202662916045706
+train total time is 2.726689577102661
+Epoch 308, train MAE: 6864.654296875, train accuracy: 0.8111191580527244 loss: 0.015455089105328298
+test total time is 1.8287198543548584
+Epoch 308, test MAE: 6430.38720703125, test accuracy: 0.8229864706676562, loss: 0.01849953505157862
+train total time is 2.7069504261016846
+Epoch 309, train MAE: 6855.28955078125, train accuracy: 0.8117658378932977 loss: 0.015490688014564649
+test total time is 1.8367681503295898
+Epoch 309, test MAE: 8085.837890625, test accuracy: 0.7844480800357507, loss: 0.018815807989394327
+learning rate change
+train total time is 2.7170610427856445
+Epoch 310, train MAE: 7298.904296875, train accuracy: 0.819228056897692 loss: 0.014954105590663428
+test total time is 1.8275723457336426
+Epoch 310, test MAE: 7246.83447265625, test accuracy: 0.7979448911392659, loss: 0.018325510461164533
+train total time is 2.7185633182525635
+Epoch 311, train MAE: 7297.814453125, train accuracy: 0.8217769899129128 loss: 0.014850088983844474
+test total time is 1.8314244747161865
+Epoch 311, test MAE: 7595.56591796875, test accuracy: 0.7927311962660486, loss: 0.01844557604032024
+train total time is 2.700162887573242
+Epoch 312, train MAE: 7454.3642578125, train accuracy: 0.8210657979080127 loss: 0.014835562108892877
+test total time is 1.8352701663970947
+Epoch 312, test MAE: 7375.8994140625, test accuracy: 0.7939150004071209, loss: 0.018390976463637826
+train total time is 2.701911449432373
+Epoch 313, train MAE: 7414.4306640625, train accuracy: 0.8210539516643176 loss: 0.014807195929845548
+test total time is 1.836014747619629
+Epoch 313, test MAE: 7547.595703125, test accuracy: 0.7984983458750974, loss: 0.018432690638978528
+train total time is 2.7084157466888428
+Epoch 314, train MAE: 7538.80126953125, train accuracy: 0.8217283121610903 loss: 0.014804538023078217
+test total time is 1.832519769668579
+Epoch 314, test MAE: 7488.30126953125, test accuracy: 0.7966730040736487, loss: 0.018437737309075188
+train total time is 2.718787908554077
+Epoch 315, train MAE: 7599.3125, train accuracy: 0.8214646343849599 loss: 0.01479122898418386
+test total time is 1.8255879878997803
+Epoch 315, test MAE: 7726.20849609375, test accuracy: 0.7968220697890593, loss: 0.01852099714308696
+train total time is 2.718137741088867
+Epoch 316, train MAE: 7547.5146484375, train accuracy: 0.8217833439604412 loss: 0.014791209206758242
+test total time is 1.8274035453796387
+Epoch 316, test MAE: 7920.9853515625, test accuracy: 0.7884358309138944, loss: 0.018525726864782145
+train total time is 2.7166881561279297
+Epoch 317, train MAE: 7683.57373046875, train accuracy: 0.8214384222460949 loss: 0.014758036603694255
+test total time is 1.830688714981079
+Epoch 317, test MAE: 7667.77099609375, test accuracy: 0.7985249425188825, loss: 0.01846692830605327
+train total time is 2.711503744125366
+Epoch 318, train MAE: 7751.8857421875, train accuracy: 0.8221347734950712 loss: 0.014758347586359619
+test total time is 1.8327226638793945
+Epoch 318, test MAE: 7722.2880859375, test accuracy: 0.7988805830878585, loss: 0.01851017734492725
+train total time is 2.727933168411255
+Epoch 319, train MAE: 7743.17822265625, train accuracy: 0.8224493056189645 loss: 0.014744723426564684
+test total time is 1.8281493186950684
+Epoch 319, test MAE: 7810.294921875, test accuracy: 0.7889386880206193, loss: 0.018544865157103765
+train total time is 2.7271928787231445
+Epoch 320, train MAE: 7730.59033203125, train accuracy: 0.8222046021152728 loss: 0.014753436221618135
+test total time is 1.82847261428833
+Epoch 320, test MAE: 7874.466796875, test accuracy: 0.790023032075773, loss: 0.01853530535931295
+train total time is 2.699930429458618
+Epoch 321, train MAE: 7813.501953125, train accuracy: 0.8222529148440243 loss: 0.014736376447989693
+test total time is 1.832364797592163
+Epoch 321, test MAE: 7661.66455078125, test accuracy: 0.8000749970933017, loss: 0.018495100849079637
+train total time is 2.712895393371582
+Epoch 322, train MAE: 7888.32177734375, train accuracy: 0.8220001775251544 loss: 0.014719987753778696
+test total time is 1.8284027576446533
+Epoch 322, test MAE: 7850.2587890625, test accuracy: 0.7998192451992678, loss: 0.018583600655338674
+train total time is 2.7106008529663086
+Epoch 323, train MAE: 7797.10009765625, train accuracy: 0.8224641244073516 loss: 0.01472132768095383
+test total time is 1.832141399383545
+Epoch 323, test MAE: 7523.71923828125, test accuracy: 0.7996617125646042, loss: 0.018458991425709344
+train total time is 2.707895517349243
+Epoch 324, train MAE: 7917.29443359375, train accuracy: 0.8232058158403874 loss: 0.014723076370878602
+test total time is 1.83140230178833
+Epoch 324, test MAE: 7846.2568359375, test accuracy: 0.795506901068085, loss: 0.01854261906184959
+train total time is 2.7104499340057373
+Epoch 325, train MAE: 7949.67626953125, train accuracy: 0.8229412322778226 loss: 0.014701375667497798
+test total time is 1.8242394924163818
+Epoch 325, test MAE: 8240.263671875, test accuracy: 0.7926091557834467, loss: 0.018638386742545747
+train total time is 2.7146377563476562
+Epoch 326, train MAE: 7946.5380859375, train accuracy: 0.8227410290743653 loss: 0.014694797964590901
+test total time is 1.8320667743682861
+Epoch 326, test MAE: 8097.88134765625, test accuracy: 0.7933717868673333, loss: 0.018618388769199263
+train total time is 2.7008841037750244
+Epoch 327, train MAE: 8002.20556640625, train accuracy: 0.8225683088192788 loss: 0.014691885262024853
+test total time is 1.8352274894714355
+Epoch 327, test MAE: 7948.84130859375, test accuracy: 0.8000880886107695, loss: 0.018583612138721742
+train total time is 2.706979513168335
+Epoch 328, train MAE: 8019.97900390625, train accuracy: 0.8234204728091605 loss: 0.014675897959057452
+test total time is 1.8232369422912598
+Epoch 328, test MAE: 8049.3486328125, test accuracy: 0.7965704689636943, loss: 0.018632696054102678
+train total time is 2.6983566284179688
+Epoch 329, train MAE: 8064.11083984375, train accuracy: 0.8240939934221083 loss: 0.01467797669740218
+test total time is 1.8257930278778076
+Epoch 329, test MAE: 7790.630859375, test accuracy: 0.7964925523343227, loss: 0.018614384591720014
+train total time is 2.6942226886749268
+Epoch 330, train MAE: 8060.98828125, train accuracy: 0.8239365668161627 loss: 0.014658508224869674
+test total time is 1.8339903354644775
+Epoch 330, test MAE: 8361.9111328125, test accuracy: 0.791291550349898, loss: 0.01867262744081189
+train total time is 2.7167887687683105
+Epoch 331, train MAE: 8068.232421875, train accuracy: 0.8223849911624663 loss: 0.014678278050543565
+test total time is 1.8261573314666748
+Epoch 331, test MAE: 8502.63671875, test accuracy: 0.7955594469000459, loss: 0.018664302269242844
+train total time is 2.7147719860076904
+Epoch 332, train MAE: 8212.8310546875, train accuracy: 0.8227537152018853 loss: 0.014640624775498544
+test total time is 1.8327622413635254
+Epoch 332, test MAE: 8111.3798828125, test accuracy: 0.7982407897439245, loss: 0.018625902152567538
+train total time is 2.691366672515869
+Epoch 333, train MAE: 8175.4326171875, train accuracy: 0.8236063760200574 loss: 0.01464269118699825
+test total time is 1.8335063457489014
+Epoch 333, test MAE: 8294.080078125, test accuracy: 0.7944708319348304, loss: 0.01871058186691887
+train total time is 2.725487232208252
+Epoch 334, train MAE: 8208.7197265625, train accuracy: 0.8241126246390124 loss: 0.014643101417020245
+test total time is 1.824991226196289
+Epoch 334, test MAE: 8247.6337890625, test accuracy: 0.7967978199768039, loss: 0.018741827633864474
+train total time is 2.7157230377197266
+Epoch 335, train MAE: 8195.13671875, train accuracy: 0.8233282005435381 loss: 0.014657810875126775
+test total time is 1.830805778503418
+Epoch 335, test MAE: 8290.5751953125, test accuracy: 0.8032948689580566, loss: 0.01868525416291547
+train total time is 2.701352119445801
+Epoch 336, train MAE: 8296.7060546875, train accuracy: 0.8234027254111544 loss: 0.014641592577802684
+test total time is 1.833883285522461
+Epoch 336, test MAE: 8239.66015625, test accuracy: 0.80036538396135, loss: 0.018699676668236277
+train total time is 2.7136683464050293
+Epoch 337, train MAE: 8215.6689453125, train accuracy: 0.8242070295655021 loss: 0.01462554393933629
+test total time is 1.8295817375183105
+Epoch 337, test MAE: 8259.6494140625, test accuracy: 0.7943788767288987, loss: 0.01875551884009872
+train total time is 2.7374279499053955
+Epoch 338, train MAE: 8299.998046875, train accuracy: 0.8239323234619649 loss: 0.014630701524679953
+test total time is 1.8363826274871826
+Epoch 338, test MAE: 8165.91015625, test accuracy: 0.7978715092270642, loss: 0.018614725121911965
+train total time is 2.694869041442871
+Epoch 339, train MAE: 8260.8544921875, train accuracy: 0.8247154987154701 loss: 0.014624482908128004
+test total time is 1.836928129196167
+Epoch 339, test MAE: 8512.3369140625, test accuracy: 0.7923678560748222, loss: 0.018711839354474027
+train total time is 2.7123425006866455
+Epoch 340, train MAE: 8318.0263671875, train accuracy: 0.8241684963221882 loss: 0.014609978367346075
+test total time is 1.8267197608947754
+Epoch 340, test MAE: 8298.1171875, test accuracy: 0.7902486537526139, loss: 0.018717784961720683
+train total time is 2.705251455307007
+Epoch 341, train MAE: 8366.26171875, train accuracy: 0.8241469584632015 loss: 0.014602829008099606
+test total time is 1.8306851387023926
+Epoch 341, test MAE: 8257.416015625, test accuracy: 0.7915066071028902, loss: 0.018675904220216116
+train total time is 2.699129343032837
+Epoch 342, train MAE: 8344.0625, train accuracy: 0.8237795272008247 loss: 0.014592486697266687
+test total time is 1.8363957405090332
+Epoch 342, test MAE: 8396.861328125, test accuracy: 0.7995244825599388, loss: 0.018722881624510267
+train total time is 2.7057838439941406
+Epoch 343, train MAE: 8420.974609375, train accuracy: 0.8243696492471528 loss: 0.014588517655249475
+test total time is 1.834411859512329
+Epoch 343, test MAE: 8344.5498046875, test accuracy: 0.7983257826642596, loss: 0.018731444485415267
+train total time is 2.7103099822998047
+Epoch 344, train MAE: 8447.978515625, train accuracy: 0.8254169771375423 loss: 0.014590104664060867
+test total time is 1.833421230316162
+Epoch 344, test MAE: 8265.6181640625, test accuracy: 0.7970814542816935, loss: 0.01869045203235352
+train total time is 2.6974713802337646
+Epoch 345, train MAE: 8340.5673828125, train accuracy: 0.8245127319254651 loss: 0.014577242976300558
+test total time is 1.8374981880187988
+Epoch 345, test MAE: 8643.173828125, test accuracy: 0.7919595797928407, loss: 0.01880455932597507
+train total time is 2.7200186252593994
+Epoch 346, train MAE: 8485.5380859375, train accuracy: 0.8241508148267915 loss: 0.014587234240025282
+test total time is 1.825300693511963
+Epoch 346, test MAE: 8585.486328125, test accuracy: 0.8014610752175289, loss: 0.018793680995070148
+train total time is 2.720606565475464
+Epoch 347, train MAE: 8536.6064453125, train accuracy: 0.8256374913255534 loss: 0.01456556188926663
+test total time is 1.8293919563293457
+Epoch 347, test MAE: 8453.8818359375, test accuracy: 0.7948272547809827, loss: 0.018705560105308047
+train total time is 2.699995517730713
+Epoch 348, train MAE: 8410.55078125, train accuracy: 0.8248692666656544 loss: 0.014560045885308733
+test total time is 1.8380770683288574
+Epoch 348, test MAE: 8874.330078125, test accuracy: 0.7942366684378657, loss: 0.018856057730274944
+train total time is 2.717621088027954
+Epoch 349, train MAE: 8614.9404296875, train accuracy: 0.8250524744847844 loss: 0.014561156926782063
+test total time is 1.8318276405334473
+Epoch 349, test MAE: 8674.048828125, test accuracy: 0.7919960339841685, loss: 0.01880611938793423
+train total time is 2.721926689147949
+Epoch 350, train MAE: 8538.6025390625, train accuracy: 0.8250381305571509 loss: 0.014546527096755663
+test total time is 1.8301424980163574
+Epoch 350, test MAE: 8648.0, test accuracy: 0.7913545562444886, loss: 0.01882964622159049
+train total time is 2.7193944454193115
+Epoch 351, train MAE: 8551.3076171875, train accuracy: 0.8243717599404834 loss: 0.014592783279576391
+test total time is 1.8312008380889893
+Epoch 351, test MAE: 8599.70703125, test accuracy: 0.7963523821271886, loss: 0.018858158178978932
+train total time is 2.726977586746216
+Epoch 352, train MAE: 8602.8271484375, train accuracy: 0.8246363654705848 loss: 0.014554872124824883
+test total time is 1.8289027214050293
+Epoch 352, test MAE: 8435.7509765625, test accuracy: 0.7946854151582767, loss: 0.01875285241085122
+train total time is 2.705378532409668
+Epoch 353, train MAE: 8655.5107421875, train accuracy: 0.8256087815027502 loss: 0.014533828794604764
+test total time is 1.8375163078308105
+Epoch 353, test MAE: 8465.896484375, test accuracy: 0.7933318440431201, loss: 0.018715330241423734
+train total time is 2.6980433464050293
+Epoch 354, train MAE: 8519.890625, train accuracy: 0.825110997624654 loss: 0.014527715540508617
+test total time is 1.8310766220092773
+Epoch 354, test MAE: 8718.435546875, test accuracy: 0.7906326203016434, loss: 0.018832494575038272
+train total time is 2.7050271034240723
+Epoch 355, train MAE: 8588.0048828125, train accuracy: 0.8242384787151452 loss: 0.014522773644201598
+test total time is 1.8244507312774658
+Epoch 355, test MAE: 8719.3251953125, test accuracy: 0.7947336451396534, loss: 0.018848066297271905
+train total time is 2.7131717205047607
+Epoch 356, train MAE: 8737.3095703125, train accuracy: 0.8256269817939735 loss: 0.01453019952717817
+test total time is 1.8289189338684082
+Epoch 356, test MAE: 8539.5732421875, test accuracy: 0.791362963243045, loss: 0.018765621809816023
+train total time is 2.6938815116882324
+Epoch 357, train MAE: 8646.6328125, train accuracy: 0.8248497516298523 loss: 0.014558686488220151
+test total time is 1.8329498767852783
+Epoch 357, test MAE: 8619.388671875, test accuracy: 0.7943323461234424, loss: 0.018799445776374272
+train total time is 2.7093310356140137
+Epoch 358, train MAE: 8663.708984375, train accuracy: 0.8253983898557111 loss: 0.014523102497717119
+test total time is 1.8225266933441162
+Epoch 358, test MAE: 8474.623046875, test accuracy: 0.788710419908766, loss: 0.018769555672440888
+train total time is 2.707855463027954
+Epoch 359, train MAE: 8632.287109375, train accuracy: 0.823730893384075 loss: 0.01452008099734502
+test total time is 1.8314409255981445
+Epoch 359, test MAE: 8719.1142578125, test accuracy: 0.7932894645063325, loss: 0.018887872816467623
+train total time is 2.6993117332458496
+Epoch 360, train MAE: 8725.130859375, train accuracy: 0.8262374148248557 loss: 0.014510066678993544
+test total time is 1.8314344882965088
+Epoch 360, test MAE: 8537.9794921875, test accuracy: 0.7942002142465379, loss: 0.018767381956765673
+learning rate change
+train total time is 2.7200355529785156
+Epoch 361, train MAE: 8594.6572265625, train accuracy: 0.824269066013427 loss: 0.014434988601660391
+test total time is 1.826930284500122
+Epoch 361, test MAE: 8749.240234375, test accuracy: 0.7939470189064715, loss: 0.0188405185164708
+train total time is 2.728925943374634
+Epoch 362, train MAE: 8730.5849609375, train accuracy: 0.825771445119474 loss: 0.014423831418718933
+test total time is 1.829707384109497
+Epoch 362, test MAE: 8753.8388671875, test accuracy: 0.7956428003651572, loss: 0.018843215530000207
+train total time is 2.700225830078125
+Epoch 363, train MAE: 8732.453125, train accuracy: 0.8257392659236884 loss: 0.014427308915710112
+test total time is 1.8327126502990723
+Epoch 363, test MAE: 8777.154296875, test accuracy: 0.7966619056995576, loss: 0.01884218843934952
+train total time is 2.7083017826080322
+Epoch 364, train MAE: 8787.408203125, train accuracy: 0.8265465645902645 loss: 0.014422450161908032
+test total time is 1.8298561573028564
+Epoch 364, test MAE: 8770.3623046875, test accuracy: 0.795948850284815, loss: 0.01885416252397985
+train total time is 2.7237207889556885
+Epoch 365, train MAE: 8772.3427734375, train accuracy: 0.826326393457788 loss: 0.014424313940459265
+test total time is 1.836517333984375
+Epoch 365, test MAE: 8772.4892578125, test accuracy: 0.7982250667716186, loss: 0.01885205257754281
+train total time is 2.705472230911255
+Epoch 366, train MAE: 8787.970703125, train accuracy: 0.8273606042949766 loss: 0.014415035788672712
+test total time is 1.8335297107696533
+Epoch 366, test MAE: 8843.8359375, test accuracy: 0.7949182779079964, loss: 0.01887973352282677
+train total time is 2.7062270641326904
+Epoch 367, train MAE: 8802.818359375, train accuracy: 0.8253603754082242 loss: 0.014427849776902289
+test total time is 1.8283460140228271
+Epoch 367, test MAE: 8841.4443359375, test accuracy: 0.7965992085525975, loss: 0.018881671675393043
+train total time is 2.7147247791290283
+Epoch 368, train MAE: 8806.30859375, train accuracy: 0.8274325436085087 loss: 0.0144239369041796
+test total time is 1.8284544944763184
+Epoch 368, test MAE: 8861.82421875, test accuracy: 0.7950342881839196, loss: 0.01889592815928583
+train total time is 2.695258855819702
+Epoch 369, train MAE: 8856.87109375, train accuracy: 0.8254645378526148 loss: 0.01442407815769877
+test total time is 1.831653356552124
+Epoch 369, test MAE: 8831.2216796875, test accuracy: 0.7963590747696507, loss: 0.018898287225725514
+train total time is 2.7143607139587402
+Epoch 370, train MAE: 8842.4013671875, train accuracy: 0.8269449042389214 loss: 0.014414868589912384
+test total time is 1.8283007144927979
+Epoch 370, test MAE: 8911.474609375, test accuracy: 0.7956072033518766, loss: 0.01889647740238118
+train total time is 2.743802070617676
+Epoch 371, train MAE: 8833.654296875, train accuracy: 0.8268462339906975 loss: 0.01442144716263942
+test total time is 1.834486961364746
+Epoch 371, test MAE: 8874.267578125, test accuracy: 0.7947010931900602, loss: 0.01887639416030274
+train total time is 2.704488515853882
+Epoch 372, train MAE: 8842.892578125, train accuracy: 0.8253210242486217 loss: 0.014414485719687533
+test total time is 1.8329217433929443
+Epoch 372, test MAE: 8861.138671875, test accuracy: 0.7958272983119331, loss: 0.01888996570037221
+train total time is 2.7164790630340576
+Epoch 373, train MAE: 8850.310546875, train accuracy: 0.8267205336873202 loss: 0.0144169618604037
+test total time is 1.8286876678466797
+Epoch 373, test MAE: 8834.9736328125, test accuracy: 0.7968519603234661, loss: 0.018882472806100576
+train total time is 2.720135450363159
+Epoch 374, train MAE: 8828.99609375, train accuracy: 0.8262645766852281 loss: 0.014415633469328002
+test total time is 1.8357126712799072
+Epoch 374, test MAE: 8918.763671875, test accuracy: 0.7963024078293693, loss: 0.01890162855632744
+train total time is 2.7294437885284424
+Epoch 375, train MAE: 8874.845703125, train accuracy: 0.8255716289066245 loss: 0.014416547167062197
+test total time is 1.8305816650390625
+Epoch 375, test MAE: 8862.7861328125, test accuracy: 0.7976200132629181, loss: 0.018896202012053075
+train total time is 2.7303085327148438
+Epoch 376, train MAE: 8896.4609375, train accuracy: 0.8267099362855943 loss: 0.01441321245236498
+test total time is 1.826730728149414
+Epoch 376, test MAE: 8869.552734375, test accuracy: 0.7967727729071977, loss: 0.018886509571083874
+train total time is 2.7344088554382324
+Epoch 377, train MAE: 8874.9033203125, train accuracy: 0.8264677963684505 loss: 0.014409850316368183
+test total time is 1.830472469329834
+Epoch 377, test MAE: 8885.9833984375, test accuracy: 0.7966512808550124, loss: 0.018911388922342152
+train total time is 2.7070255279541016
+Epoch 378, train MAE: 8858.5517578125, train accuracy: 0.8272505187287384 loss: 0.014413058951075346
+test total time is 1.8337366580963135
+Epoch 378, test MAE: 8866.9560546875, test accuracy: 0.7969231243896792, loss: 0.018894820403799695
+train total time is 2.732645273208618
+Epoch 379, train MAE: 8864.390625, train accuracy: 0.8263556001088816 loss: 0.014408149501695385
+test total time is 1.8300774097442627
+Epoch 379, test MAE: 8885.8701171875, test accuracy: 0.7956316870108919, loss: 0.018913134264777292
+train total time is 2.7289726734161377
+Epoch 380, train MAE: 8857.6396484375, train accuracy: 0.826666772697475 loss: 0.014411455248746107
+test total time is 1.8281378746032715
+Epoch 380, test MAE: 8956.982421875, test accuracy: 0.7961546578413776, loss: 0.01890915827298502
+train total time is 2.699241876602173
+Epoch 381, train MAE: 8889.7060546875, train accuracy: 0.8267307001633655 loss: 0.014406740735724287
+test total time is 1.8368065357208252
+Epoch 381, test MAE: 8900.7958984375, test accuracy: 0.7957193862869357, loss: 0.01888547202501938
+train total time is 2.7146706581115723
+Epoch 382, train MAE: 8893.359375, train accuracy: 0.8253658676043909 loss: 0.014406719438309939
+test total time is 1.8278546333312988
+Epoch 382, test MAE: 8911.197265625, test accuracy: 0.7969963714803137, loss: 0.018888215332309593
+train total time is 2.7095556259155273
+Epoch 383, train MAE: 8879.798828125, train accuracy: 0.8266502961089746 loss: 0.014411331962723777
+test total time is 1.8301396369934082
+Epoch 383, test MAE: 8938.271484375, test accuracy: 0.7971750339626746, loss: 0.018912389769025567
+train total time is 2.7062320709228516
+Epoch 384, train MAE: 8879.6298828125, train accuracy: 0.8268670198360053 loss: 0.014412188190826267
+test total time is 1.8302018642425537
+Epoch 384, test MAE: 8892.8173828125, test accuracy: 0.7973888349089445, loss: 0.018912282789934357
+train total time is 2.7109410762786865
+Epoch 385, train MAE: 8883.830078125, train accuracy: 0.8270503155252812 loss: 0.014405875080177244
+test total time is 1.8268320560455322
+Epoch 385, test MAE: 8925.2265625, test accuracy: 0.795997952424413, loss: 0.018903220485333563
+train total time is 2.7341525554656982
+Epoch 386, train MAE: 8912.1201171875, train accuracy: 0.8264868804785718 loss: 0.014403786861671592
+test total time is 1.8337023258209229
+Epoch 386, test MAE: 8949.03125, test accuracy: 0.7969264632208232, loss: 0.018911588857969584
+train total time is 2.702669858932495
+Epoch 387, train MAE: 8902.591796875, train accuracy: 0.8269855262080293 loss: 0.014408373414486085
+test total time is 1.8305449485778809
+Epoch 387, test MAE: 8976.3369140625, test accuracy: 0.7965805903183453, loss: 0.018914569353790215
+train total time is 2.7416880130767822
+Epoch 388, train MAE: 8915.9052734375, train accuracy: 0.8264546573477132 loss: 0.014407194729121227
+test total time is 1.8284242153167725
+Epoch 388, test MAE: 8962.3798828125, test accuracy: 0.7948196300596028, loss: 0.018925403947678377
+train total time is 2.7081611156463623
+Epoch 389, train MAE: 8906.5048828125, train accuracy: 0.8263869394208423 loss: 0.014406011949451465
+test total time is 1.830657958984375
+Epoch 389, test MAE: 8998.2255859375, test accuracy: 0.7956558769024509, loss: 0.018926333381249657
+train total time is 2.695383310317993
+Epoch 390, train MAE: 8927.7431640625, train accuracy: 0.8262532272698233 loss: 0.014399006461970648
+test total time is 1.8358440399169922
+Epoch 390, test MAE: 8917.609375, test accuracy: 0.796556016778285, loss: 0.018904562204865354
+train total time is 2.727620840072632
+Epoch 391, train MAE: 8918.314453125, train accuracy: 0.8266773481316645 loss: 0.014402112036170263
+test total time is 1.8286144733428955
+Epoch 391, test MAE: 8957.3642578125, test accuracy: 0.7979870759337898, loss: 0.018925738608780898
+train total time is 2.719923973083496
+Epoch 392, train MAE: 8915.1455078125, train accuracy: 0.8272145930070454 loss: 0.01440159589017056
+test total time is 1.8316171169281006
+Epoch 392, test MAE: 8953.80859375, test accuracy: 0.7947099287776402, loss: 0.01891490069376129
+train total time is 2.714676856994629
+Epoch 393, train MAE: 8951.1005859375, train accuracy: 0.8264055926052829 loss: 0.014404094303553959
+test total time is 1.8329105377197266
+Epoch 393, test MAE: 9000.9931640625, test accuracy: 0.7959446093351015, loss: 0.01893784195395573
+train total time is 2.7163732051849365
+Epoch 394, train MAE: 8919.8154296875, train accuracy: 0.8265152033107674 loss: 0.014404042290066773
+test total time is 1.8245012760162354
+Epoch 394, test MAE: 8984.9169921875, test accuracy: 0.7959696114641851, loss: 0.018938025081846513
+train total time is 2.725989818572998
+Epoch 395, train MAE: 8944.791015625, train accuracy: 0.8271218678482055 loss: 0.0143955152147924
+test total time is 1.8371098041534424
+Epoch 395, test MAE: 8975.259765625, test accuracy: 0.7966940590204754, loss: 0.01891245577870956
+train total time is 2.69804048538208
+Epoch 396, train MAE: 8912.7939453125, train accuracy: 0.8268699484456242 loss: 0.014402756537750082
+test total time is 1.8369030952453613
+Epoch 396, test MAE: 9018.908203125, test accuracy: 0.7945274838949377, loss: 0.018944206550928218
+train total time is 2.7632334232330322
+Epoch 397, train MAE: 8962.53125, train accuracy: 0.8263429139813616 loss: 0.014401890214462325
+test total time is 1.8275346755981445
+Epoch 397, test MAE: 9039.408203125, test accuracy: 0.7943936975826351, loss: 0.018949324493560026
+train total time is 2.714871883392334
+Epoch 398, train MAE: 8984.150390625, train accuracy: 0.8257490234415894 loss: 0.014394450836094483
+test total time is 1.8294990062713623
+Epoch 398, test MAE: 8941.5205078125, test accuracy: 0.7971461745323786, loss: 0.018935373799769947
+train total time is 2.7287847995758057
+Epoch 399, train MAE: 8943.203125, train accuracy: 0.8261600492177663 loss: 0.014394682199465778
+test total time is 1.8282437324523926
+Epoch 399, test MAE: 8940.9794921875, test accuracy: 0.7971758462001994, loss: 0.018925551641381013
+train total time is 2.6970837116241455
+Epoch 400, train MAE: 8966.3671875, train accuracy: 0.8270718973193408 loss: 0.01439868729948154
+test total time is 1.8281848430633545
+Epoch 400, test MAE: 9028.5126953125, test accuracy: 0.795412847857558, loss: 0.018943010688812104
+train total time is 2.7201151847839355
+Epoch 401, train MAE: 8977.93359375, train accuracy: 0.8266143044846719 loss: 0.014396444964661912
+test total time is 1.8223910331726074
+Epoch 401, test MAE: 8984.501953125, test accuracy: 0.7961283399848749, loss: 0.018939250869289884
+train total time is 2.6905975341796875
+Epoch 402, train MAE: 8981.2880859375, train accuracy: 0.8269233004773252 loss: 0.014395108103822425
+test total time is 1.8220655918121338
+Epoch 402, test MAE: 8959.064453125, test accuracy: 0.7967321376868528, loss: 0.018924715304922946
+train total time is 2.7062911987304688
+Epoch 403, train MAE: 8964.654296875, train accuracy: 0.8261588003757971 loss: 0.01440221421807161
+test total time is 1.823800802230835
+Epoch 403, test MAE: 8978.2734375, test accuracy: 0.7964742728080493, loss: 0.018930196700582526
+train total time is 2.709747314453125
+Epoch 404, train MAE: 8941.080078125, train accuracy: 0.8274004083477962 loss: 0.014397131700841885
+test total time is 1.822190284729004
+Epoch 404, test MAE: 8995.4921875, test accuracy: 0.7952239591593271, loss: 0.018936561306341075
+train total time is 2.687689781188965
+Epoch 405, train MAE: 8964.3818359375, train accuracy: 0.8266786409087066 loss: 0.014394414584802569
+test total time is 1.8230392932891846
+Epoch 405, test MAE: 9021.4267578125, test accuracy: 0.7957574649533132, loss: 0.018934214382239106
+train total time is 2.727288246154785
+Epoch 406, train MAE: 8970.265625, train accuracy: 0.8266571030497201 loss: 0.014390268275197947
+test total time is 1.8248918056488037
+Epoch 406, test MAE: 9043.3740234375, test accuracy: 0.7951884070865688, loss: 0.018951014580451092
+train total time is 2.754777669906616
+Epoch 407, train MAE: 8980.689453125, train accuracy: 0.8266151443684968 loss: 0.014394653583261764
+test total time is 1.831000566482544
+Epoch 407, test MAE: 9057.4951171875, test accuracy: 0.7969171840640453, loss: 0.018948162211772968
+train total time is 2.7031846046447754
+Epoch 408, train MAE: 8976.498046875, train accuracy: 0.827631950863214 loss: 0.014394028876679685
+test total time is 1.8246889114379883
+Epoch 408, test MAE: 9033.9462890625, test accuracy: 0.7959721230776302, loss: 0.018949066244838934
+train total time is 2.7006678581237793
+Epoch 409, train MAE: 8987.2919921875, train accuracy: 0.8268530848665161 loss: 0.014391901419621031
+test total time is 1.821885108947754
+Epoch 409, test MAE: 9046.5537109375, test accuracy: 0.7944508380524625, loss: 0.01894757240342925
+train total time is 2.700507402420044
+Epoch 410, train MAE: 9016.41015625, train accuracy: 0.8258781272153395 loss: 0.014392748905591807
+test total time is 1.8260340690612793
+Epoch 410, test MAE: 9020.1611328125, test accuracy: 0.796341343673794, loss: 0.018930649604507774
+train total time is 2.718146800994873
+Epoch 411, train MAE: 8991.6748046875, train accuracy: 0.8279592130497002 loss: 0.014387618754726817
+test total time is 1.822037935256958
+Epoch 411, test MAE: 9029.3447265625, test accuracy: 0.7953455111322089, loss: 0.01891993783976672
+learning rate change
+train total time is 2.7004473209381104
+Epoch 412, train MAE: 9002.9072265625, train accuracy: 0.8255432621393558 loss: 0.014383627813450008
+test total time is 1.8310928344726562
+Epoch 412, test MAE: 9040.4228515625, test accuracy: 0.7957201985244605, loss: 0.018927987541933106
+train total time is 2.690873622894287
+Epoch 413, train MAE: 9011.591796875, train accuracy: 0.8264072943404692 loss: 0.01438119323080722
+test total time is 1.827303171157837
+Epoch 413, test MAE: 9036.6240234375, test accuracy: 0.7961186322390734, loss: 0.01894207209137813
+train total time is 2.688690423965454
+Epoch 414, train MAE: 9007.1826171875, train accuracy: 0.8255237910386268 loss: 0.014377561186985025
+test total time is 1.8350787162780762
+Epoch 414, test MAE: 9040.607421875, test accuracy: 0.7958268996832578, loss: 0.018933712996823608
+train total time is 2.7116403579711914
+Epoch 415, train MAE: 9012.9892578125, train accuracy: 0.8266536776118107 loss: 0.014379078249956639
+test total time is 1.8322834968566895
+Epoch 415, test MAE: 9036.4921875, test accuracy: 0.7960474831530344, loss: 0.018942008752656996
+train total time is 2.708819627761841
+Epoch 416, train MAE: 9001.55859375, train accuracy: 0.8268399678133154 loss: 0.014379475643542016
+test total time is 1.824265480041504
+Epoch 416, test MAE: 9037.1572265625, test accuracy: 0.7962934973409186, loss: 0.018933980769635934
+train total time is 2.6923274993896484
+Epoch 417, train MAE: 9006.81640625, train accuracy: 0.826670629061065 loss: 0.014379474694647317
+test total time is 1.8254868984222412
+Epoch 417, test MAE: 9031.91796875, test accuracy: 0.795900944031243, loss: 0.018952636329351732
+train total time is 2.7052154541015625
+Epoch 418, train MAE: 9003.8017578125, train accuracy: 0.8269969854611168 loss: 0.014378772872798849
+test total time is 1.829174518585205
+Epoch 418, test MAE: 9039.671875, test accuracy: 0.7956279046105502, loss: 0.018935991134845984
+train total time is 2.6971192359924316
+Epoch 419, train MAE: 9010.447265625, train accuracy: 0.8271269510862282 loss: 0.014382307268327699
+test total time is 1.8261523246765137
+Epoch 419, test MAE: 9036.025390625, test accuracy: 0.7963646464269576, loss: 0.01894384712191685
+train total time is 2.713803291320801
+Epoch 420, train MAE: 9005.0859375, train accuracy: 0.8264339593725515 loss: 0.014391826316362844
+test total time is 1.8291997909545898
+Epoch 420, test MAE: 9040.2548828125, test accuracy: 0.7960453551880906, loss: 0.018951809165542417
+train total time is 2.706289768218994
+Epoch 421, train MAE: 9011.494140625, train accuracy: 0.826930516376215 loss: 0.014377107896473049
+test total time is 1.8246443271636963
+Epoch 421, test MAE: 9041.4140625, test accuracy: 0.7962854590106891, loss: 0.0189299444527418
+train total time is 2.700637102127075
+Epoch 422, train MAE: 8998.27734375, train accuracy: 0.8267332857174499 loss: 0.014380337415649643
+test total time is 1.8239500522613525
+Epoch 422, test MAE: 9041.2236328125, test accuracy: 0.7954627622346806, loss: 0.018951858437778253
+train total time is 2.6983723640441895
+Epoch 423, train MAE: 9011.2744140625, train accuracy: 0.8267311530565826 loss: 0.014374693530558978
+test total time is 1.8272082805633545
+Epoch 423, test MAE: 9039.064453125, test accuracy: 0.7954309925622641, loss: 0.018950583975551265
+train total time is 2.703268051147461
+Epoch 424, train MAE: 9008.830078125, train accuracy: 0.8264902839489445 loss: 0.014382767209888628
+test total time is 1.8252501487731934
+Epoch 424, test MAE: 9041.4169921875, test accuracy: 0.7953090120003586, loss: 0.01897349965951915
+train total time is 2.692997694015503
+Epoch 425, train MAE: 9020.3701171875, train accuracy: 0.8273313976438832 loss: 0.014378340009881078
+test total time is 1.8243794441223145
+Epoch 425, test MAE: 9042.716796875, test accuracy: 0.7959679120882649, loss: 0.018936722381216176
+train total time is 2.6960644721984863
+Epoch 426, train MAE: 9004.44921875, train accuracy: 0.8269741108900149 loss: 0.014377021889711888
+test total time is 1.8266839981079102
+Epoch 426, test MAE: 9039.87890625, test accuracy: 0.7961406192648179, loss: 0.01893807539962373
+train total time is 2.7009105682373047
+Epoch 427, train MAE: 9010.359375, train accuracy: 0.8268153915070271 loss: 0.014377105049788952
+test total time is 1.8292686939239502
+Epoch 427, test MAE: 9042.8388671875, test accuracy: 0.7965420081620735, loss: 0.018957810309487132
+train total time is 2.701108932495117
+Epoch 428, train MAE: 9015.1376953125, train accuracy: 0.8268539027828045 loss: 0.014373482196187636
+test total time is 1.82340669631958
+Epoch 428, test MAE: 9046.140625, test accuracy: 0.7958755732338321, loss: 0.018953415038028977
+train total time is 2.694469451904297
+Epoch 429, train MAE: 9010.9619140625, train accuracy: 0.8266519978441609 loss: 0.014373665666734835
+test total time is 1.8285644054412842
+Epoch 429, test MAE: 9038.8271484375, test accuracy: 0.7966838777451279, loss: 0.018940221913650912
+train total time is 2.688699960708618
+Epoch 430, train MAE: 9004.2197265625, train accuracy: 0.8266066576601014 loss: 0.014385205552965965
+test total time is 1.8264589309692383
+Epoch 430, test MAE: 9037.673828125, test accuracy: 0.7968477193737524, loss: 0.01895334778951024
+train total time is 2.697748899459839
+Epoch 431, train MAE: 9011.4072265625, train accuracy: 0.8265114128497869 loss: 0.014388165788127566
+test total time is 1.8278839588165283
+Epoch 431, test MAE: 9044.796875, test accuracy: 0.7965043580847198, loss: 0.01895332062300646
+train total time is 2.7065541744232178
+Epoch 432, train MAE: 9013.8935546875, train accuracy: 0.8270079918209869 loss: 0.014380458680877709
+test total time is 1.8206536769866943
+Epoch 432, test MAE: 9042.2294921875, test accuracy: 0.7959518054674577, loss: 0.018946069477231434
+train total time is 2.6988837718963623
+Epoch 433, train MAE: 9009.91015625, train accuracy: 0.8264475293189695 loss: 0.01439182126437718
+test total time is 1.826889991760254
+Epoch 433, test MAE: 9043.6357421875, test accuracy: 0.7962575166791367, loss: 0.018954530156235088
+train total time is 2.6964688301086426
+Epoch 434, train MAE: 9013.2998046875, train accuracy: 0.8268428964229343 loss: 0.014375742375499235
+test total time is 1.8244593143463135
+Epoch 434, test MAE: 9047.6474609375, test accuracy: 0.7956291454370986, loss: 0.018963191034448035
+train total time is 2.703752040863037
+Epoch 435, train MAE: 9018.2802734375, train accuracy: 0.8267429993002777 loss: 0.014380074721181168
+test total time is 1.8286397457122803
+Epoch 435, test MAE: 9038.9697265625, test accuracy: 0.7965416544739206, loss: 0.01894829935341511
+train total time is 2.7139742374420166
+Epoch 436, train MAE: 9015.5791015625, train accuracy: 0.8271519583181971 loss: 0.014384604911407773
+test total time is 1.834665060043335
+Epoch 436, test MAE: 9042.0810546875, test accuracy: 0.796475543594946, loss: 0.018934159038834414
+train total time is 2.710052013397217
+Epoch 437, train MAE: 9013.87890625, train accuracy: 0.8264847258501682 loss: 0.014382555685445384
+test total time is 1.8260343074798584
+Epoch 437, test MAE: 9044.60546875, test accuracy: 0.7961774720848211, loss: 0.018957977183163166
+train total time is 2.708300828933716
+Epoch 438, train MAE: 9009.291015625, train accuracy: 0.8269686186938481 loss: 0.014382975167190691
+test total time is 1.8274929523468018
+Epoch 438, test MAE: 9043.8173828125, test accuracy: 0.7965441511071916, loss: 0.018959383269385347
+train total time is 2.7065131664276123
+Epoch 439, train MAE: 9016.5341796875, train accuracy: 0.8273157609392076 loss: 0.014377241044850001
+test total time is 1.8239636421203613
+Epoch 439, test MAE: 9050.470703125, test accuracy: 0.7963790237114962, loss: 0.01895497192821975
+train total time is 2.700826406478882
+Epoch 440, train MAE: 9016.53515625, train accuracy: 0.8265922697973951 loss: 0.01437793492849143
+test total time is 1.8312122821807861
+Epoch 440, test MAE: 9043.2265625, test accuracy: 0.7960969989014819, loss: 0.01895636394795663
+train total time is 2.701012134552002
+Epoch 441, train MAE: 9020.1796875, train accuracy: 0.8274470193413612 loss: 0.014373269309904778
+test total time is 1.8284947872161865
+Epoch 441, test MAE: 9046.1279296875, test accuracy: 0.7964865520879922, loss: 0.01894954894230051
+train total time is 2.6935760974884033
+Epoch 442, train MAE: 9011.197265625, train accuracy: 0.8271095906788297 loss: 0.014377895953520289
+test total time is 1.8251616954803467
+Epoch 442, test MAE: 9041.5625, test accuracy: 0.7953747092704839, loss: 0.018946962334426505
+train total time is 2.7049615383148193
+Epoch 443, train MAE: 9017.3447265625, train accuracy: 0.8272861672975063 loss: 0.014376987927189132
+test total time is 1.8233554363250732
+Epoch 443, test MAE: 9047.564453125, test accuracy: 0.7965877564903534, loss: 0.018946416948412387
+train total time is 2.7002830505371094
+Epoch 444, train MAE: 9012.6376953125, train accuracy: 0.8271913314453359 loss: 0.014374888835931724
+test total time is 1.832301378250122
+Epoch 444, test MAE: 9049.5556640625, test accuracy: 0.7959454814933227, loss: 0.01894418190602424
+train total time is 2.7093350887298584
+Epoch 445, train MAE: 9015.4013671875, train accuracy: 0.8276815344014711 loss: 0.014375753894026549
+test total time is 1.8301749229431152
+Epoch 445, test MAE: 9051.78125, test accuracy: 0.7965475049185097, loss: 0.018956941991763294
+train total time is 2.697101354598999
+Epoch 446, train MAE: 9024.81640625, train accuracy: 0.8270698305610833 loss: 0.014374786118080593
+test total time is 1.8292486667633057
+Epoch 446, test MAE: 9056.658203125, test accuracy: 0.7960788092562534, loss: 0.018957140310755315
+train total time is 2.7146496772766113
+Epoch 447, train MAE: 9018.7119140625, train accuracy: 0.8274470193413612 loss: 0.014376774395130715
+test total time is 1.825845718383789
+Epoch 447, test MAE: 9047.935546875, test accuracy: 0.7959077714952723, loss: 0.018956668771592515
+train total time is 2.687791109085083
+Epoch 448, train MAE: 9019.77734375, train accuracy: 0.8270816768047784 loss: 0.014382935902279502
+test total time is 1.8262519836425781
+Epoch 448, test MAE: 9045.953125, test accuracy: 0.7963065888583865, loss: 0.018950733637331792
+train total time is 2.7058207988739014
+Epoch 449, train MAE: 9018.240234375, train accuracy: 0.8268285305277644 loss: 0.014377673806728056
+test total time is 1.8244352340698242
+Epoch 449, test MAE: 9046.9296875, test accuracy: 0.795946707339697, loss: 0.018960140680648246
+train total time is 2.700075626373291
+Epoch 450, train MAE: 9014.033203125, train accuracy: 0.8265681244167877 loss: 0.014371680833821027
+test total time is 1.8239736557006836
+Epoch 450, test MAE: 9050.2412109375, test accuracy: 0.7961999176599375, loss: 0.018952529710489063
+train total time is 2.706549882888794
+Epoch 451, train MAE: 9021.697265625, train accuracy: 0.8274038118181689 loss: 0.014372901692283604
+test total time is 1.8221938610076904
+Epoch 451, test MAE: 9052.4453125, test accuracy: 0.7959856731444699, loss: 0.018955185403168765
+train total time is 2.7177369594573975
+Epoch 452, train MAE: 9025.740234375, train accuracy: 0.8268323429562814 loss: 0.014373232821389189
+test total time is 1.825040340423584
+Epoch 452, test MAE: 9051.263671875, test accuracy: 0.7958916798546393, loss: 0.01896360725656433
+train total time is 2.714799642562866
+Epoch 453, train MAE: 9018.3310546875, train accuracy: 0.8267260698185601 loss: 0.014383820597222954
+test total time is 1.8235173225402832
+Epoch 453, test MAE: 9046.5888671875, test accuracy: 0.7960203530590069, loss: 0.018969599254218476
+train total time is 2.7003021240234375
+Epoch 454, train MAE: 9017.1982421875, train accuracy: 0.8266325047758953 loss: 0.014376483216249156
+test total time is 1.8284471035003662
+Epoch 454, test MAE: 9051.0234375, test accuracy: 0.7962481776016623, loss: 0.01896518458313537
+train total time is 2.69642972946167
+Epoch 455, train MAE: 9020.76171875, train accuracy: 0.8267798308084053 loss: 0.014373776423832718
+test total time is 1.8245842456817627
+Epoch 455, test MAE: 9045.111328125, test accuracy: 0.7970632346761167, loss: 0.018946758418712975
+train total time is 2.6914541721343994
+Epoch 456, train MAE: 9015.43359375, train accuracy: 0.826484316892024 loss: 0.014375617384980872
+test total time is 1.8244984149932861
+Epoch 456, test MAE: 9042.7744140625, test accuracy: 0.7960805236123477, loss: 0.01894361247255836
+train total time is 2.7085540294647217
+Epoch 457, train MAE: 9016.013671875, train accuracy: 0.8268737828416777 loss: 0.014372722623553479
+test total time is 1.826404333114624
+Epoch 457, test MAE: 9048.494140625, test accuracy: 0.7961228582086128, loss: 0.0189501133764971
+train total time is 2.714216709136963
+Epoch 458, train MAE: 9022.5556640625, train accuracy: 0.8268835623271152 loss: 0.014377230418107982
+test total time is 1.825526475906372
+Epoch 458, test MAE: 9053.7490234375, test accuracy: 0.7963248084639633, loss: 0.018959343609101367
+train total time is 2.6828012466430664
+Epoch 459, train MAE: 9019.8193359375, train accuracy: 0.8275955722483037 loss: 0.014382371995246635
+test total time is 1.8229665756225586
+Epoch 459, test MAE: 9051.138671875, test accuracy: 0.7964260128663243, loss: 0.018956265456201334
+train total time is 2.6927857398986816
+Epoch 460, train MAE: 9020.611328125, train accuracy: 0.8268484325541741 loss: 0.014373008372648707
+test total time is 1.8234024047851562
+Epoch 460, test MAE: 9053.306640625, test accuracy: 0.7955753887389376, loss: 0.018962810931832722
+train total time is 2.6978392601013184
+Epoch 461, train MAE: 9021.55859375, train accuracy: 0.827396230896208 loss: 0.014371220698966732
+test total time is 1.830334186553955
+Epoch 461, test MAE: 9052.890625, test accuracy: 0.7956160239592825, loss: 0.018966634336085815
+train total time is 2.698662757873535
+Epoch 462, train MAE: 9021.189453125, train accuracy: 0.8267654209781623 loss: 0.014372103056817685
+test total time is 1.8225109577178955
+Epoch 462, test MAE: 9051.611328125, test accuracy: 0.7962583438968356, loss: 0.01895242134320005
+early stopping

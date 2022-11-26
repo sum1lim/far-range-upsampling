@@ -15,7 +15,12 @@ from torch.utils.data import DataLoader
 
 
 model_dict = {"model1": model1}
-loss_dict = {"msie": MSIE_Loss, "focal": Focal_Loss, "combined": combined_Loss}
+loss_dict = {
+    "mse": nn.MSELoss,
+    "msie": MSIE_Loss,
+    "focal": Focal_Loss,
+    "combined": combined_Loss,
+}
 
 
 def main(args):
@@ -51,7 +56,7 @@ def main(args):
     epochs = 10000
     loss_func = loss_dict[args.loss]().to(device)
     learning_rate = 0.001
-    optim_net = optim.Adam(model.parameters(), lr = learning_rate)
+    optim_net = optim.Adam(model.parameters(), lr=learning_rate)
     best_test_loss = np.inf
 
     patience = 0
