@@ -50,7 +50,7 @@ def main(args):
 
     epochs = 10000
     loss_func = loss_dict[args.loss]().to(device)
-    learning_rate = 0.0001
+    learning_rate = 0.001
     optim_net = optim.Adam(model.parameters(), lr = learning_rate)
     best_test_loss = np.inf
 
