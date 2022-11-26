@@ -61,7 +61,7 @@ class MSIE_Loss(nn.Module):
 class Focal_Loss(nn.Module):
     def __init__(self):
         super().__init__()
-        self.focal = FocalLoss(gamma=2)
+        self.focal = FocalLoss(gamma=3)
 
     def forward(self, pred, true):
         true_class = torch.absolute(true)
@@ -80,4 +80,5 @@ class combined_Loss(nn.Module):
         self.focal = Focal_Loss()
 
     def forward(self, pred, true):
+        print(self.msie(pred, true), self.focal(pred, true))
         return self.msie(pred, true) + self.focal(pred, true)
