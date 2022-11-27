@@ -157,7 +157,7 @@ def main(args):
 
         if sum([train_loss, test_loss]) / 2 < best_train_loss:
             patience = 0
-            best_train_loss = sum([train_loss, test_loss])
+            best_train_loss = sum([train_loss, test_loss]) / 2
             print("save checkpoint", file=sys.stdout)
             print("save checkpoint", file=log_file)
             torch.save(model.state_dict(), f"checkpoints/{args.exp_name}_model.pt")
