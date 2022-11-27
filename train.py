@@ -155,7 +155,7 @@ def main(args):
         print(outstr, file=sys.stdout)
         print(outstr, file=log_file)
 
-        if sum(train_loss, test_loss) / 2 < best_train_loss:
+        if sum([train_loss, test_loss]ßß) / 2 < best_train_loss:
             patience = 0
             best_train_loss = train_loss
             print("save checkpoint", file=sys.stdout)
