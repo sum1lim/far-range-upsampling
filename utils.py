@@ -67,7 +67,8 @@ class Focal_Loss(nn.Module):
         true_class = torch.absolute(true)
         true_class[true_class < 1000] = 1
         true_class[true_class >= 1000] = 0
-        pred = torch.abs(pred).flatten()
+        pred[pred < 0] = 0
+        pred = pred.flatten()
         true_class = true_class.flatten()
 
         return self.focal((pred / 1000 + 1) ** -1, true_class.to(torch.int64))
