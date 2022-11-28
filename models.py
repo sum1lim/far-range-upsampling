@@ -94,10 +94,10 @@ class model0_1(nn.Module):
             attn_mlp_hidden_mult=4,
             num_neighbors=16,
         )
-        self.mlp1 = nn.Sequential(
+        self.mlp = nn.Sequential(
             nn.Linear(16 * 3, 16 * 3), nn.ReLU(), nn.Linear(16 * 3, 16 * 3), nn.ReLU()
         )
-        self.mlp2 = nn.Sequential(
+        self.mlp_output = nn.Sequential(
             nn.Linear(16 * 3, 16 * 3),
             nn.ReLU(),
             nn.Linear(16 * 3, 16 * 3),
@@ -112,12 +112,12 @@ class model0_1(nn.Module):
         sa1 = torch.stack(
             sa1.flatten(start_dim=-2, end_dim=-1).split(512, dim=0), dim=0
         )
-        sa1 = self.mlp1(sa1)
+        sa1 = self.mlp(sa1)
 
         # Self-attention within target points
         sa2 = self.attn2(sa1, original_points)
 
-        output = self.mlp2(sa2)
+        output = self.mlp_output(sa2)
 
         return output
 
@@ -155,10 +155,10 @@ class model1_0(nn.Module):
             pos_mlp_hidden_dim=64,
             attn_mlp_hidden_mult=4,
         )
-        self.mlp1 = nn.Sequential(
+        self.mlp = nn.Sequential(
             nn.Linear(16 * 3, 16 * 3), nn.ReLU(), nn.Linear(16 * 3, 16 * 3), nn.ReLU()
         )
-        self.mlp2 = nn.Sequential(
+        self.mlp_output = nn.Sequential(
             nn.Linear(16 * 6, 16 * 3),
             nn.ReLU(),
             nn.Linear(16 * 3, 16 * 3),
@@ -174,11 +174,11 @@ class model1_0(nn.Module):
         sa1 = torch.stack(
             sa1.flatten(start_dim=-2, end_dim=-1).split(512, dim=0), dim=0
         )
-        sa1 = self.mlp1(sa1)
+        sa1 = self.mlp(sa1)
 
         # Self-attention within target points
         sa2 = self.attn2(sa1, original_points)
-        sa2 = self.mlp1(sa2)
+        sa2 = self.mlp(sa2)
 
         # Downsampling
         pivot_points, indices, dist = downsample(original_points, 128, self.device)
@@ -218,7 +218,7 @@ class model1_0(nn.Module):
         )
         upsampled_sa4 = torch.cat((upsampled_sa4, sa2), axis=-1)
 
-        output = self.mlp2(upsampled_sa4)
+        output = self.mlp_output(upsampled_sa4)
 
         return output
 
@@ -256,10 +256,10 @@ class model1_1(nn.Module):
             pos_mlp_hidden_dim=64,
             attn_mlp_hidden_mult=4,
         )
-        self.mlp1 = nn.Sequential(
+        self.mlp = nn.Sequential(
             nn.Linear(16 * 3, 16 * 3), nn.ReLU(), nn.Linear(16 * 3, 16 * 3), nn.ReLU()
         )
-        self.mlp2 = nn.Sequential(
+        self.mlp_output = nn.Sequential(
             nn.Linear(16 * 6, 16 * 3),
             nn.ReLU(),
             nn.Linear(16 * 3, 16 * 3),
@@ -278,11 +278,11 @@ class model1_1(nn.Module):
         sa1 = torch.stack(
             sa1.flatten(start_dim=-2, end_dim=-1).split(512, dim=0), dim=0
         )
-        sa1 = self.mlp1(sa1)
+        sa1 = self.mlp(sa1)
 
         # Self-attention within target points
         sa2 = self.attn2(sa1, original_points)
-        sa2 = self.mlp1(sa2)
+        sa2 = self.mlp(sa2)
 
         # Downsampling
         pivot_points, indices, dist = downsample(original_points, 128, self.device)
@@ -322,7 +322,7 @@ class model1_1(nn.Module):
         )
         upsampled_sa4 = torch.cat((upsampled_sa4, sa2), axis=-1)
 
-        output = self.mlp2(upsampled_sa4)
+        output = self.mlp_output(upsampled_sa4)
 
         return output
 
@@ -355,15 +355,10 @@ class model2_0(nn.Module):
             pos_mlp_hidden_dim=64,
             attn_mlp_hidden_mult=4,
         )
-        self.attn5 = PointTransformerLayer(
-            dim=3,
-            pos_mlp_hidden_dim=64,
-            attn_mlp_hidden_mult=4,
-        )
-        self.mlp1 = nn.Sequential(
+        self.mlp = nn.Sequential(
             nn.Linear(16 * 3, 16 * 3), nn.ReLU(), nn.Linear(16 * 3, 16 * 3), nn.ReLU()
         )
-        self.mlp2 = nn.Sequential(
+        self.mlp_output = nn.Sequential(
             nn.Linear(16 * 6, 16 * 3),
             nn.ReLU(),
             nn.Linear(16 * 3, 16 * 3),
@@ -379,11 +374,11 @@ class model2_0(nn.Module):
         sa1 = torch.stack(
             sa1.flatten(start_dim=-2, end_dim=-1).split(512, dim=0), dim=0
         )
-        sa1 = self.mlp1(sa1)
+        sa1 = self.mlp(sa1)
 
         # Self-attention within target points
         sa2 = self.attn2(sa1, original_points)
-        sa2 = self.mlp1(sa2)
+        sa2 = self.mlp(sa2)
 
         # Downsampling
         pivot_points, indices, _ = downsample(original_points, 128, self.device)
@@ -422,7 +417,7 @@ class model2_0(nn.Module):
         upsampled_sa4 = upsampled_sa4.flatten(start_dim=-2, end_dim=-1)
         upsampled_sa4 = torch.cat((upsampled_sa4, sa2), axis=-1)
 
-        output = self.mlp2(upsampled_sa4)
+        output = self.mlp_output(upsampled_sa4)
 
         return output
 
@@ -455,15 +450,10 @@ class model2_1(nn.Module):
             pos_mlp_hidden_dim=64,
             attn_mlp_hidden_mult=4,
         )
-        self.attn5 = PointTransformerLayer(
-            dim=3,
-            pos_mlp_hidden_dim=64,
-            attn_mlp_hidden_mult=4,
-        )
-        self.mlp1 = nn.Sequential(
+        self.mlp = nn.Sequential(
             nn.Linear(16 * 3, 16 * 3), nn.ReLU(), nn.Linear(16 * 3, 16 * 3), nn.ReLU()
         )
-        self.mlp2 = nn.Sequential(
+        self.mlp_output = nn.Sequential(
             nn.Linear(16 * 6, 16 * 3),
             nn.ReLU(),
             nn.Linear(16 * 3, 16 * 3),
@@ -482,11 +472,11 @@ class model2_1(nn.Module):
         sa1 = torch.stack(
             sa1.flatten(start_dim=-2, end_dim=-1).split(512, dim=0), dim=0
         )
-        sa1 = self.mlp1(sa1)
+        sa1 = self.mlp(sa1)
 
         # Self-attention within target points
         sa2 = self.attn2(sa1, original_points)
-        sa2 = self.mlp1(sa2)
+        sa2 = self.mlp(sa2)
 
         # Downsampling
         pivot_points, indices, _ = downsample(original_points, 128, self.device)
@@ -525,6 +515,6 @@ class model2_1(nn.Module):
         upsampled_sa4 = upsampled_sa4.flatten(start_dim=-2, end_dim=-1)
         upsampled_sa4 = torch.cat((upsampled_sa4, sa2), axis=-1)
 
-        output = self.mlp2(upsampled_sa4)
+        output = self.mlp_output(upsampled_sa4)
 
         return output
