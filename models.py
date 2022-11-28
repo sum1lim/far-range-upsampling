@@ -314,7 +314,7 @@ class model1_1(nn.Module):
             start_dim=0, end_dim=1
         )
         upsampled_sa4 = self.attn5(
-            self.dim_reduction,
+            self.dim_reduction(upsampled_sa4),
             upsampled_points,
         )
         upsampled_sa4 = torch.stack(
