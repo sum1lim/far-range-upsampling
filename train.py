@@ -14,7 +14,14 @@ from torch.optim.lr_scheduler import CosineAnnealingLR
 from torch.utils.data import DataLoader
 
 
-model_dict = {"model1_0": model1_0, "model1_1": model1_1, "model2_0": model2_0, "model2_1": model2_1}
+model_dict = {
+    "model0_0": model0_0,
+    "model0_1": model0_1,
+    "model1_0": model1_0,
+    "model1_1": model1_1,
+    "model2_0": model2_0,
+    "model2_1": model2_1,
+}
 loss_dict = {
     "mse": nn.MSELoss,
     "msie": MSIE_Loss,

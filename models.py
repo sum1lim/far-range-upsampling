@@ -44,6 +44,84 @@ def upsample(downsampled_points, upsampled_points, device):
     return (indices, dist)
 
 
+class model0_0(nn.Module):
+    # Model with transformer interpolation in upsampling
+    def __init__(self, *, batch_size, device):
+        super().__init__()
+        self.batch_size = batch_size
+        self.device = device
+
+        self.attn1 = PointTransformerLayer(
+            dim=3,
+            pos_mlp_hidden_dim=64,
+            attn_mlp_hidden_mult=4,
+        )
+        self.mlp = nn.Sequential(
+            nn.Linear(16 * 3, 16 * 3),
+            nn.ReLU(),
+            nn.Linear(16 * 3, 16 * 3),
+            nn.ReLU(),
+            nn.Linear(16 * 3, 1),
+        )
+
+    def forward(self, original_points, data):
+        data = data.flatten(start_dim=0, end_dim=1)
+        # Self-attention of input points wrt target points
+        sa1 = self.attn1(data, data[:, :, 0:3])
+        sa1 = torch.stack(
+            sa1.flatten(start_dim=-2, end_dim=-1).split(512, dim=0), dim=0
+        )
+        output = self.mlp(sa1)
+
+        return output
+
+
+class model0_1(nn.Module):
+    # Model with transformer interpolation in upsampling
+    def __init__(self, *, batch_size, device):
+        super().__init__()
+        self.batch_size = batch_size
+        self.device = device
+
+        self.attn1 = PointTransformerLayer(
+            dim=3,
+            pos_mlp_hidden_dim=64,
+            attn_mlp_hidden_mult=4,
+        )
+        self.attn2 = PointTransformerLayer(
+            dim=16 * 3,
+            pos_mlp_hidden_dim=64,
+            attn_mlp_hidden_mult=4,
+            num_neighbors=16,
+        )
+        self.mlp1 = nn.Sequential(
+            nn.Linear(16 * 3, 16 * 3), nn.ReLU(), nn.Linear(16 * 3, 16 * 3), nn.ReLU()
+        )
+        self.mlp2 = nn.Sequential(
+            nn.Linear(16 * 3, 16 * 3),
+            nn.ReLU(),
+            nn.Linear(16 * 3, 16 * 3),
+            nn.ReLU(),
+            nn.Linear(16 * 3, 1),
+        )
+
+    def forward(self, original_points, data):
+        data = data.flatten(start_dim=0, end_dim=1)
+        # Self-attention of input points wrt target points
+        sa1 = self.attn1(data, data[:, :, 0:3])
+        sa1 = torch.stack(
+            sa1.flatten(start_dim=-2, end_dim=-1).split(512, dim=0), dim=0
+        )
+        sa1 = self.mlp1(sa1)
+
+        # Self-attention within target points
+        sa2 = self.attn2(sa1, original_points)
+
+        output = self.mlp2(sa2)
+
+        return output
+
+
 class model1_0(nn.Module):
     # Model with transformer interpolation in upsampling
     def __init__(self, *, batch_size, device):
@@ -81,9 +159,6 @@ class model1_0(nn.Module):
             nn.Linear(16 * 3, 16 * 3), nn.ReLU(), nn.Linear(16 * 3, 16 * 3), nn.ReLU()
         )
         self.mlp2 = nn.Sequential(
-            nn.Linear(16 * 3, 16 * 3), nn.ReLU(), nn.Linear(16 * 3, 1), nn.ReLU()
-        )
-        self.mlp3 = nn.Sequential(
             nn.Linear(16 * 6, 16 * 3),
             nn.ReLU(),
             nn.Linear(16 * 3, 16 * 3),
@@ -143,7 +218,7 @@ class model1_0(nn.Module):
         )
         upsampled_sa4 = torch.cat((upsampled_sa4, sa2), axis=-1)
 
-        output = self.mlp3(upsampled_sa4)
+        output = self.mlp2(upsampled_sa4)
 
         return output
 
@@ -185,9 +260,6 @@ class model1_1(nn.Module):
             nn.Linear(16 * 3, 16 * 3), nn.ReLU(), nn.Linear(16 * 3, 16 * 3), nn.ReLU()
         )
         self.mlp2 = nn.Sequential(
-            nn.Linear(16 * 3, 16 * 3), nn.ReLU(), nn.Linear(16 * 3, 1), nn.ReLU()
-        )
-        self.mlp3 = nn.Sequential(
             nn.Linear(16 * 6, 16 * 3),
             nn.ReLU(),
             nn.Linear(16 * 3, 16 * 3),
@@ -250,7 +322,7 @@ class model1_1(nn.Module):
         )
         upsampled_sa4 = torch.cat((upsampled_sa4, sa2), axis=-1)
 
-        output = self.mlp3(upsampled_sa4)
+        output = self.mlp2(upsampled_sa4)
 
         return output
 
@@ -292,9 +364,6 @@ class model2_0(nn.Module):
             nn.Linear(16 * 3, 16 * 3), nn.ReLU(), nn.Linear(16 * 3, 16 * 3), nn.ReLU()
         )
         self.mlp2 = nn.Sequential(
-            nn.Linear(16 * 3, 16 * 3), nn.ReLU(), nn.Linear(16 * 3, 1), nn.ReLU()
-        )
-        self.mlp3 = nn.Sequential(
             nn.Linear(16 * 6, 16 * 3),
             nn.ReLU(),
             nn.Linear(16 * 3, 16 * 3),
@@ -353,7 +422,7 @@ class model2_0(nn.Module):
         upsampled_sa4 = upsampled_sa4.flatten(start_dim=-2, end_dim=-1)
         upsampled_sa4 = torch.cat((upsampled_sa4, sa2), axis=-1)
 
-        output = self.mlp3(upsampled_sa4)
+        output = self.mlp2(upsampled_sa4)
 
         return output
 
@@ -395,9 +464,6 @@ class model2_1(nn.Module):
             nn.Linear(16 * 3, 16 * 3), nn.ReLU(), nn.Linear(16 * 3, 16 * 3), nn.ReLU()
         )
         self.mlp2 = nn.Sequential(
-            nn.Linear(16 * 3, 16 * 3), nn.ReLU(), nn.Linear(16 * 3, 1), nn.ReLU()
-        )
-        self.mlp3 = nn.Sequential(
             nn.Linear(16 * 6, 16 * 3),
             nn.ReLU(),
             nn.Linear(16 * 3, 16 * 3),
@@ -459,6 +525,6 @@ class model2_1(nn.Module):
         upsampled_sa4 = upsampled_sa4.flatten(start_dim=-2, end_dim=-1)
         upsampled_sa4 = torch.cat((upsampled_sa4, sa2), axis=-1)
 
-        output = self.mlp3(upsampled_sa4)
+        output = self.mlp2(upsampled_sa4)
 
         return output
