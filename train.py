@@ -64,7 +64,7 @@ def main(args):
     loss_func = loss_dict[args.loss]().to(device)
     learning_rate = 0.001
     optim_net = optim.Adam(model.parameters(), lr=learning_rate)
-    best_train_loss = np.inf
+    best_test_loss = np.inf
 
     patience = 0
     patience_count = 0
@@ -162,9 +162,9 @@ def main(args):
         print(outstr, file=sys.stdout)
         print(outstr, file=log_file)
 
-        if sum([train_loss, test_loss]) / 2 < best_train_loss:
+        if test_loss < best_test_loss:
             patience = 0
-            best_train_loss = sum([train_loss, test_loss]) / 2
+            best_test_loss = test_loss
             print("save checkpoint", file=sys.stdout)
             print("save checkpoint", file=log_file)
             torch.save(model.state_dict(), f"checkpoints/{args.exp_name}_model.pt")
