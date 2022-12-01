@@ -10,10 +10,9 @@ from models import *
 model_dict = {
     "model0_0": model0_0,
     "model0_1": model0_1,
-    "model1_0": model1_0,
-    "model1_1": model1_1,
-    "model2_0": model2_0,
-    "model2_1": model2_1,
+    "model1": model1,
+    "model2": model2,
+    "model3": model3,
 }
 
 

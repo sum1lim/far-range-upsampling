@@ -17,10 +17,9 @@ from torch.utils.data import DataLoader
 model_dict = {
     "model0_0": model0_0,
     "model0_1": model0_1,
-    "model1_0": model1_0,
-    "model1_1": model1_1,
-    "model2_0": model2_0,
-    "model2_1": model2_1,
+    "model1": model1,
+    "model2": model2,
+    "model3": model3,
 }
 loss_dict = {
     "mse": nn.MSELoss,
@@ -170,7 +169,7 @@ def main(args):
             torch.save(model.state_dict(), f"checkpoints/{args.exp_name}_model.pt")
 
         patience += 1
-        if patience > 50:
+        if patience > args.patience:
             if patience_count < 3:
                 patience = 0
                 patience_count += 1
@@ -197,6 +196,12 @@ if __name__ == "__main__":
         type=int,
         default=8,
         help="KNN step size",
+    )
+    parser.add_argument(
+        "--patience",
+        type=int,
+        default=50,
+        help="Patience",
     )
     parser.add_argument(
         "--model",
