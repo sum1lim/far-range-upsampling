@@ -12,7 +12,6 @@ model_dict = {
     "model0_1": model0_1,
     "model1": model1,
     "model2": model2,
-    "model3": model3,
 }
 
 

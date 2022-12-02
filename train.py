@@ -19,7 +19,6 @@ model_dict = {
     "model0_1": model0_1,
     "model1": model1,
     "model2": model2,
-    "model3": model3,
 }
 loss_dict = {
     "mse": nn.MSELoss,
@@ -61,7 +60,7 @@ def main(args):
 
     epochs = 10000
     loss_func = loss_dict[args.loss]().to(device)
-    learning_rate = 0.01
+    learning_rate = 0.001
     optim_net = optim.Adam(model.parameters(), lr=learning_rate)
     best_test_loss = np.inf
 
