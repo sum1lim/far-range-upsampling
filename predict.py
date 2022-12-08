@@ -18,9 +18,9 @@ model_dict = {
 def main(args):
     BS = 1
     lidar_input = np.loadtxt(args.input, delimiter=",", dtype=np.double)
-    lidar_input = lidar_input[lidar_input[:, 0] > 0.2]
+    lidar_input = lidar_input[lidar_input[:, 0] > 0.25]
 
-    device = torch.device("cpu")
+    device = torch.device("cuda")
     model = model_dict[args.model](batch_size=BS, device=device)
     state_dict = torch.load(args.params, map_location=device)
 
@@ -31,7 +31,7 @@ def main(args):
 
     model.load_state_dict(new_state_dict)
     model.eval()
-    model = model.double()
+    model = model.double().to(device)
 
     samples = np.random.rand(512 * args.num_generation, 3)
     samples[:, 0] = samples[:, 0] * 150000 + 95000
@@ -40,29 +40,42 @@ def main(args):
     samples /= 245000
     points = torch.tensor(np.array([samples], dtype=np.double)).to(device)
 
-    KNN_data = np.zeros((512 * args.num_generation, 128 * 3))
+    lidar_input = torch.tensor(lidar_input).unsqueeze(0).to(device)
+    points = torch.cat(
+        (
+            points,
+            torch.zeros((1, lidar_input.shape[1] - points.shape[1], 3)).to(device),
+        ),
+        1,
+    )
+    rel_dist = (points[:, :, None, :] - lidar_input[:, None, :, :])[
+        :, : samples.shape[0]
+    ].norm(dim=-1)
+    dist, indices = rel_dist.topk(16 * args.KNNstep, largest=False)
 
+    KNN_data = torch.tensor(
+        np.zeros((512 * args.num_generation, 16 * args.KNNstep * 3))
+    )
     for i in range(512 * args.num_generation):
         # KNN
-        distances = np.linalg.norm((lidar_input - samples[i]), axis=1)
-        KNN_indices = np.argsort(distances)[:128]
-        KNN_data[i] = (lidar_input[KNN_indices] - samples[i]).flatten(order="C")
+        KNN_data[i] = (lidar_input[0][indices[0][i]] - points[0][i]).flatten()
 
     for i in range(args.num_generation):
         chunk_data = KNN_data[i * 512 : i * 512 + 512]
         chunk_points = points[:, i * 512 : i * 512 + 512]
 
-        chunk_data = chunk_data.reshape((chunk_data.shape[0], 128, 3))
+        chunk_data = chunk_data.reshape((chunk_data.shape[0], 16 * args.KNNstep, 3))
         chunk_data = chunk_data[:, [i * args.KNNstep for i in range(16)]]
-        data = torch.tensor(np.array([chunk_data], dtype=np.double)).to(device)
-
-        prediction = (
-            model(chunk_points.double(), data.double()).cpu().detach().numpy()[0]
-        )
+        data = chunk_data.unsqueeze(0)
+        prediction = model(chunk_points.double().to(device), data.double().to(device))[
+            0
+        ]
         if i == 0:
-            prediction_cat = prediction
+            prediction_cat = prediction.cpu().detach().numpy()
         else:
-            prediction_cat = np.r_["0", prediction_cat, prediction]
+            prediction_cat = np.r_[
+                "0", prediction_cat, prediction.cpu().detach().numpy()
+            ]
 
     output = np.c_[samples, prediction_cat]
     output = output[output[:, -1] < args.threshold]
