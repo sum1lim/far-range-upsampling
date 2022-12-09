@@ -9,5 +9,10 @@ python train.py --exp-name exp6 --model model1 --loss msie --KNNstep 4
 python train.py --exp-name exp7 --model model1 --loss msie --KNNstep 8
 
 python train.py --exp-name exp8 --model model1 --loss mse --KNNstep 1
-python train.py --exp-name exp9 --model model1 --loss focal --KNNstep 1
-python train.py --exp-name exp10 --model model1 --loss combined --KNNstep 1
+
+python train.py --exp-name exp9 --model model1 --loss focal --focal-thresh 500 --KNNstep 1
+python train.py --exp-name exp10 --model model1 --loss focal --focal-thresh 1000 --KNNstep 1
+python train.py --exp-name exp11 --model model1 --loss focal --focal-thresh 1500 --KNNstep 1
+python train.py --exp-name exp12 --model model1 --loss focal --focal-thresh 2000 --KNNstep 1
+
+python train.py --exp-name exp13 --model model1 --loss combined --KNNstep 1

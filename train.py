@@ -59,7 +59,10 @@ def main(args):
     )
 
     epochs = 10000
-    loss_func = loss_dict[args.loss]().to(device)
+    if args.loss == "focal":
+        loss_func = loss_dict[args.loss](args.focal_thresh).to(device)
+    else:
+        loss_func = loss_dict[args.loss]().to(device)
     learning_rate = 0.001
     optim_net = optim.Adam(model.parameters(), lr=learning_rate)
     best_test_loss = np.inf
@@ -118,6 +121,12 @@ def main(args):
         outstr = f"Epoch {epoch}, train MAE: {train_mae}, train accuracy: {train_acc} loss: {train_loss * 1.0 / count}"
         print(outstr, file=sys.stdout)
         print(outstr, file=log_file)
+
+        if train_loss * 1.0 / count > 10:
+            print("Reassign parameters")
+            model = nn.DataParallel(
+                model_dict[args.model](batch_size=BS, device=device)
+            ).to(device)
 
         test_loss = 0.0
         count = 0.0
@@ -213,6 +222,12 @@ if __name__ == "__main__":
         type=str,
         choices=loss_dict.keys(),
         help="Loss function",
+    )
+    parser.add_argument(
+        "--focal-thresh",
+        type=int,
+        default=2000,
+        help="Distance threhold required for focal loss for classification",
     )
 
     args = parser.parse_args()

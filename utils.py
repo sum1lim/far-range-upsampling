@@ -59,14 +59,15 @@ class MSIE_Loss(nn.Module):
 
 
 class Focal_Loss(nn.Module):
-    def __init__(self):
+    def __init__(self, threshold):
         super().__init__()
         self.focal = FocalLoss(gamma=3)
+        self.threshold = threshold
 
     def forward(self, pred, true):
         true_class = torch.absolute(true)
-        true_class[true_class < 1000] = 1
-        true_class[true_class >= 1000] = 0
+        true_class[true_class < self.threshold] = 1
+        true_class[true_class >= self.threshold] = 0
         pred[pred < 0] = 0
         pred = pred.flatten()
         true_class = true_class.flatten()
