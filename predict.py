@@ -41,13 +41,14 @@ def main(args):
     points = torch.tensor(np.array([samples], dtype=np.double)).to(device)
 
     lidar_input = torch.tensor(lidar_input).unsqueeze(0).to(device)
-    points = torch.cat(
-        (
-            points,
-            torch.zeros((1, lidar_input.shape[1] - points.shape[1], 3)).to(device),
-        ),
-        1,
-    )
+    if points.shape[1] < lidar_input.shape[1]:
+        points = torch.cat(
+            (
+                points,
+                torch.zeros((1, lidar_input.shape[1] - points.shape[1], 3)).to(device),
+            ),
+            1,
+        )
     rel_dist = (points[:, :, None, :] - lidar_input[:, None, :, :])[
         :, : samples.shape[0]
     ].norm(dim=-1)
