@@ -123,7 +123,8 @@ def main(args):
         print(outstr, file=log_file)
 
         if train_loss * 1.0 / count > 10:
-            print("Reassign parameters")
+            print("Reassign parameters", file=sys.stdout)
+            print("Reassign parameters", file=log_file)
             model = nn.DataParallel(
                 model_dict[args.model](batch_size=BS, device=device)
             ).to(device)
