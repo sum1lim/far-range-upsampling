@@ -229,7 +229,7 @@ if __name__ == "__main__":
     )
     parser.add_argument(
         "--focal-weight",
-        type=int,
+        type=float,
         default=1,
         help="Weight of the focal loss in the combined loss",
     )
