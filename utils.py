@@ -76,10 +76,11 @@ class Focal_Loss(nn.Module):
 
 
 class combined_Loss(nn.Module):
-    def __init__(self):
+    def __init__(self, threshold, weight):
         super().__init__()
         self.msie = MSIE_Loss()
-        self.focal = Focal_Loss()
+        self.focal = Focal_Loss(threshold)
+        self.weight = weight
 
     def forward(self, pred, true):
-        return self.msie(pred, true) + self.focal(pred, true)
+        return self.msie(pred, true) + self.weight * self.focal(pred, true)

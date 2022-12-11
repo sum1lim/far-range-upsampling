@@ -61,6 +61,10 @@ def main(args):
     epochs = 10000
     if args.loss == "focal":
         loss_func = loss_dict[args.loss](args.focal_thresh).to(device)
+    elif args.loss == "combined":
+        loss_func = loss_dict[args.loss](args.focal_thresh, args.focal_weight).to(
+            device
+        )
     else:
         loss_func = loss_dict[args.loss]().to(device)
     learning_rate = 0.001
@@ -121,13 +125,6 @@ def main(args):
         outstr = f"Epoch {epoch}, train MAE: {train_mae}, train accuracy: {train_acc} loss: {train_loss * 1.0 / count}"
         print(outstr, file=sys.stdout)
         print(outstr, file=log_file)
-
-        if train_loss * 1.0 / count > 10:
-            print("Reassign parameters", file=sys.stdout)
-            print("Reassign parameters", file=log_file)
-            model = nn.DataParallel(
-                model_dict[args.model](batch_size=BS, device=device)
-            ).to(device)
 
         test_loss = 0.0
         count = 0.0
@@ -229,6 +226,12 @@ if __name__ == "__main__":
         type=int,
         default=2000,
         help="Distance threhold required for focal loss for classification",
+    )
+    parser.add_argument(
+        "--focal-weight",
+        type=int,
+        default=1,
+        help="Weight of the focal loss in the combined loss",
     )
 
     args = parser.parse_args()
