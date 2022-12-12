@@ -49,13 +49,17 @@ class LidarData(Dataset):
         return self.data.shape[0]
 
 
+def prob(distance):
+    return (distance / 1000 + 1) ** -1
+
+
 class MSIE_Loss(nn.Module):
     def __init__(self):
         super().__init__()
         self.mse = nn.MSELoss()
 
     def forward(self, pred, true):
-        return self.mse((pred / 1000 + 1) ** -1, (true / 1000 + 1) ** -1)
+        return self.mse(prob(pred), prob(true))
 
 
 class Focal_Loss(nn.Module):
@@ -72,7 +76,7 @@ class Focal_Loss(nn.Module):
         pred = pred.flatten()
         true_class = true_class.flatten()
 
-        return self.focal((pred / 1000 + 1) ** -1, true_class.to(torch.int64))
+        return self.focal(prob(pred), true_class.to(torch.int64))
 
 
 class combined_Loss(nn.Module):
