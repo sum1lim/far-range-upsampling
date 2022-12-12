@@ -103,5 +103,25 @@ We define the inverse of the `distance + 1` as the probability function and calc
 
 ## Prediction
 ```
+$ python predict.py -h
+usage: predict.py [-h] [--input INPUT] [--KNNstep KNNSTEP]
+                  [--model {model0_0,model0_1,model1,model2}] [--params PARAMS]
+                  [--threshold THRESHOLD] [--num-generation NUM_GENERATION]
+
+optional arguments:
+  -h, --help            show this help message and exit
+  --input INPUT         Input LIDAR scene
+  --KNNstep KNNSTEP     KNN step size
+  --model {model0_0,model0_1,model1,model2}
+                        Model to use for training
+  --params PARAMS       Path to the saved parameters for the model
+  --threshold THRESHOLD
+                        Threshold value of the distance output
+  --num-generation NUM_GENERATION
+                        Number of output generations
+
+```
+Example command:
+```
 python predict.py --input ./data/128_visible.txt --KNNstep 1 --model model2 --params ./checkpoints/exp17_model.pt --num-generation 32 --threshold 1000
 ```
