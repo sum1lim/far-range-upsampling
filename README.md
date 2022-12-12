@@ -82,12 +82,17 @@ Up-sampling data aggreation is performed using trilinear interpolation.
 
 
 ### loss
-We have experimented with 4 loss functions.
+We have experimented with 4 loss functions. The following probability function is used for the calculations of the loss:
+
+![Screenshot](./images/probability.png)
+
+where d<sub>i</sub> defines the distance offset of point i from the ground truth in metres.
+
 ####  **MSE**
 ![Screenshot](./images/MSE.png)
 
 ####  **MSIE**
-We define the inverse of the `distance + 1` as the probability function and calculated the MSE.
+We define the inverse of the `distance+1` as the probability function and calculated the MSE.
 
 ![Screenshot](./images/MSIE.png)
 
@@ -97,7 +102,7 @@ We define the inverse of the `distance + 1` as the probability function and calc
 `--focal-thresh` parameter defines the distance offset threshold for the classification problem. For example, if the threshold is 1000, points within 1 metre distance from the closest ground truth point are True samples.
 
 ####  **Total (combined) Loss**
-![Screenshot](./images/total_loss.png)
+![Screenshot](./images/total.png)
 
 `--focal-weight` parameter defines the weight of the focal loss when combined with the `MSIE`.
 
