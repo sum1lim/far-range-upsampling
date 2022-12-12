@@ -50,6 +50,9 @@ class LidarData(Dataset):
 
 
 def prob(distance):
+    # Calculate the probability of occupancy
+    # At distance = 0 metre -> probability = 0
+    # At distance = 1 metre -> probability = 0.5
     return (distance / 1000 + 1) ** -1
 
 
