@@ -12,31 +12,6 @@ pip install -r requirements.txt
 ```
 pip install point-transformer-pytorch
 ```
-The above package is the implementation of Point Transformer in Pytorch by the following paper. Separate installation is not necessary if `pip install -r requirements.txt` is run in the previous step.
-```
-@misc{zhao2020point,
-    title={Point Transformer}, 
-    author={Hengshuang Zhao and Li Jiang and Jiaya Jia and Philip Torr and Vladlen Koltun},
-    year={2020},
-    eprint={2012.09164},
-    archivePrefix={arXiv},
-    primaryClass={cs.CV}
-}
-```
-# Far Range Upsampling
-Point cloud enhancement in the far range from the ego vehicle for autonomous driving
-
-## Installation
-### Create virtual environment and install dependencies
-```
-python -m venv venv
-source venv/bin/activate
-pip install -r requirements.txt
-```
-### Install Point Transformer package
-```
-pip install point-transformer-pytorch
-```
 The above package is the implementation of Point Transformer in Pytorch by the following paper. **Separate installation is not necessary** if `pip install -r requirements.txt` is run in the previous step.
 ```
 @misc{zhao2020point,
@@ -72,6 +47,10 @@ optional arguments:
                         Weight of the focal loss in the combined loss
 
 ```
+Example commands can be found in `train.sh`.
+```
+python train.py --exp-name exp17 --model model1 --loss combined --focal-thresh 2500 --focal-weight 0.4 --KNNstep 1
+```
 
 ### KNNstep
 The training input file has 128 points from the sparse point cloud assigned to each of the target points in the far range. We select 16 points from them. In doing so, one can select the points with a specific step size. The data selection is handled in the `LidarData` class in `utils.py`.
@@ -105,11 +84,24 @@ Up-sampling data aggreation is performed using trilinear interpolation.
 ### loss
 We have experimented with 4 loss functions.
 ####  **MSE**
+![Screenshot](./images/MSE.png)
 
 ####  **MSIE**
+We define the inverse of the `distance + 1` as the probability function and calculated the MSE.
+
+![Screenshot](./images/MSIE.png)
 
 ####  **Focal Loss**
-`focal-thresh` parameter defines the distance offset threshold for the classification problem. For example, if the threshold is 1000, points within 1 metre distance from the closest ground truth point are True samples.
+![Screenshot](./images/focal.png)
+
+`--focal-thresh` parameter defines the distance offset threshold for the classification problem. For example, if the threshold is 1000, points within 1 metre distance from the closest ground truth point are True samples.
 
 ####  **Total (combined) Loss**
-`focal-weight` parameter defines the weight of the focal loss when combined with the `MSIE`.
+![Screenshot](./images/total_loss.png)
+
+`--focal-weight` parameter defines the weight of the focal loss when combined with the `MSIE`.
+
+## Prediction
+```
+python predict.py --input ./data/128_visible.txt --KNNstep 1 --model model2 --params ./checkpoints/exp17_model.pt --num-generation 32 --threshold 1000
+```
