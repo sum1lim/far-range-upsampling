@@ -71,7 +71,7 @@ If KNNstep == 4, then we select ordered points at indices of [0, 4, 8, ..., 60]
 If KNNstep == 8, then we select ordered points at indices of [0, 8, 16, ..., 120]
 ```
 
-### model
+### Model
 We have experimented with 4 models. They can be found at `models.py`.
 #### **model_0_0**
 The very basic model. The first `point transformer` layer calculates the self-attention within the KNN (K=16) input points (adjacent point attention) with respect to the target point they are assigned to. The transformed features are fed into an MLP layer to generated the output.
@@ -94,7 +94,7 @@ Up-sampling data aggreation is performed using trilinear interpolation.
 ![Screenshot](./images/model_2.png)
 
 
-### loss
+### Loss Function
 We have experimented with 4 loss functions. The following probability function is used for the calculations of the loss:
 
 ![Screenshot](./images/probability.png)
