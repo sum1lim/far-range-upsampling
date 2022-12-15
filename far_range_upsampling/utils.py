@@ -11,6 +11,7 @@ from focal_loss.focal_loss import FocalLoss
 class LidarData(Dataset):
     """
     A Torch Dataset class to import the train lidar point cloud data
+
     data_type: train (tr) or test (te) datasets
     step_size: step size for interleaving KNN point selections
     """
@@ -20,16 +21,22 @@ class LidarData(Dataset):
         all_label = []
         all_point = []
         for h5_name in glob.glob(os.path.join("data", f"*_data_{data_type}.h5")):
+            # Each file includes target point coordinates and its K nearest neighbours (K=128) from the input point cloud
             f = h5py.File(h5_name)
+
+            # Choose 512 points from 1024 points
             indices = np.random.choice(1024, size=512, replace=False)
-
             point = f["point"][:].astype("float32")[:, indices]
-
             data = f["data"][:].astype("float32")[:, indices]
+
+            # Relative Positioning (target point coordinates - input point coordinates)
             data = data.reshape((data.shape[0], data.shape[1], 128, 4))[:, :, :, 0:3]
             data = data - np.repeat(point[:, :, None, :], 128, axis=-2)
+
+            # Choose 16 nearest points from 128 with defined step size
             data = data[:, :, [i * step_size for i in range(16)]]
 
+            # distance offset labels associated with the target point
             label = f["label"][:].astype("float32")[:, indices]
 
             f.close()
@@ -56,13 +63,21 @@ class LidarData(Dataset):
 
 
 def probability(distance):
-    # Calculate the probability of occupancy
-    # At distance = 0 metre -> probability = 0
-    # At distance = 1 metre -> probability = 0.5
+    """
+    Calculate the probability of occupancy
+
+    distance:
+        At distance = 0 metre -> probability = 0
+        At distance = 1 metre -> probability = 0.5
+    """
     return (distance / 1000 + 1) ** -1
 
 
 class MSIE_Loss(nn.Module):
+    """
+    MSE of the probability function
+    """
+
     def __init__(self):
         super().__init__()
         self.mse = nn.MSELoss()
@@ -72,6 +87,15 @@ class MSIE_Loss(nn.Module):
 
 
 class Focal_Loss(nn.Module):
+    """
+    Focal loss for classification
+
+    threshold: defines the threshold for target labeling
+        ex) if threshold 1000 ->
+                distance < 1000 = Occupied point
+                distance >= 1000 = Unoccupied point
+    """
+
     def __init__(self, threshold):
         super().__init__()
         self.focal = FocalLoss(gamma=3)
@@ -89,6 +113,13 @@ class Focal_Loss(nn.Module):
 
 
 class combined_Loss(nn.Module):
+    """
+    A loss function combining MSIE and focal losses.
+
+    threshold: defines the threshold for target labeling for focal loss calculation
+    weight: weight of the focal loss w.r.t. MSIE
+    """
+
     def __init__(self, threshold, weight):
         super().__init__()
         self.msie = MSIE_Loss()
