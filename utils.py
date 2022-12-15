@@ -49,7 +49,7 @@ class LidarData(Dataset):
         return self.data.shape[0]
 
 
-def prob(distance):
+def probability(distance):
     # Calculate the probability of occupancy
     # At distance = 0 metre -> probability = 0
     # At distance = 1 metre -> probability = 0.5
@@ -62,7 +62,7 @@ class MSIE_Loss(nn.Module):
         self.mse = nn.MSELoss()
 
     def forward(self, pred, true):
-        return self.mse(prob(pred), prob(true))
+        return self.mse(probability(pred), probability(true))
 
 
 class Focal_Loss(nn.Module):
@@ -79,7 +79,7 @@ class Focal_Loss(nn.Module):
         pred = pred.flatten()
         true_class = true_class.flatten()
 
-        return self.focal(prob(pred), true_class.to(torch.int64))
+        return self.focal(probability(pred), true_class.to(torch.int64))
 
 
 class combined_Loss(nn.Module):

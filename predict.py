@@ -4,7 +4,7 @@ import torch
 import time
 import numpy as np
 from torch.utils.data import DataLoader
-from utils import LidarData
+from utils import LidarData, probability
 from collections import OrderedDict
 from models import *
 
@@ -17,12 +17,11 @@ model_dict = {
 
 
 def main(args):
-    BS = 4
     lidar_input = np.loadtxt(args.input, delimiter=",", dtype=np.double)
     lidar_input = lidar_input[lidar_input[:, 0] > 0.25]
 
     device = torch.device("cuda")
-    model = model_dict[args.model](batch_size=BS, device=device)
+    model = model_dict[args.model](batch_size=args.batch_size, device=device)
     state_dict = torch.load(args.params, map_location=device)
 
     total_time = 0
@@ -65,10 +64,10 @@ def main(args):
     print(f"Input processing time: {input_end_time - input_start_time}")
     total_time += input_end_time - input_start_time
 
-    for i in range(args.num_generation // BS):
+    for i in range(args.num_generation // args.batch_size):
         batch_start_time = time.time()
-        chunk_data = KNN_data[i * BS : (i + 1) * BS]
-        chunk_points = points[i * BS : (i + 1) * BS]
+        chunk_data = KNN_data[i * args.batch_size : (i + 1) * args.batch_size]
+        chunk_points = points[i * args.batch_size : (i + 1) * args.batch_size]
 
         chunk_data = chunk_data.reshape(
             (chunk_data.shape[0], chunk_data.shape[1], 16 * args.KNNstep, 3)
@@ -94,6 +93,9 @@ def main(args):
     output = np.c_[samples, prediction_cat]
     output = output[output[:, -1] < args.threshold]
 
+    if args.probability:
+        output[:, -1] = probability(output[:, -1])
+
     np.savetxt(
         f"./output/{args.input.split('/')[-1].replace('visible.txt', '_output')}.csv",
         output,
@@ -109,6 +111,12 @@ if __name__ == "__main__":
         "--input",
         type=str,
         help="Input LIDAR scene",
+    )
+    parser.add_argument(
+        "--batch-size",
+        type=int,
+        default=4,
+        help="Batch size",
     )
     parser.add_argument(
         "--KNNstep",
@@ -134,9 +142,14 @@ if __name__ == "__main__":
     )
     parser.add_argument(
         "--num-generation",
-        default=4,
+        default=32,
         type=int,
         help="Number of output generations",
+    )
+    parser.add_argument(
+        "--probability",
+        action="store_true",
+        help="Output occupancy probability instead of distance",
     )
 
     args = parser.parse_args()
