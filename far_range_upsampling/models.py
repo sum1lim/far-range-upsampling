@@ -1,9 +1,6 @@
 import torch
 from torch import nn
-from point_transformer_pytorch import (
-    PointTransformerLayer,
-    MultiheadPointTransformerLayer,
-)
+from point_transformer_pytorch import PointTransformerLayer
 from point_transformer_pytorch.point_transformer_pytorch import batched_index_select
 
 

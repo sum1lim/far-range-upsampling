@@ -3,11 +3,9 @@ import argparse
 import torch
 import time
 import numpy as np
-from torch.utils.data import DataLoader
-from models import model_dict
-from utils import LidarData, probability
+from far_range_upsampling.models import model_dict
+from far_range_upsampling.utils import probability
 from collections import OrderedDict
-from models import *
 
 
 def main(args):
@@ -22,7 +20,7 @@ def main(args):
     input_start_time = time.time()
     new_state_dict = OrderedDict()
     for k, v in state_dict.items():
-        name = k[7:]  # remove 'module'
+        name = k[7:]
         new_state_dict[name] = v
 
     model.load_state_dict(new_state_dict)
@@ -122,7 +120,7 @@ if __name__ == "__main__":
         "--model",
         type=str,
         choices=model_dict.keys(),
-        help="Model to use for training",
+        help="Model to use for prediction",
     )
     parser.add_argument(
         "--params",

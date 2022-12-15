@@ -9,11 +9,17 @@ from focal_loss.focal_loss import FocalLoss
 
 
 class LidarData(Dataset):
+    """
+    A Torch Dataset class to import the train lidar point cloud data
+    data_type: train (tr) or test (te) datasets
+    step_size: step size for interleaving KNN point selections
+    """
+
     def __init__(self, data_type, step_size=1):
         all_data = []
         all_label = []
         all_point = []
-        for h5_name in glob.glob(os.path.join("data", "*_data_tr.h5")):
+        for h5_name in glob.glob(os.path.join("data", f"*_data_{data_type}.h5")):
             f = h5py.File(h5_name)
             indices = np.random.choice(1024, size=512, replace=False)
 

@@ -4,10 +4,9 @@ import torch
 import numpy as np
 import sklearn.metrics as metrics
 from torch.utils.data import DataLoader
-from models import model_dict
-from utils import LidarData, loss_dict
+from far_range_upsampling.models import model_dict
+from far_range_upsampling.utils import LidarData
 from collections import OrderedDict
-from models import *
 
 
 def main(args):
@@ -25,7 +24,7 @@ def main(args):
 
     new_state_dict = OrderedDict()
     for k, v in state_dict.items():
-        name = k[7:]  # remove 'module'
+        name = k[7:]
         new_state_dict[name] = v
 
     model.load_state_dict(new_state_dict)
@@ -72,7 +71,6 @@ if __name__ == "__main__":
     parser.add_argument(
         "--KNNstep",
         type=int,
-        default=1,
         help="KNN step size",
     )
     parser.add_argument(
