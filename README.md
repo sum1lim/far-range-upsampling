@@ -7,12 +7,18 @@ Point cloud enhancement in the far range from the ego vehicle for autonomous dri
 python -m venv venv
 source venv/bin/activate
 pip install -r requirements.txt
+pip install .
 ```
-### Install Point Transformer package
+To check the installation:
+```
+pip freeze | grep far-range-upsampling
+```
+### Point Transformer package
+The following is run as part of `pip install -r requirements.txt` (**Separate installation is not necessary**):
 ```
 pip install point-transformer-pytorch
 ```
-The above package is the implementation of Point Transformer in Pytorch by the following paper. **Separate installation is not necessary** if `pip install -r requirements.txt` is run in the previous step.
+The above package is the implementation of Point Transformer in Pytorch by the following paper.
 ```
 @misc{zhao2020point,
     title={Point Transformer}, 
@@ -24,13 +30,11 @@ The above package is the implementation of Point Transformer in Pytorch by the f
 }
 ```
 ## Training the model
-`train.py` is implemented to train the models. The script takes the following parameters:
+`train` is implemented to train the models. The script takes the following parameters:
 ```
-$ python train.py -h
-usage: train.py [-h] [--exp-name EXP_NAME] [--KNNstep KNNSTEP] [--patience PATIENCE]
-                [--model {model0_0,model0_1,model1,model2}]
-                [--loss {mse,msie,focal,combined}] [--focal-thresh FOCAL_THRESH]
-                [--focal-weight FOCAL_WEIGHT]
+$ train -h
+usage: train [-h] [--exp-name EXP_NAME] [--KNNstep KNNSTEP] [--patience PATIENCE] [--model {model0_0,model0_1,model1,model2}] [--loss {mse,msie,focal,combined}]
+             [--focal-thresh FOCAL_THRESH] [--focal-weight FOCAL_WEIGHT]
 
 optional arguments:
   -h, --help            show this help message and exit
@@ -49,7 +53,7 @@ optional arguments:
 ```
 Example commands can be found in `train.sh`.
 ```
-python train.py --exp-name exp17 --model model1 --loss combined --focal-thresh 2500 --focal-weight 0.4 --KNNstep 1
+train --exp-name exp17 --model model1 --loss combined --focal-thresh 2500 --focal-weight 0.4 --KNNstep 1
 ```
 
 ### KNNstep
@@ -66,18 +70,22 @@ If KNNstep == 8, then we select ordered points at indices of [0, 8, 16, ..., 120
 We have experimented with 4 models. They can be found at `models.py`.
 #### **model_0_0**
 The very basic model. The first `point transformer` layer calculates the self-attention within the KNN (K=16) input points (adjacent point attention) with respect to the target point they are assigned to. The transformed features are fed into an MLP layer to generated the output.
+
 ![Screenshot](./images/model_0_0.png)
 
 #### **model_0_1**
 In addition to `model_0_0`, self-attention within the target points are calculated.
+
 ![Screenshot](./images/model_0_1.png)
 
 #### **model_1**
 Down-sampling and up-sampling procedured allow a U-Net-like architecture. The aggregation of information in down- and up- sampling is peformed using point transformer.
+
 ![Screenshot](./images/model_1.png)
 
 #### **model_2**
 Up-sampling data aggreation is performed using trilinear interpolation.
+
 ![Screenshot](./images/model_2.png)
 
 
@@ -108,25 +116,30 @@ We define the inverse of the `distance+1` as the probability function and calcul
 
 ## Prediction
 ```
-$ python predict.py -h
-usage: predict.py [-h] [--input INPUT] [--KNNstep KNNSTEP]
-                  [--model {model0_0,model0_1,model1,model2}] [--params PARAMS]
-                  [--threshold THRESHOLD] [--num-generation NUM_GENERATION]
+$ predict -h
+usage: predict [-h] [--input INPUT] [--batch-size BATCH_SIZE] [--KNNstep KNNSTEP] [--model {model0_0,model0_1,model1,model2}] [--params PARAMS]
+               [--num-generation NUM_GENERATION] [--probability] [--threshold THRESHOLD]
 
 optional arguments:
   -h, --help            show this help message and exit
   --input INPUT         Input LIDAR scene
+  --batch-size BATCH_SIZE
+                        Batch size
   --KNNstep KNNSTEP     KNN step size
   --model {model0_0,model0_1,model1,model2}
-                        Model to use for training
+                        Model to use for prediction
   --params PARAMS       Path to the saved parameters for the model
-  --threshold THRESHOLD
-                        Threshold value of the distance output
   --num-generation NUM_GENERATION
                         Number of output generations
+  --probability         Output occupancy probability instead of distance
+  --threshold THRESHOLD
+                        Threshold value of the distance or occupancy probability output
 
 ```
 Example command:
 ```
-python predict.py --input ./data/128_visible.txt --KNNstep 1 --model model2 --params ./checkpoints/exp17_model.pt --num-generation 32 --threshold 1000
+# To generate occupancy distance offset map
+predict --input ../lidar/example.txt --KNNstep 1 --model model1 --params ./checkpoints/exp17_model.pt --num-generation 32 --batch-size 4
+# To generate occupancy probability maps
+predict --input ../lidar/example.txt --KNNstep 1 --model model1 --params ./checkpoints/exp17_model.pt --num-generation 32 --batch-size 4 --probability --threshold 0.5
 ```
