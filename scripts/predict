@@ -85,6 +85,8 @@ def main(args):
     output = np.c_[samples, prediction_cat]
     if args.probability:
         output[:, -1] = probability(output[:, -1])
+        if args.threshold > 1:
+            args.threshold = 0
         output = output[output[:, -1] > args.threshold]
     else:
         output = output[output[:, -1] < args.threshold]
