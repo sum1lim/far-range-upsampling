@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 import argparse
 import torch
+import time
 import numpy as np
 from torch.utils.data import DataLoader
 from utils import LidarData
@@ -16,7 +17,7 @@ model_dict = {
 
 
 def main(args):
-    BS = 1
+    BS = 4
     lidar_input = np.loadtxt(args.input, delimiter=",", dtype=np.double)
     lidar_input = lidar_input[lidar_input[:, 0] > 0.25]
 
@@ -24,6 +25,8 @@ def main(args):
     model = model_dict[args.model](batch_size=BS, device=device)
     state_dict = torch.load(args.params, map_location=device)
 
+    total_time = 0
+    input_start_time = time.time()
     new_state_dict = OrderedDict()
     for k, v in state_dict.items():
         name = k[7:]  # remove 'module'
@@ -53,30 +56,40 @@ def main(args):
         :, : samples.shape[0]
     ].norm(dim=-1)
     dist, indices = rel_dist.topk(16 * args.KNNstep, largest=False)
+    KNN_data = lidar_input[0][indices[0]] - points[0].unsqueeze(1).repeat([1, 16, 1])
 
-    KNN_data = torch.tensor(
-        np.zeros((512 * args.num_generation, 16 * args.KNNstep * 3))
-    )
-    for i in range(512 * args.num_generation):
-        # KNN
-        KNN_data[i] = (lidar_input[0][indices[0][i]] - points[0][i]).flatten()
+    KNN_data = torch.stack(KNN_data.split(512, dim=0))
+    points = torch.stack(points[0].split(512, dim=0))
 
-    for i in range(args.num_generation):
-        chunk_data = KNN_data[i * 512 : i * 512 + 512]
-        chunk_points = points[:, i * 512 : i * 512 + 512]
+    input_end_time = time.time()
+    print(f"Input processing time: {input_end_time - input_start_time}")
+    total_time += input_end_time - input_start_time
 
-        chunk_data = chunk_data.reshape((chunk_data.shape[0], 16 * args.KNNstep, 3))
-        chunk_data = chunk_data[:, [i * args.KNNstep for i in range(16)]]
-        data = chunk_data.unsqueeze(0)
-        prediction = model(chunk_points.double().to(device), data.double().to(device))[
-            0
-        ]
+    for i in range(args.num_generation // BS):
+        batch_start_time = time.time()
+        chunk_data = KNN_data[i * BS : (i + 1) * BS]
+        chunk_points = points[i * BS : (i + 1) * BS]
+
+        chunk_data = chunk_data.reshape(
+            (chunk_data.shape[0], chunk_data.shape[1], 16 * args.KNNstep, 3)
+        )
+        chunk_data = chunk_data[:, :, [i * args.KNNstep for i in range(16)]]
+        prediction = model(
+            chunk_points.double().to(device), chunk_data.double().to(device)
+        ).flatten(start_dim=0, end_dim=1)
+
         if i == 0:
             prediction_cat = prediction.cpu().detach().numpy()
         else:
             prediction_cat = np.r_[
                 "0", prediction_cat, prediction.cpu().detach().numpy()
             ]
+
+        batch_end_time = time.time()
+        print(f"Batch {i+1} time: {batch_end_time - batch_start_time}")
+        total_time += batch_end_time - batch_start_time
+
+    print(f"Total time: {total_time}")
 
     output = np.c_[samples, prediction_cat]
     output = output[output[:, -1] < args.threshold]
