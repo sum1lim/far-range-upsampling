@@ -1,0 +1,90 @@
+Testing ./checkpoints/exp1_model.pt
+
+            Test MAE: 2073.0152505075116
+            Test accuracy: 0.739660683989956
+        
+Testing ./checkpoints/exp2_model.pt
+
+            Test MAE: 1419.426981788411
+            Test accuracy: 0.8045285363722906
+        
+Testing ./checkpoints/exp3_model.pt
+
+            Test MAE: 1403.952871672335
+            Test accuracy: 0.8158421679533598
+        
+Testing ./checkpoints/exp4_model.pt
+
+            Test MAE: 1456.8429160779433
+            Test accuracy: 0.8112771409265709
+        
+Testing ./checkpoints/exp5_model.pt
+
+            Test MAE: 1413.4600435498908
+            Test accuracy: 0.8163578273374703
+        
+Testing ./checkpoints/exp6_model.pt
+
+            Test MAE: 1658.3510374197685
+            Test accuracy: 0.7810229307133845
+        
+Testing ./checkpoints/exp7_model.pt
+
+            Test MAE: 1644.2936846752398
+            Test accuracy: 0.7939571515529742
+        
+Testing ./checkpoints/exp8_model.pt
+
+            Test MAE: 1502.3418666066648
+            Test accuracy: 0.5695143183714613
+        
+Testing ./checkpoints/exp9_model.pt
+
+            Test MAE: 8614.959232353167
+            Test accuracy: 0.5
+        
+Testing ./checkpoints/exp10_model.pt
+
+            Test MAE: 3229.7788242949596
+            Test accuracy: 0.7809230756834526
+        
+Testing ./checkpoints/exp11_model.pt
+
+            Test MAE: 4414.886184045965
+            Test accuracy: 0.8769744816177127
+        
+Testing ./checkpoints/exp12_model.pt
+
+            Test MAE: 3822.935366964546
+            Test accuracy: 0.8579362291388047
+        
+Testing ./checkpoints/exp13_model.pt
+
+            Test MAE: 3534.8912512463967
+            Test accuracy: 0.8263219136542777
+        
+Testing ./checkpoints/exp14_model.pt
+
+            Test MAE: 3957.9421430875573
+            Test accuracy: 0.8763912782042156
+        
+Testing ./checkpoints/exp15_model.pt
+
+            Test MAE: 1718.6258136342547
+            Test accuracy: 0.8189759455473742
+        
+Testing ./checkpoints/exp16_model.pt
+
+            Test MAE: 1786.2437623269047
+            Test accuracy: 0.8242724348637256
+        
+Testing ./checkpoints/exp17_model.pt
+
+            Test MAE: 1732.0373215802085
+            Test accuracy: 0.8626871101404694
+        
+Testing ./checkpoints/exp18_model.pt
+
+            Test MAE: 2433.70554037006
+            Test accuracy: 0.8504525124148448
+        
