@@ -55,6 +55,11 @@ Example commands can be found in `train.sh`.
 ```
 train --exp-name exp17 --model model1 --loss combined --focal-thresh 2500 --focal-weight 0.4 --KNNstep 1
 ```
+To run all the commands in `train.sh` simply run:
+```
+bash train.sh
+```
+The output models and log files are found under `./checkpoints`.
 
 ### KNNstep
 The training input file has 128 points from the sparse point cloud assigned to each of the target points in the far range. We select 16 points from them. In doing so, one can select the points with a specific step size. The data selection is handled in the `LidarData` class in `utils.py`.
