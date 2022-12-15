@@ -91,10 +91,9 @@ def main(args):
     print(f"Total time: {total_time}")
 
     output = np.c_[samples, prediction_cat]
-    output = output[output[:, -1] < args.threshold]
-
     if args.probability:
         output[:, -1] = probability(output[:, -1])
+    output = output[output[:, -1] < args.threshold]
 
     np.savetxt(
         f"./output/{args.input.split('/')[-1].replace('visible.txt', '_output')}.csv",
@@ -135,12 +134,6 @@ if __name__ == "__main__":
         help="Path to the saved parameters for the model",
     )
     parser.add_argument(
-        "--threshold",
-        default=np.inf,
-        type=int,
-        help="Threshold value of the distance output",
-    )
-    parser.add_argument(
         "--num-generation",
         default=32,
         type=int,
@@ -150,6 +143,12 @@ if __name__ == "__main__":
         "--probability",
         action="store_true",
         help="Output occupancy probability instead of distance",
+    )
+    parser.add_argument(
+        "--threshold",
+        default=np.inf,
+        type=float,
+        help="Threshold value of the distance or occupancy probability output",
     )
 
     args = parser.parse_args()
