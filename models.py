@@ -316,3 +316,12 @@ class model2(nn.Module):
         output = self.mlp_output(upsampled_sa4)
 
         return output
+
+
+# Global variables in dictionaries for the models used
+model_dict = {
+    "model0_0": model0_0,
+    "model0_1": model0_1,
+    "model1": model1,
+    "model2": model2,
+}

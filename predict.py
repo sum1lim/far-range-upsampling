@@ -4,16 +4,10 @@ import torch
 import time
 import numpy as np
 from torch.utils.data import DataLoader
+from models import model_dict
 from utils import LidarData, probability
 from collections import OrderedDict
 from models import *
-
-model_dict = {
-    "model0_0": model0_0,
-    "model0_1": model0_1,
-    "model1": model1,
-    "model2": model2,
-}
 
 
 def main(args):

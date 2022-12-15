@@ -91,3 +91,12 @@ class combined_Loss(nn.Module):
 
     def forward(self, pred, true):
         return self.msie(pred, true) + self.weight * self.focal(pred, true)
+
+
+# Global variables in dictionaries for the loss functions used
+loss_dict = {
+    "mse": nn.MSELoss,
+    "msie": MSIE_Loss,
+    "focal": Focal_Loss,
+    "combined": combined_Loss,
+}

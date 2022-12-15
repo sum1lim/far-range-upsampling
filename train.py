@@ -8,24 +8,10 @@ import torch.optim as optim
 import sklearn.metrics as metrics
 from torch import nn
 import torch.nn.functional as F
-from models import *
-from utils import LidarData, MSIE_Loss, Focal_Loss, combined_Loss
+from models import model_dict
+from utils import LidarData, MSIE_Loss, Focal_Loss, combined_Loss, loss_dict
 from torch.optim.lr_scheduler import CosineAnnealingLR
 from torch.utils.data import DataLoader
-
-
-model_dict = {
-    "model0_0": model0_0,
-    "model0_1": model0_1,
-    "model1": model1,
-    "model2": model2,
-}
-loss_dict = {
-    "mse": nn.MSELoss,
-    "msie": MSIE_Loss,
-    "focal": Focal_Loss,
-    "combined": combined_Loss,
-}
 
 
 def main(args):
