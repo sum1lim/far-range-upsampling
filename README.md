@@ -120,6 +120,8 @@ We define the inverse of the `distance+1` as the probability function and calcul
 `--focal-weight` parameter defines the weight of the focal loss when combined with the `MSIE`.
 
 ## Prediction
+![Screenshot](./images/output1.png)
+
 ```
 $ predict -h
 usage: predict [-h] [--input INPUT] [--batch-size BATCH_SIZE] [--KNNstep KNNSTEP] [--model {model0_0,model0_1,model1,model2}] [--params PARAMS]
