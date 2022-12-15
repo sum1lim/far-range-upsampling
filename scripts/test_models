@@ -59,7 +59,7 @@ def main(args):
 
     print(
         f"""
-            Test MAE: {test_mae}\n
+            Test MAE: {test_mae}
             Test accuracy: {test_acc}
         """
     )

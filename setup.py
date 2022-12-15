@@ -12,7 +12,7 @@ setup(
     include_package_data=True,
     scripts="""
         ./scripts/train
-        ./scripts/test
+        ./scripts/test_models
         ./scripts/predict
     """.split(),
 )
