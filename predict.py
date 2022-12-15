@@ -93,7 +93,9 @@ def main(args):
     output = np.c_[samples, prediction_cat]
     if args.probability:
         output[:, -1] = probability(output[:, -1])
-    output = output[output[:, -1] < args.threshold]
+        output = output[output[:, -1] > args.threshold]
+    else:
+        output = output[output[:, -1] < args.threshold]
 
     np.savetxt(
         f"./output/{args.input.split('/')[-1].replace('visible.txt', '_output')}.csv",
