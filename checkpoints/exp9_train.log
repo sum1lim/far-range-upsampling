@@ -2,19 +2,9 @@ Number of GPUs: 1
 Batch size: 8
 train total time is 3.14221453666687
 Epoch 0, train MAE: 8384.10546875, train accuracy: 0.5 loss: 35.099659146003006
-test total time is 1.8136169910430908
-Epoch 0, test MAE: 8384.75390625, test accuracy: 0.5, loss: 35.09719827040186
-save checkpoint
 train total time is 2.6984703540802
 Epoch 1, train MAE: 8384.1025390625, train accuracy: 0.5 loss: 35.09965936192926
-test total time is 1.816286563873291
-Epoch 1, test MAE: 8384.75390625, test accuracy: 0.5, loss: 35.09719827040186
 train total time is 2.71218204498291
 Epoch 2, train MAE: 8384.103515625, train accuracy: 0.5 loss: 35.09965928995384
-test total time is 1.8218348026275635
-Epoch 2, test MAE: 8384.6728515625, test accuracy: 0.5, loss: 8.949678007161841
-save checkpoint
 train total time is 2.777252674102783
 Epoch 3, train MAE: 8384.0205078125, train accuracy: 0.5 loss: 8.950294188733372
-test total time is 1.9116976261138916
-Epoch 3, test MAE: 8384.671875, test accuracy: 0.5, loss: 8.949687327978745

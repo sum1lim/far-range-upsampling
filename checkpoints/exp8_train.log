@@ -2,2274 +2,1103 @@ Number of GPUs: 4
 Batch size: 32
 train total time is 7.212656021118164
 Epoch 0, train MAE: 8394.43359375, train accuracy: 0.5 loss: 121569758.46153846
-test total time is 0.9782774448394775
-Epoch 0, test MAE: 8392.2333984375, test accuracy: 0.5, loss: 121890884.92307693
-save checkpoint
 train total time is 1.484022617340088
 Epoch 1, train MAE: 8302.32421875, train accuracy: 0.5 loss: 120151693.84615384
-test total time is 1.0505757331848145
-Epoch 1, test MAE: 7766.59814453125, test accuracy: 0.5, loss: 111162313.23076923
-save checkpoint
 train total time is 1.4524505138397217
 Epoch 2, train MAE: 6049.3681640625, train accuracy: 0.5014224007927331 loss: 69424370.3076923
-test total time is 1.1232831478118896
-Epoch 2, test MAE: 5231.7958984375, test accuracy: 0.5, loss: 54533440.92307692
-save checkpoint
 train total time is 1.6331162452697754
 Epoch 3, train MAE: 5379.861328125, train accuracy: 0.5 loss: 52243082.76923077
-test total time is 0.9722378253936768
-Epoch 3, test MAE: 5267.29736328125, test accuracy: 0.5, loss: 52119762.615384616
-save checkpoint
 train total time is 1.6436455249786377
 Epoch 4, train MAE: 5365.029296875, train accuracy: 0.5 loss: 51568838.307692304
-test total time is 1.0242657661437988
-Epoch 4, test MAE: 5387.0068359375, test accuracy: 0.5, loss: 51523893.07692308
-save checkpoint
 train total time is 1.4326331615447998
 Epoch 5, train MAE: 5355.07080078125, train accuracy: 0.5 loss: 51247997.538461536
-test total time is 1.084385633468628
-Epoch 5, test MAE: 5413.00732421875, test accuracy: 0.5, loss: 51459798.76923077
-save checkpoint
 train total time is 1.4435381889343262
 Epoch 6, train MAE: 5361.37548828125, train accuracy: 0.5 loss: 51036223.538461536
-test total time is 1.0974669456481934
-Epoch 6, test MAE: 5350.96533203125, test accuracy: 0.5, loss: 51312365.15384615
-save checkpoint
 train total time is 1.4512355327606201
 Epoch 7, train MAE: 5338.0703125, train accuracy: 0.5 loss: 51056403.84615385
-test total time is 1.1073412895202637
-Epoch 7, test MAE: 5351.83349609375, test accuracy: 0.5, loss: 51541255.07692308
 train total time is 1.493337869644165
 Epoch 8, train MAE: 5360.12255859375, train accuracy: 0.5 loss: 51235092.0
-test total time is 0.960918664932251
-Epoch 8, test MAE: 5333.82275390625, test accuracy: 0.5, loss: 50578799.461538464
-save checkpoint
 train total time is 1.540907859802246
 Epoch 9, train MAE: 5362.68701171875, train accuracy: 0.5 loss: 51164269.84615385
-test total time is 0.9937262535095215
-Epoch 9, test MAE: 5371.1220703125, test accuracy: 0.5, loss: 51495272.76923077
 train total time is 1.4500246047973633
 Epoch 10, train MAE: 5379.71630859375, train accuracy: 0.5 loss: 51405547.07692308
-test total time is 1.0972726345062256
-Epoch 10, test MAE: 5294.25830078125, test accuracy: 0.5, loss: 51562012.76923077
 train total time is 1.503514051437378
 Epoch 11, train MAE: 5338.306640625, train accuracy: 0.5 loss: 51328388.461538464
-test total time is 0.99639892578125
-Epoch 11, test MAE: 5390.46435546875, test accuracy: 0.5, loss: 51378926.615384616
 train total time is 1.5351545810699463
 Epoch 12, train MAE: 5342.3876953125, train accuracy: 0.5 loss: 50733715.23076923
-test total time is 1.0322203636169434
-Epoch 12, test MAE: 5521.517578125, test accuracy: 0.5, loss: 51320650.92307692
 train total time is 1.5279333591461182
 Epoch 13, train MAE: 5377.73388671875, train accuracy: 0.5 loss: 51534293.23076923
-test total time is 1.0880556106567383
-Epoch 13, test MAE: 5332.408203125, test accuracy: 0.5, loss: 51067257.538461536
 train total time is 1.5503673553466797
 Epoch 14, train MAE: 5356.56494140625, train accuracy: 0.5 loss: 51167028.307692304
-test total time is 0.9876446723937988
-Epoch 14, test MAE: 5452.708984375, test accuracy: 0.5, loss: 51558878.461538464
 train total time is 1.6422410011291504
 Epoch 15, train MAE: 5382.0302734375, train accuracy: 0.5 loss: 51162636.15384615
-test total time is 0.9902551174163818
-Epoch 15, test MAE: 5282.3798828125, test accuracy: 0.5, loss: 51414592.307692304
 train total time is 1.5392720699310303
 Epoch 16, train MAE: 5308.51904296875, train accuracy: 0.5 loss: 50008250.0
-test total time is 1.1116297245025635
-Epoch 16, test MAE: 5378.5517578125, test accuracy: 0.5, loss: 51213039.23076923
 train total time is 1.520101547241211
 Epoch 17, train MAE: 5350.59912109375, train accuracy: 0.5 loss: 50852128.15384615
-test total time is 0.9971663951873779
-Epoch 17, test MAE: 5294.087890625, test accuracy: 0.5, loss: 51079536.0
 train total time is 1.5618352890014648
 Epoch 18, train MAE: 5296.30712890625, train accuracy: 0.5 loss: 46941916.692307696
-test total time is 1.1466679573059082
-Epoch 18, test MAE: 5290.50537109375, test accuracy: 0.5, loss: 51102367.538461536
 train total time is 1.5001676082611084
 Epoch 19, train MAE: 5364.81689453125, train accuracy: 0.5 loss: 51066793.384615384
-test total time is 0.9783587455749512
-Epoch 19, test MAE: 5272.07763671875, test accuracy: 0.5, loss: 51045099.76923077
 train total time is 1.5672433376312256
 Epoch 20, train MAE: 5356.95263671875, train accuracy: 0.5 loss: 51364974.461538464
-test total time is 0.9591834545135498
-Epoch 20, test MAE: 5470.384765625, test accuracy: 0.5, loss: 51137118.0
 train total time is 1.7672085762023926
 Epoch 21, train MAE: 5354.14794921875, train accuracy: 0.5 loss: 51070841.538461536
-test total time is 1.0998353958129883
-Epoch 21, test MAE: 5281.791015625, test accuracy: 0.5, loss: 51071117.84615385
 train total time is 1.5322179794311523
 Epoch 22, train MAE: 5363.17236328125, train accuracy: 0.5 loss: 51105881.23076923
-test total time is 1.0001864433288574
-Epoch 22, test MAE: 5424.41943359375, test accuracy: 0.5, loss: 51183819.84615385
 train total time is 1.7101006507873535
 Epoch 23, train MAE: 5348.259765625, train accuracy: 0.5 loss: 50840194.461538464
-test total time is 1.021528959274292
-Epoch 23, test MAE: 5326.3828125, test accuracy: 0.5, loss: 51077171.384615384
 train total time is 1.7114276885986328
 Epoch 24, train MAE: 5357.80908203125, train accuracy: 0.5 loss: 50758681.692307696
-test total time is 1.219512939453125
-Epoch 24, test MAE: 5470.02685546875, test accuracy: 0.5, loss: 51275029.23076923
 train total time is 1.86051344871521
 Epoch 25, train MAE: 5331.30419921875, train accuracy: 0.5 loss: 50570632.15384615
-test total time is 1.6973576545715332
-Epoch 25, test MAE: 5364.736328125, test accuracy: 0.5, loss: 50977865.384615384
 train total time is 1.8853256702423096
 Epoch 26, train MAE: 5336.4951171875, train accuracy: 0.5 loss: 50706465.84615385
-test total time is 1.46197509765625
-Epoch 26, test MAE: 5432.3193359375, test accuracy: 0.5, loss: 51063495.538461536
 train total time is 2.0532166957855225
 Epoch 27, train MAE: 5333.08935546875, train accuracy: 0.5 loss: 50487891.615384616
-test total time is 1.8441412448883057
-Epoch 27, test MAE: 5353.00537109375, test accuracy: 0.5, loss: 50785067.692307696
 train total time is 2.2803549766540527
 Epoch 28, train MAE: 5342.9404296875, train accuracy: 0.5 loss: 50511398.307692304
-test total time is 2.2360498905181885
-Epoch 28, test MAE: 5274.16357421875, test accuracy: 0.5, loss: 50695414.76923077
 train total time is 2.5864124298095703
 Epoch 29, train MAE: 5354.98095703125, train accuracy: 0.5 loss: 50726048.307692304
-test total time is 2.1934092044830322
-Epoch 29, test MAE: 5411.76806640625, test accuracy: 0.5, loss: 50777231.384615384
 train total time is 2.893674373626709
 Epoch 30, train MAE: 5349.650390625, train accuracy: 0.5 loss: 50692390.692307696
-test total time is 2.6050565242767334
-Epoch 30, test MAE: 5388.1181640625, test accuracy: 0.5, loss: 50697725.384615384
 train total time is 3.2782018184661865
 Epoch 31, train MAE: 5310.61767578125, train accuracy: 0.5 loss: 50418958.76923077
-test total time is 2.678717851638794
-Epoch 31, test MAE: 5498.8154296875, test accuracy: 0.5, loss: 51215596.92307692
 train total time is 3.5241761207580566
 Epoch 32, train MAE: 5334.50244140625, train accuracy: 0.5 loss: 49662880.0
-test total time is 2.8045551776885986
-Epoch 32, test MAE: 5244.3671875, test accuracy: 0.5, loss: 51112742.307692304
 train total time is 3.3302791118621826
 Epoch 33, train MAE: 5327.90625, train accuracy: 0.5 loss: 50281280.0
-test total time is 2.800239324569702
-Epoch 33, test MAE: 5405.84033203125, test accuracy: 0.5, loss: 50654621.692307696
 train total time is 3.4327306747436523
 Epoch 34, train MAE: 5351.873046875, train accuracy: 0.5 loss: 50780109.692307696
-test total time is 2.8526997566223145
-Epoch 34, test MAE: 5337.45751953125, test accuracy: 0.5, loss: 50432846.461538464
-save checkpoint
 train total time is 3.39810848236084
 Epoch 35, train MAE: 5347.55224609375, train accuracy: 0.5 loss: 50389689.384615384
-test total time is 2.826587438583374
-Epoch 35, test MAE: 5270.8828125, test accuracy: 0.5, loss: 50184058.0
-save checkpoint
 train total time is 3.4241464138031006
 Epoch 36, train MAE: 5334.16455078125, train accuracy: 0.5 loss: 50214907.15384615
-test total time is 2.9211807250976562
-Epoch 36, test MAE: 5385.2900390625, test accuracy: 0.5, loss: 50247485.84615385
 train total time is 3.4329299926757812
 Epoch 37, train MAE: 5306.6875, train accuracy: 0.5 loss: 50093456.615384616
-test total time is 2.8240766525268555
-Epoch 37, test MAE: 5522.2744140625, test accuracy: 0.5, loss: 51067467.692307696
 train total time is 3.4222724437713623
 Epoch 38, train MAE: 5335.13525390625, train accuracy: 0.5 loss: 49981431.0
-test total time is 2.8258824348449707
-Epoch 38, test MAE: 5356.98486328125, test accuracy: 0.5, loss: 50600700.76923077
 train total time is 3.653585910797119
 Epoch 39, train MAE: 5339.23095703125, train accuracy: 0.5 loss: 50549719.615384616
-test total time is 2.825575351715088
-Epoch 39, test MAE: 5216.0390625, test accuracy: 0.5, loss: 51589197.15384615
 train total time is 3.385849952697754
 Epoch 40, train MAE: 5320.427734375, train accuracy: 0.5 loss: 50335799.84615385
-test total time is 2.826291561126709
-Epoch 40, test MAE: 5321.83154296875, test accuracy: 0.5, loss: 50520644.92307692
 train total time is 3.5312325954437256
 Epoch 41, train MAE: 5324.259765625, train accuracy: 0.5 loss: 50320014.76923077
-test total time is 2.9404900074005127
-Epoch 41, test MAE: 5395.44970703125, test accuracy: 0.5, loss: 50287904.76923077
 train total time is 3.4172730445861816
 Epoch 42, train MAE: 5340.7509765625, train accuracy: 0.5 loss: 50305336.307692304
-test total time is 2.833413600921631
-Epoch 42, test MAE: 5296.048828125, test accuracy: 0.5, loss: 50356296.92307692
 train total time is 3.409599781036377
 Epoch 43, train MAE: 5307.0791015625, train accuracy: 0.5 loss: 49032041.23076923
-test total time is 2.8293399810791016
-Epoch 43, test MAE: 5350.76611328125, test accuracy: 0.5, loss: 50153139.692307696
-save checkpoint
 train total time is 3.533738613128662
 Epoch 44, train MAE: 5286.8818359375, train accuracy: 0.5 loss: 48803012.461538464
-test total time is 2.8454349040985107
-Epoch 44, test MAE: 5310.70654296875, test accuracy: 0.5, loss: 49972785.692307696
-save checkpoint
 train total time is 3.410043478012085
 Epoch 45, train MAE: 5312.21142578125, train accuracy: 0.5 loss: 49881116.615384616
-test total time is 2.8445963859558105
-Epoch 45, test MAE: 5407.97705078125, test accuracy: 0.5, loss: 50030677.538461536
 train total time is 3.4120047092437744
 Epoch 46, train MAE: 5349.2763671875, train accuracy: 0.5 loss: 49971349.84615385
-test total time is 2.9406425952911377
-Epoch 46, test MAE: 5302.27392578125, test accuracy: 0.5, loss: 49441728.0
-save checkpoint
 train total time is 3.444779872894287
 Epoch 47, train MAE: 5312.61767578125, train accuracy: 0.5 loss: 50187448.76923077
-test total time is 2.8366408348083496
-Epoch 47, test MAE: 5666.02880859375, test accuracy: 0.5, loss: 51823228.0
 train total time is 3.4069910049438477
 Epoch 48, train MAE: 5306.82861328125, train accuracy: 0.5 loss: 49961199.23076923
-test total time is 2.828655481338501
-Epoch 48, test MAE: 5474.99267578125, test accuracy: 0.5, loss: 50172626.307692304
 train total time is 3.6119368076324463
 Epoch 49, train MAE: 5330.294921875, train accuracy: 0.5 loss: 49587895.84615385
-test total time is 2.8275067806243896
-Epoch 49, test MAE: 5340.81982421875, test accuracy: 0.5, loss: 49265471.07692308
-save checkpoint
 train total time is 3.4300730228424072
 Epoch 50, train MAE: 5276.76513671875, train accuracy: 0.5 loss: 48946019.84615385
-test total time is 2.82426118850708
-Epoch 50, test MAE: 5223.07763671875, test accuracy: 0.5, loss: 49260352.307692304
-save checkpoint
 train total time is 3.4499948024749756
 Epoch 51, train MAE: 5262.3017578125, train accuracy: 0.5 loss: 47800082.615384616
-test total time is 2.935354232788086
-Epoch 51, test MAE: 5233.76611328125, test accuracy: 0.5, loss: 48486066.15384615
-save checkpoint
 train total time is 3.410983085632324
 Epoch 52, train MAE: 5259.09375, train accuracy: 0.5 loss: 46932693.615384616
-test total time is 2.821171760559082
-Epoch 52, test MAE: 5174.845703125, test accuracy: 0.5, loss: 49170658.0
 train total time is 3.4742348194122314
 Epoch 53, train MAE: 5250.5546875, train accuracy: 0.5 loss: 48057715.307692304
-test total time is 2.827308416366577
-Epoch 53, test MAE: 5291.47412109375, test accuracy: 0.5, loss: 46004981.538461536
-save checkpoint
 train total time is 3.563478469848633
 Epoch 54, train MAE: 5232.9951171875, train accuracy: 0.5 loss: 47653140.15384615
-test total time is 2.8311872482299805
-Epoch 54, test MAE: 5211.36669921875, test accuracy: 0.5, loss: 47479360.07692308
 train total time is 3.4284069538116455
 Epoch 55, train MAE: 5249.166015625, train accuracy: 0.5 loss: 47615554.615384616
-test total time is 2.8280630111694336
-Epoch 55, test MAE: 5195.47998046875, test accuracy: 0.5, loss: 47181311.307692304
 train total time is 3.421654462814331
 Epoch 56, train MAE: 5198.2177734375, train accuracy: 0.5 loss: 47273652.92307692
-test total time is 2.9344217777252197
-Epoch 56, test MAE: 5263.2783203125, test accuracy: 0.5, loss: 47075069.92307692
 train total time is 3.5438547134399414
 Epoch 57, train MAE: 5180.85205078125, train accuracy: 0.5 loss: 46806538.0
-test total time is 2.8341357707977295
-Epoch 57, test MAE: 5185.4697265625, test accuracy: 0.5, loss: 46770659.692307696
 train total time is 3.4147679805755615
 Epoch 58, train MAE: 5131.974609375, train accuracy: 0.5 loss: 45161582.0
-test total time is 2.8205790519714355
-Epoch 58, test MAE: 5524.3173828125, test accuracy: 0.5, loss: 48535725.384615384
 train total time is 3.519564390182495
 Epoch 59, train MAE: 5143.5126953125, train accuracy: 0.5 loss: 45113783.461538464
-test total time is 2.8218276500701904
-Epoch 59, test MAE: 5008.88427734375, test accuracy: 0.5, loss: 44328333.23076923
-save checkpoint
 train total time is 3.444923162460327
 Epoch 60, train MAE: 5056.53076171875, train accuracy: 0.5 loss: 44185468.538461536
-test total time is 2.8286068439483643
-Epoch 60, test MAE: 5104.8837890625, test accuracy: 0.5, loss: 43001812.461538464
-save checkpoint
 train total time is 3.494316577911377
 Epoch 61, train MAE: 4976.58251953125, train accuracy: 0.5 loss: 42449867.615384616
-test total time is 2.836534261703491
-Epoch 61, test MAE: 5028.7646484375, test accuracy: 0.5, loss: 42076450.76923077
-save checkpoint
 train total time is 3.4067978858947754
 Epoch 62, train MAE: 4977.7734375, train accuracy: 0.5 loss: 42326643.15384615
-test total time is 2.8374741077423096
-Epoch 62, test MAE: 4908.853515625, test accuracy: 0.5, loss: 41002014.307692304
-save checkpoint
 train total time is 3.417233943939209
 Epoch 63, train MAE: 4756.8662109375, train accuracy: 0.5 loss: 39315621.23076923
-test total time is 2.8462648391723633
-Epoch 63, test MAE: 4493.69677734375, test accuracy: 0.5, loss: 36297330.92307692
-save checkpoint
 train total time is 3.5004515647888184
 Epoch 64, train MAE: 4483.05908203125, train accuracy: 0.5 loss: 36580251.07692308
-test total time is 2.830965995788574
-Epoch 64, test MAE: 4433.54443359375, test accuracy: 0.5, loss: 34090761.307692304
-save checkpoint
 train total time is 3.537893056869507
 Epoch 65, train MAE: 4370.3232421875, train accuracy: 0.5 loss: 34992226.384615384
-test total time is 2.8341336250305176
-Epoch 65, test MAE: 4274.73095703125, test accuracy: 0.5, loss: 33938492.538461536
-save checkpoint
 train total time is 3.4815480709075928
 Epoch 66, train MAE: 4196.49267578125, train accuracy: 0.5 loss: 33386250.769230768
-test total time is 2.9416263103485107
-Epoch 66, test MAE: 4088.87451171875, test accuracy: 0.5, loss: 32258115.307692308
-save checkpoint
 train total time is 3.445937156677246
 Epoch 67, train MAE: 4128.75830078125, train accuracy: 0.5 loss: 32541333.384615384
-test total time is 2.835883378982544
-Epoch 67, test MAE: 4070.72119140625, test accuracy: 0.5, loss: 31930928.53846154
-save checkpoint
 train total time is 3.3894824981689453
 Epoch 68, train MAE: 4076.516845703125, train accuracy: 0.5 loss: 31984396.769230768
-test total time is 2.838901996612549
-Epoch 68, test MAE: 4097.888671875, test accuracy: 0.5, loss: 31701714.615384616
-save checkpoint
 train total time is 3.5340328216552734
 Epoch 69, train MAE: 4021.144287109375, train accuracy: 0.5 loss: 31524300.53846154
-test total time is 2.8309853076934814
-Epoch 69, test MAE: 3879.71142578125, test accuracy: 0.5, loss: 30758085.153846152
-save checkpoint
 train total time is 3.3991951942443848
 Epoch 70, train MAE: 4088.963623046875, train accuracy: 0.5 loss: 32177260.769230768
-test total time is 2.8387322425842285
-Epoch 70, test MAE: 4606.119140625, test accuracy: 0.5, loss: 35869163.384615384
 train total time is 3.423208236694336
 Epoch 71, train MAE: 4123.6181640625, train accuracy: 0.5 loss: 32333621.076923076
-test total time is 2.9414846897125244
-Epoch 71, test MAE: 3885.2548828125, test accuracy: 0.5, loss: 29928770.230769232
-save checkpoint
 train total time is 3.4451565742492676
 Epoch 72, train MAE: 3914.95263671875, train accuracy: 0.5 loss: 30460213.53846154
-test total time is 2.8407788276672363
-Epoch 72, test MAE: 3951.118408203125, test accuracy: 0.5, loss: 28955680.846153848
-save checkpoint
 train total time is 3.4690778255462646
 Epoch 73, train MAE: 3912.396728515625, train accuracy: 0.5 loss: 29903963.46153846
-test total time is 2.8295915126800537
-Epoch 73, test MAE: 3906.39892578125, test accuracy: 0.5, loss: 29147640.615384616
 train total time is 3.5308914184570312
 Epoch 74, train MAE: 4019.774658203125, train accuracy: 0.5 loss: 30520737.307692308
-test total time is 2.8373961448669434
-Epoch 74, test MAE: 4087.849853515625, test accuracy: 0.5, loss: 31193048.076923076
 train total time is 3.44106125831604
 Epoch 75, train MAE: 4022.789306640625, train accuracy: 0.5 loss: 30491689.384615384
-test total time is 2.8414089679718018
-Epoch 75, test MAE: 3945.76904296875, test accuracy: 0.5, loss: 29256110.53846154
 train total time is 3.444333553314209
 Epoch 76, train MAE: 3983.03271484375, train accuracy: 0.5 loss: 30275850.46153846
-test total time is 2.9372265338897705
-Epoch 76, test MAE: 3986.875244140625, test accuracy: 0.5, loss: 29029338.384615384
 train total time is 3.464524507522583
 Epoch 77, train MAE: 3829.4091796875, train accuracy: 0.5 loss: 28186892.307692308
-test total time is 2.8435580730438232
-Epoch 77, test MAE: 3625.146728515625, test accuracy: 0.5, loss: 26830165.46153846
-save checkpoint
 train total time is 3.417055606842041
 Epoch 78, train MAE: 3657.191162109375, train accuracy: 0.5 loss: 26222592.615384616
-test total time is 2.9327878952026367
-Epoch 78, test MAE: 3634.7919921875, test accuracy: 0.5, loss: 26015860.923076924
-save checkpoint
 train total time is 3.45875883102417
 Epoch 79, train MAE: 3517.527099609375, train accuracy: 0.5 loss: 24985521.230769232
-test total time is 2.8398633003234863
-Epoch 79, test MAE: 3374.5263671875, test accuracy: 0.5, loss: 23275345.692307692
-save checkpoint
 train total time is 3.4213218688964844
 Epoch 80, train MAE: 3304.459228515625, train accuracy: 0.5 loss: 22169778.730769232
-test total time is 2.840620756149292
-Epoch 80, test MAE: 3154.368408203125, test accuracy: 0.5, loss: 19740735.0
-save checkpoint
 train total time is 3.4096908569335938
 Epoch 81, train MAE: 2980.4638671875, train accuracy: 0.5 loss: 18836454.846153848
-test total time is 2.931962728500366
-Epoch 81, test MAE: 2749.3115234375, test accuracy: 0.5, loss: 16647352.653846154
-save checkpoint
 train total time is 3.418254852294922
 Epoch 82, train MAE: 2775.441650390625, train accuracy: 0.5 loss: 17121389.423076924
-test total time is 2.8308632373809814
-Epoch 82, test MAE: 2582.630615234375, test accuracy: 0.5, loss: 15588860.423076924
-save checkpoint
 train total time is 3.4284703731536865
 Epoch 83, train MAE: 2567.638916015625, train accuracy: 0.5 loss: 15453405.615384616
-test total time is 2.834683895111084
-Epoch 83, test MAE: 2493.89404296875, test accuracy: 0.5, loss: 14887771.884615384
-save checkpoint
 train total time is 3.4767091274261475
 Epoch 84, train MAE: 2513.2353515625, train accuracy: 0.5 loss: 15273299.192307692
-test total time is 2.839250326156616
-Epoch 84, test MAE: 2630.156494140625, test accuracy: 0.5, loss: 15856656.76923077
 train total time is 3.476269483566284
 Epoch 85, train MAE: 2516.906494140625, train accuracy: 0.5 loss: 14757486.076923076
-test total time is 2.84822154045105
-Epoch 85, test MAE: 2535.681396484375, test accuracy: 0.5, loss: 15008949.038461538
 train total time is 3.4540045261383057
 Epoch 86, train MAE: 2409.6328125, train accuracy: 0.5 loss: 14802752.461538462
-test total time is 2.9344091415405273
-Epoch 86, test MAE: 2241.950927734375, test accuracy: 0.5, loss: 13206951.884615384
-save checkpoint
 train total time is 3.568284034729004
 Epoch 87, train MAE: 2353.05908203125, train accuracy: 0.5 loss: 14331305.76923077
-test total time is 2.825895071029663
-Epoch 87, test MAE: 2610.443603515625, test accuracy: 0.5, loss: 14939291.0
 train total time is 3.5349600315093994
 Epoch 88, train MAE: 2394.58251953125, train accuracy: 0.5 loss: 14499059.76923077
-test total time is 2.8345158100128174
-Epoch 88, test MAE: 2285.11865234375, test accuracy: 0.5, loss: 13505900.23076923
 train total time is 3.580352306365967
 Epoch 89, train MAE: 2305.3759765625, train accuracy: 0.5 loss: 13813795.153846154
-test total time is 2.833383321762085
-Epoch 89, test MAE: 2188.711669921875, test accuracy: 0.5, loss: 12720084.134615384
-save checkpoint
 train total time is 3.494325876235962
 Epoch 90, train MAE: 2252.549072265625, train accuracy: 0.5 loss: 13450201.807692308
-test total time is 2.830449342727661
-Epoch 90, test MAE: 2302.53857421875, test accuracy: 0.5, loss: 13104138.75
 train total time is 3.5758042335510254
 Epoch 91, train MAE: 2272.48095703125, train accuracy: 0.5 loss: 13506258.403846154
-test total time is 2.93225359916687
-Epoch 91, test MAE: 2262.8251953125, test accuracy: 0.5, loss: 12949781.807692308
 train total time is 3.445770740509033
 Epoch 92, train MAE: 2249.6025390625, train accuracy: 0.5 loss: 13425642.653846154
-test total time is 2.8280386924743652
-Epoch 92, test MAE: 2443.059326171875, test accuracy: 0.5, loss: 13435365.5
 train total time is 3.5502915382385254
 Epoch 93, train MAE: 2184.540283203125, train accuracy: 0.5 loss: 12868585.153846154
-test total time is 2.8294153213500977
-Epoch 93, test MAE: 2170.7626953125, test accuracy: 0.5, loss: 12589619.576923076
-save checkpoint
 train total time is 3.5900073051452637
 Epoch 94, train MAE: 2149.48193359375, train accuracy: 0.5 loss: 12658105.576923076
-test total time is 2.82208251953125
-Epoch 94, test MAE: 2196.814697265625, test accuracy: 0.5, loss: 12302788.846153846
-save checkpoint
 train total time is 3.5640525817871094
 Epoch 95, train MAE: 2176.921142578125, train accuracy: 0.5 loss: 12697522.211538462
-test total time is 2.826913595199585
-Epoch 95, test MAE: 2055.5791015625, test accuracy: 0.5, loss: 12227417.403846154
-save checkpoint
 train total time is 3.5137081146240234
 Epoch 96, train MAE: 2118.911865234375, train accuracy: 0.5 loss: 12117512.961538462
-test total time is 2.839137315750122
-Epoch 96, test MAE: 2106.884765625, test accuracy: 0.5, loss: 11592981.442307692
-save checkpoint
 train total time is 3.455017566680908
 Epoch 97, train MAE: 2175.58203125, train accuracy: 0.5 loss: 12617549.807692308
-test total time is 2.8398823738098145
-Epoch 97, test MAE: 2014.910888671875, test accuracy: 0.5, loss: 11459673.923076924
-save checkpoint
 train total time is 3.4315643310546875
 Epoch 98, train MAE: 2107.1826171875, train accuracy: 0.5 loss: 12025357.461538462
-test total time is 2.8480567932128906
-Epoch 98, test MAE: 2053.004150390625, test accuracy: 0.5, loss: 11436823.461538462
-save checkpoint
 train total time is 3.542058229446411
 Epoch 99, train MAE: 2112.247314453125, train accuracy: 0.5000112483467863 loss: 12344762.288461538
-test total time is 2.8275625705718994
-Epoch 99, test MAE: 2090.916259765625, test accuracy: 0.5, loss: 11541295.461538462
 train total time is 3.5427207946777344
 Epoch 100, train MAE: 2107.015869140625, train accuracy: 0.5000124853297375 loss: 12635603.346153846
-test total time is 2.8250439167022705
-Epoch 100, test MAE: 2131.50732421875, test accuracy: 0.5, loss: 11611231.576923076
 train total time is 3.4689013957977295
 Epoch 101, train MAE: 2139.510498046875, train accuracy: 0.5 loss: 12446400.326923076
-test total time is 2.93319034576416
-Epoch 101, test MAE: 1959.1849365234375, test accuracy: 0.5, loss: 11315504.576923076
-save checkpoint
 train total time is 3.4496285915374756
 Epoch 102, train MAE: 2060.807373046875, train accuracy: 0.5 loss: 11910289.192307692
-test total time is 2.8341972827911377
-Epoch 102, test MAE: 2086.155029296875, test accuracy: 0.5, loss: 11922044.73076923
 train total time is 3.5033798217773438
 Epoch 103, train MAE: 2152.1455078125, train accuracy: 0.5 loss: 12510306.26923077
-test total time is 2.849806785583496
-Epoch 103, test MAE: 2016.3201904296875, test accuracy: 0.5, loss: 11426173.711538462
 train total time is 3.5305793285369873
 Epoch 104, train MAE: 1992.766845703125, train accuracy: 0.5001346582485824 loss: 11065352.307692308
-test total time is 2.840928316116333
-Epoch 104, test MAE: 2011.037353515625, test accuracy: 0.5, loss: 11013378.211538462
-save checkpoint
 train total time is 3.4640591144561768
 Epoch 105, train MAE: 2044.768310546875, train accuracy: 0.5000488895304445 loss: 11797858.653846154
-test total time is 2.838113307952881
-Epoch 105, test MAE: 1952.611572265625, test accuracy: 0.500192217172809, loss: 10916586.538461538
-save checkpoint
 train total time is 3.5741727352142334
 Epoch 106, train MAE: 2061.80908203125, train accuracy: 0.5000238049145055 loss: 11694367.846153846
-test total time is 2.927912473678589
-Epoch 106, test MAE: 1929.7918701171875, test accuracy: 0.5, loss: 10974104.961538462
 train total time is 3.509404420852661
 Epoch 107, train MAE: 2038.963134765625, train accuracy: 0.500093502917341 loss: 11518132.307692308
-test total time is 2.828306198120117
-Epoch 107, test MAE: 2120.273193359375, test accuracy: 0.5, loss: 11436356.26923077
 train total time is 3.4538815021514893
 Epoch 108, train MAE: 1976.166015625, train accuracy: 0.5001695861583126 loss: 11296735.134615384
-test total time is 2.84236478805542
-Epoch 108, test MAE: 2032.4674072265625, test accuracy: 0.5, loss: 10862645.538461538
-save checkpoint
 train total time is 3.5501556396484375
 Epoch 109, train MAE: 1935.7408447265625, train accuracy: 0.5 loss: 10885686.75
-test total time is 2.829637289047241
-Epoch 109, test MAE: 1908.28173828125, test accuracy: 0.5, loss: 10605260.153846154
-save checkpoint
 train total time is 3.4313573837280273
 Epoch 110, train MAE: 1992.525390625, train accuracy: 0.5000112534371439 loss: 11444844.48076923
-test total time is 2.8230888843536377
-Epoch 110, test MAE: 2044.6998291015625, test accuracy: 0.5, loss: 11241629.153846154
 train total time is 3.6190037727355957
 Epoch 111, train MAE: 1988.319580078125, train accuracy: 0.5 loss: 11274417.423076924
-test total time is 2.92610764503479
-Epoch 111, test MAE: 1838.321044921875, test accuracy: 0.5007052243578133, loss: 10693314.211538462
 train total time is 3.4199061393737793
 Epoch 112, train MAE: 1971.01416015625, train accuracy: 0.5007529436256848 loss: 11698790.288461538
-test total time is 2.838433265686035
-Epoch 112, test MAE: 2008.53466796875, test accuracy: 0.5000622200099551, loss: 11091209.884615384
 train total time is 3.4508299827575684
 Epoch 113, train MAE: 2012.4759521484375, train accuracy: 0.5000625688257083 loss: 11308725.538461538
-test total time is 2.8429408073425293
-Epoch 113, test MAE: 2181.116943359375, test accuracy: 0.5, loss: 11926518.961538462
 train total time is 3.5082075595855713
 Epoch 114, train MAE: 2009.3736572265625, train accuracy: 0.5 loss: 11330326.211538462
-test total time is 2.8382959365844727
-Epoch 114, test MAE: 1951.165283203125, test accuracy: 0.5000059957707265, loss: 10791128.596153846
 train total time is 3.4325764179229736
 Epoch 115, train MAE: 1970.1978759765625, train accuracy: 0.5000364289162261 loss: 11218733.653846154
-test total time is 2.824022054672241
-Epoch 115, test MAE: 1833.16552734375, test accuracy: 0.5000348018823524, loss: 9956447.673076924
-save checkpoint
 train total time is 3.431790351867676
 Epoch 116, train MAE: 1937.05322265625, train accuracy: 0.5000488567243946 loss: 10914804.25
-test total time is 2.9290432929992676
-Epoch 116, test MAE: 2067.0048828125, test accuracy: 0.5006951798227458, loss: 11201234.884615384
 train total time is 3.5154364109039307
 Epoch 117, train MAE: 1974.460693359375, train accuracy: 0.5000185076538283 loss: 11539685.48076923
-test total time is 2.823519706726074
-Epoch 117, test MAE: 1886.4735107421875, test accuracy: 0.5, loss: 10328480.634615384
 train total time is 3.551561117172241
 Epoch 118, train MAE: 1960.0078125, train accuracy: 0.5001551656645146 loss: 11289942.076923076
-test total time is 2.8367884159088135
-Epoch 118, test MAE: 1917.877197265625, test accuracy: 0.5002237271251919, loss: 10346741.711538462
 train total time is 3.6064584255218506
 Epoch 119, train MAE: 2049.601806640625, train accuracy: 0.5001111694418016 loss: 11537388.01923077
-test total time is 2.8274028301239014
-Epoch 119, test MAE: 1874.2779541015625, test accuracy: 0.5002699892805368, loss: 10433703.346153846
 train total time is 3.3926877975463867
 Epoch 120, train MAE: 1932.8431396484375, train accuracy: 0.5000974744358165 loss: 10899912.807692308
-test total time is 2.8464770317077637
-Epoch 120, test MAE: 1952.1190185546875, test accuracy: 0.5, loss: 10676004.038461538
 train total time is 3.568648338317871
 Epoch 121, train MAE: 1896.1707763671875, train accuracy: 0.5000589314998456 loss: 11048582.826923076
-test total time is 2.9231224060058594
-Epoch 121, test MAE: 1927.1190185546875, test accuracy: 0.5, loss: 10444376.423076924
 train total time is 3.4220974445343018
 Epoch 122, train MAE: 1970.35693359375, train accuracy: 0.5000099322427923 loss: 11099810.903846154
-test total time is 2.8348848819732666
-Epoch 122, test MAE: 1883.8092041015625, test accuracy: 0.5005544036396591, loss: 10011381.884615384
 train total time is 3.4589791297912598
 Epoch 123, train MAE: 1980.305419921875, train accuracy: 0.5001461514386094 loss: 11257723.826923076
-test total time is 2.838256597518921
-Epoch 123, test MAE: 1918.9766845703125, test accuracy: 0.5, loss: 10539829.115384616
 train total time is 3.537951946258545
 Epoch 124, train MAE: 1916.9364013671875, train accuracy: 0.5000477992722314 loss: 11161917.057692308
-test total time is 2.8302953243255615
-Epoch 124, test MAE: 2100.220947265625, test accuracy: 0.5000111633658553, loss: 10985398.98076923
 train total time is 3.48106050491333
 Epoch 125, train MAE: 1957.236328125, train accuracy: 0.5000475213143615 loss: 10986662.557692308
-test total time is 2.8376848697662354
-Epoch 125, test MAE: 1865.517333984375, test accuracy: 0.5, loss: 10011816.596153846
 train total time is 3.4193642139434814
 Epoch 126, train MAE: 1846.0950927734375, train accuracy: 0.500009898693516 loss: 10076602.826923076
-test total time is 2.9419877529144287
-Epoch 126, test MAE: 1830.9012451171875, test accuracy: 0.5, loss: 9784993.711538462
-save checkpoint
 train total time is 3.527679443359375
 Epoch 127, train MAE: 1923.1231689453125, train accuracy: 0.5000599704777543 loss: 11177835.634615384
-test total time is 2.8409183025360107
-Epoch 127, test MAE: 1901.2423095703125, test accuracy: 0.5, loss: 10499713.826923076
 train total time is 3.448725938796997
 Epoch 128, train MAE: 1882.2747802734375, train accuracy: 0.5000348592414913 loss: 10824443.903846154
-test total time is 2.938863754272461
-Epoch 128, test MAE: 1813.0948486328125, test accuracy: 0.5, loss: 9906551.961538462
 train total time is 3.4389822483062744
 Epoch 129, train MAE: 1849.163330078125, train accuracy: 0.5 loss: 10363963.442307692
-test total time is 2.813901424407959
-Epoch 129, test MAE: 1800.182861328125, test accuracy: 0.5000124896960008, loss: 9819249.846153846
 train total time is 3.4216108322143555
 Epoch 130, train MAE: 1876.556884765625, train accuracy: 0.500057220880554 loss: 10671977.557692308
-test total time is 2.829418420791626
-Epoch 130, test MAE: 1919.591552734375, test accuracy: 0.5004344322011574, loss: 10485694.923076924
 train total time is 3.673372745513916
 Epoch 131, train MAE: 1901.8602294921875, train accuracy: 0.5001853326493466 loss: 10381836.865384616
-test total time is 2.825151205062866
-Epoch 131, test MAE: 1778.861572265625, test accuracy: 0.5, loss: 10018080.26923077
 train total time is 3.512305736541748
 Epoch 132, train MAE: 1890.1697998046875, train accuracy: 0.5000339233183863 loss: 10564967.961538462
-test total time is 2.8298020362854004
-Epoch 132, test MAE: 1935.986083984375, test accuracy: 0.5, loss: 10542539.307692308
 train total time is 3.470149278640747
 Epoch 133, train MAE: 1922.94482421875, train accuracy: 0.500385481481953 loss: 10914407.288461538
-test total time is 2.9256088733673096
-Epoch 133, test MAE: 1837.46923828125, test accuracy: 0.5000124436922924, loss: 10023623.134615384
 train total time is 3.4717302322387695
 Epoch 134, train MAE: 1866.384765625, train accuracy: 0.5001767325728023 loss: 10543871.576923076
-test total time is 2.8341290950775146
-Epoch 134, test MAE: 2034.155029296875, test accuracy: 0.5006745469980743, loss: 10772756.25
 train total time is 3.4339475631713867
 Epoch 135, train MAE: 1870.124267578125, train accuracy: 0.5003098477156298 loss: 9614239.961538462
-test total time is 2.8349850177764893
-Epoch 135, test MAE: 1735.943115234375, test accuracy: 0.5000373190028362, loss: 9779460.596153846
-save checkpoint
 train total time is 3.5566892623901367
 Epoch 136, train MAE: 1920.452392578125, train accuracy: 0.5002574124440967 loss: 10481082.961538462
-test total time is 2.8455393314361572
-Epoch 136, test MAE: 2008.9744873046875, test accuracy: 0.5007375831551069, loss: 11035455.346153846
 train total time is 3.5076563358306885
 Epoch 137, train MAE: 1853.7979736328125, train accuracy: 0.5000211462576564 loss: 10488768.48076923
-test total time is 2.832359552383423
-Epoch 137, test MAE: 1763.075927734375, test accuracy: 0.5, loss: 9910993.038461538
 train total time is 3.547119140625
 Epoch 138, train MAE: 1825.6346435546875, train accuracy: 0.5 loss: 10231702.153846154
-test total time is 2.9381823539733887
-Epoch 138, test MAE: 1813.61376953125, test accuracy: 0.500330659903056, loss: 9972688.461538462
 train total time is 3.505347490310669
 Epoch 139, train MAE: 1868.06298828125, train accuracy: 0.5000724638281231 loss: 10351076.923076924
-test total time is 2.829772472381592
-Epoch 139, test MAE: 1765.776123046875, test accuracy: 0.5, loss: 9696231.615384616
-save checkpoint
 train total time is 3.4082248210906982
 Epoch 140, train MAE: 1884.0677490234375, train accuracy: 0.5000574431801436 loss: 10702177.5
-test total time is 2.82853364944458
-Epoch 140, test MAE: 1892.80908203125, test accuracy: 0.5002689326817348, loss: 9980356.384615384
 train total time is 3.45542049407959
 Epoch 141, train MAE: 1831.66748046875, train accuracy: 0.5001334932688143 loss: 10118530.307692308
-test total time is 2.9457521438598633
-Epoch 141, test MAE: 1782.15771484375, test accuracy: 0.5, loss: 9725498.096153846
 train total time is 3.4294593334198
 Epoch 142, train MAE: 1882.02099609375, train accuracy: 0.5 loss: 10660798.365384616
-test total time is 2.8378190994262695
-Epoch 142, test MAE: 1778.064208984375, test accuracy: 0.5000124654084914, loss: 10265636.807692308
 train total time is 3.4315316677093506
 Epoch 143, train MAE: 1777.6895751953125, train accuracy: 0.4999987045222537 loss: 10217705.884615384
-test total time is 2.8436439037323
-Epoch 143, test MAE: 1773.0635986328125, test accuracy: 0.5, loss: 9698485.057692308
 train total time is 3.56506609916687
 Epoch 144, train MAE: 1800.0018310546875, train accuracy: 0.5000737892305519 loss: 10137834.423076924
-test total time is 2.8355863094329834
-Epoch 144, test MAE: 1726.4595947265625, test accuracy: 0.5, loss: 9584821.51923077
-save checkpoint
 train total time is 3.410623073577881
 Epoch 145, train MAE: 1791.23193359375, train accuracy: 0.5001072167957934 loss: 10000587.98076923
-test total time is 2.8285257816314697
-Epoch 145, test MAE: 1824.08203125, test accuracy: 0.5001894360018855, loss: 9913888.038461538
 train total time is 3.517975330352783
 Epoch 146, train MAE: 1785.767578125, train accuracy: 0.5001454951072507 loss: 10041680.307692308
-test total time is 2.840543031692505
-Epoch 146, test MAE: 1725.045166015625, test accuracy: 0.5, loss: 9619385.25
 train total time is 3.468804359436035
 Epoch 147, train MAE: 1799.97607421875, train accuracy: 0.5000838253000737 loss: 10090178.903846154
-test total time is 2.838533639907837
-Epoch 147, test MAE: 1719.520751953125, test accuracy: 0.5000496746311659, loss: 9307337.73076923
-save checkpoint
 train total time is 3.5837371349334717
 Epoch 148, train MAE: 1753.76025390625, train accuracy: 0.5001228807398949 loss: 9784457.173076924
-test total time is 2.825965642929077
-Epoch 148, test MAE: 1704.5743408203125, test accuracy: 0.5001488022601858, loss: 9499342.576923076
 train total time is 3.548581600189209
 Epoch 149, train MAE: 1818.926513671875, train accuracy: 0.5001958529165031 loss: 10315522.5
-test total time is 2.835343837738037
-Epoch 149, test MAE: 1805.97216796875, test accuracy: 0.5001456153918657, loss: 9736800.384615384
 train total time is 3.454413652420044
 Epoch 150, train MAE: 1801.4967041015625, train accuracy: 0.5000716281461547 loss: 10206108.153846154
-test total time is 2.8337204456329346
-Epoch 150, test MAE: 1807.5697021484375, test accuracy: 0.5, loss: 9651572.211538462
 train total time is 3.447265386581421
 Epoch 151, train MAE: 1767.01953125, train accuracy: 0.5000689204860873 loss: 9999616.788461538
-test total time is 2.9268412590026855
-Epoch 151, test MAE: 1890.294921875, test accuracy: 0.5031606918562683, loss: 10091983.346153846
 train total time is 3.478458881378174
 Epoch 152, train MAE: 1844.756103515625, train accuracy: 0.5004020679904074 loss: 10543231.653846154
-test total time is 2.832847833633423
-Epoch 152, test MAE: 1986.1580810546875, test accuracy: 0.5001382772492379, loss: 10620504.5
 train total time is 3.454038143157959
 Epoch 153, train MAE: 1858.675048828125, train accuracy: 0.500130743813289 loss: 10735951.826923076
-test total time is 2.829883575439453
-Epoch 153, test MAE: 1707.2286376953125, test accuracy: 0.5, loss: 9312347.0
 train total time is 3.599898099899292
 Epoch 154, train MAE: 1779.165283203125, train accuracy: 0.5005829137048751 loss: 8974172.538461538
-test total time is 2.8303768634796143
-Epoch 154, test MAE: 1690.368408203125, test accuracy: 0.5030680427209777, loss: 9345632.211538462
 train total time is 3.56662917137146
 Epoch 155, train MAE: 1751.6182861328125, train accuracy: 0.5007746593958484 loss: 9958559.48076923
-test total time is 2.840184450149536
-Epoch 155, test MAE: 1715.225830078125, test accuracy: 0.5001104188664889, loss: 9451785.25
 train total time is 3.4538791179656982
 Epoch 156, train MAE: 1781.458740234375, train accuracy: 0.500061525677753 loss: 10289532.211538462
-test total time is 2.938197135925293
-Epoch 156, test MAE: 1675.392578125, test accuracy: 0.5000859033091019, loss: 9432607.038461538
 train total time is 3.4279770851135254
 Epoch 157, train MAE: 1804.93212890625, train accuracy: 0.5015918791278239 loss: 10007827.48076923
-test total time is 2.839287519454956
-Epoch 157, test MAE: 1933.04248046875, test accuracy: 0.5026276863370699, loss: 10048481.173076924
 train total time is 3.478593111038208
 Epoch 158, train MAE: 1747.781982421875, train accuracy: 0.5004744564501983 loss: 9351536.153846154
-test total time is 2.9293715953826904
-Epoch 158, test MAE: 1776.0552978515625, test accuracy: 0.5000124396676121, loss: 9229326.076923076
-save checkpoint
 train total time is 3.4667532444000244
 Epoch 159, train MAE: 1740.708984375, train accuracy: 0.5002743440461828 loss: 9660268.596153846
-test total time is 2.8324625492095947
-Epoch 159, test MAE: 1691.948974609375, test accuracy: 0.5, loss: 9100891.576923076
-save checkpoint
 train total time is 3.508997678756714
 Epoch 160, train MAE: 1782.2225341796875, train accuracy: 0.5021745164960988 loss: 10109089.153846154
-test total time is 2.8329098224639893
-Epoch 160, test MAE: 1829.465576171875, test accuracy: 0.5000733866376882, loss: 9103432.903846154
 train total time is 3.52571177482605
 Epoch 161, train MAE: 1757.0130615234375, train accuracy: 0.5004956749497989 loss: 9925958.403846154
-test total time is 2.832761287689209
-Epoch 161, test MAE: 1703.17431640625, test accuracy: 0.5000613238405833, loss: 9162574.538461538
 train total time is 3.482548236846924
 Epoch 162, train MAE: 1713.26708984375, train accuracy: 0.501420065569313 loss: 9467602.346153846
-test total time is 2.833761215209961
-Epoch 162, test MAE: 1638.919921875, test accuracy: 0.5008314386459367, loss: 9195479.240384616
 train total time is 3.4834702014923096
 Epoch 163, train MAE: 1795.2767333984375, train accuracy: 0.501044455705874 loss: 10285325.48076923
-test total time is 2.9336791038513184
-Epoch 163, test MAE: 1857.922607421875, test accuracy: 0.5051979596610299, loss: 9819431.538461538
 train total time is 3.4259393215179443
 Epoch 164, train MAE: 1787.63671875, train accuracy: 0.500341831758854 loss: 10086348.211538462
-test total time is 2.8298795223236084
-Epoch 164, test MAE: 2035.418212890625, test accuracy: 0.5009431107521046, loss: 10641100.557692308
 train total time is 3.4134867191314697
 Epoch 165, train MAE: 1808.7264404296875, train accuracy: 0.5016483707944648 loss: 9790049.788461538
-test total time is 2.8376824855804443
-Epoch 165, test MAE: 1758.2142333984375, test accuracy: 0.5000247923639519, loss: 9452875.5
 train total time is 3.557262897491455
 Epoch 166, train MAE: 1881.8177490234375, train accuracy: 0.5002006599870095 loss: 10585713.826923076
-test total time is 2.8406262397766113
-Epoch 166, test MAE: 1874.587890625, test accuracy: 0.5004575032372673, loss: 9830716.826923076
 train total time is 3.455967903137207
 Epoch 167, train MAE: 1788.605712890625, train accuracy: 0.5039515580742676 loss: 9750305.76923077
-test total time is 2.826793909072876
-Epoch 167, test MAE: 1724.6236572265625, test accuracy: 0.5002661767080991, loss: 9201115.788461538
 train total time is 3.48211932182312
 Epoch 168, train MAE: 1738.2381591796875, train accuracy: 0.5002296778293546 loss: 9741951.307692308
-test total time is 2.9411306381225586
-Epoch 168, test MAE: 1713.444580078125, test accuracy: 0.5002550137133636, loss: 9149349.076923076
 train total time is 3.39888334274292
 Epoch 169, train MAE: 1693.648193359375, train accuracy: 0.5013139214244237 loss: 9420592.153846154
-test total time is 2.8445000648498535
-Epoch 169, test MAE: 1642.6134033203125, test accuracy: 0.50332456375506, loss: 9107344.807692308
 train total time is 3.435826539993286
 Epoch 170, train MAE: 1723.5552978515625, train accuracy: 0.5017181162604646 loss: 9496546.586538462
-test total time is 2.8426802158355713
-Epoch 170, test MAE: 1643.37939453125, test accuracy: 0.5005396324518001, loss: 9073093.596153846
-save checkpoint
 train total time is 3.5589358806610107
 Epoch 171, train MAE: 1713.006591796875, train accuracy: 0.5026885902455857 loss: 9560018.25
-test total time is 2.831653118133545
-Epoch 171, test MAE: 1700.031982421875, test accuracy: 0.5077453468840675, loss: 8976908.403846154
-save checkpoint
 train total time is 3.4851911067962646
 Epoch 172, train MAE: 1692.2664794921875, train accuracy: 0.50195144237998 loss: 9431563.51923077
-test total time is 2.835667610168457
-Epoch 172, test MAE: 1631.746337890625, test accuracy: 0.5028106016476485, loss: 9025896.346153846
 train total time is 3.4451050758361816
 Epoch 173, train MAE: 1701.830078125, train accuracy: 0.5010497530873214 loss: 9720887.326923076
-test total time is 2.920053005218506
-Epoch 173, test MAE: 1679.1893310546875, test accuracy: 0.4999987045759559, loss: 9093243.615384616
 train total time is 3.4333837032318115
 Epoch 174, train MAE: 1718.511474609375, train accuracy: 0.5027488746648936 loss: 9534658.576923076
-test total time is 2.820849657058716
-Epoch 174, test MAE: 1638.0299072265625, test accuracy: 0.5016332894912418, loss: 9027555.057692308
 train total time is 3.4369261264801025
 Epoch 175, train MAE: 1710.03759765625, train accuracy: 0.5011868364966523 loss: 9548731.75
-test total time is 2.9312291145324707
-Epoch 175, test MAE: 1718.158203125, test accuracy: 0.5003598511693588, loss: 9194331.48076923
 train total time is 3.4297187328338623
 Epoch 176, train MAE: 1675.054931640625, train accuracy: 0.5019450349131365 loss: 9113904.307692308
-test total time is 2.8335471153259277
-Epoch 176, test MAE: 1821.9049072265625, test accuracy: 0.5005214301913723, loss: 9409566.711538462
 train total time is 3.4727261066436768
 Epoch 177, train MAE: 1709.94140625, train accuracy: 0.5032120335221089 loss: 9373695.673076924
-test total time is 2.824083089828491
-Epoch 177, test MAE: 1778.0831298828125, test accuracy: 0.5038678056982041, loss: 9204635.576923076
 train total time is 3.6405539512634277
 Epoch 178, train MAE: 1720.544921875, train accuracy: 0.5037572761209881 loss: 9290318.211538462
-test total time is 2.839421510696411
-Epoch 178, test MAE: 1657.878662109375, test accuracy: 0.5006521544048897, loss: 8940572.192307692
-save checkpoint
 train total time is 3.4875073432922363
 Epoch 179, train MAE: 1707.290283203125, train accuracy: 0.5039609745190872 loss: 9734198.153846154
-test total time is 2.8319449424743652
-Epoch 179, test MAE: 1770.070556640625, test accuracy: 0.5025872620681572, loss: 9285711.711538462
 train total time is 3.637608051300049
 Epoch 180, train MAE: 1748.06201171875, train accuracy: 0.5040905599652907 loss: 9350396.23076923
-test total time is 2.912646532058716
-Epoch 180, test MAE: 1686.15966796875, test accuracy: 0.5027690963975969, loss: 9108232.711538462
 train total time is 3.4117515087127686
 Epoch 181, train MAE: 1712.907470703125, train accuracy: 0.5059356737976438 loss: 9506154.057692308
-test total time is 2.856750249862671
-Epoch 181, test MAE: 1614.316162109375, test accuracy: 0.504682933050813, loss: 8868564.711538462
-save checkpoint
 train total time is 3.460878610610962
 Epoch 182, train MAE: 1743.6729736328125, train accuracy: 0.5053213149004415 loss: 9705111.75
-test total time is 2.823195457458496
-Epoch 182, test MAE: 1866.92919921875, test accuracy: 0.5298870761696681, loss: 9913860.596153846
 train total time is 3.473029136657715
 Epoch 183, train MAE: 1725.87158203125, train accuracy: 0.5037507435309478 loss: 9726182.26923077
-test total time is 2.83447003364563
-Epoch 183, test MAE: 1658.4844970703125, test accuracy: 0.5005635329081924, loss: 8955458.692307692
 train total time is 3.588683843612671
 Epoch 184, train MAE: 1714.6239013671875, train accuracy: 0.5028662144890038 loss: 8544418.60576923
-test total time is 2.8393971920013428
-Epoch 184, test MAE: 1789.081787109375, test accuracy: 0.5002744955565487, loss: 9421469.442307692
 train total time is 3.4637858867645264
 Epoch 185, train MAE: 1715.66455078125, train accuracy: 0.5030421017232694 loss: 9738134.134615384
-test total time is 2.9210681915283203
-Epoch 185, test MAE: 1669.99169921875, test accuracy: 0.5005372406789853, loss: 9119699.884615384
 train total time is 3.45534348487854
 Epoch 186, train MAE: 1689.96630859375, train accuracy: 0.5034556907478412 loss: 9218119.923076924
-test total time is 2.830336809158325
-Epoch 186, test MAE: 1727.2396240234375, test accuracy: 0.5092125908899701, loss: 9261499.98076923
 train total time is 3.4333415031433105
 Epoch 187, train MAE: 1687.482666015625, train accuracy: 0.5026563417227649 loss: 9506500.596153846
-test total time is 2.8227646350860596
-Epoch 187, test MAE: 1706.471923828125, test accuracy: 0.5009165334944505, loss: 9095746.923076924
 train total time is 3.5116569995880127
 Epoch 188, train MAE: 1730.452880859375, train accuracy: 0.5012418023559133 loss: 9347464.307692308
-test total time is 2.853874683380127
-Epoch 188, test MAE: 1690.4368896484375, test accuracy: 0.5106814180667042, loss: 8914974.288461538
 train total time is 3.4205219745635986
 Epoch 189, train MAE: 1661.3255615234375, train accuracy: 0.5061751335033716 loss: 9192808.682692308
-test total time is 2.8344743251800537
-Epoch 189, test MAE: 1712.21826171875, test accuracy: 0.5010461293953579, loss: 9010562.64423077
 train total time is 3.633692502975464
 Epoch 190, train MAE: 1686.6951904296875, train accuracy: 0.5015660755182898 loss: 9345165.596153846
-test total time is 2.8351080417633057
-Epoch 190, test MAE: 1667.447509765625, test accuracy: 0.5003705335598738, loss: 8851823.442307692
-save checkpoint
 train total time is 3.4564781188964844
 Epoch 191, train MAE: 1742.68701171875, train accuracy: 0.506362955208531 loss: 9745740.913461538
-test total time is 2.8336172103881836
-Epoch 191, test MAE: 1667.046630859375, test accuracy: 0.5003017402791272, loss: 8928867.259615384
 train total time is 3.4455902576446533
 Epoch 192, train MAE: 1712.279296875, train accuracy: 0.507001980368653 loss: 9576724.25
-test total time is 2.8317129611968994
-Epoch 192, test MAE: 1706.398681640625, test accuracy: 0.5130077541364764, loss: 8638275.788461538
-save checkpoint
 train total time is 3.514681577682495
 Epoch 193, train MAE: 1669.5125732421875, train accuracy: 0.5088398107056823 loss: 9013234.413461538
-test total time is 2.831023693084717
-Epoch 193, test MAE: 1826.0814208984375, test accuracy: 0.5177457443384137, loss: 9459844.865384616
 train total time is 3.4054932594299316
 Epoch 194, train MAE: 1768.0057373046875, train accuracy: 0.5055488544800806 loss: 9715472.788461538
-test total time is 2.8337478637695312
-Epoch 194, test MAE: 1806.2510986328125, test accuracy: 0.5001080185863818, loss: 9242560.653846154
 train total time is 3.5268919467926025
 Epoch 195, train MAE: 1692.89697265625, train accuracy: 0.5046842319596706 loss: 9258765.788461538
-test total time is 2.9327757358551025
-Epoch 195, test MAE: 1681.8934326171875, test accuracy: 0.5002897882504892, loss: 8678787.692307692
 train total time is 3.6136937141418457
 Epoch 196, train MAE: 1681.9224853515625, train accuracy: 0.503066603604171 loss: 9143432.346153846
-test total time is 2.832465648651123
-Epoch 196, test MAE: 1658.74365234375, test accuracy: 0.5091841085242826, loss: 8681834.384615384
 train total time is 3.441790819168091
 Epoch 197, train MAE: 1669.3074951171875, train accuracy: 0.5088617270230322 loss: 9415982.923076924
-test total time is 2.8259220123291016
-Epoch 197, test MAE: 1719.55224609375, test accuracy: 0.5089045002244162, loss: 9085726.307692308
 train total time is 3.6168525218963623
 Epoch 198, train MAE: 1696.931640625, train accuracy: 0.5043017946952932 loss: 9354242.615384616
-test total time is 2.823241949081421
-Epoch 198, test MAE: 1623.70166015625, test accuracy: 0.5012164833390911, loss: 8562965.60576923
-save checkpoint
 train total time is 3.4443013668060303
 Epoch 199, train MAE: 1640.2813720703125, train accuracy: 0.5086228751088561 loss: 8925502.403846154
-test total time is 2.8352737426757812
-Epoch 199, test MAE: 1784.2003173828125, test accuracy: 0.5215785099447721, loss: 8975070.51923077
 train total time is 3.488757371902466
 Epoch 200, train MAE: 1640.21484375, train accuracy: 0.5048285581739917 loss: 8481914.701923076
-test total time is 2.9321985244750977
-Epoch 200, test MAE: 1755.2342529296875, test accuracy: 0.500486910830325, loss: 9057949.557692308
 train total time is 3.4055027961730957
 Epoch 201, train MAE: 1701.0665283203125, train accuracy: 0.5086893371284755 loss: 9137172.692307692
-test total time is 2.8303191661834717
-Epoch 201, test MAE: 1665.1824951171875, test accuracy: 0.5070180133353809, loss: 8730872.009615384
 train total time is 3.459333658218384
 Epoch 202, train MAE: 1655.5592041015625, train accuracy: 0.5118034490910902 loss: 9149347.875
-test total time is 2.838689088821411
-Epoch 202, test MAE: 1688.735595703125, test accuracy: 0.5011867343282719, loss: 9270091.23076923
 train total time is 3.497260332107544
 Epoch 203, train MAE: 1663.451416015625, train accuracy: 0.5028600411455362 loss: 9540263.692307692
-test total time is 2.8473806381225586
-Epoch 203, test MAE: 1720.685546875, test accuracy: 0.5119761891476113, loss: 9014582.173076924
 train total time is 3.4735445976257324
 Epoch 204, train MAE: 1637.6346435546875, train accuracy: 0.5048125420798093 loss: 9213526.826923076
-test total time is 2.823841094970703
-Epoch 204, test MAE: 1708.1258544921875, test accuracy: 0.526883903160898, loss: 9038122.721153846
 train total time is 3.4282400608062744
 Epoch 205, train MAE: 1672.072265625, train accuracy: 0.505988868375119 loss: 9701122.192307692
-test total time is 2.941279411315918
-Epoch 205, test MAE: 1627.18359375, test accuracy: 0.5013926144468026, loss: 8678961.192307692
 train total time is 3.5892059803009033
 Epoch 206, train MAE: 1688.02001953125, train accuracy: 0.5127042420344539 loss: 9289958.51923077
-test total time is 2.8338167667388916
-Epoch 206, test MAE: 1644.427001953125, test accuracy: 0.5165496664785857, loss: 8362764.230769231
-save checkpoint
 train total time is 3.4675827026367188
 Epoch 207, train MAE: 1625.618408203125, train accuracy: 0.5069637418508531 loss: 9053419.5
-test total time is 2.8296451568603516
-Epoch 207, test MAE: 1606.0001220703125, test accuracy: 0.5016671315007594, loss: 8619061.673076924
 train total time is 3.522923707962036
 Epoch 208, train MAE: 1698.1629638671875, train accuracy: 0.5069350781731201 loss: 9198092.673076924
-test total time is 2.830064058303833
-Epoch 208, test MAE: 1593.3751220703125, test accuracy: 0.5127818968163964, loss: 8543820.009615384
 train total time is 3.4858312606811523
 Epoch 209, train MAE: 1651.656005859375, train accuracy: 0.5085156969772826 loss: 9400059.759615384
-test total time is 2.829512596130371
-Epoch 209, test MAE: 1585.13037109375, test accuracy: 0.5063045898959503, loss: 8545183.64423077
 train total time is 3.4164676666259766
 Epoch 210, train MAE: 1631.32177734375, train accuracy: 0.5074170026574154 loss: 7974229.355769231
-test total time is 2.9247634410858154
-Epoch 210, test MAE: 1589.4256591796875, test accuracy: 0.5044881017944522, loss: 8406314.98076923
 train total time is 3.452979564666748
 Epoch 211, train MAE: 1751.2786865234375, train accuracy: 0.5080442961319157 loss: 9662643.538461538
-test total time is 2.836808443069458
-Epoch 211, test MAE: 1815.95166015625, test accuracy: 0.5077048019883191, loss: 9089060.365384616
 train total time is 3.464911937713623
 Epoch 212, train MAE: 1683.63916015625, train accuracy: 0.5071176363550443 loss: 9163580.567307692
-test total time is 2.8356761932373047
-Epoch 212, test MAE: 1693.0435791015625, test accuracy: 0.553642183395865, loss: 8991415.25
 train total time is 3.5356733798980713
 Epoch 213, train MAE: 1687.13037109375, train accuracy: 0.5103816243140964 loss: 9313255.346153846
-test total time is 2.8288636207580566
-Epoch 213, test MAE: 1574.0604248046875, test accuracy: 0.5027297527777587, loss: 8513340.298076924
 train total time is 3.442715883255005
 Epoch 214, train MAE: 1654.574951171875, train accuracy: 0.5093234725223774 loss: 9212974.221153846
-test total time is 2.838442802429199
-Epoch 214, test MAE: 1628.829833984375, test accuracy: 0.5044699007758509, loss: 8701412.163461538
 train total time is 3.4978690147399902
 Epoch 215, train MAE: 1696.9217529296875, train accuracy: 0.5067931609939267 loss: 9573263.923076924
-test total time is 2.9470138549804688
-Epoch 215, test MAE: 2008.6815185546875, test accuracy: 0.5771154051415821, loss: 10101798.038461538
 train total time is 3.434959888458252
 Epoch 216, train MAE: 1752.0438232421875, train accuracy: 0.5120829912657915 loss: 10137348.903846154
-test total time is 2.8210344314575195
-Epoch 216, test MAE: 1780.5692138671875, test accuracy: 0.5, loss: 9072931.557692308
 train total time is 3.4153335094451904
 Epoch 217, train MAE: 1665.448486328125, train accuracy: 0.5057738472007076 loss: 9236593.25
-test total time is 2.8382718563079834
-Epoch 217, test MAE: 1575.104736328125, test accuracy: 0.503650111607265, loss: 8447533.98076923
 train total time is 3.5680930614471436
 Epoch 218, train MAE: 1678.978271484375, train accuracy: 0.5125485551718318 loss: 8868986.423076924
-test total time is 2.8313727378845215
-Epoch 218, test MAE: 1584.021728515625, test accuracy: 0.5017966549584228, loss: 8475416.307692308
 train total time is 3.420421600341797
 Epoch 219, train MAE: 1609.9451904296875, train accuracy: 0.5051438030462924 loss: 8805366.01923077
-test total time is 2.8360536098480225
-Epoch 219, test MAE: 1611.07373046875, test accuracy: 0.5000583756966638, loss: 8502868.76923077
 train total time is 3.579556703567505
 Epoch 220, train MAE: 1659.715087890625, train accuracy: 0.5077462657416871 loss: 9044929.673076924
-test total time is 2.832653760910034
-Epoch 220, test MAE: 1614.565673828125, test accuracy: 0.5057769094071534, loss: 8697408.625
 train total time is 3.4207096099853516
 Epoch 221, train MAE: 1632.388427734375, train accuracy: 0.5034915215240221 loss: 8813831.096153846
-test total time is 2.8306150436401367
-Epoch 221, test MAE: 1718.293212890625, test accuracy: 0.5000458605624253, loss: 9055894.0
 train total time is 3.489259958267212
 Epoch 222, train MAE: 1692.500244140625, train accuracy: 0.5101449783873659 loss: 9937428.442307692
-test total time is 2.850581169128418
-Epoch 222, test MAE: 1746.9549560546875, test accuracy: 0.5000721953110805, loss: 8962634.567307692
 train total time is 3.5485405921936035
 Epoch 223, train MAE: 1777.73681640625, train accuracy: 0.5017703364297547 loss: 9201151.442307692
-test total time is 2.8417651653289795
-Epoch 223, test MAE: 1635.228759765625, test accuracy: 0.5146808701823382, loss: 8531974.211538462
 train total time is 3.4467806816101074
 Epoch 224, train MAE: 1605.2806396484375, train accuracy: 0.5138465382070861 loss: 8704748.73076923
-test total time is 2.8349318504333496
-Epoch 224, test MAE: 1637.0032958984375, test accuracy: 0.5269361943620562, loss: 8810169.884615384
 train total time is 3.4433445930480957
 Epoch 225, train MAE: 1594.8665771484375, train accuracy: 0.5068476308606751 loss: 8058443.067307692
-test total time is 2.937413215637207
-Epoch 225, test MAE: 1651.034912109375, test accuracy: 0.5258862663577921, loss: 8938447.778846154
 train total time is 3.501274585723877
 Epoch 226, train MAE: 1618.068359375, train accuracy: 0.50604656798848 loss: 8854801.788461538
-test total time is 2.83656907081604
-Epoch 226, test MAE: 1724.5850830078125, test accuracy: 0.5000460069478678, loss: 8831716.182692308
 train total time is 3.420560359954834
 Epoch 227, train MAE: 1677.0565185546875, train accuracy: 0.5037302059095823 loss: 9016733.25
-test total time is 2.821481704711914
-Epoch 227, test MAE: 1780.7440185546875, test accuracy: 0.5051245236674076, loss: 8846327.192307692
 train total time is 3.5566587448120117
 Epoch 228, train MAE: 1625.2833251953125, train accuracy: 0.5070481637508227 loss: 8811772.634615384
-test total time is 2.828450918197632
-Epoch 228, test MAE: 1539.17236328125, test accuracy: 0.5102857980220421, loss: 8179745.471153846
-save checkpoint
 train total time is 3.526244640350342
 Epoch 229, train MAE: 1593.1119384765625, train accuracy: 0.5066391624460932 loss: 8814395.884615384
-test total time is 2.82258677482605
-Epoch 229, test MAE: 1607.26806640625, test accuracy: 0.5241328763584994, loss: 8465062.701923076
 train total time is 3.4408915042877197
 Epoch 230, train MAE: 1665.0916748046875, train accuracy: 0.5151807138745016 loss: 9050753.307692308
-test total time is 2.92051362991333
-Epoch 230, test MAE: 1600.9837646484375, test accuracy: 0.5016942846321913, loss: 8484438.240384616
 train total time is 3.5125160217285156
 Epoch 231, train MAE: 1621.470703125, train accuracy: 0.50423278237915 loss: 8726914.288461538
-test total time is 2.828155040740967
-Epoch 231, test MAE: 1569.6229248046875, test accuracy: 0.500635002804277, loss: 8420754.471153846
 train total time is 3.4737625122070312
 Epoch 232, train MAE: 1629.8541259765625, train accuracy: 0.5076119417925807 loss: 8849638.307692308
-test total time is 2.822005033493042
-Epoch 232, test MAE: 1551.5247802734375, test accuracy: 0.5010434142442349, loss: 8266869.413461538
 train total time is 3.520310878753662
 Epoch 233, train MAE: 1599.1807861328125, train accuracy: 0.5111884055696742 loss: 8736272.557692308
-test total time is 2.826693296432495
-Epoch 233, test MAE: 1569.6007080078125, test accuracy: 0.5342701391663474, loss: 8410585.461538462
 train total time is 3.428440809249878
 Epoch 234, train MAE: 1600.20166015625, train accuracy: 0.5150834098994456 loss: 8761593.538461538
-test total time is 2.836082935333252
-Epoch 234, test MAE: 1636.688720703125, test accuracy: 0.5010238088123188, loss: 8471253.134615384
 train total time is 3.425523042678833
 Epoch 235, train MAE: 1616.08837890625, train accuracy: 0.5055507807263527 loss: 8485610.73076923
-test total time is 2.9235177040100098
-Epoch 235, test MAE: 1564.565673828125, test accuracy: 0.5315466668519007, loss: 8434810.711538462
 train total time is 3.433781385421753
 Epoch 236, train MAE: 1567.865478515625, train accuracy: 0.5127829027984251 loss: 8485651.884615384
-test total time is 2.8381059169769287
-Epoch 236, test MAE: 1524.5897216796875, test accuracy: 0.5149644503266624, loss: 8232104.067307692
 train total time is 3.484457015991211
 Epoch 237, train MAE: 1545.5501708984375, train accuracy: 0.5101546951215622 loss: 8387825.230769231
-test total time is 2.826500654220581
-Epoch 237, test MAE: 1528.5859375, test accuracy: 0.50441223223136, loss: 8175459.067307692
-save checkpoint
 train total time is 3.5356290340423584
 Epoch 238, train MAE: 1589.7911376953125, train accuracy: 0.5160330634546004 loss: 8757477.35576923
-test total time is 2.8348591327667236
-Epoch 238, test MAE: 1621.83349609375, test accuracy: 0.5172143230126487, loss: 8500286.115384616
 train total time is 3.4239695072174072
 Epoch 239, train MAE: 1604.087158203125, train accuracy: 0.5108103011435613 loss: 8745742.336538462
-test total time is 2.8332407474517822
-Epoch 239, test MAE: 1606.7139892578125, test accuracy: 0.500116396538414, loss: 8465225.23076923
 train total time is 3.436229944229126
 Epoch 240, train MAE: 1597.6907958984375, train accuracy: 0.5078504991872602 loss: 8707334.759615384
-test total time is 2.9590673446655273
-Epoch 240, test MAE: 1518.9224853515625, test accuracy: 0.5166534387649865, loss: 8212661.605769231
 train total time is 3.449326515197754
 Epoch 241, train MAE: 1564.892822265625, train accuracy: 0.521000324697025 loss: 8680298.740384616
-test total time is 2.840291738510132
-Epoch 241, test MAE: 1616.59765625, test accuracy: 0.5201701306628115, loss: 8620333.788461538
 train total time is 3.557526111602783
 Epoch 242, train MAE: 1670.54638671875, train accuracy: 0.5036162566670981 loss: 9478435.557692308
-test total time is 2.9350383281707764
-Epoch 242, test MAE: 1688.296875, test accuracy: 0.5000158443585355, loss: 9096498.26923077
 train total time is 3.529768943786621
 Epoch 243, train MAE: 1583.929931640625, train accuracy: 0.5318703127741128 loss: 8478836.865384616
-test total time is 2.8290393352508545
-Epoch 243, test MAE: 1561.793701171875, test accuracy: 0.544451528840464, loss: 8500525.038461538
 train total time is 3.4520139694213867
 Epoch 244, train MAE: 1603.6759033203125, train accuracy: 0.5128914616223376 loss: 8688531.528846154
-test total time is 2.829561471939087
-Epoch 244, test MAE: 1558.18359375, test accuracy: 0.5044293298497177, loss: 8311830.115384615
 train total time is 3.554992914199829
 Epoch 245, train MAE: 1572.3897705078125, train accuracy: 0.531183975882062 loss: 8771363.259615384
-test total time is 2.84075927734375
-Epoch 245, test MAE: 1744.9200439453125, test accuracy: 0.5010713567697543, loss: 8861646.432692308
 train total time is 3.4462485313415527
 Epoch 246, train MAE: 1684.134033203125, train accuracy: 0.5229256644782916 loss: 8982311.826923076
-test total time is 2.8307507038116455
-Epoch 246, test MAE: 1538.778564453125, test accuracy: 0.510563089960643, loss: 8218157.221153846
 train total time is 3.453212022781372
 Epoch 247, train MAE: 1658.978759765625, train accuracy: 0.522069555543309 loss: 9218001.0
-test total time is 2.941086769104004
-Epoch 247, test MAE: 1628.6380615234375, test accuracy: 0.556154408789745, loss: 8506712.461538462
 train total time is 3.4401497840881348
 Epoch 248, train MAE: 1688.556884765625, train accuracy: 0.5457606697145829 loss: 9228217.240384616
-test total time is 2.8215439319610596
-Epoch 248, test MAE: 1744.7576904296875, test accuracy: 0.5028905613360694, loss: 8980568.615384616
 train total time is 3.4371275901794434
 Epoch 249, train MAE: 1629.1282958984375, train accuracy: 0.5042006425136794 loss: 8635549.990384616
-test total time is 2.831766128540039
-Epoch 249, test MAE: 1589.1046142578125, test accuracy: 0.5134613414540448, loss: 7753217.076923077
-save checkpoint
 train total time is 3.6655354499816895
 Epoch 250, train MAE: 1630.86083984375, train accuracy: 0.513351264613502 loss: 9112722.865384616
-test total time is 2.824965715408325
-Epoch 250, test MAE: 1583.7923583984375, test accuracy: 0.5011984140912426, loss: 8213010.894230769
 train total time is 3.5411570072174072
 Epoch 251, train MAE: 1584.52294921875, train accuracy: 0.5176214907466079 loss: 8466195.009615384
-test total time is 2.8375461101531982
-Epoch 251, test MAE: 1638.5684814453125, test accuracy: 0.5111683379897948, loss: 8400431.711538462
 train total time is 3.4448201656341553
 Epoch 252, train MAE: 1626.6966552734375, train accuracy: 0.5156399348346727 loss: 8777585.057692308
-test total time is 2.93904972076416
-Epoch 252, test MAE: 1511.70703125, test accuracy: 0.51095977781822, loss: 8114286.740384615
 train total time is 3.420374631881714
 Epoch 253, train MAE: 1602.5540771484375, train accuracy: 0.525444926879524 loss: 8646332.625
-test total time is 2.8375446796417236
-Epoch 253, test MAE: 1601.9315185546875, test accuracy: 0.5266435496135826, loss: 8317540.798076923
 train total time is 3.424860954284668
 Epoch 254, train MAE: 1561.3555908203125, train accuracy: 0.5121933813463518 loss: 8412209.942307692
-test total time is 2.81900691986084
-Epoch 254, test MAE: 1530.1947021484375, test accuracy: 0.5088318665377465, loss: 8087842.115384615
 train total time is 3.573068380355835
 Epoch 255, train MAE: 1571.7313232421875, train accuracy: 0.5140061698759805 loss: 8297333.192307692
-test total time is 2.8257033824920654
-Epoch 255, test MAE: 1519.1165771484375, test accuracy: 0.531386878092115, loss: 8204413.903846154
 train total time is 3.459726572036743
 Epoch 256, train MAE: 1594.5828857421875, train accuracy: 0.5151671443119255 loss: 8733046.35576923
-test total time is 2.827287435531616
-Epoch 256, test MAE: 1571.01416015625, test accuracy: 0.5062989692634523, loss: 8128154.605769231
 train total time is 3.4303572177886963
 Epoch 257, train MAE: 1576.17236328125, train accuracy: 0.5116924182961836 loss: 8508009.75
-test total time is 2.93227481842041
-Epoch 257, test MAE: 1552.1348876953125, test accuracy: 0.5077455688647989, loss: 8236497.423076923
 train total time is 3.419447183609009
 Epoch 258, train MAE: 1568.5733642578125, train accuracy: 0.5214976482748659 loss: 8689048.115384616
-test total time is 2.841367483139038
-Epoch 258, test MAE: 1571.21044921875, test accuracy: 0.524705390310104, loss: 7977689.634615385
 train total time is 3.4267385005950928
 Epoch 259, train MAE: 1626.7481689453125, train accuracy: 0.5217195222311153 loss: 8697702.98076923
-test total time is 2.840162515640259
-Epoch 259, test MAE: 1997.1484375, test accuracy: 0.5129843646471706, loss: 9364512.826923076
 train total time is 3.551553726196289
 Epoch 260, train MAE: 1603.534423828125, train accuracy: 0.517926601882356 loss: 8447447.73076923
-test total time is 2.8291313648223877
-Epoch 260, test MAE: 1538.1807861328125, test accuracy: 0.5631280869096332, loss: 8193418.471153846
 train total time is 3.417109489440918
 Epoch 261, train MAE: 1613.2734375, train accuracy: 0.5221273763810691 loss: 8614375.298076924
-test total time is 2.8281137943267822
-Epoch 261, test MAE: 1746.74755859375, test accuracy: 0.5017821945173347, loss: 8765703.807692308
 train total time is 3.40659761428833
 Epoch 262, train MAE: 1648.3778076171875, train accuracy: 0.5249533497801482 loss: 8611179.26923077
-test total time is 2.939303159713745
-Epoch 262, test MAE: 1523.596435546875, test accuracy: 0.5311538844381445, loss: 8195129.230769231
 train total time is 3.4506466388702393
 Epoch 263, train MAE: 1532.2274169921875, train accuracy: 0.5257736885179698 loss: 8339725.096153846
-test total time is 2.8345351219177246
-Epoch 263, test MAE: 1606.72314453125, test accuracy: 0.5253976669601421, loss: 8224785.298076923
 train total time is 3.4744396209716797
 Epoch 264, train MAE: 1552.3214111328125, train accuracy: 0.5198399411078161 loss: 8465760.461538462
-test total time is 2.8356516361236572
-Epoch 264, test MAE: 1541.5006103515625, test accuracy: 0.5216815056802969, loss: 8269155.461538462
 train total time is 3.5061800479888916
 Epoch 265, train MAE: 1634.1490478515625, train accuracy: 0.5118741139946483 loss: 8934486.365384616
-test total time is 2.8219590187072754
-Epoch 265, test MAE: 1567.4403076171875, test accuracy: 0.5262136714368831, loss: 8263991.038461538
 train total time is 3.505997896194458
 Epoch 266, train MAE: 1630.09912109375, train accuracy: 0.528059616609827 loss: 8849589.721153846
-test total time is 2.8322484493255615
-Epoch 266, test MAE: 1589.52587890625, test accuracy: 0.5089049851146946, loss: 8153692.298076923
 train total time is 3.467282772064209
 Epoch 267, train MAE: 1653.7799072265625, train accuracy: 0.5184059542251818 loss: 8623179.298076924
-test total time is 2.9344165325164795
-Epoch 267, test MAE: 1606.56396484375, test accuracy: 0.5559666057009539, loss: 8354954.528846154
 train total time is 3.497194528579712
 Epoch 268, train MAE: 1655.134765625, train accuracy: 0.5453098094897042 loss: 9032663.461538462
-test total time is 2.8295633792877197
-Epoch 268, test MAE: 1562.4754638671875, test accuracy: 0.5506319483014261, loss: 8347695.605769231
 train total time is 3.4243314266204834
 Epoch 269, train MAE: 1645.192138671875, train accuracy: 0.5071068083613817 loss: 8784306.451923076
-test total time is 2.8271682262420654
-Epoch 269, test MAE: 1562.69189453125, test accuracy: 0.5057652661419585, loss: 8187018.057692308
 train total time is 3.5217373371124268
 Epoch 270, train MAE: 1623.446533203125, train accuracy: 0.5214289431810598 loss: 8713996.288461538
-test total time is 2.8214797973632812
-Epoch 270, test MAE: 1536.965576171875, test accuracy: 0.5432611932223427, loss: 8216411.923076923
 train total time is 3.4200985431671143
 Epoch 271, train MAE: 1540.9029541015625, train accuracy: 0.5288996501313817 loss: 8297049.576923077
-test total time is 2.828615427017212
-Epoch 271, test MAE: 1534.5079345703125, test accuracy: 0.566149689243012, loss: 8075853.509615385
 train total time is 3.439971446990967
 Epoch 272, train MAE: 1546.41748046875, train accuracy: 0.5243011219595927 loss: 8221509.394230769
-test total time is 2.9302403926849365
-Epoch 272, test MAE: 1496.252685546875, test accuracy: 0.5151646521100819, loss: 7766936.923076923
 train total time is 3.4305741786956787
 Epoch 273, train MAE: 1577.747802734375, train accuracy: 0.5253882502290351 loss: 8537342.346153846
-test total time is 2.8365695476531982
-Epoch 273, test MAE: 1607.1700439453125, test accuracy: 0.5152148391981569, loss: 8758474.211538462
 train total time is 3.573960304260254
 Epoch 274, train MAE: 1626.72509765625, train accuracy: 0.5193923431788222 loss: 8842267.134615384
-test total time is 2.8222904205322266
-Epoch 274, test MAE: 1598.4552001953125, test accuracy: 0.5037030877322229, loss: 8265479.884615385
 train total time is 3.545747756958008
 Epoch 275, train MAE: 1556.1790771484375, train accuracy: 0.5245966181932319 loss: 8294467.240384615
-test total time is 2.8297016620635986
-Epoch 275, test MAE: 1583.6466064453125, test accuracy: 0.5109448312025988, loss: 8175509.5
 train total time is 3.4149320125579834
 Epoch 276, train MAE: 1558.50390625, train accuracy: 0.5282641018624141 loss: 8417366.653846154
-test total time is 2.832326889038086
-Epoch 276, test MAE: 1519.4014892578125, test accuracy: 0.5278429510143825, loss: 8188685.105769231
 train total time is 3.507533311843872
 Epoch 277, train MAE: 1514.8463134765625, train accuracy: 0.525893254017604 loss: 7787755.278846154
-test total time is 2.827230453491211
-Epoch 277, test MAE: 1573.3536376953125, test accuracy: 0.5179354922465802, loss: 8106769.692307692
 train total time is 3.413538694381714
 Epoch 278, train MAE: 1564.47021484375, train accuracy: 0.5292657126737318 loss: 8388722.403846154
-test total time is 2.8360540866851807
-Epoch 278, test MAE: 1590.25732421875, test accuracy: 0.5149617884487463, loss: 8217307.903846154
 train total time is 3.419548511505127
 Epoch 279, train MAE: 1560.5399169921875, train accuracy: 0.5351440750121219 loss: 8391391.846153846
-test total time is 2.838412284851074
-Epoch 279, test MAE: 1509.6475830078125, test accuracy: 0.5517589946499742, loss: 8084579.019230769
 train total time is 3.5342166423797607
 Epoch 280, train MAE: 1595.1724853515625, train accuracy: 0.520467417832302 loss: 8749462.471153846
-test total time is 2.8303041458129883
-Epoch 280, test MAE: 1558.5501708984375, test accuracy: 0.5012767543141082, loss: 8065484.0
 train total time is 3.482973337173462
 Epoch 281, train MAE: 1596.1939697265625, train accuracy: 0.5203692368622106 loss: 8521232.10576923
-test total time is 2.8386034965515137
-Epoch 281, test MAE: 1523.833984375, test accuracy: 0.5223594510269962, loss: 8048899.240384615
 train total time is 3.4864494800567627
 Epoch 282, train MAE: 1612.5115966796875, train accuracy: 0.5446490932729876 loss: 8955934.817307692
-test total time is 2.925267219543457
-Epoch 282, test MAE: 1646.2335205078125, test accuracy: 0.5262338154001406, loss: 8247194.692307692
 train total time is 3.417308807373047
 Epoch 283, train MAE: 1630.705078125, train accuracy: 0.5229880698321034 loss: 8394291.85576923
-test total time is 2.833423376083374
-Epoch 283, test MAE: 1634.18603515625, test accuracy: 0.5173515016939543, loss: 8422483.538461538
 train total time is 3.4578332901000977
 Epoch 284, train MAE: 1568.186279296875, train accuracy: 0.5423929257966305 loss: 8447585.701923076
-test total time is 2.8231284618377686
-Epoch 284, test MAE: 1510.403076171875, test accuracy: 0.5366103673197932, loss: 8081922.221153846
 train total time is 3.5205986499786377
 Epoch 285, train MAE: 1557.9910888671875, train accuracy: 0.5393231515052401 loss: 8519027.26923077
-test total time is 2.8246443271636963
-Epoch 285, test MAE: 1513.82275390625, test accuracy: 0.5199462158616903, loss: 7950197.153846154
 train total time is 3.467310905456543
 Epoch 286, train MAE: 1567.659912109375, train accuracy: 0.5301326262347762 loss: 8372964.403846154
-test total time is 2.8333194255828857
-Epoch 286, test MAE: 1604.8243408203125, test accuracy: 0.5086634797010696, loss: 8204278.134615385
 train total time is 3.4347963333129883
 Epoch 287, train MAE: 1513.2159423828125, train accuracy: 0.5295228177749485 loss: 7329925.153846154
-test total time is 2.9163286685943604
-Epoch 287, test MAE: 1554.21435546875, test accuracy: 0.5503253966209277, loss: 8299463.125
 train total time is 3.6335511207580566
 Epoch 288, train MAE: 1544.02197265625, train accuracy: 0.5432596528930181 loss: 8275135.086538462
-test total time is 2.822826385498047
-Epoch 288, test MAE: 1570.314208984375, test accuracy: 0.5125675992818712, loss: 8440711.038461538
 train total time is 3.42342472076416
 Epoch 289, train MAE: 1591.82080078125, train accuracy: 0.5133323184729576 loss: 8506780.826923076
-test total time is 2.8412723541259766
-Epoch 289, test MAE: 1561.1138916015625, test accuracy: 0.5548821781417271, loss: 8241690.576923077
 train total time is 3.521317720413208
 Epoch 290, train MAE: 1562.9383544921875, train accuracy: 0.5368628829635242 loss: 8208090.326923077
-test total time is 2.840066909790039
-Epoch 290, test MAE: 1566.0299072265625, test accuracy: 0.513005824658448, loss: 7967086.298076923
 train total time is 3.439055919647217
 Epoch 291, train MAE: 1626.030029296875, train accuracy: 0.5429385664296145 loss: 8701193.173076924
-test total time is 2.835423231124878
-Epoch 291, test MAE: 1786.943603515625, test accuracy: 0.5341389049371366, loss: 8566743.01923077
 train total time is 3.438664436340332
 Epoch 292, train MAE: 1669.308349609375, train accuracy: 0.5236537448995106 loss: 8808993.596153846
-test total time is 2.9351978302001953
-Epoch 292, test MAE: 1916.59814453125, test accuracy: 0.5001312450685935, loss: 9110310.576923076
 train total time is 3.3969602584838867
 Epoch 293, train MAE: 1795.619384765625, train accuracy: 0.5275964548458617 loss: 9754834.942307692
-test total time is 2.8209872245788574
-Epoch 293, test MAE: 1512.26953125, test accuracy: 0.5482556318201655, loss: 8485323.346153846
 train total time is 3.461714267730713
 Epoch 294, train MAE: 1645.6182861328125, train accuracy: 0.5341974723686592 loss: 8969218.365384616
-test total time is 2.838482141494751
-Epoch 294, test MAE: 1677.906005859375, test accuracy: 0.5302871662694134, loss: 8102320.153846154
 train total time is 3.5823090076446533
 Epoch 295, train MAE: 1572.8704833984375, train accuracy: 0.5308114422357431 loss: 8323955.019230769
-test total time is 2.9185380935668945
-Epoch 295, test MAE: 1731.9837646484375, test accuracy: 0.5031840647278408, loss: 8554041.48076923
 train total time is 3.6156349182128906
 Epoch 296, train MAE: 1603.8699951171875, train accuracy: 0.5345070216480288 loss: 8618439.201923076
-test total time is 2.8300890922546387
-Epoch 296, test MAE: 1575.6436767578125, test accuracy: 0.5327362740572137, loss: 8134953.096153846
 train total time is 3.459120035171509
 Epoch 297, train MAE: 1524.2938232421875, train accuracy: 0.5369150735218712 loss: 7976452.432692308
-test total time is 2.8287439346313477
-Epoch 297, test MAE: 1544.4200439453125, test accuracy: 0.5934631753737099, loss: 8184483.423076923
 train total time is 3.556223154067993
 Epoch 298, train MAE: 1564.612060546875, train accuracy: 0.5294652929656521 loss: 8534305.721153846
-test total time is 2.8440961837768555
-Epoch 298, test MAE: 1581.411865234375, test accuracy: 0.5236596036748897, loss: 8049144.663461538
 train total time is 3.4303884506225586
 Epoch 299, train MAE: 1591.9442138671875, train accuracy: 0.5434903712085194 loss: 8592358.298076924
-test total time is 2.8354527950286865
-Epoch 299, test MAE: 1816.7830810546875, test accuracy: 0.5118015612474839, loss: 8861995.288461538
 learning rate change
 train total time is 3.6187968254089355
 Epoch 300, train MAE: 1540.249267578125, train accuracy: 0.5394403921446592 loss: 8230424.403846154
-test total time is 2.8228039741516113
-Epoch 300, test MAE: 1497.048828125, test accuracy: 0.5591805859830696, loss: 8056524.451923077
 train total time is 3.4661521911621094
 Epoch 301, train MAE: 1491.8040771484375, train accuracy: 0.5502463287882023 loss: 7977722.269230769
-test total time is 2.8310811519622803
-Epoch 301, test MAE: 1483.0552978515625, test accuracy: 0.544641652489045, loss: 7934092.778846154
 train total time is 3.4749183654785156
 Epoch 302, train MAE: 1497.09130859375, train accuracy: 0.546353694418592 loss: 8019956.528846154
-test total time is 2.9253528118133545
-Epoch 302, test MAE: 1487.1417236328125, test accuracy: 0.5439284522772536, loss: 7953580.221153846
 train total time is 3.4316771030426025
 Epoch 303, train MAE: 1474.49853515625, train accuracy: 0.5460492132520319 loss: 7583318.923076923
-test total time is 2.8346493244171143
-Epoch 303, test MAE: 1472.510009765625, test accuracy: 0.547528961210007, loss: 7781274.846153846
 train total time is 3.420898914337158
 Epoch 304, train MAE: 1489.9874267578125, train accuracy: 0.5475859203219532 loss: 7956789.326923077
-test total time is 2.8315186500549316
-Epoch 304, test MAE: 1468.3116455078125, test accuracy: 0.5397033773022336, loss: 7669549.067307692
-save checkpoint
 train total time is 3.525245428085327
 Epoch 305, train MAE: 1485.815185546875, train accuracy: 0.5409618010601676 loss: 7923843.980769231
-test total time is 2.825838565826416
-Epoch 305, test MAE: 1479.7962646484375, test accuracy: 0.5454997439828805, loss: 7830196.548076923
 train total time is 3.6073801517486572
 Epoch 306, train MAE: 1479.455810546875, train accuracy: 0.5352787731174089 loss: 7365347.25
-test total time is 2.8379931449890137
-Epoch 306, test MAE: 1508.404541015625, test accuracy: 0.5375837350150069, loss: 7907910.817307692
 train total time is 3.5768890380859375
 Epoch 307, train MAE: 1493.3612060546875, train accuracy: 0.5478145037532972 loss: 7932218.480769231
-test total time is 2.930034875869751
-Epoch 307, test MAE: 1500.453369140625, test accuracy: 0.5449627270166231, loss: 7841043.615384615
 train total time is 3.4960391521453857
 Epoch 308, train MAE: 1480.218994140625, train accuracy: 0.5414326902502574 loss: 7737444.403846154
-test total time is 2.846439838409424
-Epoch 308, test MAE: 1476.9822998046875, test accuracy: 0.544692156574801, loss: 7856592.653846154
 train total time is 3.429112195968628
 Epoch 309, train MAE: 1464.0516357421875, train accuracy: 0.5476440613973901 loss: 7290044.086538462
-test total time is 2.8309531211853027
-Epoch 309, test MAE: 1478.1055908203125, test accuracy: 0.5435439914480246, loss: 7825023.134615385
 train total time is 3.6527323722839355
 Epoch 310, train MAE: 1476.7598876953125, train accuracy: 0.5582105997278678 loss: 7870191.365384615
-test total time is 2.8250863552093506
-Epoch 310, test MAE: 1468.7650146484375, test accuracy: 0.552153091454076, loss: 7822831.855769231
 train total time is 3.504121780395508
 Epoch 311, train MAE: 1484.6522216796875, train accuracy: 0.5545724690829917 loss: 7926247.163461538
-test total time is 2.836991310119629
-Epoch 311, test MAE: 1480.5848388671875, test accuracy: 0.5469070435435354, loss: 7796976.25
 train total time is 3.4694576263427734
 Epoch 312, train MAE: 1483.7674560546875, train accuracy: 0.54529056043735 loss: 7838877.096153846
-test total time is 2.9318766593933105
-Epoch 312, test MAE: 1470.786376953125, test accuracy: 0.5455141403435034, loss: 7792013.394230769
 train total time is 3.4598348140716553
 Epoch 313, train MAE: 1482.889404296875, train accuracy: 0.5431273827311498 loss: 7849713.192307692
-test total time is 2.8332340717315674
-Epoch 313, test MAE: 1470.361083984375, test accuracy: 0.5470777111250914, loss: 7835829.644230769
 train total time is 3.428844928741455
 Epoch 314, train MAE: 1467.526123046875, train accuracy: 0.5491363127699058 loss: 7633976.480769231
-test total time is 2.8351757526397705
-Epoch 314, test MAE: 1465.03271484375, test accuracy: 0.5538110826513166, loss: 7800816.923076923
 train total time is 3.528069496154785
 Epoch 315, train MAE: 1475.095458984375, train accuracy: 0.5455034327060858 loss: 7692149.230769231
-test total time is 2.8273699283599854
-Epoch 315, test MAE: 1458.513671875, test accuracy: 0.5542742236406915, loss: 7698577.557692308
 train total time is 3.4591848850250244
 Epoch 316, train MAE: 1487.5704345703125, train accuracy: 0.5537834685672698 loss: 7902927.211538462
-test total time is 2.824547290802002
-Epoch 316, test MAE: 1468.239013671875, test accuracy: 0.5472968178728519, loss: 7779503.211538462
 train total time is 3.4751944541931152
 Epoch 317, train MAE: 1484.0194091796875, train accuracy: 0.5520178846523454 loss: 7894652.25
-test total time is 2.9458248615264893
-Epoch 317, test MAE: 1456.9991455078125, test accuracy: 0.5487044719762334, loss: 7499107.144230769
-save checkpoint
 train total time is 3.427258253097534
 Epoch 318, train MAE: 1481.7332763671875, train accuracy: 0.5440426573313605 loss: 7819368.788461538
-test total time is 2.8286635875701904
-Epoch 318, test MAE: 1490.1322021484375, test accuracy: 0.5511292569401571, loss: 7799715.923076923
 train total time is 3.453866958618164
 Epoch 319, train MAE: 1495.4766845703125, train accuracy: 0.547743108148558 loss: 7886711.942307692
-test total time is 2.830827474594116
-Epoch 319, test MAE: 1472.3905029296875, test accuracy: 0.5591126380426273, loss: 7827900.336538462
 train total time is 3.6029155254364014
 Epoch 320, train MAE: 1490.859130859375, train accuracy: 0.5455766026229905 loss: 7877475.903846154
-test total time is 2.8252429962158203
-Epoch 320, test MAE: 1474.263427734375, test accuracy: 0.5474053433277681, loss: 7809098.548076923
 train total time is 3.4605185985565186
 Epoch 321, train MAE: 1478.7213134765625, train accuracy: 0.5609528439289121 loss: 7830392.759615385
-test total time is 2.8398983478546143
-Epoch 321, test MAE: 1469.90625, test accuracy: 0.5453005327479716, loss: 7782304.701923077
 train total time is 3.460455894470215
 Epoch 322, train MAE: 1489.7823486328125, train accuracy: 0.5471058657192319 loss: 7872297.153846154
-test total time is 2.9372432231903076
-Epoch 322, test MAE: 1492.0494384765625, test accuracy: 0.5460580547310481, loss: 7890613.0
 train total time is 3.475292205810547
 Epoch 323, train MAE: 1500.217529296875, train accuracy: 0.5448060208676129 loss: 7948864.461538462
-test total time is 2.8433685302734375
-Epoch 323, test MAE: 1464.1490478515625, test accuracy: 0.5636212261743342, loss: 7809976.125
 train total time is 3.473752737045288
 Epoch 324, train MAE: 1480.448974609375, train accuracy: 0.5542383127988678 loss: 7860246.721153846
-test total time is 2.832904100418091
-Epoch 324, test MAE: 1473.7662353515625, test accuracy: 0.5546317940818695, loss: 7795184.836538462
 train total time is 3.6689693927764893
 Epoch 325, train MAE: 1473.837890625, train accuracy: 0.5518924159743094 loss: 7824264.048076923
-test total time is 2.829610824584961
-Epoch 325, test MAE: 1468.642822265625, test accuracy: 0.5479043931866958, loss: 7794195.846153846
 train total time is 3.400869131088257
 Epoch 326, train MAE: 1485.942626953125, train accuracy: 0.5463414449897251 loss: 7873607.192307692
-test total time is 2.8581595420837402
-Epoch 326, test MAE: 1466.7723388671875, test accuracy: 0.5672022464495856, loss: 7819855.019230769
 train total time is 3.519995927810669
 Epoch 327, train MAE: 1475.18603515625, train accuracy: 0.55218686132151 loss: 7843774.817307692
-test total time is 2.9516868591308594
-Epoch 327, test MAE: 1463.7049560546875, test accuracy: 0.5570098490743653, loss: 7767576.355769231
 train total time is 3.469381332397461
 Epoch 328, train MAE: 1476.8072509765625, train accuracy: 0.5564104079695291 loss: 7817147.942307692
-test total time is 2.827854871749878
-Epoch 328, test MAE: 1476.970458984375, test accuracy: 0.5495472895290817, loss: 7636748.701923077
 train total time is 3.5008413791656494
 Epoch 329, train MAE: 1466.8052978515625, train accuracy: 0.5520093551831632 loss: 7631192.259615385
-test total time is 2.8371682167053223
-Epoch 329, test MAE: 1469.831298828125, test accuracy: 0.5467645092419409, loss: 7804483.211538462
 train total time is 3.652378559112549
 Epoch 330, train MAE: 1473.68408203125, train accuracy: 0.5456998774618148 loss: 7637278.298076923
-test total time is 2.8309144973754883
-Epoch 330, test MAE: 1479.48046875, test accuracy: 0.5468718316049448, loss: 7812529.5
 train total time is 3.5265512466430664
 Epoch 331, train MAE: 1475.7239990234375, train accuracy: 0.5534180232339321 loss: 7870754.096153846
-test total time is 2.840507984161377
-Epoch 331, test MAE: 1479.26513671875, test accuracy: 0.5423005194567748, loss: 7706896.884615385
 train total time is 3.5489866733551025
 Epoch 332, train MAE: 1476.3612060546875, train accuracy: 0.5482258446384821 loss: 7692460.509615385
-test total time is 2.9387621879577637
-Epoch 332, test MAE: 1510.466796875, test accuracy: 0.5416689340622112, loss: 7834550.038461538
 train total time is 3.535238742828369
 Epoch 333, train MAE: 1489.4383544921875, train accuracy: 0.5367876112769229 loss: 7899455.365384615
-test total time is 2.8262293338775635
-Epoch 333, test MAE: 1452.9600830078125, test accuracy: 0.5590036097548433, loss: 7568488.057692308
 train total time is 3.5016374588012695
 Epoch 334, train MAE: 1477.08642578125, train accuracy: 0.553968406180868 loss: 7852018.625
-test total time is 2.8335227966308594
-Epoch 334, test MAE: 1475.1270751953125, test accuracy: 0.5516018101935977, loss: 7761237.855769231
 train total time is 3.6282315254211426
 Epoch 335, train MAE: 1476.7100830078125, train accuracy: 0.5600872865787222 loss: 7812024.317307692
-test total time is 2.8462607860565186
-Epoch 335, test MAE: 1482.4947509765625, test accuracy: 0.5521554437390579, loss: 7830131.932692308
 train total time is 3.4572653770446777
 Epoch 336, train MAE: 1485.243896484375, train accuracy: 0.5522310355741543 loss: 7789719.730769231
-test total time is 2.832383155822754
-Epoch 336, test MAE: 1470.4901123046875, test accuracy: 0.5644575758335297, loss: 7807889.125
 train total time is 3.4757065773010254
 Epoch 337, train MAE: 1493.4466552734375, train accuracy: 0.5571762631595201 loss: 7915716.894230769
-test total time is 2.9374732971191406
-Epoch 337, test MAE: 1473.642822265625, test accuracy: 0.5434019522395445, loss: 7744845.375
 train total time is 3.426974296569824
 Epoch 338, train MAE: 1490.5032958984375, train accuracy: 0.5410075142172467 loss: 7907338.125
-test total time is 2.8364295959472656
-Epoch 338, test MAE: 1463.151123046875, test accuracy: 0.5679425836073708, loss: 7707485.932692308
 train total time is 3.5471887588500977
 Epoch 339, train MAE: 1465.772705078125, train accuracy: 0.5643986329214793 loss: 7634649.576923077
-test total time is 2.8295154571533203
-Epoch 339, test MAE: 1459.65478515625, test accuracy: 0.557622218023096, loss: 7631593.057692308
 train total time is 3.6436831951141357
 Epoch 340, train MAE: 1483.1710205078125, train accuracy: 0.55486628286815 loss: 7852744.778846154
-test total time is 2.8330509662628174
-Epoch 340, test MAE: 1469.5665283203125, test accuracy: 0.5593506371051485, loss: 7733740.923076923
 train total time is 3.5529701709747314
 Epoch 341, train MAE: 1476.947998046875, train accuracy: 0.5517954554531856 loss: 7820408.211538462
-test total time is 2.8381786346435547
-Epoch 341, test MAE: 1463.69677734375, test accuracy: 0.5631550908340001, loss: 7770342.951923077
 train total time is 3.477080821990967
 Epoch 342, train MAE: 1468.5072021484375, train accuracy: 0.5617763692011389 loss: 7504441.673076923
-test total time is 2.935187816619873
-Epoch 342, test MAE: 1465.5233154296875, test accuracy: 0.564340510156452, loss: 7799933.461538462
 train total time is 3.5778486728668213
 Epoch 343, train MAE: 1477.9207763671875, train accuracy: 0.5527842163496596 loss: 7797927.211538462
-test total time is 2.8306679725646973
-Epoch 343, test MAE: 1486.361572265625, test accuracy: 0.5566543827605878, loss: 7795748.451923077
 train total time is 3.596947193145752
 Epoch 344, train MAE: 1484.853515625, train accuracy: 0.5623087464838514 loss: 7880250.019230769
-test total time is 2.837346076965332
-Epoch 344, test MAE: 1467.903564453125, test accuracy: 0.5475897048066091, loss: 7743747.971153846
 train total time is 3.723472833633423
 Epoch 345, train MAE: 1476.83447265625, train accuracy: 0.552540473513699 loss: 7786635.903846154
-test total time is 2.8523149490356445
-Epoch 345, test MAE: 1470.224609375, test accuracy: 0.5525687369531717, loss: 7799485.711538462
 train total time is 3.618997573852539
 Epoch 346, train MAE: 1472.607666015625, train accuracy: 0.5555095723676493 loss: 7800538.932692308
-test total time is 2.8339178562164307
-Epoch 346, test MAE: 1465.647216796875, test accuracy: 0.5589562658805697, loss: 7762427.134615385
 train total time is 3.5691401958465576
 Epoch 347, train MAE: 1467.8016357421875, train accuracy: 0.5568129137516474 loss: 7557255.067307692
-test total time is 2.9320478439331055
-Epoch 347, test MAE: 1471.80419921875, test accuracy: 0.5592427189910745, loss: 7755350.538461538
 train total time is 3.583345413208008
 Epoch 348, train MAE: 1487.112060546875, train accuracy: 0.551764870766576 loss: 7810377.798076923
-test total time is 2.829012155532837
-Epoch 348, test MAE: 1441.195556640625, test accuracy: 0.5487770338994044, loss: 7178933.326923077
-save checkpoint
 train total time is 3.6366240978240967
 Epoch 349, train MAE: 1480.3533935546875, train accuracy: 0.5509829539680388 loss: 7790885.586538462
-test total time is 2.9347219467163086
-Epoch 349, test MAE: 1461.659423828125, test accuracy: 0.5454063369777495, loss: 7645741.817307692
 train total time is 3.611769437789917
 Epoch 350, train MAE: 1451.5382080078125, train accuracy: 0.5456435164442215 loss: 6843203.115384615
-test total time is 2.8297345638275146
-Epoch 350, test MAE: 1487.3978271484375, test accuracy: 0.5553829957690075, loss: 7788849.586538462
 train total time is 3.5493361949920654
 Epoch 351, train MAE: 1462.2227783203125, train accuracy: 0.5639932456106653 loss: 7660329.923076923
-test total time is 2.830641984939575
-Epoch 351, test MAE: 1462.3458251953125, test accuracy: 0.5631581592230992, loss: 7773453.788461538
 train total time is 3.7202184200286865
 Epoch 352, train MAE: 1480.6529541015625, train accuracy: 0.550341518909768 loss: 7824076.115384615
-test total time is 2.8328306674957275
-Epoch 352, test MAE: 1468.838623046875, test accuracy: 0.5553726865393629, loss: 7804572.278846154
 train total time is 3.5556788444519043
 Epoch 353, train MAE: 1473.27587890625, train accuracy: 0.5643653088214782 loss: 7879832.375
-test total time is 2.8306140899658203
-Epoch 353, test MAE: 1491.1829833984375, test accuracy: 0.5603262237162582, loss: 7668092.375
 train total time is 3.5467140674591064
 Epoch 354, train MAE: 1471.466552734375, train accuracy: 0.556555871281198 loss: 7765313.403846154
-test total time is 2.9371390342712402
-Epoch 354, test MAE: 1478.2784423828125, test accuracy: 0.5603404153883833, loss: 7765397.019230769
 train total time is 3.64091157913208
 Epoch 355, train MAE: 1486.613037109375, train accuracy: 0.5526619557086752 loss: 7841286.634615385
-test total time is 2.819653272628784
-Epoch 355, test MAE: 1472.211669921875, test accuracy: 0.5454101761343106, loss: 7783079.125
 train total time is 3.581075668334961
 Epoch 356, train MAE: 1469.2662353515625, train accuracy: 0.562167395818566 loss: 7766814.336538462
-test total time is 2.8349928855895996
-Epoch 356, test MAE: 1444.831787109375, test accuracy: 0.5675548081656019, loss: 7221142.884615385
 train total time is 3.6815483570098877
 Epoch 357, train MAE: 1470.23046875, train accuracy: 0.5567859590946409 loss: 7580709.951923077
-test total time is 2.8326570987701416
-Epoch 357, test MAE: 1499.2550048828125, test accuracy: 0.5591090957919251, loss: 7758138.855769231
 train total time is 3.5958991050720215
 Epoch 358, train MAE: 1486.6866455078125, train accuracy: 0.5535414673319972 loss: 7820448.807692308
-test total time is 2.8331148624420166
-Epoch 358, test MAE: 1461.766845703125, test accuracy: 0.5553806203450972, loss: 7711034.182692308
 train total time is 3.5544931888580322
 Epoch 359, train MAE: 1465.0155029296875, train accuracy: 0.562973429882034 loss: 7790079.230769231
-test total time is 2.9480488300323486
-Epoch 359, test MAE: 1467.616943359375, test accuracy: 0.5537040892886752, loss: 7730817.423076923
 train total time is 3.543639659881592
 Epoch 360, train MAE: 1497.3526611328125, train accuracy: 0.542144240279191 loss: 7822637.548076923
-test total time is 2.8235981464385986
-Epoch 360, test MAE: 1492.4967041015625, test accuracy: 0.5583133218086438, loss: 7801035.865384615
 train total time is 3.576610803604126
 Epoch 361, train MAE: 1468.524658203125, train accuracy: 0.558573527821522 loss: 7421894.807692308
-test total time is 2.8333606719970703
-Epoch 361, test MAE: 1457.813232421875, test accuracy: 0.5550030231131328, loss: 7655111.384615385
 train total time is 3.7101001739501953
 Epoch 362, train MAE: 1474.5540771484375, train accuracy: 0.5533441833887027 loss: 7780006.682692308
-test total time is 2.8362016677856445
-Epoch 362, test MAE: 1467.254638671875, test accuracy: 0.5496710395338116, loss: 7776072.451923077
 train total time is 3.594435453414917
 Epoch 363, train MAE: 1471.8897705078125, train accuracy: 0.5608740488444903 loss: 7829242.538461538
-test total time is 2.8362629413604736
-Epoch 363, test MAE: 1455.783203125, test accuracy: 0.5427771745558486, loss: 7428864.086538462
 train total time is 3.646331548690796
 Epoch 364, train MAE: 1492.57421875, train accuracy: 0.5395330474638858 loss: 7796605.576923077
-test total time is 2.9489355087280273
-Epoch 364, test MAE: 1467.4974365234375, test accuracy: 0.5688527863843849, loss: 7753965.932692308
 train total time is 3.555619955062866
 Epoch 365, train MAE: 1476.635986328125, train accuracy: 0.5534082827862268 loss: 7824739.490384615
-test total time is 2.8326621055603027
-Epoch 365, test MAE: 1473.48291015625, test accuracy: 0.545014999116876, loss: 7770016.211538462
 train total time is 3.556997299194336
 Epoch 366, train MAE: 1476.4185791015625, train accuracy: 0.5593757097612103 loss: 7773716.355769231
-test total time is 2.8268935680389404
-Epoch 366, test MAE: 1465.8975830078125, test accuracy: 0.5597363199963868, loss: 7763736.096153846
 train total time is 3.642789602279663
 Epoch 367, train MAE: 1478.10400390625, train accuracy: 0.5539202990457935 loss: 7836374.875
-test total time is 2.8348498344421387
-Epoch 367, test MAE: 1462.48486328125, test accuracy: 0.545673118135537, loss: 7657383.423076923
 train total time is 3.5408287048339844
 Epoch 368, train MAE: 1472.3092041015625, train accuracy: 0.5483479256764473 loss: 7771285.432692308
-test total time is 2.8330156803131104
-Epoch 368, test MAE: 1469.1466064453125, test accuracy: 0.5454158402265443, loss: 7713554.403846154
 train total time is 3.5796637535095215
 Epoch 369, train MAE: 1472.5516357421875, train accuracy: 0.5524087177906385 loss: 7767415.894230769
-test total time is 2.918538808822632
-Epoch 369, test MAE: 1461.426025390625, test accuracy: 0.5665135864364945, loss: 7728641.586538462
 train total time is 3.552767753601074
 Epoch 370, train MAE: 1464.33642578125, train accuracy: 0.5570996183705307 loss: 7635813.653846154
-test total time is 2.8297879695892334
-Epoch 370, test MAE: 1454.663330078125, test accuracy: 0.5547321627642554, loss: 7533541.596153846
 train total time is 3.554022789001465
 Epoch 371, train MAE: 1475.0906982421875, train accuracy: 0.5637088153521937 loss: 7785476.009615385
-test total time is 2.8262226581573486
-Epoch 371, test MAE: 1457.672119140625, test accuracy: 0.5489106615416869, loss: 7653398.951923077
 train total time is 3.628849506378174
 Epoch 372, train MAE: 1480.223388671875, train accuracy: 0.5444592652672026 loss: 7823443.307692308
-test total time is 2.834848403930664
-Epoch 372, test MAE: 1486.656982421875, test accuracy: 0.5620421070691944, loss: 7759822.144230769
 train total time is 3.53582763671875
 Epoch 373, train MAE: 1465.7139892578125, train accuracy: 0.5580602607354415 loss: 7664616.451923077
-test total time is 2.8365139961242676
-Epoch 373, test MAE: 1471.9080810546875, test accuracy: 0.5501729345348002, loss: 7727466.423076923
 train total time is 3.646973133087158
 Epoch 374, train MAE: 1473.013916015625, train accuracy: 0.550282835086501 loss: 7762587.134615385
-test total time is 2.916299819946289
-Epoch 374, test MAE: 1470.1439208984375, test accuracy: 0.5722807753569457, loss: 7757182.076923077
 train total time is 3.597092628479004
 Epoch 375, train MAE: 1472.85546875, train accuracy: 0.5609778663918024 loss: 7737720.634615385
-test total time is 2.8293955326080322
-Epoch 375, test MAE: 1480.536376953125, test accuracy: 0.5622888765774781, loss: 7726091.105769231
 train total time is 3.6025819778442383
 Epoch 376, train MAE: 1466.7603759765625, train accuracy: 0.5583209287780038 loss: 7623010.192307692
-test total time is 2.830904722213745
-Epoch 376, test MAE: 1472.256103515625, test accuracy: 0.5428115264658764, loss: 7709392.25
 train total time is 3.678197145462036
 Epoch 377, train MAE: 1464.620849609375, train accuracy: 0.5546619795538643 loss: 7598657.105769231
-test total time is 2.8231542110443115
-Epoch 377, test MAE: 1464.5350341796875, test accuracy: 0.5640695788662947, loss: 7647485.115384615
 train total time is 3.558847427368164
 Epoch 378, train MAE: 1478.3126220703125, train accuracy: 0.553323913979292 loss: 7799866.442307692
-test total time is 2.829817771911621
-Epoch 378, test MAE: 1463.8194580078125, test accuracy: 0.5588246123918139, loss: 7679667.230769231
 train total time is 3.567625045776367
 Epoch 379, train MAE: 1485.7156982421875, train accuracy: 0.543433250087521 loss: 7816768.346153846
-test total time is 2.9301841259002686
-Epoch 379, test MAE: 1463.316162109375, test accuracy: 0.561753474072809, loss: 7714366.384615385
 train total time is 3.5987658500671387
 Epoch 380, train MAE: 1465.5338134765625, train accuracy: 0.5599721191661803 loss: 7732929.778846154
-test total time is 2.829427719116211
-Epoch 380, test MAE: 1472.134765625, test accuracy: 0.5575047738875463, loss: 7685910.980769231
 train total time is 3.579231023788452
 Epoch 381, train MAE: 1464.169921875, train accuracy: 0.5593476361919938 loss: 7667251.980769231
-test total time is 2.8384528160095215
-Epoch 381, test MAE: 1458.34228515625, test accuracy: 0.5677837591625193, loss: 7689603.759615385
 train total time is 3.6822192668914795
 Epoch 382, train MAE: 1485.5216064453125, train accuracy: 0.5530170260046695 loss: 7732303.682692308
-test total time is 2.8297581672668457
-Epoch 382, test MAE: 1483.0650634765625, test accuracy: 0.5435473457087571, loss: 7817782.182692308
 train total time is 3.5620028972625732
 Epoch 383, train MAE: 1480.10595703125, train accuracy: 0.5466894998854117 loss: 7763076.971153846
-test total time is 2.83366060256958
-Epoch 383, test MAE: 1467.954345703125, test accuracy: 0.5610175888108875, loss: 7703749.182692308
 train total time is 3.5764143466949463
 Epoch 384, train MAE: 1465.44921875, train accuracy: 0.560896853735971 loss: 7690165.307692308
-test total time is 2.937645435333252
-Epoch 384, test MAE: 1457.1260986328125, test accuracy: 0.5755738604299098, loss: 7724483.711538462
 train total time is 3.5677313804626465
 Epoch 385, train MAE: 1463.976318359375, train accuracy: 0.5621493023661724 loss: 7702418.980769231
-test total time is 2.8248178958892822
-Epoch 385, test MAE: 1471.6065673828125, test accuracy: 0.5502213225377459, loss: 7699902.432692308
 train total time is 3.565122604370117
 Epoch 386, train MAE: 1474.274169921875, train accuracy: 0.5596113128891054 loss: 7772838.365384615
-test total time is 2.8356854915618896
-Epoch 386, test MAE: 1455.256591796875, test accuracy: 0.5823985396775844, loss: 7697242.932692308
 train total time is 3.6583101749420166
 Epoch 387, train MAE: 1480.61865234375, train accuracy: 0.5587987689010985 loss: 7773733.894230769
-test total time is 2.832481622695923
-Epoch 387, test MAE: 1490.578369140625, test accuracy: 0.5411878738131699, loss: 7755597.884615385
 train total time is 3.634463310241699
 Epoch 388, train MAE: 1469.9114990234375, train accuracy: 0.5563820399668435 loss: 7746920.615384615
-test total time is 2.835205554962158
-Epoch 388, test MAE: 1475.290283203125, test accuracy: 0.5581653149729175, loss: 7744002.230769231
 train total time is 3.6356940269470215
 Epoch 389, train MAE: 1465.3165283203125, train accuracy: 0.5615116245039721 loss: 7584503.884615385
-test total time is 2.8338558673858643
-Epoch 389, test MAE: 1457.3927001953125, test accuracy: 0.5724702129684247, loss: 7713157.346153846
 train total time is 3.5807714462280273
 Epoch 390, train MAE: 1469.314697265625, train accuracy: 0.5642598830963532 loss: 7754034.509615385
-test total time is 2.846311092376709
-Epoch 390, test MAE: 1473.6573486328125, test accuracy: 0.5599949560133991, loss: 7459270.692307692
 train total time is 3.5717718601226807
 Epoch 391, train MAE: 1472.8040771484375, train accuracy: 0.5586824956631007 loss: 7741339.634615385
-test total time is 2.8288822174072266
-Epoch 391, test MAE: 1460.41064453125, test accuracy: 0.5622326091570349, loss: 7701499.932692308
 train total time is 3.6876537799835205
 Epoch 392, train MAE: 1476.3111572265625, train accuracy: 0.565011655631681 loss: 7770628.201923077
-test total time is 2.831885814666748
-Epoch 392, test MAE: 1478.465576171875, test accuracy: 0.565375190821304, loss: 7741117.038461538
 train total time is 3.6480703353881836
 Epoch 393, train MAE: 1464.531494140625, train accuracy: 0.5611409224208764 loss: 7608669.317307692
-test total time is 2.82883620262146
-Epoch 393, test MAE: 1446.8970947265625, test accuracy: 0.5856614100490678, loss: 7631952.548076923
 train total time is 3.5899980068206787
 Epoch 394, train MAE: 1474.588623046875, train accuracy: 0.5643215500355419 loss: 7796090.903846154
-test total time is 2.932492971420288
-Epoch 394, test MAE: 1459.347412109375, test accuracy: 0.5862398009624802, loss: 7729078.25
 train total time is 3.6062004566192627
 Epoch 395, train MAE: 1468.0599365234375, train accuracy: 0.5872124519058948 loss: 7750641.865384615
-test total time is 2.835871696472168
-Epoch 395, test MAE: 1456.104736328125, test accuracy: 0.5577892137202521, loss: 7561838.586538462
 train total time is 3.560537099838257
 Epoch 396, train MAE: 1487.25146484375, train accuracy: 0.5459447252295061 loss: 7809375.644230769
-test total time is 2.8332247734069824
-Epoch 396, test MAE: 1451.7908935546875, test accuracy: 0.5717455557782193, loss: 7019039.288461538
-save checkpoint
 train total time is 3.646641731262207
 Epoch 397, train MAE: 1469.6102294921875, train accuracy: 0.5634344845895245 loss: 7657914.394230769
-test total time is 2.831575870513916
-Epoch 397, test MAE: 1465.861328125, test accuracy: 0.5560623124636245, loss: 7700382.942307692
 train total time is 3.620469808578491
 Epoch 398, train MAE: 1465.402587890625, train accuracy: 0.5585505500455459 loss: 7708028.836538462
-test total time is 2.824843406677246
-Epoch 398, test MAE: 1455.6121826171875, test accuracy: 0.5652576039033309, loss: 7455427.153846154
 train total time is 3.6612935066223145
 Epoch 399, train MAE: 1458.3175048828125, train accuracy: 0.5703880253476312 loss: 7627977.355769231
-test total time is 2.831347703933716
-Epoch 399, test MAE: 1462.1119384765625, test accuracy: 0.5636889637643514, loss: 7705633.490384615
 train total time is 3.5917956829071045
 Epoch 400, train MAE: 1474.1492919921875, train accuracy: 0.5559084338946215 loss: 7757470.682692308
-test total time is 2.8209593296051025
-Epoch 400, test MAE: 1464.38330078125, test accuracy: 0.5536952199673952, loss: 7727981.855769231
 train total time is 3.5602986812591553
 Epoch 401, train MAE: 1477.393798828125, train accuracy: 0.5418473543335085 loss: 7771131.076923077
-test total time is 2.8311543464660645
-Epoch 401, test MAE: 1464.1451416015625, test accuracy: 0.5601617814744001, loss: 7719100.980769231
 train total time is 3.633047103881836
 Epoch 402, train MAE: 1466.6002197265625, train accuracy: 0.5612585200617819 loss: 7664885.423076923
-test total time is 2.8276586532592773
-Epoch 402, test MAE: 1457.389404296875, test accuracy: 0.5559276394235756, loss: 7547484.153846154
 train total time is 3.5455777645111084
 Epoch 403, train MAE: 1463.932373046875, train accuracy: 0.5667002075138444 loss: 7683917.923076923
-test total time is 2.8340466022491455
-Epoch 403, test MAE: 1484.4832763671875, test accuracy: 0.5671386329566239, loss: 7721403.615384615
 train total time is 3.6752655506134033
 Epoch 404, train MAE: 1479.461669921875, train accuracy: 0.5526628060717661 loss: 7780618.182692308
-test total time is 2.8342535495758057
-Epoch 404, test MAE: 1443.0196533203125, test accuracy: 0.5793893306220816, loss: 7127983.538461538
 train total time is 3.5916526317596436
 Epoch 405, train MAE: 1469.6314697265625, train accuracy: 0.5830935293817294 loss: 7746609.875
-test total time is 2.8384435176849365
-Epoch 405, test MAE: 1470.230712890625, test accuracy: 0.5637605348162957, loss: 7595481.076923077
 train total time is 3.5705108642578125
 Epoch 406, train MAE: 1479.3155517578125, train accuracy: 0.5507132682415513 loss: 7737432.509615385
-test total time is 2.8211512565612793
-Epoch 406, test MAE: 1465.917724609375, test accuracy: 0.5646695892983824, loss: 7467541.759615385
 train total time is 3.668829917907715
 Epoch 407, train MAE: 1468.6588134765625, train accuracy: 0.5700556919755685 loss: 7703473.009615385
-test total time is 2.8212738037109375
-Epoch 407, test MAE: 1464.845458984375, test accuracy: 0.5737020692861436, loss: 7716187.875
 train total time is 3.5689008235931396
 Epoch 408, train MAE: 1472.49853515625, train accuracy: 0.5731891916618029 loss: 7786537.730769231
-test total time is 2.829990863800049
-Epoch 408, test MAE: 1493.36328125, test accuracy: 0.5598023240808916, loss: 7637987.086538462
 train total time is 3.6401455402374268
 Epoch 409, train MAE: 1514.944580078125, train accuracy: 0.5370279106461238 loss: 7859604.153846154
-test total time is 2.8319778442382812
-Epoch 409, test MAE: 1495.8553466796875, test accuracy: 0.5778094242925563, loss: 7811285.403846154
 train total time is 3.6140177249908447
 Epoch 410, train MAE: 1477.74755859375, train accuracy: 0.5785071875445564 loss: 7680438.230769231
-test total time is 2.8352394104003906
-Epoch 410, test MAE: 1460.71875, test accuracy: 0.5666037278153137, loss: 7717524.884615385
 train total time is 3.580634832382202
 Epoch 411, train MAE: 1473.843994140625, train accuracy: 0.5570340625339782 loss: 7770334.096153846
-test total time is 2.9277777671813965
-Epoch 411, test MAE: 1470.8114013671875, test accuracy: 0.5440074780117178, loss: 7712019.096153846
 train total time is 3.586592197418213
 Epoch 412, train MAE: 1463.3553466796875, train accuracy: 0.5625102437616281 loss: 7548273.048076923
-test total time is 2.8257811069488525
-Epoch 412, test MAE: 1487.4014892578125, test accuracy: 0.5535817616272181, loss: 7709507.086538462
 train total time is 3.6285719871520996
 Epoch 413, train MAE: 1476.9034423828125, train accuracy: 0.5580844620317226 loss: 7734666.365384615
-test total time is 2.8329293727874756
-Epoch 413, test MAE: 1462.502197265625, test accuracy: 0.5635513294088621, loss: 7714204.480769231
 train total time is 3.6726322174072266
 Epoch 414, train MAE: 1472.3162841796875, train accuracy: 0.5521371959325341 loss: 7682504.125
-test total time is 2.8283779621124268
-Epoch 414, test MAE: 1459.2896728515625, test accuracy: 0.5745990190450331, loss: 7690688.009615385
 train total time is 3.5768837928771973
 Epoch 415, train MAE: 1456.9207763671875, train accuracy: 0.5644448291382662 loss: 7539366.317307692
-test total time is 2.820071220397949
-Epoch 415, test MAE: 1457.63916015625, test accuracy: 0.5600036401854448, loss: 7665564.990384615
 train total time is 3.6061270236968994
 Epoch 416, train MAE: 1467.3096923828125, train accuracy: 0.5624810052299029 loss: 7706060.240384615
-test total time is 2.93587064743042
-Epoch 416, test MAE: 1448.3228759765625, test accuracy: 0.5674623287431736, loss: 7342069.355769231
 train total time is 3.5796310901641846
 Epoch 417, train MAE: 1478.27197265625, train accuracy: 0.5693145118617798 loss: 7723051.009615385
-test total time is 2.8365378379821777
-Epoch 417, test MAE: 1467.0108642578125, test accuracy: 0.5524720060915174, loss: 7680616.961538462
 train total time is 3.5947206020355225
 Epoch 418, train MAE: 1475.4656982421875, train accuracy: 0.5483086291247296 loss: 7735120.125
-test total time is 2.8334155082702637
-Epoch 418, test MAE: 1473.7371826171875, test accuracy: 0.5481805304164692, loss: 7679894.432692308
 train total time is 3.640559673309326
 Epoch 419, train MAE: 1466.61572265625, train accuracy: 0.5597206839215999 loss: 7697893.182692308
-test total time is 2.8352487087249756
-Epoch 419, test MAE: 1467.0018310546875, test accuracy: 0.5638730165807234, loss: 7695532.557692308
 train total time is 3.5735855102539062
 Epoch 420, train MAE: 1467.023681640625, train accuracy: 0.5683309125923833 loss: 7692423.153846154
-test total time is 2.824303150177002
-Epoch 420, test MAE: 1477.340576171875, test accuracy: 0.5435046951552244, loss: 7725770.730769231
 train total time is 3.5505425930023193
 Epoch 421, train MAE: 1476.35791015625, train accuracy: 0.5476084786901574 loss: 7737973.884615385
-test total time is 2.932537078857422
-Epoch 421, test MAE: 1469.7049560546875, test accuracy: 0.552583758486805, loss: 7697359.788461538
 train total time is 3.611677646636963
 Epoch 422, train MAE: 1472.498046875, train accuracy: 0.5699595829820916 loss: 7792428.25
-test total time is 2.8227005004882812
-Epoch 422, test MAE: 1491.723876953125, test accuracy: 0.5515941614253674, loss: 7706051.451923077
 train total time is 3.5597426891326904
 Epoch 423, train MAE: 1487.6112060546875, train accuracy: 0.5535849686472528 loss: 7797468.278846154
-test total time is 2.8291735649108887
-Epoch 423, test MAE: 1465.172607421875, test accuracy: 0.59325846927002, loss: 7738992.951923077
 train total time is 3.668665647506714
 Epoch 424, train MAE: 1476.630615234375, train accuracy: 0.5747819842544017 loss: 7792129.086538462
-test total time is 2.8324403762817383
-Epoch 424, test MAE: 1474.9581298828125, test accuracy: 0.5409372754580699, loss: 7475060.586538462
 train total time is 3.6103382110595703
 Epoch 425, train MAE: 1481.79248046875, train accuracy: 0.5443754838606292 loss: 7517089.211538462
-test total time is 2.835559844970703
-Epoch 425, test MAE: 1467.962890625, test accuracy: 0.5822490037724979, loss: 7710129.009615385
 train total time is 3.5585074424743652
 Epoch 426, train MAE: 1463.1256103515625, train accuracy: 0.5864492121713838 loss: 7413399.865384615
-test total time is 2.944990396499634
-Epoch 426, test MAE: 1480.9227294921875, test accuracy: 0.5499607688046412, loss: 7733216.365384615
 train total time is 3.5783767700195312
 Epoch 427, train MAE: 1468.03857421875, train accuracy: 0.560897493524993 loss: 7489123.826923077
-test total time is 2.8216662406921387
-Epoch 427, test MAE: 1461.84912109375, test accuracy: 0.609628595296, loss: 7552745.057692308
 train total time is 3.544046401977539
 Epoch 428, train MAE: 1469.0391845703125, train accuracy: 0.5798490260909122 loss: 7731181.163461538
-test total time is 2.837332248687744
-Epoch 428, test MAE: 1460.278564453125, test accuracy: 0.5732518773868063, loss: 7688647.519230769
 train total time is 3.669062376022339
 Epoch 429, train MAE: 1463.633056640625, train accuracy: 0.5743540008763185 loss: 7660337.615384615
-test total time is 2.8300588130950928
-Epoch 429, test MAE: 1482.0267333984375, test accuracy: 0.5448729838661943, loss: 7704658.836538462
 train total time is 3.5971906185150146
 Epoch 430, train MAE: 1474.14404296875, train accuracy: 0.5620035198557986 loss: 7713669.605769231
-test total time is 2.834390878677368
-Epoch 430, test MAE: 1454.5006103515625, test accuracy: 0.5772551269219248, loss: 7672572.653846154
 train total time is 3.583055019378662
 Epoch 431, train MAE: 1455.799072265625, train accuracy: 0.5717261092099393 loss: 7610571.480769231
-test total time is 2.927931070327759
-Epoch 431, test MAE: 1466.6849365234375, test accuracy: 0.5730691382946165, loss: 7617162.596153846
 train total time is 3.581106662750244
 Epoch 432, train MAE: 1466.726318359375, train accuracy: 0.5705963759549157 loss: 7713696.076923077
-test total time is 2.837517499923706
-Epoch 432, test MAE: 1459.0059814453125, test accuracy: 0.5730998183941267, loss: 7668176.759615385
 train total time is 3.6020047664642334
 Epoch 433, train MAE: 1454.99853515625, train accuracy: 0.5663657156745417 loss: 7348048.644230769
-test total time is 2.8259708881378174
-Epoch 433, test MAE: 1469.673583984375, test accuracy: 0.5598878510260884, loss: 7668214.192307692
 train total time is 3.6940221786499023
 Epoch 434, train MAE: 1469.65478515625, train accuracy: 0.5666278650979906 loss: 7715520.634615385
-test total time is 2.8321990966796875
-Epoch 434, test MAE: 1431.7696533203125, test accuracy: 0.5925458184687786, loss: 7356989.509615385
 train total time is 3.5585203170776367
 Epoch 435, train MAE: 1479.345947265625, train accuracy: 0.5733536093726075 loss: 7757887.480769231
-test total time is 2.8289618492126465
-Epoch 435, test MAE: 1454.454345703125, test accuracy: 0.5884976367710278, loss: 7670814.163461538
 train total time is 3.5803768634796143
 Epoch 436, train MAE: 1474.4166259765625, train accuracy: 0.5811488568038633 loss: 7745890.480769231
-test total time is 2.937331438064575
-Epoch 436, test MAE: 1474.9779052734375, test accuracy: 0.5377141284465177, loss: 7322570.778846154
 train total time is 3.6039490699768066
 Epoch 437, train MAE: 1480.393310546875, train accuracy: 0.5546258349439032 loss: 7755645.307692308
-test total time is 2.834423780441284
-Epoch 437, test MAE: 1467.4581298828125, test accuracy: 0.564486969279171, loss: 7621075.980769231
 train total time is 3.562164783477783
 Epoch 438, train MAE: 1462.5325927734375, train accuracy: 0.5597702730078318 loss: 7457895.25
-test total time is 2.8277204036712646
-Epoch 438, test MAE: 1482.64208984375, test accuracy: 0.574463567887018, loss: 7672684.240384615
 train total time is 3.6403958797454834
 Epoch 439, train MAE: 1467.4271240234375, train accuracy: 0.5774644657928195 loss: 7575573.538461538
-test total time is 2.823590040206909
-Epoch 439, test MAE: 1454.383056640625, test accuracy: 0.5513348423680755, loss: 7377556.875
 train total time is 3.5617141723632812
 Epoch 440, train MAE: 1477.381591796875, train accuracy: 0.5488220451848757 loss: 7642878.153846154
-test total time is 2.832360029220581
-Epoch 440, test MAE: 1471.8931884765625, test accuracy: 0.5827492047124642, loss: 7664902.355769231
 train total time is 3.551525592803955
 Epoch 441, train MAE: 1468.777587890625, train accuracy: 0.578092053229993 loss: 7724746.086538462
-test total time is 2.9328994750976562
-Epoch 441, test MAE: 1459.2176513671875, test accuracy: 0.5872006977839629, loss: 7680114.653846154
 train total time is 3.5762150287628174
 Epoch 442, train MAE: 1468.066162109375, train accuracy: 0.5785517678291834 loss: 7708684.836538462
-test total time is 2.8275530338287354
-Epoch 442, test MAE: 1474.329345703125, test accuracy: 0.5554297733847499, loss: 7680241.307692308
 train total time is 3.532177448272705
 Epoch 443, train MAE: 1475.046875, train accuracy: 0.5651793280932479 loss: 7691110.355769231
-test total time is 2.833772659301758
-Epoch 443, test MAE: 1452.7122802734375, test accuracy: 0.5859894422191192, loss: 7646647.105769231
 train total time is 3.6369473934173584
 Epoch 444, train MAE: 1451.5604248046875, train accuracy: 0.5835515051638049 loss: 7492755.461538462
-test total time is 2.831540584564209
-Epoch 444, test MAE: 1464.5234375, test accuracy: 0.5650563458958567, loss: 7697770.365384615
 train total time is 3.54062819480896
 Epoch 445, train MAE: 1471.44970703125, train accuracy: 0.5700269240389343 loss: 7726027.903846154
-test total time is 2.8394808769226074
-Epoch 445, test MAE: 1471.4454345703125, test accuracy: 0.5583842414402067, loss: 7594291.144230769
 train total time is 3.5464351177215576
 Epoch 446, train MAE: 1463.0343017578125, train accuracy: 0.5734811559870162 loss: 7592321.240384615
-test total time is 2.925736665725708
-Epoch 446, test MAE: 1468.2310791015625, test accuracy: 0.5657197957059401, loss: 7665304.846153846
 learning rate change
 train total time is 3.5952470302581787
 Epoch 447, train MAE: 1461.86474609375, train accuracy: 0.5713548022211551 loss: 7609557.461538462
-test total time is 2.826246738433838
-Epoch 447, test MAE: 1458.6639404296875, test accuracy: 0.5720954166694712, loss: 7642308.221153846
 train total time is 3.6075284481048584
 Epoch 448, train MAE: 1466.24951171875, train accuracy: 0.5707552793911462 loss: 7641911.307692308
-test total time is 2.826429605484009
-Epoch 448, test MAE: 1463.3006591796875, test accuracy: 0.5698089087572383, loss: 7648982.519230769
 train total time is 3.6560614109039307
 Epoch 449, train MAE: 1467.026611328125, train accuracy: 0.568366636679754 loss: 7647999.096153846
-test total time is 2.8341078758239746
-Epoch 449, test MAE: 1467.98486328125, test accuracy: 0.5683327691117457, loss: 7687517.221153846
 train total time is 3.5852015018463135
 Epoch 450, train MAE: 1457.4412841796875, train accuracy: 0.567099047955192 loss: 7521171.586538462
-test total time is 2.8346405029296875
-Epoch 450, test MAE: 1464.03173828125, test accuracy: 0.5678285138030977, loss: 7672391.423076923
 train total time is 3.563694715499878
 Epoch 451, train MAE: 1451.6561279296875, train accuracy: 0.5682451481280526 loss: 7396971.653846154
-test total time is 2.9492006301879883
-Epoch 451, test MAE: 1463.6361083984375, test accuracy: 0.5698466750074999, loss: 7664565.759615385
 train total time is 3.5853896141052246
 Epoch 452, train MAE: 1458.268798828125, train accuracy: 0.567820189300315 loss: 7595197.269230769
-test total time is 2.8360283374786377
-Epoch 452, test MAE: 1456.854248046875, test accuracy: 0.570906089060599, loss: 7620643.807692308
 train total time is 3.558042526245117
 Epoch 453, train MAE: 1457.3094482421875, train accuracy: 0.570979066864752 loss: 7617897.086538462
-test total time is 2.8352153301239014
-Epoch 453, test MAE: 1458.548828125, test accuracy: 0.5723350380537402, loss: 7641927.182692308
 train total time is 3.6614015102386475
 Epoch 454, train MAE: 1458.427490234375, train accuracy: 0.5701818300326527 loss: 7579104.932692308
-test total time is 2.825979471206665
-Epoch 454, test MAE: 1457.7667236328125, test accuracy: 0.5707562041838518, loss: 7620517.278846154
 train total time is 3.569437265396118
 Epoch 455, train MAE: 1460.3294677734375, train accuracy: 0.5692962329263093 loss: 7612161.423076923
-test total time is 2.8329789638519287
-Epoch 455, test MAE: 1456.2825927734375, test accuracy: 0.5698442508471779, loss: 7612342.192307692
 train total time is 3.55629563331604
 Epoch 456, train MAE: 1450.9666748046875, train accuracy: 0.5714322376114934 loss: 7502677.375
-test total time is 2.934915781021118
-Epoch 456, test MAE: 1454.0443115234375, test accuracy: 0.5736702966674454, loss: 7619246.730769231
 train total time is 3.563748836517334
 Epoch 457, train MAE: 1451.98095703125, train accuracy: 0.5709497332116169 loss: 7432494.596153846
-test total time is 2.836097002029419
-Epoch 457, test MAE: 1462.892578125, test accuracy: 0.5712937719402933, loss: 7629403.634615385
 train total time is 3.570103168487549
 Epoch 458, train MAE: 1462.6978759765625, train accuracy: 0.5684504365414722 loss: 7617577.394230769
-test total time is 2.824949026107788
-Epoch 458, test MAE: 1459.23291015625, test accuracy: 0.566229261894804, loss: 7616232.971153846
 train total time is 3.645087242126465
 Epoch 459, train MAE: 1464.53125, train accuracy: 0.567725750483407 loss: 7656969.365384615
-test total time is 2.8371031284332275
-Epoch 459, test MAE: 1457.67724609375, test accuracy: 0.5690162927799419, loss: 7644375.625
 train total time is 3.566476345062256
 Epoch 460, train MAE: 1452.233642578125, train accuracy: 0.5698669766543846 loss: 7466894.471153846
-test total time is 2.832160711288452
-Epoch 460, test MAE: 1463.1444091796875, test accuracy: 0.5703125833797837, loss: 7665628.759615385
 train total time is 3.551579236984253
 Epoch 461, train MAE: 1464.6080322265625, train accuracy: 0.5686880352103716 loss: 7624280.605769231
-test total time is 2.937260866165161
-Epoch 461, test MAE: 1464.722412109375, test accuracy: 0.5687087378016656, loss: 7673200.173076923
 train total time is 3.5484843254089355
 Epoch 462, train MAE: 1463.4017333984375, train accuracy: 0.5683021703773942 loss: 7626493.201923077
-test total time is 2.8339195251464844
-Epoch 462, test MAE: 1459.673095703125, test accuracy: 0.5682759335615138, loss: 7658719.519230769
 train total time is 3.5777015686035156
 Epoch 463, train MAE: 1446.0850830078125, train accuracy: 0.5680602977847992 loss: 7361335.269230769
-test total time is 2.8362815380096436
-Epoch 463, test MAE: 1456.027099609375, test accuracy: 0.5686089940684891, loss: 7631173.028846154
 train total time is 3.668360710144043
 Epoch 464, train MAE: 1438.6026611328125, train accuracy: 0.5693435306531096 loss: 7196132.326923077
-test total time is 2.835080862045288
-Epoch 464, test MAE: 1462.298095703125, test accuracy: 0.5717545460759009, loss: 7668042.240384615
 train total time is 3.6190333366394043
 Epoch 465, train MAE: 1463.744873046875, train accuracy: 0.5689232012218292 loss: 7644537.230769231
-test total time is 2.8342251777648926
-Epoch 465, test MAE: 1452.205322265625, test accuracy: 0.570778660148749, loss: 7559069.019230769
 train total time is 3.6081960201263428
 Epoch 466, train MAE: 1454.9061279296875, train accuracy: 0.5683025962005086 loss: 7581967.451923077
-test total time is 2.934356927871704
-Epoch 466, test MAE: 1457.8125, test accuracy: 0.5693841039985106, loss: 7601241.288461538
 train total time is 3.492663621902466
 Epoch 467, train MAE: 1463.2703857421875, train accuracy: 0.5681874269566844 loss: 7626960.326923077
-test total time is 2.8254525661468506
-Epoch 467, test MAE: 1463.7103271484375, test accuracy: 0.568989634644901, loss: 7667721.788461538
 train total time is 3.5714244842529297
 Epoch 468, train MAE: 1462.0462646484375, train accuracy: 0.5696231574803974 loss: 7600340.144230769
-test total time is 2.855651378631592
-Epoch 468, test MAE: 1465.4329833984375, test accuracy: 0.5695273539198158, loss: 7662865.144230769
 train total time is 3.6558785438537598
 Epoch 469, train MAE: 1465.6297607421875, train accuracy: 0.5705069213241587 loss: 7665347.182692308
-test total time is 2.836021661758423
-Epoch 469, test MAE: 1462.1700439453125, test accuracy: 0.5703690441373566, loss: 7670911.230769231
 train total time is 3.5430731773376465
 Epoch 470, train MAE: 1449.750244140625, train accuracy: 0.5677233523421782 loss: 7455440.211538462
-test total time is 2.8330464363098145
-Epoch 470, test MAE: 1448.08447265625, test accuracy: 0.5668806043642654, loss: 7371211.682692308
 train total time is 3.5477216243743896
 Epoch 471, train MAE: 1459.7706298828125, train accuracy: 0.5688372278105976 loss: 7624949.807692308
-test total time is 2.9247448444366455
-Epoch 471, test MAE: 1455.62255859375, test accuracy: 0.5725147045745349, loss: 7602674.375
 train total time is 3.597757577896118
 Epoch 472, train MAE: 1454.1004638671875, train accuracy: 0.5711486662965163 loss: 7295884.019230769
-test total time is 2.8327138423919678
-Epoch 472, test MAE: 1445.7393798828125, test accuracy: 0.5713203049097445, loss: 7445635.932692308
 train total time is 3.59069561958313
 Epoch 473, train MAE: 1459.750244140625, train accuracy: 0.5703886030512341 loss: 7632169.826923077
-test total time is 2.8349266052246094
-Epoch 473, test MAE: 1444.6263427734375, test accuracy: 0.571216356389039, loss: 7315657.884615385
 train total time is 3.6665871143341064
 Epoch 474, train MAE: 1456.1614990234375, train accuracy: 0.571404844900486 loss: 7594223.269230769
-test total time is 2.826371192932129
-Epoch 474, test MAE: 1452.312744140625, test accuracy: 0.5735860406587265, loss: 7553497.740384615
 train total time is 3.5796360969543457
 Epoch 475, train MAE: 1456.2974853515625, train accuracy: 0.5704832820469479 loss: 7553094.769230769
-test total time is 2.822185754776001
-Epoch 475, test MAE: 1461.2271728515625, test accuracy: 0.5711168328245678, loss: 7658372.048076923
 train total time is 3.578169822692871
 Epoch 476, train MAE: 1458.141357421875, train accuracy: 0.5701102268906313 loss: 7597401.528846154
-test total time is 2.945128917694092
-Epoch 476, test MAE: 1459.2733154296875, test accuracy: 0.5705907217493207, loss: 7645335.932692308
 train total time is 3.577603340148926
 Epoch 477, train MAE: 1457.6258544921875, train accuracy: 0.5695777507940053 loss: 7597299.653846154
-test total time is 2.82627272605896
-Epoch 477, test MAE: 1464.6654052734375, test accuracy: 0.5712463254047765, loss: 7675179.980769231
 train total time is 3.577986478805542
 Epoch 478, train MAE: 1433.4251708984375, train accuracy: 0.5710276955523169 loss: 7003510.75
-test total time is 2.826718807220459
-Epoch 478, test MAE: 1444.3035888671875, test accuracy: 0.57650758571582, loss: 7461439.836538462
 train total time is 3.6234848499298096
 Epoch 479, train MAE: 1464.7109375, train accuracy: 0.5734504668378411 loss: 7654840.317307692
-test total time is 2.821668863296509
-Epoch 479, test MAE: 1449.3614501953125, test accuracy: 0.5742932654978259, loss: 7475735.567307692
 train total time is 3.608846426010132
 Epoch 480, train MAE: 1453.3380126953125, train accuracy: 0.5721809966623228 loss: 7335979.307692308
-test total time is 2.833761215209961
-Epoch 480, test MAE: 1457.9483642578125, test accuracy: 0.5749271271923028, loss: 7656288.394230769
 train total time is 3.597115993499756
 Epoch 481, train MAE: 1461.0372314453125, train accuracy: 0.5710641557937745 loss: 7642890.942307692
-test total time is 2.929490327835083
-Epoch 481, test MAE: 1461.216552734375, test accuracy: 0.5717333997518812, loss: 7650016.317307692
 train total time is 3.5490729808807373
 Epoch 482, train MAE: 1463.8001708984375, train accuracy: 0.5710679516958166 loss: 7656295.894230769
-test total time is 2.8324673175811768
-Epoch 482, test MAE: 1444.9439697265625, test accuracy: 0.5716826678434058, loss: 7381223.778846154
 train total time is 3.6650710105895996
 Epoch 483, train MAE: 1459.7325439453125, train accuracy: 0.5720723834441133 loss: 7629030.913461538
-test total time is 2.8315939903259277
-Epoch 483, test MAE: 1460.1888427734375, test accuracy: 0.5718425321721718, loss: 7646614.221153846
 train total time is 3.770293712615967
 Epoch 484, train MAE: 1459.7615966796875, train accuracy: 0.5691559376999632 loss: 7600408.903846154
-test total time is 2.834444522857666
-Epoch 484, test MAE: 1457.70849609375, test accuracy: 0.568627607053297, loss: 7624076.038461538
 train total time is 3.6186606884002686
 Epoch 485, train MAE: 1454.78515625, train accuracy: 0.5686382994252395 loss: 7596791.567307692
-test total time is 2.832857608795166
-Epoch 485, test MAE: 1460.5169677734375, test accuracy: 0.5694263082732257, loss: 7668647.5
 train total time is 3.6045258045196533
 Epoch 486, train MAE: 1463.1478271484375, train accuracy: 0.5700679426259867 loss: 7648835.730769231
-test total time is 2.933654308319092
-Epoch 486, test MAE: 1464.96826171875, test accuracy: 0.5702678727869278, loss: 7687904.730769231
 train total time is 3.5481648445129395
 Epoch 487, train MAE: 1465.3282470703125, train accuracy: 0.5679558659897148 loss: 7647833.567307692
-test total time is 2.832030773162842
-Epoch 487, test MAE: 1466.072509765625, test accuracy: 0.5670182016631925, loss: 7656729.355769231
 train total time is 3.6127471923828125
 Epoch 488, train MAE: 1462.844482421875, train accuracy: 0.5634694112695382 loss: 7609909.798076923
-test total time is 2.8339741230010986
-Epoch 488, test MAE: 1461.2596435546875, test accuracy: 0.5630198437889952, loss: 7607042.769230769
 train total time is 3.669032335281372
 Epoch 489, train MAE: 1457.5958251953125, train accuracy: 0.5668224462729501 loss: 7526546.240384615
-test total time is 2.8368687629699707
-Epoch 489, test MAE: 1463.84326171875, test accuracy: 0.5682336835368517, loss: 7670950.240384615
 train total time is 3.623896837234497
 Epoch 490, train MAE: 1455.4478759765625, train accuracy: 0.5670773836815346 loss: 7471925.144230769
-test total time is 2.8318378925323486
-Epoch 490, test MAE: 1465.5416259765625, test accuracy: 0.5676379955297379, loss: 7671434.903846154
 train total time is 3.683718681335449
 Epoch 491, train MAE: 1459.5625, train accuracy: 0.5697319802719565 loss: 7613685.057692308
-test total time is 2.823418378829956
-Epoch 491, test MAE: 1459.211669921875, test accuracy: 0.570300467202096, loss: 7649554.711538462
 train total time is 3.5931591987609863
 Epoch 492, train MAE: 1461.6065673828125, train accuracy: 0.5677304690389725 loss: 7629380.778846154
-test total time is 2.8419556617736816
-Epoch 492, test MAE: 1458.842529296875, test accuracy: 0.5675713326290074, loss: 7651286.019230769
 train total time is 3.5728278160095215
 Epoch 493, train MAE: 1461.567626953125, train accuracy: 0.5667564539239142 loss: 7637057.980769231
-test total time is 2.8348119258880615
-Epoch 493, test MAE: 1456.974365234375, test accuracy: 0.5686683048370258, loss: 7599948.288461538
 train total time is 3.662618398666382
 Epoch 494, train MAE: 1464.017578125, train accuracy: 0.5703935690876966 loss: 7640163.451923077
-test total time is 2.83540415763855
-Epoch 494, test MAE: 1458.0650634765625, test accuracy: 0.5711481587762167, loss: 7624616.923076923
 train total time is 3.5812010765075684
 Epoch 495, train MAE: 1459.6556396484375, train accuracy: 0.5695202796385306 loss: 7630556.461538462
-test total time is 2.8325319290161133
-Epoch 495, test MAE: 1457.294189453125, test accuracy: 0.5686443340322641, loss: 7632072.163461538
 train total time is 3.625476360321045
 Epoch 496, train MAE: 1445.8978271484375, train accuracy: 0.5709592499890812 loss: 7290544.942307692
-test total time is 2.920227527618408
-Epoch 496, test MAE: 1458.9666748046875, test accuracy: 0.5736140363867811, loss: 7660962.615384615
 train total time is 3.6767680644989014
 Epoch 497, train MAE: 1461.3983154296875, train accuracy: 0.5693911885466163 loss: 7627802.259615385
-test total time is 2.8363819122314453
-Epoch 497, test MAE: 1458.84326171875, test accuracy: 0.5704197717327195, loss: 7648986.105769231
 learning rate change
 train total time is 3.63523268699646
 Epoch 498, train MAE: 1463.2923583984375, train accuracy: 0.5684564886300716 loss: 7644884.769230769
-test total time is 2.8212852478027344
-Epoch 498, test MAE: 1459.42626953125, test accuracy: 0.5702682680119843, loss: 7652320.057692308
 train total time is 3.7759485244750977
 Epoch 499, train MAE: 1459.5411376953125, train accuracy: 0.5691306076287163 loss: 7614564.923076923
-test total time is 2.8317387104034424
-Epoch 499, test MAE: 1460.7801513671875, test accuracy: 0.5706478986302234, loss: 7658887.163461538
 train total time is 3.661046028137207
 Epoch 500, train MAE: 1445.0904541015625, train accuracy: 0.569589003218021 loss: 7236946.855769231
-test total time is 2.835941791534424
-Epoch 500, test MAE: 1453.928955078125, test accuracy: 0.5712813632409007, loss: 7577450.038461538
 train total time is 3.5654397010803223
 Epoch 501, train MAE: 1463.116943359375, train accuracy: 0.5704264544401974 loss: 7617233.288461538
-test total time is 2.9396097660064697
-Epoch 501, test MAE: 1454.6199951171875, test accuracy: 0.5704835764251058, loss: 7493027.759615385
 train total time is 3.5689849853515625
 Epoch 502, train MAE: 1460.3360595703125, train accuracy: 0.5699424973877224 loss: 7614696.096153846
-test total time is 2.8296144008636475
-Epoch 502, test MAE: 1461.484375, test accuracy: 0.5698806918155503, loss: 7657893.596153846
 train total time is 3.5446479320526123
 Epoch 503, train MAE: 1457.15673828125, train accuracy: 0.5693788307786642 loss: 7592428.346153846
-test total time is 2.840775489807129
-Epoch 503, test MAE: 1456.15576171875, test accuracy: 0.57073678333881, loss: 7607466.375
 train total time is 3.655866861343384
 Epoch 504, train MAE: 1455.2974853515625, train accuracy: 0.5694940445008525 loss: 7503335.961538462
-test total time is 2.830122709274292
-Epoch 504, test MAE: 1458.70556640625, test accuracy: 0.5694098641573317, loss: 7621494.048076923
 train total time is 3.5484778881073
 Epoch 505, train MAE: 1456.211181640625, train accuracy: 0.5687151891502383 loss: 7530383.75
-test total time is 2.826960563659668
-Epoch 505, test MAE: 1457.9952392578125, test accuracy: 0.5701722109878637, loss: 7630954.961538462
 train total time is 3.6093406677246094
 Epoch 506, train MAE: 1460.53271484375, train accuracy: 0.5699348271987023 loss: 7625269.990384615
-test total time is 2.9282591342926025
-Epoch 506, test MAE: 1449.1075439453125, test accuracy: 0.5712430528719584, loss: 7505577.923076923
 train total time is 3.584852933883667
 Epoch 507, train MAE: 1455.7767333984375, train accuracy: 0.5692124124093142 loss: 7589073.682692308
-test total time is 2.8294005393981934
-Epoch 507, test MAE: 1461.6697998046875, test accuracy: 0.5701792260150345, loss: 7659779.413461538
 train total time is 3.576663017272949
 Epoch 508, train MAE: 1462.269287109375, train accuracy: 0.5693972783267484 loss: 7633149.730769231
-test total time is 2.839158296585083
-Epoch 508, test MAE: 1452.1785888671875, test accuracy: 0.570256386245998, loss: 7560355.567307692
 train total time is 3.6467323303222656
 Epoch 509, train MAE: 1456.22509765625, train accuracy: 0.569707605814078 loss: 7590478.673076923
-test total time is 2.8391242027282715
-Epoch 509, test MAE: 1458.5574951171875, test accuracy: 0.5691230016178525, loss: 7586547.038461538
 train total time is 3.6068618297576904
 Epoch 510, train MAE: 1453.4744873046875, train accuracy: 0.5695804672781873 loss: 7408979.644230769
-test total time is 2.8339486122131348
-Epoch 510, test MAE: 1445.6549072265625, test accuracy: 0.5707891808521536, loss: 7398128.528846154
 train total time is 3.5860891342163086
 Epoch 511, train MAE: 1462.1710205078125, train accuracy: 0.5691773211456786 loss: 7603315.317307692
-test total time is 2.926677703857422
-Epoch 511, test MAE: 1445.1185302734375, test accuracy: 0.5702559978381516, loss: 7359499.403846154
 train total time is 3.598714590072632
 Epoch 512, train MAE: 1459.12841796875, train accuracy: 0.5681211073831266 loss: 7608006.125
-test total time is 2.8223390579223633
-Epoch 512, test MAE: 1461.768798828125, test accuracy: 0.5693152830632429, loss: 7662749.144230769
 train total time is 3.5943145751953125
 Epoch 513, train MAE: 1460.368896484375, train accuracy: 0.5702283098200641 loss: 7618272.326923077
-test total time is 2.83563232421875
-Epoch 513, test MAE: 1456.07763671875, test accuracy: 0.5702241629789627, loss: 7607830.682692308
 train total time is 3.6850228309631348
 Epoch 514, train MAE: 1454.7061767578125, train accuracy: 0.5691874556193612 loss: 7553533.673076923
-test total time is 2.8270866870880127
-Epoch 514, test MAE: 1460.1673583984375, test accuracy: 0.5709578646958134, loss: 7662592.278846154
 train total time is 3.589463233947754
 Epoch 515, train MAE: 1458.2196044921875, train accuracy: 0.5688092137372466 loss: 7564381.855769231
-test total time is 2.8318028450012207
-Epoch 515, test MAE: 1456.674072265625, test accuracy: 0.5698171292577224, loss: 7601812.230769231
 train total time is 3.5982460975646973
 Epoch 516, train MAE: 1459.55908203125, train accuracy: 0.5696294333100579 loss: 7618412.538461538
-test total time is 2.9238719940185547
-Epoch 516, test MAE: 1455.4779052734375, test accuracy: 0.5712229084952318, loss: 7624466.913461538
 train total time is 3.5911664962768555
 Epoch 517, train MAE: 1460.7518310546875, train accuracy: 0.5691516332481958 loss: 7625082.557692308
-test total time is 2.8302218914031982
-Epoch 517, test MAE: 1460.3359375, test accuracy: 0.5710757354287413, loss: 7659111.798076923
 train total time is 3.6155943870544434
 Epoch 518, train MAE: 1442.3214111328125, train accuracy: 0.5703470143373187 loss: 7380527.634615385
-test total time is 2.8309102058410645
-Epoch 518, test MAE: 1451.6392822265625, test accuracy: 0.5708688742284763, loss: 7559021.682692308
 train total time is 3.6992805004119873
 Epoch 519, train MAE: 1445.5721435546875, train accuracy: 0.5692396509742038 loss: 7358429.125
-test total time is 2.833583354949951
-Epoch 519, test MAE: 1452.70849609375, test accuracy: 0.5700655601209891, loss: 7468416.432692308
 train total time is 3.618962287902832
 Epoch 520, train MAE: 1448.19921875, train accuracy: 0.5701192313910058 loss: 7475913.673076923
-test total time is 2.8391592502593994
-Epoch 520, test MAE: 1460.873779296875, test accuracy: 0.5707695321189867, loss: 7659331.134615385
 train total time is 3.541005849838257
 Epoch 521, train MAE: 1449.5443115234375, train accuracy: 0.5690736436245902 loss: 7333419.307692308
-test total time is 2.9015562534332275
-Epoch 521, test MAE: 1458.9576416015625, test accuracy: 0.5694871957017078, loss: 7620036.971153846
 train total time is 3.563286781311035
 Epoch 522, train MAE: 1466.286376953125, train accuracy: 0.5689774586797166 loss: 7658009.625
-test total time is 2.8415114879608154
-Epoch 522, test MAE: 1456.898681640625, test accuracy: 0.5713132159310547, loss: 7633747.355769231
 train total time is 3.5633738040924072
 Epoch 523, train MAE: 1462.357421875, train accuracy: 0.5698260195301851 loss: 7631287.971153846
-test total time is 2.830423593521118
-Epoch 523, test MAE: 1458.72998046875, test accuracy: 0.57175307716473, loss: 7647660.875
 train total time is 3.6489787101745605
 Epoch 524, train MAE: 1465.226318359375, train accuracy: 0.5697942938293735 loss: 7649977.826923077
-test total time is 2.8264575004577637
-Epoch 524, test MAE: 1460.212890625, test accuracy: 0.5697397986647554, loss: 7647251.057692308
 train total time is 3.558926582336426
 Epoch 525, train MAE: 1456.70703125, train accuracy: 0.5693716740979171 loss: 7570303.355769231
-test total time is 2.8321187496185303
-Epoch 525, test MAE: 1458.4642333984375, test accuracy: 0.5699877840636861, loss: 7631212.009615385
 train total time is 3.575261354446411
 Epoch 526, train MAE: 1458.7188720703125, train accuracy: 0.5696047657874044 loss: 7577872.740384615
-test total time is 2.917600393295288
-Epoch 526, test MAE: 1462.3624267578125, test accuracy: 0.5709863359173496, loss: 7666485.182692308
 train total time is 3.5391407012939453
 Epoch 527, train MAE: 1462.925048828125, train accuracy: 0.5691013264586227 loss: 7633215.278846154
-test total time is 2.825514078140259
-Epoch 527, test MAE: 1460.631591796875, test accuracy: 0.5714219820030738, loss: 7651900.701923077
 train total time is 3.5657365322113037
 Epoch 528, train MAE: 1460.5147705078125, train accuracy: 0.5705288258789528 loss: 7621012.413461538
-test total time is 2.837517023086548
-Epoch 528, test MAE: 1456.0401611328125, test accuracy: 0.5705676011568079, loss: 7570446.269230769
 train total time is 3.655853748321533
 Epoch 529, train MAE: 1454.614501953125, train accuracy: 0.5702037503418769 loss: 7521109.326923077
-test total time is 2.8356032371520996
-Epoch 529, test MAE: 1461.89794921875, test accuracy: 0.5703281646111051, loss: 7653753.423076923
 train total time is 3.5510592460632324
 Epoch 530, train MAE: 1463.93994140625, train accuracy: 0.5689359397005321 loss: 7632325.423076923
-test total time is 2.8249616622924805
-Epoch 530, test MAE: 1454.67626953125, test accuracy: 0.5701323591170474, loss: 7565801.0
 train total time is 3.5887997150421143
 Epoch 531, train MAE: 1459.40869140625, train accuracy: 0.5688170687000796 loss: 7592557.519230769
-test total time is 2.925297498703003
-Epoch 531, test MAE: 1460.8092041015625, test accuracy: 0.5694092469069876, loss: 7658704.153846154
 train total time is 3.575446367263794
 Epoch 532, train MAE: 1463.984130859375, train accuracy: 0.5698868219660187 loss: 7633359.625
-test total time is 2.8147380352020264
-Epoch 532, test MAE: 1454.601318359375, test accuracy: 0.5711669016782598, loss: 7612646.576923077
 train total time is 3.6287410259246826
 Epoch 533, train MAE: 1458.880859375, train accuracy: 0.5702830485886945 loss: 7611959.875
-test total time is 2.818608045578003
-Epoch 533, test MAE: 1457.9669189453125, test accuracy: 0.5702440276524678, loss: 7641623.067307692
 train total time is 3.6382863521575928
 Epoch 534, train MAE: 1461.3646240234375, train accuracy: 0.5684633679380899 loss: 7614718.346153846
-test total time is 2.8361127376556396
-Epoch 534, test MAE: 1449.038818359375, test accuracy: 0.5708809971142957, loss: 7485050.346153846
 train total time is 3.567211866378784
 Epoch 535, train MAE: 1460.0350341796875, train accuracy: 0.5696850169124158 loss: 7611667.25
-test total time is 2.8229992389678955
-Epoch 535, test MAE: 1460.149169921875, test accuracy: 0.5706942090076994, loss: 7635550.528846154
 train total time is 3.5419487953186035
 Epoch 536, train MAE: 1463.275146484375, train accuracy: 0.5686892624258154 loss: 7635844.25
-test total time is 2.9206886291503906
-Epoch 536, test MAE: 1462.06640625, test accuracy: 0.5694995309853593, loss: 7654072.153846154
 train total time is 3.549070358276367
 Epoch 537, train MAE: 1462.71923828125, train accuracy: 0.5683169138804205 loss: 7626307.942307692
-test total time is 2.8224568367004395
-Epoch 537, test MAE: 1458.5345458984375, test accuracy: 0.5715332437382524, loss: 7624835.740384615
 train total time is 3.581549882888794
 Epoch 538, train MAE: 1460.369384765625, train accuracy: 0.5699345506109146 loss: 7607550.134615385
-test total time is 2.833338737487793
-Epoch 538, test MAE: 1463.099609375, test accuracy: 0.570314777838834, loss: 7667470.480769231
 train total time is 3.6568593978881836
 Epoch 539, train MAE: 1464.10791015625, train accuracy: 0.5700952311619233 loss: 7641975.038461538
-test total time is 2.8294098377227783
-Epoch 539, test MAE: 1460.828857421875, test accuracy: 0.5700579666718895, loss: 7638809.932692308
 train total time is 3.5607361793518066
 Epoch 540, train MAE: 1461.1802978515625, train accuracy: 0.5698321003272862 loss: 7615478.346153846
-test total time is 2.838670492172241
-Epoch 540, test MAE: 1455.615234375, test accuracy: 0.5702888961798334, loss: 7598738.759615385
 train total time is 3.5491127967834473
 Epoch 541, train MAE: 1460.214599609375, train accuracy: 0.5695497320737943 loss: 7597149.230769231
-test total time is 2.9214699268341064
-Epoch 541, test MAE: 1455.381591796875, test accuracy: 0.5704131345431028, loss: 7559526.817307692
 train total time is 3.5725314617156982
 Epoch 542, train MAE: 1441.12451171875, train accuracy: 0.5691589506092734 loss: 7190926.346153846
-test total time is 2.8222310543060303
-Epoch 542, test MAE: 1458.0194091796875, test accuracy: 0.5702625782658607, loss: 7625265.586538462
 train total time is 3.5561962127685547
 Epoch 543, train MAE: 1455.2921142578125, train accuracy: 0.5698649864635451 loss: 7572487.980769231
-test total time is 2.830941915512085
-Epoch 543, test MAE: 1454.4564208984375, test accuracy: 0.5711226607612855, loss: 7594433.144230769
 train total time is 3.6100499629974365
 Epoch 544, train MAE: 1456.386474609375, train accuracy: 0.570790904170801 loss: 7547973.509615385
-test total time is 2.840704917907715
-Epoch 544, test MAE: 1458.1788330078125, test accuracy: 0.5707380563902649, loss: 7633559.221153846
 train total time is 3.5830066204071045
 Epoch 545, train MAE: 1457.867431640625, train accuracy: 0.569331008138749 loss: 7595392.173076923
-test total time is 2.824432134628296
-Epoch 545, test MAE: 1457.680908203125, test accuracy: 0.5701289995810421, loss: 7610804.836538462
 train total time is 3.6046664714813232
 Epoch 546, train MAE: 1448.585205078125, train accuracy: 0.569397296317264 loss: 7253931.980769231
-test total time is 2.938082456588745
-Epoch 546, test MAE: 1462.65185546875, test accuracy: 0.5708121380588328, loss: 7653814.028846154
 train total time is 3.553161144256592
 Epoch 547, train MAE: 1456.7681884765625, train accuracy: 0.5701095567644062 loss: 7493987.471153846
-test total time is 2.830179214477539
-Epoch 547, test MAE: 1464.482666015625, test accuracy: 0.570152609748608, loss: 7670525.788461538
 train total time is 3.5543925762176514
 Epoch 548, train MAE: 1464.13525390625, train accuracy: 0.5698687865089153 loss: 7648014.192307692
-test total time is 2.9122204780578613
-Epoch 548, test MAE: 1458.69189453125, test accuracy: 0.5710779835959254, loss: 7641660.490384615
 early stopping
