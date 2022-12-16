@@ -9,15 +9,15 @@ from collections import OrderedDict
 
 
 def main(args):
+    # Load the instantaneous lidar scene
     lidar_input = np.loadtxt(args.input, delimiter=",", dtype=np.double)
     lidar_input = lidar_input[lidar_input[:, 0] > 0.25]
 
+    # Load the model
     device = torch.device("cuda")
     model = model_dict[args.model](batch_size=args.batch_size, device=device)
     state_dict = torch.load(args.params, map_location=device)
 
-    total_time = 0
-    input_start_time = time.time()
     new_state_dict = OrderedDict()
     for k, v in state_dict.items():
         name = k[7:]
@@ -27,6 +27,11 @@ def main(args):
     model.eval()
     model = model.double().to(device)
 
+    # Input processing
+    total_time = 0
+    input_start_time = time.time()
+
+    # Random target point set generation
     samples = np.random.rand(512 * args.num_generation, 3)
     samples[:, 0] = samples[:, 0] * 150000 + 95000
     samples[:, 1] = (samples[:, 1] - 0.5) * 100000
@@ -34,6 +39,7 @@ def main(args):
     samples /= 245000
     points = torch.tensor(np.array([samples], dtype=np.double)).to(device)
 
+    # Find KNN
     lidar_input = torch.tensor(lidar_input).unsqueeze(0).to(device)
     if points.shape[1] < lidar_input.shape[1]:
         points = torch.cat(
@@ -46,9 +52,14 @@ def main(args):
     rel_dist = (points[:, :, None, :] - lidar_input[:, None, :, :])[
         :, : samples.shape[0]
     ].norm(dim=-1)
-    dist, indices = rel_dist.topk(16 * args.KNNstep, largest=False)
-    KNN_data = lidar_input[0][indices[0]] - points[0].unsqueeze(1).repeat([1, 16, 1])
+    _, indices = rel_dist.topk(16 * args.KNNstep, largest=False)
 
+    # Relative Positioning
+    KNN_data = lidar_input[0][indices[0]] - points[0].unsqueeze(1).repeat(
+        [1, 16 * args.KNNstep, 1]
+    )
+
+    # Data organization
     KNN_data = torch.stack(KNN_data.split(512, dim=0))
     points = torch.stack(points[0].split(512, dim=0))
 
@@ -56,19 +67,26 @@ def main(args):
     print(f"Input processing time: {input_end_time - input_start_time}")
     total_time += input_end_time - input_start_time
 
+    # Prediction
     for i in range(args.num_generation // args.batch_size):
         batch_start_time = time.time()
+
+        # Define batch
         chunk_data = KNN_data[i * args.batch_size : (i + 1) * args.batch_size]
         chunk_points = points[i * args.batch_size : (i + 1) * args.batch_size]
 
+        # Select 16 defined by step size defined
         chunk_data = chunk_data.reshape(
             (chunk_data.shape[0], chunk_data.shape[1], 16 * args.KNNstep, 3)
         )
         chunk_data = chunk_data[:, :, [i * args.KNNstep for i in range(16)]]
+
+        # Rund prediction
         prediction = model(
             chunk_points.double().to(device), chunk_data.double().to(device)
         ).flatten(start_dim=0, end_dim=1)
 
+        # Aggreation of multiple predicted point sets
         if i == 0:
             prediction_cat = prediction.cpu().detach().numpy()
         else:
@@ -82,7 +100,10 @@ def main(args):
 
     print(f"\nTotal time: {total_time}")
 
+    # point coordinates and prediction results
     output = np.c_[samples, prediction_cat]
+
+    # Output occupancy probability vs distance offset
     if args.probability:
         output[:, -1] = probability(output[:, -1])
         if args.threshold > 1:
