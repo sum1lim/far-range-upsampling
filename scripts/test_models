@@ -42,8 +42,8 @@ def main(args):
 
     count = 0.0
     model.eval()
-    test_pred = []
-    test_true = []
+    prediction = []
+    ground_truth = []
     for point, data, label in te_data_loader:
         point, data, label = point.to(device), data.to(device), label.to(device)
 
@@ -54,21 +54,23 @@ def main(args):
         gt = label.flatten(start_dim=0, end_dim=1)
 
         count += args.batch_size
-        test_true.append(gt.cpu().numpy())
-        test_pred.append(preds.detach().cpu().numpy())
+        ground_truth.append(gt.cpu().numpy())
+        prediction.append(preds.detach().cpu().numpy())
 
-    test_true = np.concatenate(test_true)
-    test_pred = np.concatenate(test_pred)
+    ground_truth = np.concatenate(ground_truth)
+    prediction = np.concatenate(prediction)
 
-    # Classification with thresholding of the distance
-    test_pred[test_pred < 1000] = 1
-    test_pred[test_pred >= 1000] = 0
-    test_true[test_true < 1000] = 1
-    test_true[test_true >= 1000] = 0
+    # Classes defined by thresholding of the distance
+    prediction_class = prediction.copy()
+    ground_truth_class = ground_truth.copy()
+    prediction_class[prediction < 1000] = 1
+    prediction_class[prediction >= 1000] = 0
+    ground_truth_class[ground_truth < 1000] = 1
+    ground_truth_class[ground_truth >= 1000] = 0
 
     # Metrics
-    test_mae = metrics.mean_absolute_error(test_true, test_pred)
-    test_acc = metrics.balanced_accuracy_score(test_true, test_pred)
+    test_mae = metrics.mean_absolute_error(ground_truth, prediction)
+    test_acc = metrics.balanced_accuracy_score(ground_truth_class, prediction_class)
 
     print(
         f"""
