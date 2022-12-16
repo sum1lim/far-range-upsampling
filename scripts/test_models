@@ -11,6 +11,10 @@ from collections import OrderedDict
 
 def main(args):
     print(f"Testing {args.params}")
+
+    lidar_data = LidarData("te", step_size=args.KNNstep)
+    if lidar_data.point.shape[0] < args.batch_size:
+        args.batch_size = lidar_data.point.shape[0]
     te_data_loader = DataLoader(
         LidarData("te", step_size=args.KNNstep),
         num_workers=8,
