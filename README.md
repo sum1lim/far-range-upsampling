@@ -147,6 +147,12 @@ Example command:
 ```
 # To generate occupancy distance offset map
 predict --input ../lidar/example.txt --KNNstep 1 --model model1 --params ./checkpoints/exp17_model.pt --num-generation 32 --batch-size 4
+# With thresholding
+predict --input ../lidar/example.txt --KNNstep 1 --model model1 --params ./checkpoints/exp17_model.pt --num-generation 32 --batch-size 4 --threshold 1000
+
 # To generate occupancy probability maps
+predict --input ../lidar/example.txt --KNNstep 1 --model model1 --params ./checkpoints/exp17_model.pt --num-generation 32 --batch-size 4 --probability
+# With thresholding
 predict --input ../lidar/example.txt --KNNstep 1 --model model1 --params ./checkpoints/exp17_model.pt --num-generation 32 --batch-size 4 --probability --threshold 0.5
 ```
+*Note that the configurations (KNNstep, model, params, etc.) should match as trained. Find `train.sh` for the information.*
