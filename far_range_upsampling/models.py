@@ -5,7 +5,18 @@ from point_transformer_pytorch.point_transformer_pytorch import batched_index_se
 
 
 def downsample(point, num_points, device):
+    """
+    Downsampling of the point cloud. The output includes the indices of 16
+    nearest neighbours from the input w.r.t. the downsampled points.
+
+    point: input point cloud
+    num_points: point cloud size after downsampling
+    device: cpu or gpu
+    """
+    # Randomly select points from the input
     indices = torch.randperm(point.shape[1])[:num_points]
+
+    # Organize downsampled points
     downsampled_points = torch.cat(
         (
             point[:, indices],
@@ -13,13 +24,25 @@ def downsample(point, num_points, device):
         ),
         1,
     )
+
+    # Find 16 nearest neighbours from the input point cloud w.r.t. the downsampled points
     rel_pos = (downsampled_points[:, :, None, :] - point[:, None, :, :])[:, :128]
     rel_dist = rel_pos.norm(dim=-1)
-    dist, indices = rel_dist.topk(16, largest=False)
-    return (downsampled_points[:, :128], indices, dist)
+    dist, knn_indices = rel_dist.topk(16, largest=False)
+
+    return (downsampled_points[:, :128], knn_indices, dist)
 
 
 def upsample(downsampled_points, upsampled_points, device):
+    """
+    Upsampling of the point cloud. The output includes the indices of 16
+    nearest neighbours from the downsampled points w.r.t. the upsampled points.
+
+    downsampled_points: downsampled points
+    upsampled_points: target upsampled points
+    device: cpu or gpu
+    """
+    # Organize downsampled points
     downsampled_points = torch.cat(
         (
             downsampled_points,
@@ -33,16 +56,22 @@ def upsample(downsampled_points, upsampled_points, device):
         ),
         1,
     )
+
+    # Find 16 nearest neighbours from the downsampled point cloud w.r.t. the upsampled points
     rel_pos = (upsampled_points[:, :, None, :] - downsampled_points[:, None, :, :])[
         :, :, : downsampled_points.shape[1]
     ]
     rel_dist = rel_pos.norm(dim=-1)
     dist, indices = rel_dist.topk(16, largest=False)
+
     return (indices, dist)
 
 
 class model0_0(nn.Module):
-    # Model with transformer interpolation in upsampling
+    """
+    Preliminary model with a point transformer layer followed by MLP
+    """
+
     def __init__(self, *, batch_size, device):
         super().__init__()
         self.batch_size = batch_size
@@ -63,18 +92,24 @@ class model0_0(nn.Module):
 
     def forward(self, original_points, data):
         data = data.flatten(start_dim=0, end_dim=1)
-        # Self-attention of input points wrt target points
+
+        # Self-attention of input points w.r.t. target points
         sa1 = self.attn1(data, data[:, :, 0:3])
         sa1 = torch.stack(
             sa1.flatten(start_dim=-2, end_dim=-1).split(512, dim=0), dim=0
         )
+
         output = self.mlp(sa1)
 
         return output
 
 
 class model0_1(nn.Module):
-    # Model with transformer interpolation in upsampling
+    """
+    Model enhanced with self-attention within target points
+    using point transformer
+    """
+
     def __init__(self, *, batch_size, device):
         super().__init__()
         self.batch_size = batch_size
@@ -104,6 +139,7 @@ class model0_1(nn.Module):
 
     def forward(self, original_points, data):
         data = data.flatten(start_dim=0, end_dim=1)
+
         # Self-attention of input points wrt target points
         sa1 = self.attn1(data, data[:, :, 0:3])
         sa1 = torch.stack(
@@ -120,7 +156,11 @@ class model0_1(nn.Module):
 
 
 class model1(nn.Module):
-    # Model with transformer interpolation in upsampling
+    """
+    U-Net like architecture.
+    Model with transformer interpolation in upsampling
+    """
+
     def __init__(self, *, batch_size, device):
         super().__init__()
         self.batch_size = batch_size
@@ -213,6 +253,8 @@ class model1(nn.Module):
         upsampled_sa4 = torch.stack(
             upsampled_sa4.flatten(start_dim=-2, end_dim=-1).split(512, dim=0), dim=0
         )
+
+        # Concatenation
         upsampled_sa4 = torch.cat((upsampled_sa4, sa2), axis=-1)
 
         output = self.mlp_output(upsampled_sa4)
@@ -221,7 +263,11 @@ class model1(nn.Module):
 
 
 class model2(nn.Module):
-    # Model with trilinear interpolation for upsampling
+    """
+    U-Net like architecture.
+    Model with trilinear interpolation in upsampling
+    """
+
     def __init__(self, *, batch_size, device):
         super().__init__()
         self.batch_size = batch_size
@@ -308,6 +354,8 @@ class model2(nn.Module):
         upsampled_sa4 *= dist_norm
         upsampled_sa4 = self.maxpool(upsampled_sa4)
         upsampled_sa4 = upsampled_sa4.flatten(start_dim=-2, end_dim=-1)
+
+        # Concatenation
         upsampled_sa4 = torch.cat((upsampled_sa4, sa2), axis=-1)
 
         output = self.mlp_output(upsampled_sa4)
