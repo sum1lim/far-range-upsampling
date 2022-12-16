@@ -12,9 +12,12 @@ from collections import OrderedDict
 def main(args):
     print(f"Testing {args.params}")
 
+    # Load Test Dataset
     lidar_data = LidarData("te", step_size=args.KNNstep)
+    # Adjust batch size if the test dataset is too small
     if lidar_data.point.shape[0] < args.batch_size:
         args.batch_size = lidar_data.point.shape[0]
+    # Test data loader
     te_data_loader = DataLoader(
         LidarData("te", step_size=args.KNNstep),
         num_workers=8,
@@ -23,6 +26,7 @@ def main(args):
         drop_last=True,
     )
 
+    # Load the model
     device = torch.device("cuda")
     model = model_dict[args.model](batch_size=args.batch_size, device=device)
     state_dict = torch.load(args.params, map_location=device)
@@ -42,9 +46,13 @@ def main(args):
     test_true = []
     for point, data, label in te_data_loader:
         point, data, label = point.to(device), data.to(device), label.to(device)
+
+        # Generate prediction
         logits = model(point.double(), data.double())
-        gt = label.flatten(start_dim=0, end_dim=1)
         preds = logits.flatten(start_dim=0, end_dim=1)
+        # ground truth
+        gt = label.flatten(start_dim=0, end_dim=1)
+
         count += args.batch_size
         test_true.append(gt.cpu().numpy())
         test_pred.append(preds.detach().cpu().numpy())
@@ -52,15 +60,15 @@ def main(args):
     test_true = np.concatenate(test_true)
     test_pred = np.concatenate(test_pred)
 
-    test_pred_class = np.absolute(test_pred)
-    test_pred_class[test_pred_class < 1000] = 1
-    test_pred_class[test_pred_class >= 1000] = 0
-    test_true_class = np.absolute(test_true)
-    test_true_class[test_true_class < 1000] = 1
-    test_true_class[test_true_class >= 1000] = 0
+    # Classification with thresholding of the distance
+    test_pred[test_pred < 1000] = 1
+    test_pred[test_pred >= 1000] = 0
+    test_true[test_true < 1000] = 1
+    test_true[test_true >= 1000] = 0
 
+    # Metrics
     test_mae = metrics.mean_absolute_error(test_true, test_pred)
-    test_acc = metrics.balanced_accuracy_score(test_true_class, test_pred_class)
+    test_acc = metrics.balanced_accuracy_score(test_true, test_pred)
 
     print(
         f"""
