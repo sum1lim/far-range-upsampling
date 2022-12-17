@@ -9,6 +9,17 @@ from far_range_upsampling.utils import LidarData
 from collections import OrderedDict
 
 
+def threshold(prediction, ground_truth, t):
+    prediction_class = prediction.copy()
+    ground_truth_class = ground_truth.copy()
+    prediction_class[prediction < t] = 1
+    prediction_class[prediction >= t] = 0
+    ground_truth_class[ground_truth < t] = 1
+    ground_truth_class[ground_truth >= t] = 0
+
+    return prediction_class, ground_truth_class
+
+
 def main(args):
     print(f"Testing {args.params}")
 
@@ -40,42 +51,96 @@ def main(args):
     model.eval()
     model = model.double().to(device)
 
-    count = 0.0
-    model.eval()
-    prediction = []
-    ground_truth = []
-    for point, data, label in te_data_loader:
-        point, data, label = point.to(device), data.to(device), label.to(device)
+    results = []
+    for _ in range(5):
+        # Five tests for more reliable results
 
-        # Generate prediction
-        logits = model(point.double(), data.double())
-        preds = logits.flatten(start_dim=0, end_dim=1)
-        # ground truth
-        gt = label.flatten(start_dim=0, end_dim=1)
+        count = 0.0
+        model.eval()
+        prediction = []
+        ground_truth = []
+        for point, data, label in te_data_loader:
+            point, data, label = point.to(device), data.to(device), label.to(device)
 
-        count += args.batch_size
-        ground_truth.append(gt.cpu().numpy())
-        prediction.append(preds.detach().cpu().numpy())
+            # Generate prediction
+            logits = model(point.double(), data.double())
+            preds = logits.flatten(start_dim=0, end_dim=1)
+            # ground truth
+            gt = label.flatten(start_dim=0, end_dim=1)
 
-    ground_truth = np.concatenate(ground_truth)
-    prediction = np.concatenate(prediction)
+            count += args.batch_size
+            ground_truth.append(gt.cpu().numpy())
+            prediction.append(preds.detach().cpu().numpy())
 
-    # Classes defined by thresholding of the distance
-    prediction_class = prediction.copy()
-    ground_truth_class = ground_truth.copy()
-    prediction_class[prediction < 1000] = 1
-    prediction_class[prediction >= 1000] = 0
-    ground_truth_class[ground_truth < 1000] = 1
-    ground_truth_class[ground_truth >= 1000] = 0
+        ground_truth = np.concatenate(ground_truth)
+        prediction = np.concatenate(prediction)
 
-    # Metrics
-    test_mae = metrics.mean_absolute_error(ground_truth, prediction)
-    test_acc = metrics.balanced_accuracy_score(ground_truth_class, prediction_class)
+        # Classes defined by thresholding of the distance
+        prediction_class_05, ground_truth_class_05 = threshold(
+            prediction, ground_truth, 500
+        )
+        prediction_class_10, ground_truth_class_10 = threshold(
+            prediction, ground_truth, 1000
+        )
+        prediction_class_15, ground_truth_class_15 = threshold(
+            prediction, ground_truth, 1500
+        )
+        prediction_class_20, ground_truth_class_20 = threshold(
+            prediction, ground_truth, 2000
+        )
+        prediction_class_25, ground_truth_class_25 = threshold(
+            prediction, ground_truth, 2500
+        )
+        prediction_class_30, ground_truth_class_30 = threshold(
+            prediction, ground_truth, 3000
+        )
+
+        # Metrics
+        test_mae = metrics.mean_absolute_error(ground_truth, prediction)
+        test_acc_05 = metrics.balanced_accuracy_score(
+            ground_truth_class_05, prediction_class_05
+        )
+        test_acc_10 = metrics.balanced_accuracy_score(
+            ground_truth_class_10, prediction_class_10
+        )
+        test_acc_15 = metrics.balanced_accuracy_score(
+            ground_truth_class_15, prediction_class_15
+        )
+        test_acc_20 = metrics.balanced_accuracy_score(
+            ground_truth_class_20, prediction_class_20
+        )
+        test_acc_25 = metrics.balanced_accuracy_score(
+            ground_truth_class_25, prediction_class_25
+        )
+        test_acc_30 = metrics.balanced_accuracy_score(
+            ground_truth_class_30, prediction_class_30
+        )
+
+        results.append(
+            [
+                test_mae,
+                test_acc_05,
+                test_acc_10,
+                test_acc_15,
+                test_acc_20,
+                test_acc_25,
+                test_acc_30,
+            ]
+        )
+
+    # Take the median
+    results = np.array(results).T[:, 2]
 
     print(
         f"""
             Test MAE: {test_mae}
-            Test accuracy: {test_acc}
+            Test accuracy (0.5m): {results[0]}
+            Test accuracy (1.0m): {results[1]}
+            Test accuracy (1.5m): {results[2]}
+            Test accuracy (2.0m): {results[3]}
+            Test accuracy (2.5m): {results[4]}
+            Test accuracy (3.0m): {results[5]}
+
         """
     )
 
