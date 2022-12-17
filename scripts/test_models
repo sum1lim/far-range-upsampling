@@ -1,5 +1,6 @@
 #!/usr/bin/env python3
 import argparse
+import math
 import torch
 import numpy as np
 import sklearn.metrics as metrics
@@ -52,7 +53,7 @@ def main(args):
     model = model.double().to(device)
 
     results = []
-    for _ in range(5):
+    for _ in range(args.iter):
         # Five tests for more reliable results
 
         count = 0.0
@@ -129,17 +130,20 @@ def main(args):
         )
 
     # Take the median
-    results = np.array(results).T[:, 2]
+    results_med = np.median(np.array(results).T, axis=-1)
+    results_mean = np.array(results).T.mean(axis=-1)
+    results_var = np.array(results).T.std(axis=-1)
 
     print(
         f"""
-            Test MAE: {test_mae}
-            Test accuracy (0.5m): {results[0]}
-            Test accuracy (1.0m): {results[1]}
-            Test accuracy (1.5m): {results[2]}
-            Test accuracy (2.0m): {results[3]}
-            Test accuracy (2.5m): {results[4]}
-            Test accuracy (3.0m): {results[5]}
+                                            Median     |        Mean        |   Standard Deviation   
+            Test MAE:               {results_med[0]} | {results_mean[0]} | {results_var[0]}
+            Test accuracy (0.5m):   {results_med[1]} | {results_mean[1]} | {results_var[1]}
+            Test accuracy (1.0m):   {results_med[2]} | {results_mean[2]} | {results_var[2]}
+            Test accuracy (1.5m):   {results_med[3]} | {results_mean[3]} | {results_var[3]}
+            Test accuracy (2.0m):   {results_med[4]} | {results_mean[4]} | {results_var[4]}
+            Test accuracy (2.5m):   {results_med[5]} | {results_mean[5]} | {results_var[5]}
+            Test accuracy (3.0m):   {results_med[6]} | {results_mean[6]} | {results_var[6]}
 
         """
     )
@@ -164,6 +168,12 @@ if __name__ == "__main__":
         type=int,
         default=4,
         help="Batch size",
+    )
+    parser.add_argument(
+        "--iter",
+        type=int,
+        default=15,
+        help="Number of test iterations",
     )
     parser.add_argument(
         "--params",
