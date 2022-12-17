@@ -134,7 +134,7 @@ def main(args):
                 print("learning rate change", file=log_file)
                 optim_net = optim.Adam(model.parameters(), lr=learning_rate)
             else:
-                # Early stopping after 3 patiences
+                # Early stopping after 4 patiences
                 print("early stopping", file=sys.stdout)
                 print("early stopping", file=log_file)
                 break
